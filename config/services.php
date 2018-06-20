@@ -35,4 +35,7 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'sendy' => [
+        'list_id' => 'iuUw3mYRnmw1tbGOPbNnpQ',
+    ],
 ];

@@ -1,3 +1,3 @@
 @component('layouts.app')
-    Full Stack Europe!
+    We've send your a mail!
 @endcomponent

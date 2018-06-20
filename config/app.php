@@ -168,9 +168,7 @@ return [
          */
         Barryvdh\Debugbar\ServiceProvider::class,
         Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class,
-        Spatie\Backup\BackupServiceProvider::class,
         Spatie\Tail\TailServiceProvider::class,
-        Themsaid\MailPreview\MailPreviewServiceProvider::class,
 
         /*
          * Application Service Providers...

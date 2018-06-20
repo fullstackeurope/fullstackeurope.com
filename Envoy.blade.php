@@ -4,7 +4,7 @@ require __DIR__.'/vendor/autoload.php';
 
 $server = "fullstackeurope.com";
 $userAndServer = 'forge@'. $server;
-$repository = "spatie/{$server}";
+$repository = "fullstackeurope/{$server}";
 $baseDir = "/home/forge/{$server}";
 $releasesDir = "{$baseDir}/releases";
 $currentDir = "{$baseDir}/current";
@@ -53,7 +53,7 @@ cd {{ $releasesDir }};
 mkdir {{ $newReleaseDir }};
 
 # Clone the repo
-git clone --depth 1 git@github.com:{{ $repository }} {{ $newReleaseName }}
+git clone --depth 1 git@gitlab.com:{{ $repository }} {{ $newReleaseName }}
 
 # Configure sparse checkout
 cd {{ $newReleaseDir }}

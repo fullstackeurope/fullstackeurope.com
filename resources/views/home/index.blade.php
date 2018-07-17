@@ -2,8 +2,8 @@
     <div class="flex-1 self-start"></div>
     <div class="flex-1 text-center max-w-sm p-4">
         <div>
-            <h1 class="text-5xl italic font-bold inline-block bg-red-light text-grey-lightest p-2 pr-8 pl-8">Full Stack</h1><br>
-            <h2 class="text-3xl italic inline-block bg-white -mt-2 p-2 pr-8 pl-8 mb-4">Europe</h2>
+            <h1 class="text-5xl italic font-bold inline-block rounded-full shadow-md bg-red-light text-grey-lightest p-2 pr-8 pl-8">Full Stack</h1><br>
+            <h2 class="text-3xl italic inline-block rounded-full shadow-md bg-white -mt-2 p-2 pr-6 pl-6 mb-4">Europe</h2>
         </div>
 
         <div class="text-xl text-grey-darkest leading-tight">
@@ -22,13 +22,13 @@
         <form action="https://sendy.murze.be/subscribe" method="post" accept-charset="utf-8">
             <div class="mb-4">
                 <input type="email" id="email" name="email" placeholder="Your e-mail address" required="required"
-                    class="text-lg bg-grey-lighter rounded shadow-md p-4 w-full hover:bg-white">
+                    class="text-lg bg-grey-lighter rounded-full shadow-md p-4 pl-6 pr-6 w-full hover:bg-white">
                 <input type="hidden" name="list" value="{{ config('services.sendy.list_id') }}">
             </div>
 
             <div>
                 <button type="submit" name="submit" id="submit"
-                        class="text-xl text-white rounded shadow-md p-4 w-full bg-blue-dark hover:bg-blue-light">
+                        class="text-xl text-white rounded-full shadow-md p-4 pl-6 pr-6 w-full bg-blue-dark hover:bg-blue-light">
                     Subscribe
                 </button>
             </div>

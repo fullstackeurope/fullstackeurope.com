@@ -1,3 +1,3 @@
 @component('layouts.app')
-    We've send your a mail!
+    We've send you a mail!
 @endcomponent

@@ -1,38 +1,32 @@
 @component('layouts.app')
-    <div class="flex-1 self-start"></div>
-    <div class="flex-1 text-center max-w-sm p-4">
-        <div>
-            <h1 class="text-5xl italic font-bold inline-block rounded-full shadow-md bg-red-light text-grey-lightest p-2 pr-8 pl-8">Full Stack</h1><br>
-            <h2 class="text-3xl italic inline-block rounded-full shadow-md bg-white -mt-2 p-2 pr-6 pl-6 mb-4">Europe</h2>
-        </div>
+    <h3 class="text-3xl mb-16 leading-tight">
+        In <span class="font-bold font-blue" style="color: #695CEA;">2019</span>, a new conference takes<br>place in the city of Antwerp, Belgium.
+    </h3>
 
-        <div class="text-xl text-grey-darkest leading-tight">
-            <p class="rounded shadow-md p-4 mb-2 bg-white mb-4">
-                In 2019, a new conference takes place in the city of Antwerp, Belgium.
-            </p>
-            <p class="rounded shadow-md p-4 mb-2 bg-white mb-4">
-                Are you interested in hearing top quality talks, leveling up your skills across multiple disciplines and
-                expanding your boundaries as a programmer? Then this conference is for you.
-            </p>
-            <p class="rounded shadow-md p-4 mb-2 bg-white mb-4">
-                Early subscribers will be the first to be able to buy tickets and know about new speakers
-            </p>
-        </div>
+    <p class="text-xl mb-4 leading-normal">
+        This conference is for you if you're interested in:
+    </p>
 
+    <ul class="text-xl mb-16 leading-normal">
+        <li><span class="list-item">-</span> Hearing top quality talks</li>
+        <li><span class="list-item">-</span> Leveling up your skills across multiple disciplines</li>
+        <li><span class="list-item">-</span> Expanding your boundaries as a programmer</li>
+    </ul>
+
+    <p class="text-xl font-bold pb-8 leading-normal">
+        Early subscribers will be the first to be able to buy tickets and know about new speakers. Sign up now!
+    </p>
+
+    <div class="bg-white rounded-sm mb-16">
         <form action="https://sendy.murze.be/subscribe" method="post" accept-charset="utf-8">
-            <div class="mb-4">
-                <input type="email" id="email" name="email" placeholder="Your e-mail address" required="required"
-                    class="text-lg bg-grey-lighter rounded-full shadow-md p-4 pl-6 pr-6 w-full hover:bg-white">
-                <input type="hidden" name="list" value="{{ config('services.sendy.list_id') }}">
-            </div>
+            <input type="email" id="email" name="email" placeholder="Your e-mail address" required="required"
+                class="inline-block shadow-lg text-lg bg-transparent p-4 h-16 pl-6 pr-6 w-3/4">
+            <input type="hidden" name="list" value="{{ config('services.sendy.list_id') }}">
 
-            <div>
-                <button type="submit" name="submit" id="submit"
-                        class="text-xl text-white rounded-full shadow-md p-4 pl-6 pr-6 w-full bg-blue-dark hover:bg-blue-light">
-                    Subscribe
-                </button>
-            </div>
+            <button type="submit" name="submit" id="submit"
+                    class="btn-submit shadow-lg rounded-lg inline-block text-xl h-16 text-center uppercase float-right p-4 pl-6 pr-6 w-1/4">
+                Sign Up
+            </button>
         </form>
     </div>
-    <div class="flex-1 self-end"></div>
 @endcomponent

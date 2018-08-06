@@ -5,6 +5,8 @@ require('laravel-mix-purgecss');
 mix
     .js('resources/assets/js/app.js', 'public/js/app.js')
     .postCss('resources/assets/css/app.css', 'public/css/app.css')
+    .copyDirectory('resources/assets/images', 'public/images')
+    .copyDirectory('resources/assets/fonts', 'public/fonts')
 
     .version()
 

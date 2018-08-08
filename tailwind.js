@@ -325,6 +325,7 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
+    'xl-wide': '0.25em',
   },
 
 

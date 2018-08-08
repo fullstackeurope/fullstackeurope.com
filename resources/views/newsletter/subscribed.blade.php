@@ -1,3 +1,8 @@
 @component('layouts.app')
-    You are now subscribed!
+    <h3 class="text-3xl mb-16">You are now subscribed!</h3>
+
+    <p class="text-xl mb-16 leading-normal">
+        Awesome! You are now subscribed to our newsletter.
+        We'll let you know as soon as we have more details about the conference.
+    </p>
 @endcomponent

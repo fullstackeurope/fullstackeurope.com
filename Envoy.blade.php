@@ -5,7 +5,7 @@ require __DIR__.'/vendor/autoload.php';
 $server = "165.227.150.93";
 $userAndServer = 'forge@'. $server;
 $repository = "fullstackeurope/{$server}";
-$baseDir = "/home/forge/{$server}";
+$baseDir = "/home/forge/fullstackeurope.com";
 $releasesDir = "{$baseDir}/releases";
 $currentDir = "{$baseDir}/current";
 $newReleaseName = date('Ymd-His');

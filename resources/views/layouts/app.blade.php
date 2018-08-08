@@ -60,7 +60,7 @@
                 Copyright &copy; Full Stack Europe
             </div>
             <div class="sm:w-1/2 sm:text-right">
-                <a href="https://twitter.com/fullstackeurope">Twitter</a> /
+                <a href="https://twitter.com/fullstackeu">Twitter</a> /
                 <a href="mailto:hello@fullstackeurope.com">Contact</a>
             </div>
         </div>

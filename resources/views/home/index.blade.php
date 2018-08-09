@@ -28,7 +28,7 @@
             <input type="hidden" name="list" value="{{ config('services.sendy.list_id') }}">
 
             <button type="submit" name="submit" id="submit"
-                    class="btn-submit shadow-lg rounded-b-sm sm:rounded-lg inline-block text-xl sm:h-16 text-center uppercase sm:float-right p-4 pl-6 pr-6 w-full sm:w-1/4">
+                    class="btn-submit shadow-lg rounded-b sm:rounded-r-lg inline-block text-xl sm:h-16 text-center uppercase sm:float-right p-4 pl-6 pr-6 w-full sm:w-1/4">
                 Sign Up
             </button>
         </form>

@@ -40,7 +40,7 @@
         <div class="w-1/2 sm:w-1/4 sm:ml-auto text-center">
             <p class="mb-3">
                 <a href="https://twitter.com/freekmurze">
-                    <img src="https://gravatar.com/avatar/a1b4b398630bbd32b77a82cbc37fae9a?s=200"
+                    <img src="/images/freek.jpg"
                         width="100" class="rounded-full inline-block">
                 </a>
             </p>
@@ -53,7 +53,7 @@
         <div class="w-1/2 sm:w-1/4 sm:mr-auto text-center">
             <p class="mb-3">
                 <a href="https://twitter.com/driesvints">
-                    <img src="https://gravatar.com/avatar/e8321183acdf47a9ce838afd13a964b5?s=200"
+                    <img src="/images/dries.jpg"
                          width="100" class="rounded-full inline-block">
                 </a>
             </p>

@@ -60,7 +60,7 @@
             <p class="mb-3">Dries Vints</p>
             <p class="tracking-xl-wide">
                 <a href="https://twitter.com/driesvints"><i class="fab fa-twitter"></i></a>
-                <a href="https://driesvints"><i class="fas fa-globe-africa"></i></a>
+                <a href="https://driesvints.com"><i class="fas fa-globe-africa"></i></a>
             </p>
         </div>
     </div>

@@ -36,6 +36,8 @@
  * @import "components/forms";
  */
 
+@import "components/footer";
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -60,3 +62,7 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+a {
+    text-decoration: none;
+}

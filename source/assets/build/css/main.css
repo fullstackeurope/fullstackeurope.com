@@ -524,6 +524,10 @@ table {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -565,6 +569,19 @@ table {
  * @import "components/buttons";
  * @import "components/forms";
  */
+
+.footer {
+  background-color: #20195b;
+  color: #e5e3fe;
+}
+
+.footer a {
+  color: #e5e3fe;
+}
+
+.footer a:hover {
+  color: white;
+}
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
@@ -890,6 +907,14 @@ table {
   background-color: #ffebef;
 }
 
+.bg-primary {
+  background-color: #6859ea;
+}
+
+.bg-secondary {
+  background-color: #6acbe0;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1182,6 +1207,14 @@ table {
   background-color: #ffebef;
 }
 
+.hover\:bg-primary:hover {
+  background-color: #6859ea;
+}
+
+.hover\:bg-secondary:hover {
+  background-color: #6acbe0;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1472,6 +1505,14 @@ table {
 
 .focus\:bg-pink-lightest:focus {
   background-color: #ffebef;
+}
+
+.focus\:bg-primary:focus {
+  background-color: #6859ea;
+}
+
+.focus\:bg-secondary:focus {
+  background-color: #6acbe0;
 }
 
 .bg-bottom {
@@ -1838,6 +1879,14 @@ table {
   border-color: #ffebef;
 }
 
+.border-primary {
+  border-color: #6859ea;
+}
+
+.border-secondary {
+  border-color: #6acbe0;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2130,6 +2179,14 @@ table {
   border-color: #ffebef;
 }
 
+.hover\:border-primary:hover {
+  border-color: #6859ea;
+}
+
+.hover\:border-secondary:hover {
+  border-color: #6acbe0;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -2420,6 +2477,14 @@ table {
 
 .focus\:border-pink-lightest:focus {
   border-color: #ffebef;
+}
+
+.focus\:border-primary:focus {
+  border-color: #6859ea;
+}
+
+.focus\:border-secondary:focus {
+  border-color: #6acbe0;
 }
 
 .rounded-none {
@@ -5177,6 +5242,14 @@ table {
   color: #ffebef;
 }
 
+.text-primary {
+  color: #6859ea;
+}
+
+.text-secondary {
+  color: #6acbe0;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -5469,6 +5542,14 @@ table {
   color: #ffebef;
 }
 
+.hover\:text-primary:hover {
+  color: #6859ea;
+}
+
+.hover\:text-secondary:hover {
+  color: #6acbe0;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -5759,6 +5840,14 @@ table {
 
 .focus\:text-pink-lightest:focus {
   color: #ffebef;
+}
+
+.focus\:text-primary:focus {
+  color: #6859ea;
+}
+
+.focus\:text-secondary:focus {
+  color: #6acbe0;
 }
 
 .text-xs {
@@ -6186,6 +6275,10 @@ table {
  * @import "utilities/skew-transforms";
  */
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -6502,6 +6595,14 @@ table {
     background-color: #ffebef;
   }
 
+  .sm\:bg-primary {
+    background-color: #6859ea;
+  }
+
+  .sm\:bg-secondary {
+    background-color: #6acbe0;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -6794,6 +6895,14 @@ table {
     background-color: #ffebef;
   }
 
+  .sm\:hover\:bg-primary:hover {
+    background-color: #6859ea;
+  }
+
+  .sm\:hover\:bg-secondary:hover {
+    background-color: #6acbe0;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -7084,6 +7193,14 @@ table {
 
   .sm\:focus\:bg-pink-lightest:focus {
     background-color: #ffebef;
+  }
+
+  .sm\:focus\:bg-primary:focus {
+    background-color: #6859ea;
+  }
+
+  .sm\:focus\:bg-secondary:focus {
+    background-color: #6acbe0;
   }
 
   .sm\:bg-bottom {
@@ -7442,6 +7559,14 @@ table {
     border-color: #ffebef;
   }
 
+  .sm\:border-primary {
+    border-color: #6859ea;
+  }
+
+  .sm\:border-secondary {
+    border-color: #6acbe0;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -7734,6 +7859,14 @@ table {
     border-color: #ffebef;
   }
 
+  .sm\:hover\:border-primary:hover {
+    border-color: #6859ea;
+  }
+
+  .sm\:hover\:border-secondary:hover {
+    border-color: #6acbe0;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -8024,6 +8157,14 @@ table {
 
   .sm\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .sm\:focus\:border-primary:focus {
+    border-color: #6859ea;
+  }
+
+  .sm\:focus\:border-secondary:focus {
+    border-color: #6acbe0;
   }
 
   .sm\:rounded-none {
@@ -10765,6 +10906,14 @@ table {
     color: #ffebef;
   }
 
+  .sm\:text-primary {
+    color: #6859ea;
+  }
+
+  .sm\:text-secondary {
+    color: #6acbe0;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -11057,6 +11206,14 @@ table {
     color: #ffebef;
   }
 
+  .sm\:hover\:text-primary:hover {
+    color: #6859ea;
+  }
+
+  .sm\:hover\:text-secondary:hover {
+    color: #6acbe0;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -11347,6 +11504,14 @@ table {
 
   .sm\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .sm\:focus\:text-primary:focus {
+    color: #6859ea;
+  }
+
+  .sm\:focus\:text-secondary:focus {
+    color: #6acbe0;
   }
 
   .sm\:text-xs {
@@ -12076,6 +12241,14 @@ table {
     background-color: #ffebef;
   }
 
+  .md\:bg-primary {
+    background-color: #6859ea;
+  }
+
+  .md\:bg-secondary {
+    background-color: #6acbe0;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -12368,6 +12541,14 @@ table {
     background-color: #ffebef;
   }
 
+  .md\:hover\:bg-primary:hover {
+    background-color: #6859ea;
+  }
+
+  .md\:hover\:bg-secondary:hover {
+    background-color: #6acbe0;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -12658,6 +12839,14 @@ table {
 
   .md\:focus\:bg-pink-lightest:focus {
     background-color: #ffebef;
+  }
+
+  .md\:focus\:bg-primary:focus {
+    background-color: #6859ea;
+  }
+
+  .md\:focus\:bg-secondary:focus {
+    background-color: #6acbe0;
   }
 
   .md\:bg-bottom {
@@ -13016,6 +13205,14 @@ table {
     border-color: #ffebef;
   }
 
+  .md\:border-primary {
+    border-color: #6859ea;
+  }
+
+  .md\:border-secondary {
+    border-color: #6acbe0;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -13308,6 +13505,14 @@ table {
     border-color: #ffebef;
   }
 
+  .md\:hover\:border-primary:hover {
+    border-color: #6859ea;
+  }
+
+  .md\:hover\:border-secondary:hover {
+    border-color: #6acbe0;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -13598,6 +13803,14 @@ table {
 
   .md\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .md\:focus\:border-primary:focus {
+    border-color: #6859ea;
+  }
+
+  .md\:focus\:border-secondary:focus {
+    border-color: #6acbe0;
   }
 
   .md\:rounded-none {
@@ -16339,6 +16552,14 @@ table {
     color: #ffebef;
   }
 
+  .md\:text-primary {
+    color: #6859ea;
+  }
+
+  .md\:text-secondary {
+    color: #6acbe0;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -16631,6 +16852,14 @@ table {
     color: #ffebef;
   }
 
+  .md\:hover\:text-primary:hover {
+    color: #6859ea;
+  }
+
+  .md\:hover\:text-secondary:hover {
+    color: #6acbe0;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -16921,6 +17150,14 @@ table {
 
   .md\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .md\:focus\:text-primary:focus {
+    color: #6859ea;
+  }
+
+  .md\:focus\:text-secondary:focus {
+    color: #6acbe0;
   }
 
   .md\:text-xs {
@@ -17650,6 +17887,14 @@ table {
     background-color: #ffebef;
   }
 
+  .lg\:bg-primary {
+    background-color: #6859ea;
+  }
+
+  .lg\:bg-secondary {
+    background-color: #6acbe0;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -17942,6 +18187,14 @@ table {
     background-color: #ffebef;
   }
 
+  .lg\:hover\:bg-primary:hover {
+    background-color: #6859ea;
+  }
+
+  .lg\:hover\:bg-secondary:hover {
+    background-color: #6acbe0;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -18232,6 +18485,14 @@ table {
 
   .lg\:focus\:bg-pink-lightest:focus {
     background-color: #ffebef;
+  }
+
+  .lg\:focus\:bg-primary:focus {
+    background-color: #6859ea;
+  }
+
+  .lg\:focus\:bg-secondary:focus {
+    background-color: #6acbe0;
   }
 
   .lg\:bg-bottom {
@@ -18590,6 +18851,14 @@ table {
     border-color: #ffebef;
   }
 
+  .lg\:border-primary {
+    border-color: #6859ea;
+  }
+
+  .lg\:border-secondary {
+    border-color: #6acbe0;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -18882,6 +19151,14 @@ table {
     border-color: #ffebef;
   }
 
+  .lg\:hover\:border-primary:hover {
+    border-color: #6859ea;
+  }
+
+  .lg\:hover\:border-secondary:hover {
+    border-color: #6acbe0;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -19172,6 +19449,14 @@ table {
 
   .lg\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .lg\:focus\:border-primary:focus {
+    border-color: #6859ea;
+  }
+
+  .lg\:focus\:border-secondary:focus {
+    border-color: #6acbe0;
   }
 
   .lg\:rounded-none {
@@ -21913,6 +22198,14 @@ table {
     color: #ffebef;
   }
 
+  .lg\:text-primary {
+    color: #6859ea;
+  }
+
+  .lg\:text-secondary {
+    color: #6acbe0;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -22205,6 +22498,14 @@ table {
     color: #ffebef;
   }
 
+  .lg\:hover\:text-primary:hover {
+    color: #6859ea;
+  }
+
+  .lg\:hover\:text-secondary:hover {
+    color: #6acbe0;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -22495,6 +22796,14 @@ table {
 
   .lg\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .lg\:focus\:text-primary:focus {
+    color: #6859ea;
+  }
+
+  .lg\:focus\:text-secondary:focus {
+    color: #6acbe0;
   }
 
   .lg\:text-xs {
@@ -23224,6 +23533,14 @@ table {
     background-color: #ffebef;
   }
 
+  .xl\:bg-primary {
+    background-color: #6859ea;
+  }
+
+  .xl\:bg-secondary {
+    background-color: #6acbe0;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -23516,6 +23833,14 @@ table {
     background-color: #ffebef;
   }
 
+  .xl\:hover\:bg-primary:hover {
+    background-color: #6859ea;
+  }
+
+  .xl\:hover\:bg-secondary:hover {
+    background-color: #6acbe0;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -23806,6 +24131,14 @@ table {
 
   .xl\:focus\:bg-pink-lightest:focus {
     background-color: #ffebef;
+  }
+
+  .xl\:focus\:bg-primary:focus {
+    background-color: #6859ea;
+  }
+
+  .xl\:focus\:bg-secondary:focus {
+    background-color: #6acbe0;
   }
 
   .xl\:bg-bottom {
@@ -24164,6 +24497,14 @@ table {
     border-color: #ffebef;
   }
 
+  .xl\:border-primary {
+    border-color: #6859ea;
+  }
+
+  .xl\:border-secondary {
+    border-color: #6acbe0;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -24456,6 +24797,14 @@ table {
     border-color: #ffebef;
   }
 
+  .xl\:hover\:border-primary:hover {
+    border-color: #6859ea;
+  }
+
+  .xl\:hover\:border-secondary:hover {
+    border-color: #6acbe0;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -24746,6 +25095,14 @@ table {
 
   .xl\:focus\:border-pink-lightest:focus {
     border-color: #ffebef;
+  }
+
+  .xl\:focus\:border-primary:focus {
+    border-color: #6859ea;
+  }
+
+  .xl\:focus\:border-secondary:focus {
+    border-color: #6acbe0;
   }
 
   .xl\:rounded-none {
@@ -27487,6 +27844,14 @@ table {
     color: #ffebef;
   }
 
+  .xl\:text-primary {
+    color: #6859ea;
+  }
+
+  .xl\:text-secondary {
+    color: #6acbe0;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -27779,6 +28144,14 @@ table {
     color: #ffebef;
   }
 
+  .xl\:hover\:text-primary:hover {
+    color: #6859ea;
+  }
+
+  .xl\:hover\:text-secondary:hover {
+    color: #6acbe0;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -28069,6 +28442,14 @@ table {
 
   .xl\:focus\:text-pink-lightest:focus {
     color: #ffebef;
+  }
+
+  .xl\:focus\:text-primary:focus {
+    color: #6859ea;
+  }
+
+  .xl\:focus\:text-secondary:focus {
+    color: #6acbe0;
   }
 
   .xl\:text-xs {

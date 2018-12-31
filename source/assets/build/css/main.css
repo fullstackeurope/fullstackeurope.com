@@ -571,7 +571,6 @@ table {
  */
 
 .footer {
-  background-color: #20195b;
   color: #e5e3fe;
 }
 
@@ -581,6 +580,14 @@ table {
 
 .footer a:hover {
   color: white;
+}
+
+.footer-top {
+  background-color: #2d256f;
+}
+
+.footer-bottom {
+  background-color: #20195b;
 }
 
 /**

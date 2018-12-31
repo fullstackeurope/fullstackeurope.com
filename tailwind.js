@@ -231,6 +231,18 @@ module.exports = {
       'Courier New',
       'monospace',
     ],
+    'regular': [
+      'noway',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
+    ],
+    'medium': [
+      'nowaymedium',
+      'Helvetica',
+      'Arial',
+      'sans-serif',
+    ],
   },
 
 

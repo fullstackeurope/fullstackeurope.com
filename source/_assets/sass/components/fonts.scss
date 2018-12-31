@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'noway';
+    src: url('/assets/fonts/noway-regular-webfont.eot');
+    src: url('/assets/fonts/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/noway-regular-webfont.woff2') format('woff2'),
+    url('/assets/fonts/noway-regular-webfont.woff') format('woff'),
+    url('/assets/fonts/noway-regular-webfont.ttf') format('truetype'),
+    url('/assets/fonts/noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nowaymedium';
+    src: url('/assets/fonts/noway-medium-webfont.eot');
+    src: url('/assets/fonts/noway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/noway-medium-webfont.woff2') format('woff2'),
+    url('/assets/fonts/noway-medium-webfont.woff') format('woff'),
+    url('/assets/fonts/noway-medium-webfont.ttf') format('truetype'),
+    url('/assets/fonts/noway-medium-webfont.svg#nowayregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}

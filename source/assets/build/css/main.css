@@ -570,6 +570,22 @@ table {
  * @import "components/forms";
  */
 
+@font-face {
+  font-family: "noway";
+  src: url("/assets/fonts/noway-regular-webfont.eot");
+  src: url("/assets/fonts/noway-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/noway-regular-webfont.woff2") format("woff2"), url("/assets/fonts/noway-regular-webfont.woff") format("woff"), url("/assets/fonts/noway-regular-webfont.ttf") format("truetype"), url("/assets/fonts/noway-regular-webfont.svg#nowayregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nowaymedium";
+  src: url("/assets/fonts/noway-medium-webfont.eot");
+  src: url("/assets/fonts/noway-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/noway-medium-webfont.woff2") format("woff2"), url("/assets/fonts/noway-medium-webfont.woff") format("woff"), url("/assets/fonts/noway-medium-webfont.ttf") format("truetype"), url("/assets/fonts/noway-medium-webfont.svg#nowayregular") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .footer {
   color: #e5e3fe;
 }
@@ -3038,6 +3054,14 @@ table {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+.font-regular {
+  font-family: noway, Helvetica, Arial, sans-serif;
+}
+
+.font-medium {
+  font-family: nowaymedium, Helvetica, Arial, sans-serif;
 }
 
 .font-hairline {
@@ -8720,6 +8744,14 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
+  .sm\:font-regular {
+    font-family: noway, Helvetica, Arial, sans-serif;
+  }
+
+  .sm\:font-medium {
+    font-family: nowaymedium, Helvetica, Arial, sans-serif;
+  }
+
   .sm\:font-hairline {
     font-weight: 100;
   }
@@ -14364,6 +14396,14 @@ a {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+
+  .md\:font-regular {
+    font-family: noway, Helvetica, Arial, sans-serif;
+  }
+
+  .md\:font-medium {
+    font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 
   .md\:font-hairline {
@@ -20012,6 +20052,14 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
+  .lg\:font-regular {
+    font-family: noway, Helvetica, Arial, sans-serif;
+  }
+
+  .lg\:font-medium {
+    font-family: nowaymedium, Helvetica, Arial, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -25656,6 +25704,14 @@ a {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  }
+
+  .xl\:font-regular {
+    font-family: noway, Helvetica, Arial, sans-serif;
+  }
+
+  .xl\:font-medium {
+    font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 
   .xl\:font-hairline {

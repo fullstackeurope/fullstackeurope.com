@@ -1,0 +1,16 @@
+.newsletter {
+    background: url('/assets/images/newsletter-bg.png') repeat-x top left;
+    color: #818181;
+    max-height: 400px;
+
+    input {
+        background-color: #F5F6FB;
+        color: #989898;
+    }
+    button {
+        background: linear-gradient(225deg, #6ACBE0 0%, #6859EA 100%);
+    }
+    button:hover {
+        background: #6859EA;
+    }
+}

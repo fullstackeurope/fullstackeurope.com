@@ -586,6 +586,15 @@ table {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4a4a4a;
+}
+
 .footer {
   color: #e5e3fe;
 }
@@ -604,6 +613,25 @@ table {
 
 .footer-bottom {
   background-color: #20195b;
+}
+
+.newsletter {
+  background: url("/assets/images/newsletter-bg.png") repeat-x top left;
+  color: #818181;
+  max-height: 400px;
+}
+
+.newsletter input {
+  background-color: #f5f6fb;
+  color: #989898;
+}
+
+.newsletter button {
+  background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
+}
+
+.newsletter button:hover {
+  background: #6859ea;
 }
 
 /**

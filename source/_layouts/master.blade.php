@@ -15,6 +15,7 @@
         @yield('body')
     </div>
 
+    @include('_partials.newsletter')
     @include('_layouts.footer')
 </body>
 </html>

@@ -20,7 +20,7 @@
         </div>
     </div>
     <div class="footer-bottom leading-loose text-center">
-        <div class="container pt-8 pb-8">
+        <div class="container py-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-3/4 md:text-left">
                     &copy; Full Stack Europe

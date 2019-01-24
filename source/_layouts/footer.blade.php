@@ -32,8 +32,11 @@
                     <a href="mailto:hello@fullstackeurope.com" class="mr-3">
                         <i class="fas fa-envelope"></i>
                     </a>
-                    <a href="https://twitter.com/fullstackeu">
+                    <a href="https://twitter.com/fullstackeu" class="mr-3">
                         <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCUusSdBRcgftKaa9qp3KxZw">
+                        <i class="fab fa-youtube"></i>
                     </a>
                 </div>
             </div>

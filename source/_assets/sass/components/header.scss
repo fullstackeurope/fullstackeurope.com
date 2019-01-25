@@ -1,0 +1,18 @@
+.header {
+    background: rgba(39, 29, 119, .88);
+    color: config('colors.light');
+
+    a {
+        color: config('colors.light');
+    }
+    a:hover {
+        color: white;
+    }
+    .btn-tickets {
+        background: linear-gradient(225deg, #6ACBE0 0%, #6859EA 100%);
+        color: white;
+    }
+    .btn-tickets:hover {
+        background: #6859EA;
+    }
+}

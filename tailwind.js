@@ -130,7 +130,8 @@ let colors = {
 
   'primary': '#6859ea',
   'secondary': '#6acbe0',
-}
+  'light': '#e5e3fe',
+};
 
 module.exports = {
 

@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 <body class="font-regular">
-    <div class="container mx-auto">
+    @include('_layouts.header')
+
+    <div class="container mx-auto pt-32">
         @yield('body')
     </div>
 
     @include('_partials.newsletter')
     @include('_layouts.footer')
+
+    <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </body>
 </html>

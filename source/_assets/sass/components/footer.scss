@@ -1,8 +1,8 @@
 .footer {
-    color: #E5E3FE;
+    color: config('colors.light');
 
     a {
-        color: #E5E3FE;
+        color: config('colors.light');
     }
     a:hover {
         color: white;

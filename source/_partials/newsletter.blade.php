@@ -1,4 +1,4 @@
-<div class="newsletter text-center text-sm leading-normal pb-24">
+<div class="newsletter text-center text-sm leading-normal md:pt-16 pb-24">
     <div class="container py-4">
         <div class="bg-white rounded shadow-lg px-4 md:px-10 py-16">
             <form action="https://sendy.murze.be/subscribe" method="post" accept-charset="utf-8">
@@ -13,7 +13,7 @@
                         <input type="email" name="email" class="inline-block text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required>
                     </div>
                     <div class="md:w-1/4 md:pr-4">
-                        <button type="submit" class="inline-block w-full text-white text-lg uppercase font-medium rounded-lg px-8 py-6 md:h-16">
+                        <button type="submit" class="btn-tickets inline-block w-full text-white text-lg uppercase font-medium rounded-lg px-8 py-6 md:h-16">
                             Sign Up
                         </button>
                     </div>

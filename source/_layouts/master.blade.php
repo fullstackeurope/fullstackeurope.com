@@ -15,9 +15,7 @@
 <body class="font-regular">
     @include('_layouts.header')
 
-    <div class="container mx-auto pt-32">
-        @yield('body')
-    </div>
+    @yield('body')
 
     @include('_partials.newsletter')
     @include('_layouts.footer')

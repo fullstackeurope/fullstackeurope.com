@@ -26,7 +26,7 @@
                         </li>
                         <li class="md:mr-4 md:inline-block">
                             <a class="btn-tickets inline-block w-full text-center text-white uppercase rounded-lg px-8 py-6 md:px-5 md:py-3"
-                               href="https://tickets.fullstackeurope.com">
+                               href="{{ $page->ticketUrl }}">
                                 tickets
                             </a>
                         </li>

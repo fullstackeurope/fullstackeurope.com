@@ -570,29 +570,12 @@ table {
  * @import "components/forms";
  */
 
-.header {
-  border-width: 10px 0 0 0;
-  border-style: solid;
-  -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
-     border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
-  background: rgba(39, 29, 119, .88);
-  color: #e5e3fe;
-}
-
-.header a {
-  color: #e5e3fe;
-}
-
-.header a:hover {
-  color: white;
-}
-
-.header .btn-tickets {
+.btn-tickets {
   background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
   color: white;
 }
 
-.header .btn-tickets:hover {
+.btn-tickets:hover {
   background: #6859ea;
 }
 
@@ -641,6 +624,31 @@ h6 {
   background-color: #20195b;
 }
 
+.header {
+  border-width: 10px 0 0 0;
+  border-style: solid;
+  -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+     border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+  background: rgba(39, 29, 119, .88);
+  color: #e5e3fe;
+}
+
+.header a {
+  color: #e5e3fe;
+}
+
+.header a:hover {
+  color: white;
+}
+
+.intro {
+  background: url("/assets/images/bg-intro.jpg") no-repeat;
+}
+
+.intro .overlay {
+  background: rgba(39, 29, 119, .88);
+}
+
 .newsletter {
   background: url("/assets/images/newsletter-bg.png") repeat-x top left;
   color: #818181;
@@ -650,14 +658,6 @@ h6 {
 .newsletter input {
   background-color: #f5f6fb;
   color: #989898;
-}
-
-.newsletter button {
-  background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
-}
-
-.newsletter button:hover {
-  background: #6859ea;
 }
 
 /**

@@ -4,7 +4,7 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/2 mb-12 md:mb-0">
                     <img src="/assets/images/logo-white.png" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
-                    2 & 3 & 4 October 2019 - Venue Antwerp
+                    {{ $page->dates }} - {{ $page->venue }}
                 </div>
                 <div class="md:w-1/2 md:text-right">
                     <ul class="list-reset">
@@ -13,7 +13,7 @@
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">workshops</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">venue</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">sponsors</a></li>
-                        <li class="md:ml-6 md:inline-block mb-4"><a href="#">tickets</a></li>
+                        <li class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->ticketUrl }}">tickets</a></li>
                     </ul>
                 </div>
             </div>

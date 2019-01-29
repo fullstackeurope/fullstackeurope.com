@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div class="md:flex">
             <div class="md:w-1/4">
-                <img src="/assets/images/logo-white.png" width="150" alt="Full Stack Europe">
+                <img src="/assets/images/logo.png" width="150" alt="Full Stack Europe">
                 <span class="md:hidden">
                     <a id="show-nav" class="show-nav text-white text-2xl float-right mt-2" href="javascript:;">
                         <i class="fas fa-bars"></i>

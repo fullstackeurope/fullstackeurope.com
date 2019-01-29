@@ -3,7 +3,7 @@
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/2 mb-12 md:mb-0">
-                    <img src="/assets/images/logo-white.png" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
+                    <img src="/assets/images/logo.png" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
                     {{ $page->dates }} - {{ $page->venue }}
                 </div>
                 <div class="md:w-1/2 md:text-right">

@@ -624,8 +624,13 @@ h6 {
   background-color: #20195b;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .header {
-  border-width: 10px 0 0 0;
+  border-width: 8px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;

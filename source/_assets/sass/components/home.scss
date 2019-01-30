@@ -1,5 +1,6 @@
 .intro {
-    background: url("/assets/images/bg-intro.jpg") no-repeat;
+    background: url("/assets/images/bg-intro.jpg") center no-repeat;
+    background-size: cover;
 
     .overlay {
         background: rgba(39, 29, 119, .88);

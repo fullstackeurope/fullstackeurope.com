@@ -17,6 +17,7 @@
 
     @yield('body')
 
+    @include('_partials.organisers')
     @include('_partials.newsletter')
     @include('_layouts.footer')
 

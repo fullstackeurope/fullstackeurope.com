@@ -666,6 +666,14 @@ body {
   color: #989898;
 }
 
+.organisers a {
+  color: #6859ea;
+}
+
+.organisers a:hover {
+  color: #6acbe0;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.

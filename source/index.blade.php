@@ -1,8 +1,8 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="intro text-center text-white">
-        <div class="overlay pt-32">
+    <div class="intro text-center text-white pb-20">
+        <div class="overlay pt-32 pb-24">
             <div class="container mx-auto pt-12 pb-16 md:pt-20">
                 <h1 class="font-medium text-white md:text-5xl pb-16">A conference for every kind of developer</h1>
                 <h3 class="text-white md:text-xl pb-2">{{ $page->dates }}</h3>
@@ -14,4 +14,6 @@
             </div>
         </div>
     </div>
+
+    @include('_partials.speakers')
 @endsection

@@ -1,9 +1,8 @@
-.header {
+#header {
     border-width: 8px 0 0 0;
     border-style: solid;
     border-image: linear-gradient(225deg, #6ACBE0, #6859EA) 100;
 
-    background: rgba(39, 29, 119, .88);
     color: config('colors.light');
 
     a {
@@ -11,5 +10,11 @@
     }
     a:hover {
         color: white;
+    }
+}
+
+@screen md {
+    #header {
+        transition: all .5s ease-in;
     }
 }

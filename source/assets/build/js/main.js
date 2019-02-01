@@ -93,6 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+var header = document.getElementById("header");
 var navigation = document.getElementById("navigation");
 var showNav = document.getElementById("show-nav");
 var hideNav = document.getElementById("hide-nav");
@@ -107,10 +108,22 @@ function toggleNav() {
     showNav.classList.remove("hidden");
     hideNav.classList.add("hidden");
   }
+
+  toggleHeaderBackground();
 }
 
 showNav.onclick = toggleNav;
 hideNav.onclick = toggleNav;
+
+function toggleHeaderBackground() {
+  if (document.body.scrollTop >= 50 || !navigation.classList.contains("hidden")) {
+    header.style.background = "rgba(39, 29, 119, .88)";
+  } else if (navigation.classList.contains("hidden")) {
+    header.style.background = "none";
+  }
+}
+
+window.addEventListener("scroll", toggleHeaderBackground);
 
 /***/ }),
 

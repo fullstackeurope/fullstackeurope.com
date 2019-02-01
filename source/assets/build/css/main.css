@@ -629,21 +629,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header {
+#header {
   border-width: 8px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
-  background: rgba(39, 29, 119, .88);
   color: #e5e3fe;
 }
 
-.header a {
+#header a {
   color: #e5e3fe;
 }
 
-.header a:hover {
+#header a:hover {
   color: white;
+}
+
+@media (min-width: 768px) {
+  #header {
+    transition: all .5s ease-in;
+  }
 }
 
 .intro {

@@ -1,4 +1,4 @@
-<div class="header fixed w-full text-white py-8 text-xl md:text-base md:py-6">
+<div id="header" class="z-10 fixed w-full text-white font-medium py-8 text-xl md:text-base md:py-6">
     <div class="container mx-auto">
         <div class="md:flex">
             <div class="md:w-1/4">
@@ -12,7 +12,7 @@
                     </a>
                 </span>
             </div>
-            <div id="navigation" class="md:w-3/4 mt-10 md:mt-0 hidden md:block md:text-right">
+            <div id="navigation" class="md:w-3/4 mt-10 md:mt-2 hidden md:block md:text-right">
                 <nav>
                     <ul class="list-reset">
                         <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">

@@ -1,3 +1,4 @@
+let header = document.getElementById("header");
 let navigation = document.getElementById("navigation");
 let showNav = document.getElementById("show-nav");
 let hideNav = document.getElementById("hide-nav");
@@ -13,7 +14,20 @@ function toggleNav()
         showNav.classList.remove("hidden");
         hideNav.classList.add("hidden");
     }
+
+    toggleHeaderBackground();
 }
 
 showNav.onclick = toggleNav;
 hideNav.onclick = toggleNav;
+
+function toggleHeaderBackground()
+{
+    if (document.body.scrollTop >= 50 || ! navigation.classList.contains("hidden")) {
+        header.style.background = "rgba(39, 29, 119, .88)";
+    } else if (navigation.classList.contains("hidden")) {
+        header.style.background = "none";
+    }
+}
+
+window.addEventListener("scroll", toggleHeaderBackground);

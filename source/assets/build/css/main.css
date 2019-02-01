@@ -656,7 +656,7 @@ body {
 }
 
 .newsletter {
-  background: url("/assets/images/newsletter-bg.png") repeat-x top left;
+  background: url("/assets/images/bg-newsletter.png") repeat-x top left;
   color: #818181;
   max-height: 400px;
 }
@@ -672,6 +672,23 @@ body {
 
 .organisers a:hover {
   color: #6acbe0;
+}
+
+.speakers {
+  background: url("/assets/images/pattern.png") repeat top left;
+}
+
+.speakers .container {
+  margin-top: -50px;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.speakers .bottom-overlay {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 100%, #fff 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /**

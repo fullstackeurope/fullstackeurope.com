@@ -637,6 +637,10 @@ body {
   color: white;
 }
 
+.content-page #header {
+  background: rgba(39, 29, 119, .88);
+}
+
 @media (min-width: 768px) {
   #header {
     transition: all .35s ease-in;

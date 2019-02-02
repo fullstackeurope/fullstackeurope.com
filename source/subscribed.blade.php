@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.master', ['bodyClass' => 'content-page'])
 
 @section('body')
     <div class="container mx-auto pt-32 max-w-md">

@@ -116,7 +116,7 @@ showNav.onclick = toggleNav;
 hideNav.onclick = toggleNav;
 
 function toggleHeaderBackground() {
-  if (window.scrollY >= 50 || !navigation.classList.contains("hidden")) {
+  if (window.scrollY >= 50 || document.body.classList.contains('content-page') || !navigation.classList.contains("hidden")) {
     header.style.background = "rgba(39, 29, 119, .88)";
   } else if (navigation.classList.contains("hidden")) {
     header.style.background = "none";

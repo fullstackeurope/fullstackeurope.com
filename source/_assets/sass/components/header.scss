@@ -13,6 +13,10 @@
     }
 }
 
+.content-page #header {
+    background: rgba(39, 29, 119, .88);
+}
+
 @screen md {
     #header {
         transition: all .35s ease-in;

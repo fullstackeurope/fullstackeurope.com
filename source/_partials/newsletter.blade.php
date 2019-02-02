@@ -1,4 +1,4 @@
-<div class="newsletter text-center text-sm leading-normal md:pt-16 pb-24" style="color: #818181; max-height: 400px;">
+<div id="newsletter" class="text-center text-sm leading-normal md:pt-16 pb-24" style="color: #818181; max-height: 400px;">
     <div class="container py-4">
         <div class="bg-white rounded shadow-lg px-4 md:px-10 py-16">
             <form action="https://sendy.murze.be/subscribe" method="post" accept-charset="utf-8">

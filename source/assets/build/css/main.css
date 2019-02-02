@@ -656,7 +656,7 @@ body {
   background: rgba(39, 29, 119, .88);
 }
 
-.newsletter {
+#newsletter {
   background: url("/assets/images/bg-newsletter.png") repeat-x top left;
 }
 

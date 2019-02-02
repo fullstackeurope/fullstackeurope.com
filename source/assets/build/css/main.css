@@ -639,7 +639,7 @@ body {
 
 @media (min-width: 768px) {
   #header {
-    transition: all .5s ease-in;
+    transition: all .35s ease-in;
   }
 }
 
@@ -664,12 +664,31 @@ body {
   color: #6acbe0;
 }
 
-.speakers {
+#speakers-outer {
   background: url("/assets/images/pattern.png") repeat top left;
 }
 
-.speakers .bottom-overlay {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 100%);
+#speakers-outer .speaker {
+  border-width: 5px 0 0 0;
+  border-style: solid;
+  -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+     border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+  overflow: hidden;
+}
+
+#speakers-outer .speaker a {
+  color: #8795a1;
+}
+
+#speakers-outer .speaker a:hover {
+  color: #6acbe0;
+}
+
+@media (min-width: 768px) {
+  #speakers {
+    -webkit-transform: translateY(-5rem);
+            transform: translateY(-5rem);
+  }
 }
 
 /**

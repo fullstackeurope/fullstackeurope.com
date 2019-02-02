@@ -1,7 +1,7 @@
 .btn-tickets {
-    background: linear-gradient(225deg, #6ACBE0 0%, #6859EA 100%);
+    background: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 100%);
     color: white;
 }
 .btn-tickets:hover {
-    background: #6859EA;
+    background: config('colors.primary');
 }

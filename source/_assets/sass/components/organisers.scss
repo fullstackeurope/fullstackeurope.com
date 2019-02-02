@@ -1,8 +1,8 @@
 .organisers {
     a {
-        color: #6859EA;
+        color: config('colors.primary');
     }
     a:hover {
-        color: #6ACBE0;
+        color: config('colors.secondary');
     }
 }

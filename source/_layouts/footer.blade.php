@@ -8,7 +8,7 @@
                 </div>
                 <div class="md:w-1/2 md:text-right">
                     <ul class="list-reset">
-                        <li class="md:inline-block mb-4"><a href="#">speakers</a></li>
+                        <li class="md:inline-block mb-4"><a href="#speakers">speakers</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">schedule</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">workshops</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="#">venue</a></li>

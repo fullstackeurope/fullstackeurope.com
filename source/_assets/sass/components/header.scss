@@ -1,7 +1,7 @@
 #header {
     border-width: 8px 0 0 0;
     border-style: solid;
-    border-image: linear-gradient(225deg, #6ACBE0, #6859EA) 100;
+    border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
 
     color: config('colors.light');
 
@@ -15,6 +15,6 @@
 
 @screen md {
     #header {
-        transition: all .5s ease-in;
+        transition: all .35s ease-in;
     }
 }

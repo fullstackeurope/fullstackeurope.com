@@ -16,7 +16,7 @@
                 <nav>
                     <ul class="list-reset">
                         <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
-                            <a class="text-white" href="#">speakers</a>
+                            <a class="text-white" href="#speakers">speakers</a>
                         </li>
                         <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                             <a class="text-white" href="#">schedule</a>

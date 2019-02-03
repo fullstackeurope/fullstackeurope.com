@@ -16,5 +16,6 @@
     </div>
 
     @include('_partials.speakers')
+    @include('_partials.timer')
     @include('_partials.organisers')
 @endsection

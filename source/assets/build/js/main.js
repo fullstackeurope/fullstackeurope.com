@@ -142,10 +142,12 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! smooth-scroll */ "./node_modules/smooth-scroll/dist/smooth-scroll.polyfills.min.js");
 /* harmony import */ var smooth_scroll__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(smooth_scroll__WEBPACK_IMPORTED_MODULE_0__);
+// Navigation scroll
 
 var scroll = new smooth_scroll__WEBPACK_IMPORTED_MODULE_0___default.a('a[href*="#"]', {
   offset: 125
-});
+}); // Mobile navigation toggle
+
 var header = document.getElementById("header");
 var navigation = document.getElementById("navigation");
 var showNav = document.getElementById("show-nav");
@@ -166,7 +168,7 @@ function toggleNav() {
 }
 
 showNav.onclick = toggleNav;
-hideNav.onclick = toggleNav;
+hideNav.onclick = toggleNav; // Toggle header background
 
 function toggleHeaderBackground() {
   if (window.scrollY >= 50 || document.body.classList.contains('content-page') || !navigation.classList.contains("hidden")) {
@@ -176,7 +178,36 @@ function toggleHeaderBackground() {
   }
 }
 
-window.addEventListener("scroll", toggleHeaderBackground);
+window.addEventListener("scroll", toggleHeaderBackground); // Countdown timer
+
+var element = document.getElementById("timer");
+var timestamp = element.getAttribute('data-expires');
+var countDownDate = new Date(timestamp * 1000).getTime();
+console.log(timestamp);
+
+function startCounter() {
+  var runningCounter = setInterval(function () {
+    var timeDistance = countDownDate - new Date().getTime();
+    var days = element.getElementsByClassName('days')[0];
+    days.innerHTML = format(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
+    var hours = element.getElementsByClassName('hours')[0];
+    hours.innerHTML = format(Math.floor(timeDistance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)));
+    var minutes = element.getElementsByClassName('minutes')[0];
+    minutes.innerHTML = format(Math.floor(timeDistance % (1000 * 60 * 60) / (1000 * 60)));
+    var seconds = element.getElementsByClassName('seconds')[0];
+    seconds.innerHTML = format(Math.floor(timeDistance % (1000 * 60) / 1000)); // element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+    if (timeDistance < 0) {
+      clearInterval(runningCounter); // days.innerHTML = 0;
+    }
+  }, 1000);
+
+  function format(number) {
+    return number.toString().padStart(2, '0');
+  }
+}
+
+startCounter();
 
 /***/ }),
 

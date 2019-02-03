@@ -171,7 +171,7 @@ showNav.onclick = toggleNav;
 hideNav.onclick = toggleNav; // Toggle header background
 
 function toggleHeaderBackground() {
-  if (window.scrollY >= 50 || document.body.classList.contains('content-page') || !navigation.classList.contains("hidden")) {
+  if (window.pageYOffset >= 50 || document.body.classList.contains('content-page') || !navigation.classList.contains("hidden")) {
     header.style.background = "rgba(39, 29, 119, .88)";
   } else if (navigation.classList.contains("hidden")) {
     header.style.background = "none";
@@ -183,7 +183,6 @@ window.addEventListener("scroll", toggleHeaderBackground); // Countdown timer
 var element = document.getElementById("timer");
 var timestamp = element.getAttribute('data-expires');
 var countDownDate = new Date(timestamp * 1000).getTime();
-console.log(timestamp);
 
 function startCounter() {
   var runningCounter = setInterval(function () {

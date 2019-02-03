@@ -33,7 +33,7 @@ hideNav.onclick = toggleNav;
 function toggleHeaderBackground()
 {
     if (
-        window.scrollY  >= 50 ||
+        window.pageYOffset  >= 50 ||
         document.body.classList.contains('content-page') ||
         ! navigation.classList.contains("hidden")
     ) {
@@ -49,7 +49,7 @@ window.addEventListener("scroll", toggleHeaderBackground);
 let element = document.getElementById("timer");
 let timestamp = element.getAttribute('data-expires');
 let countDownDate = new Date(timestamp * 1000).getTime();
-console.log(timestamp);
+
 function startCounter()
 {
     let runningCounter = setInterval(() => {

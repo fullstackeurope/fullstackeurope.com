@@ -1,7 +1,8 @@
-// Navigation scroll
+import $ from 'jquery';
 import SmoothScroll from 'smooth-scroll';
 
-let scroll = new SmoothScroll('a[href*="#"]', {
+// Navigation scroll
+new SmoothScroll('a[href*="#"]', {
     offset: 125,
 });
 
@@ -26,8 +27,8 @@ function toggleNav()
     toggleHeaderBackground();
 }
 
-showNav.onclick = toggleNav;
-hideNav.onclick = toggleNav;
+$('#show-nav').on('click touchdown', toggleNav);
+$('#hide-nav').on('click touchdown', toggleNav);
 
 // Toggle header background
 function toggleHeaderBackground()

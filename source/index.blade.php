@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="intro text-center text-white">
-        <div class="overlay pt-48 pb-20 md:pb-64">
+        <div class="overlay pt-32 md:pt-48 pb-20 md:pb-64">
             <div class="container mx-auto py-12 md:py-20">
                 <h1 class="font-medium text-white md:text-5xl pb-16">A conference for every kind of developer</h1>
                 <h3 class="text-white md:text-xl pb-2">{{ $page->dates }}</h3>

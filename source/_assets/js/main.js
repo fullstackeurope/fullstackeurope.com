@@ -1,3 +1,9 @@
+import SmoothScroll from 'smooth-scroll';
+
+let scroll = new SmoothScroll('a[href*="#"]', {
+    offset: 125,
+});
+
 let header = document.getElementById("header");
 let navigation = document.getElementById("navigation");
 let showNav = document.getElementById("show-nav");

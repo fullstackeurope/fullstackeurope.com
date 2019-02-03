@@ -8,8 +8,8 @@
                 </div>
                 <div class="md:w-1/2 md:text-right">
                     <ul class="list-reset">
-                        <li class="md:inline-block mb-4"><a href="#speakers">speakers</a></li>
-                        <li class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
+                        <li data-scroll class="md:inline-block mb-4"><a href="#speakers">speakers</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->ticketUrl }}">tickets</a></li>
                     </ul>
                 </div>

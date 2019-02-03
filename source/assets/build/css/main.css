@@ -677,7 +677,6 @@ body {
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
-  overflow: hidden;
 }
 
 #speakers-outer .speaker a {

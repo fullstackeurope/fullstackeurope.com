@@ -5,7 +5,6 @@
         border-width: 5px 0 0 0;
         border-style: solid;
         border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
-        overflow: hidden;
 
         a {
             color: config('colors.grey-dark');

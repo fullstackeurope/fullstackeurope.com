@@ -68,11 +68,8 @@ function startCounter()
         let seconds = element.getElementsByClassName('seconds')[0];
         seconds.innerHTML = format(Math.floor((timeDistance % (1000 * 60)) / 1000));
 
-        // element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-
         if (timeDistance < 0) {
             clearInterval(runningCounter);
-            // days.innerHTML = 0;
         }
     }, 1000);
 

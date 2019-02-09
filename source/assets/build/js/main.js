@@ -10573,10 +10573,10 @@ function startCounter() {
     var minutes = element.getElementsByClassName('minutes')[0];
     minutes.innerHTML = format(Math.floor(timeDistance % (1000 * 60 * 60) / (1000 * 60)));
     var seconds = element.getElementsByClassName('seconds')[0];
-    seconds.innerHTML = format(Math.floor(timeDistance % (1000 * 60) / 1000)); // element.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    seconds.innerHTML = format(Math.floor(timeDistance % (1000 * 60) / 1000));
 
     if (timeDistance < 0) {
-      clearInterval(runningCounter); // days.innerHTML = 0;
+      clearInterval(runningCounter);
     }
   }, 1000);
 

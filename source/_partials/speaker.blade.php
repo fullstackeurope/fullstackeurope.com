@@ -9,7 +9,7 @@
     </div>
 
     <div class="w-2/3 md:w-full py-4 px-6 flex flex-col justify-center">
-            <h3 class="text-primary font-medium text-2xl">{{ $name }}</h3>
-            <a class="text-lg" href="https://twitter.com/{{ $twitter }}">{{ '@'.$twitter }}</a>
+        <h3 class="text-primary font-medium text-2xl">{{ $name }}</h3>
+        <a class="text-lg" href="https://twitter.com/{{ $twitter }}">{{ '@'.$twitter }}</a>
     </div>
 </div>

@@ -617,6 +617,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.background-photo {
+  background: url("/assets/images/antwerp.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.background-photo .overlay {
+  background: rgba(39, 29, 119, .88);
+}
+
 #header {
   border-width: 8px 0 0 0;
   border-style: solid;
@@ -641,15 +650,6 @@ body {
   #header {
     transition: all .35s ease-in;
   }
-}
-
-.intro {
-  background: url("/assets/images/antwerp.jpg") bottom no-repeat;
-  background-size: cover;
-}
-
-.intro .overlay {
-  background: rgba(39, 29, 119, .88);
 }
 
 #newsletter {
@@ -688,15 +688,6 @@ body {
     -webkit-transform: translateY(-5rem);
             transform: translateY(-5rem);
   }
-}
-
-#timer {
-  background: url("/assets/images/antwerp.jpg") center no-repeat;
-  background-size: cover;
-}
-
-#timer .overlay {
-  background: rgba(39, 29, 119, .88);
 }
 
 /**

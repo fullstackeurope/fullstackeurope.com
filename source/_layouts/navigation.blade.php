@@ -4,7 +4,7 @@
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll class="text-white" href="#speakers">speakers</a>
             </li>
-            <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
+            <li class="mb-12 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll class="text-white" href="#newsletter">newsletter</a>
             </li>
             <li class="md:mr-4 md:inline-block">

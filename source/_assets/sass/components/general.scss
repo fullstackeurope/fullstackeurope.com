@@ -2,3 +2,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.background-photo {
+    background: url("/assets/images/antwerp.jpg") center no-repeat;
+    background-size: cover;
+
+    .overlay {
+        background: rgba(39, 29, 119, .88);
+    }
+}

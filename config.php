@@ -4,7 +4,6 @@ return [
     'production' => false,
     'baseUrl' => '',
     'collections' => [],
-    'dates' => '2 & 3 & 4 October 2019',
-    'venue' => 'Venue Antwerp',
+    'venue' => 'Hilton Antwerp Old Town',
     'ticketUrl' => 'https://tickets.fullstackeurope.com',
 ];

@@ -10,7 +10,7 @@
                         <p class="xl:text-lg">We won't spam you, promised</p>
                     </div>
                     <div class="md:w-1/2 mb-4 md:mb-0 md:pl-4">
-                        <input type="email" name="email" class="inline-block text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required style="background-color: #F5F6FB; color: #989898;">
+                        <input type="email" name="email" class="inline-block outline-none text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required style="background-color: #F5F6FB; color: #989898;">
                     </div>
                     <div class="md:w-1/6 lg:w-1/4 md:pr-4">
                         <button type="submit" class="btn-tickets inline-block w-full text-white text-lg uppercase font-medium rounded-lg py-6 md:h-16">

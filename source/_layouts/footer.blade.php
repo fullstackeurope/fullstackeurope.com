@@ -1,4 +1,4 @@
-<div class="footer text-sm">
+<div class="footer text-sm text-white">
     <div class="footer-top leading-normal" style="background-color: #2D256F;">
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">
@@ -12,7 +12,7 @@
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
                         <li class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->ticketUrl }}">tickets</a></li>
                     </ul>
-                    <div class="md:absolute text-center md:text-right pin-b pin-r mt-8">
+                    <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">
                         Need more help?<br>
                         <a href="tel:+32-468-109891">+32-468-109891</a> |
                         <a href="mailto:hello@fullstackeurope.com">hello@fullstackeurope.com</a>

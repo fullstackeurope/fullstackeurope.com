@@ -1,11 +1,9 @@
-@extends('_layouts.master', ['bodyClass' => 'content-page'])
+@extends('_layouts.page')
 
-@section('body')
-    <div class="container mx-auto pt-32 max-w-md">
-        <h3 class="text-3xl text-center font-medium my-8">You are now subscribed!</h3>
+@section('content')
+    <h2 class="title font-medium">You are now subscribed!</h2>
 
-        <p class="text-xl mb-16 leading-normal">
-            Awesome! You are now fully signed up. You'll now receive updates about the conference.
-        </p>
-    </div>
+    <p class="paragraph">
+        Awesome! You are now fully signed up. You'll now receive updates about the conference.
+    </p>
 @endsection

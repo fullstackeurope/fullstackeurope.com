@@ -1,4 +1,4 @@
-<div class="footer text-sm text-white">
+<div id="footer" class="text-sm text-white">
     <div class="footer-top leading-normal" style="background-color: #2D256F;">
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">

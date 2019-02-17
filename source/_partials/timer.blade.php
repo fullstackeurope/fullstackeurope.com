@@ -5,7 +5,7 @@
 <div id="timer" class="text-white background-photo" data-expires="{{ $date->getTimestamp() }}">
     <div class="overlay py-20">
         <div class="container">
-            <h2 class="text-3xl font-medium text-white text-center mb-8">
+            <h2 class="title font-medium text-white">
                 Join us at
                 <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23FSEU19">#FSEU19</a>
             </h2>

@@ -604,11 +604,29 @@ h6 {
   color: #4a4a4a;
 }
 
-.footer a {
+.title {
+  font-size: 1.875rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    margin-bottom: 4rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+#footer a {
   color: #e5e3fe;
 }
 
-.footer a:hover {
+#footer a:hover {
   color: white;
 }
 
@@ -656,35 +674,35 @@ body {
   background: url("/assets/images/bg-newsletter.png") repeat-x top left;
 }
 
-.organisers a {
+#organisers a {
   color: #6859ea;
 }
 
-.organisers a:hover {
+#organisers a:hover {
   color: #6acbe0;
 }
 
-#speakers-outer {
+#speakers {
   background: url("/assets/images/pattern.png") repeat top left;
 }
 
-#speakers-outer .speaker {
+#speakers .speaker {
   border-width: 5px 0 0 0;
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
 }
 
-#speakers-outer .speaker a {
+#speakers .speaker a {
   color: #8795a1;
 }
 
-#speakers-outer .speaker a:hover {
+#speakers .speaker a:hover {
   color: #6acbe0;
 }
 
 @media (min-width: 768px) {
-  #speakers {
+  #speakers-inner {
     -webkit-transform: translateY(-5rem);
             transform: translateY(-5rem);
   }

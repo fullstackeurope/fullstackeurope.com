@@ -10524,7 +10524,8 @@ __webpack_require__.r(__webpack_exports__);
  // Navigation scroll
 
 new smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a('a[href*="#"]', {
-  offset: 125
+  header: '[data-scroll-header]',
+  offset: 25
 }); // Mobile navigation toggle
 
 var header = document.getElementById("header");

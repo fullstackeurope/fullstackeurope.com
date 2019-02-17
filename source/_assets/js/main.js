@@ -3,7 +3,8 @@ import SmoothScroll from 'smooth-scroll';
 
 // Navigation scroll
 new SmoothScroll('a[href*="#"]', {
-    offset: 125,
+    header: '[data-scroll-header]',
+    offset: 25,
 });
 
 // Mobile navigation toggle

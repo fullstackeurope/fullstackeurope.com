@@ -131,6 +131,8 @@ let colors = {
   'primary': '#6859ea',
   'secondary': '#6acbe0',
   'light': '#e5e3fe',
+  'background': '#20195B',
+  'background-secondary': '#2D256F',
 };
 
 module.exports = {

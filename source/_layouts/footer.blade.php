@@ -1,5 +1,5 @@
 <div id="footer" class="text-sm text-white">
-    <div class="footer-top leading-normal" style="background-color: #2D256F;">
+    <div class="footer-top leading-normal bg-background-secondary">
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/2 mb-12 md:mb-0">
@@ -21,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom leading-loose text-center" style="background-color: #20195B;">
+    <div class="footer-bottom bg-background leading-loose text-center">
         <div class="container py-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-3/4 md:text-left">

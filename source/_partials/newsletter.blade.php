@@ -1,5 +1,5 @@
-<div id="newsletter" class="text-center text-sm leading-normal pb-12 md:pt-16 md:pb-24 style="color: #818181; max-height: 400px;">
-    <div class="container py-4">
+<div id="newsletter" class="text-center text-sm leading-normal py-12 md:pb-24" style="color: #818181; max-height: 400px;">
+    <div class="container">
         <div class="bg-white rounded shadow-lg px-4 py-6 md:py-12">
             <form action="https://sendy.murze.be/subscribe" method="post" accept-charset="utf-8">
                 <input type="hidden" name="list" value="iuUw3mYRnmw1tbGOPbNnpQ">

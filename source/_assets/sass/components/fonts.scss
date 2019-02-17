@@ -28,10 +28,13 @@ h1, h2, h3, h4, h5, h6 {
 .title {
     @apply text-3xl text-center mb-8;
 }
+.pre-title {
+    @apply text-sm text-center uppercase text-grey-dark mb-2;
+}
 
 @screen md {
     .title {
-        @apply mb-16;
+        @apply mb-12;
     }
 }
 

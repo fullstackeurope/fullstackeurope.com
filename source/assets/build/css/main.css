@@ -610,9 +610,17 @@ h6 {
   margin-bottom: 2rem;
 }
 
+.pre-title {
+  font-size: .875rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8795a1;
+  margin-bottom: .5rem;
+}
+
 @media (min-width: 768px) {
   .title {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 }
 

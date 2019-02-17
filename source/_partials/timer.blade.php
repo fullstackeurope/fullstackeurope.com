@@ -3,7 +3,7 @@
 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
 <div id="timer" class="text-white background-photo" data-expires="{{ $date->getTimestamp() }}">
-    <div class="overlay py-20">
+    <div class="overlay py-12 md:py-16">
         <div class="container">
             <h2 class="title font-medium text-white">
                 Join us at

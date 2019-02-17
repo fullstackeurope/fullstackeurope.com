@@ -1,4 +1,4 @@
-<div id="organisers" class="text-grey-dark py-12 md:pt-20 md:pb-0">
+<div id="organisers" class="container text-grey-dark py-12 md:pt-20 md:pb-0">
     <h3 class="title font-medium">Organised by</h3>
 
     <div class="md:flex">

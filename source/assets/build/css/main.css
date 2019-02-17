@@ -691,6 +691,7 @@ body {
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+  transition: all .2s ease-in-out;
 }
 
 #speakers .speaker a {
@@ -699,6 +700,12 @@ body {
 
 #speakers .speaker a:hover {
   color: #6acbe0;
+}
+
+#speakers .speaker:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
 }
 
 @media (min-width: 768px) {

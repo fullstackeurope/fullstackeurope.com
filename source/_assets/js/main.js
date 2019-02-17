@@ -35,7 +35,7 @@ $('#hide-nav').on('click touchdown', toggleNav);
 function toggleHeaderBackground()
 {
     if (
-        window.pageYOffset  >= 50 ||
+        window.pageYOffset >= 50 ||
         document.body.classList.contains('content-page') ||
         ! navigation.classList.contains("hidden")
     ) {

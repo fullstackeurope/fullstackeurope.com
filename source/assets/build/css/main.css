@@ -702,12 +702,8 @@ body {
   transition: all .2s ease-in-out;
 }
 
-#speakers .speaker a {
-  color: #8795a1;
-}
-
-#speakers .speaker a:hover {
-  color: #6acbe0;
+#speakers .speaker .twitter {
+  color: #606f7b;
 }
 
 #speakers .speaker:hover {

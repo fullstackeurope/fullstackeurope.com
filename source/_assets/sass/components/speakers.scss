@@ -7,11 +7,8 @@
         border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
         transition: all .2s ease-in-out;
 
-        a {
-            color: config('colors.grey-dark');
-        }
-        a:hover {
-            color: config('colors.secondary');
+        .twitter {
+            color: config('colors.grey-darker');
         }
     }
     .speaker:hover {

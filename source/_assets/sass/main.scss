@@ -44,6 +44,7 @@
 @import "components/newsletter";
 @import "components/organisers";
 @import "components/speakers";
+@import "components/sponsors";
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
@@ -73,3 +74,5 @@
 a {
     text-decoration: none;
 }
+
+@import "utilities/animations";

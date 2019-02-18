@@ -1,0 +1,8 @@
+#sponsors {
+    a.apply {
+        color: config('colors.primary');
+    }
+    a.apply:hover {
+        color: config('colors.secondary');
+    }
+}

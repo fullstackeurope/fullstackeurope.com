@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     @apply font-noway-medium text-3xl text-center mb-8;
 }
 .title-sm {
-    @apply text-sm text-center uppercase text-grey-dark font-normal;
+    @apply text-base text-center uppercase text-grey-dark font-normal;
 }
 .pre-title {
     @apply title-sm mb-2;

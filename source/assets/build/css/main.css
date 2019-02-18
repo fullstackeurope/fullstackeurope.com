@@ -588,6 +588,7 @@ table {
 
 .btn-tickets:hover {
   background: #6859ea;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -632,7 +633,7 @@ h6 {
 }
 
 .title-sm {
-  font-size: .875rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
   color: #8795a1;
@@ -640,7 +641,7 @@ h6 {
 }
 
 .pre-title {
-  font-size: .875rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
   color: #8795a1;
@@ -733,17 +734,10 @@ body {
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
-  transition: all .2s ease-in-out;
 }
 
 #speakers .speaker .twitter {
   color: #606f7b;
-}
-
-#speakers .speaker:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 10;
 }
 
 @media (min-width: 768px) {
@@ -751,6 +745,14 @@ body {
     -webkit-transform: translateY(-5rem);
             transform: translateY(-5rem);
   }
+}
+
+#sponsors a.apply {
+  color: #6859ea;
+}
+
+#sponsors a.apply:hover {
+  color: #6acbe0;
 }
 
 /**
@@ -6623,6 +6625,16 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.enlarge {
+  transition: all .2s ease-in-out;
+}
+
+.enlarge:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
 }
 
 @media (min-width: 576px) {

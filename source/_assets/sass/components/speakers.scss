@@ -5,15 +5,10 @@
         border-width: 5px 0 0 0;
         border-style: solid;
         border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
-        transition: all .2s ease-in-out;
 
         .twitter {
             color: config('colors.grey-darker');
         }
-    }
-    .speaker:hover {
-        transform: scale(1.1);
-        z-index: 10;
     }
 }
 

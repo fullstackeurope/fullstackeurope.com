@@ -4,6 +4,7 @@
 }
 .btn-tickets:hover {
     background: config('colors.primary');
+    color: white;
 }
 
 @screen md {

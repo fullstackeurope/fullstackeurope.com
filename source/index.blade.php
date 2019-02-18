@@ -10,11 +10,11 @@
                 <h2 class="font-medium text-white md:text-2xl pb-4">
                     {{ $page->venue }}
                 </h2>
-                <h3 class="text-white md:text-lg pb-2">
-                    Workshops - October 23
+                <h3 class="text-white text-sm md:text-lg pb-2">
+                    Workshops - October 23, 2019
                 </h3>
-                <h3 class="text-white md:text-lg pb-10 md:pb-16">
-                    Main Conference - October 24 & 25
+                <h3 class="text-white text-sm md:text-lg pb-10 md:pb-16">
+                    Main Conference - October 24 & 25, 2019
                 </h3>
                 <a class="btn-tickets inline-block w-full md:w-auto text-center text-white text-2xl md:text-lg font-medium uppercase rounded-lg px-12 py-6 md:py-4"
                    href="{{ $page->ticketUrl }}">

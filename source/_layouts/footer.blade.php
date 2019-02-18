@@ -14,7 +14,7 @@
                     </ul>
                     <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">
                         Need more help?<br>
-                        <a href="tel:+32-468-109891">+32-468-109891</a> |
+                        +32 468 109891 |
                         <a href="mailto:hello@fullstackeurope.com">hello@fullstackeurope.com</a>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-<div id="header" data-scroll-header class="z-10 fixed w-full text-white font-medium py-8 text-xl md:text-base">
+<div id="header" data-scroll-header class="z-10 fixed w-full text-white font-noway-medium py-8 text-xl md:text-base">
     <div class="container mx-auto">
         <div class="md:flex">
             <div class="md:w-1/4">

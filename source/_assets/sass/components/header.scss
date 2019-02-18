@@ -8,6 +8,9 @@
     a {
         color: config('colors.light');
     }
+    a.btn-tickets {
+        color: white;
+    }
     a:hover {
         color: white;
     }

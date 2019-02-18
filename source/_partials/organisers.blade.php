@@ -1,5 +1,5 @@
 <div id="organisers" class="container text-grey-dark py-12 md:py-16">
-    <h3 class="title font-medium">Organised by</h3>
+    <h3 class="title">Organised by</h3>
 
     <div class="md:flex">
         <div class="md:w-1/5 md:ml-auto text-center mb-8 md:mb-0">

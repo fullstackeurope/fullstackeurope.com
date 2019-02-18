@@ -10,8 +10,8 @@
         </div>
 
         <div class="w-2/3 md:w-full py-4 px-6 flex flex-col justify-center">
-            <h3 class="text-primary font-medium text-2xl">{{ $name }}</h3>
-            <span class="twitter text-lg">{{ '@'.$twitter }}</span>
+            <h3 class="font-noway-medium text-primary text-2xl">{{ $name }}</h3>
+            <span class="twitter title-sm normal-case">{{ '@'.$twitter }}</span>
         </div>
     </div>
 </a>

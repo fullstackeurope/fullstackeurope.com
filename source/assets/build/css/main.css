@@ -571,12 +571,32 @@ table {
  */
 
 .btn-tickets {
+  display: inline-block;
+  width: 100%;
+  font-family: nowaymedium, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: .5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
-  color: white;
 }
 
 .btn-tickets:hover {
   background: #6859ea;
+}
+
+@media (min-width: 768px) {
+  .btn-tickets {
+    width: auto;
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @font-face {
@@ -605,9 +625,18 @@ h6 {
 }
 
 .title {
+  font-family: nowaymedium, Helvetica, Arial, sans-serif;
   font-size: 1.875rem;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.title-sm {
+  font-size: .875rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8795a1;
+  font-weight: 400;
 }
 
 .pre-title {
@@ -615,6 +644,7 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   color: #8795a1;
+  font-weight: 400;
   margin-bottom: .5rem;
 }
 
@@ -662,6 +692,10 @@ body {
 
 #header a {
   color: #e5e3fe;
+}
+
+#header a.btn-tickets {
+  color: white;
 }
 
 #header a:hover {
@@ -3241,11 +3275,11 @@ body {
   font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
-.font-regular {
+.font-noway {
   font-family: noway, Helvetica, Arial, sans-serif;
 }
 
-.font-medium {
+.font-noway-medium {
   font-family: nowaymedium, Helvetica, Arial, sans-serif;
 }
 
@@ -9097,11 +9131,11 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .sm\:font-regular {
+  .sm\:font-noway {
     font-family: noway, Helvetica, Arial, sans-serif;
   }
 
-  .sm\:font-medium {
+  .sm\:font-noway-medium {
     font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 
@@ -14919,11 +14953,11 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .md\:font-regular {
+  .md\:font-noway {
     font-family: noway, Helvetica, Arial, sans-serif;
   }
 
-  .md\:font-medium {
+  .md\:font-noway-medium {
     font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 
@@ -20741,11 +20775,11 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .lg\:font-regular {
+  .lg\:font-noway {
     font-family: noway, Helvetica, Arial, sans-serif;
   }
 
-  .lg\:font-medium {
+  .lg\:font-noway-medium {
     font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 
@@ -26563,11 +26597,11 @@ a {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .xl\:font-regular {
+  .xl\:font-noway {
     font-family: noway, Helvetica, Arial, sans-serif;
   }
 
-  .xl\:font-medium {
+  .xl\:font-noway-medium {
     font-family: nowaymedium, Helvetica, Arial, sans-serif;
   }
 

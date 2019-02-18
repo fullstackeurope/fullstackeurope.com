@@ -1,7 +1,13 @@
 .btn-tickets {
+    @apply inline-block w-full font-noway-medium text-center text-white text-2xl uppercase rounded-lg px-12 py-6;
     background: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 100%);
-    color: white;
 }
 .btn-tickets:hover {
     background: config('colors.primary');
+}
+
+@screen md {
+    .btn-tickets {
+        @apply w-auto text-lg py-4;
+    }
 }

@@ -30,10 +30,14 @@
         </div>
         <div class="md:w-1/3 lg:w-1/5 md:mr-auto text-center">
             <p class="mb-3">
-                <img src="/assets/images/on3events.jpg"
-                     width="100" class="rounded-full inline-block">
+                <a href="https://on3.events">
+                    <img src="/assets/images/on3events.jpg" width="100" class="rounded-full inline-block">
+                </a>
             </p>
             <p class="mb-3">On3Events</p>
+            <p class="tracking-xl-wide">
+                <a href="https://on3.events"><i class="fas fa-globe-africa"></i></a>
+            </p>
         </div>
     </div>
 </div>

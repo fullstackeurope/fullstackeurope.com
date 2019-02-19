@@ -6627,14 +6627,16 @@ a {
   text-decoration: none;
 }
 
-.enlarge {
-  transition: all .2s ease-in-out;
-}
+@media (min-width: 768px) {
+  .enlarge {
+    transition: all .2s ease-in-out;
+  }
 
-.enlarge:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 10;
+  .enlarge:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    z-index: 10;
+  }
 }
 
 @media (min-width: 576px) {

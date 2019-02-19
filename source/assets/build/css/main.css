@@ -5182,6 +5182,10 @@ body {
   box-shadow: none;
 }
 
+.shadow-lg-blue {
+  box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+}
+
 .hover\:shadow:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
@@ -5206,6 +5210,10 @@ body {
   box-shadow: none;
 }
 
+.hover\:shadow-lg-blue:hover {
+  box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+}
+
 .focus\:shadow:focus {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
@@ -5228,6 +5236,10 @@ body {
 
 .focus\:shadow-none:focus {
   box-shadow: none;
+}
+
+.focus\:shadow-lg-blue:focus {
+  box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
 }
 
 .fill-current {
@@ -11042,6 +11054,10 @@ a {
     box-shadow: none;
   }
 
+  .sm\:shadow-lg-blue {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .sm\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -11066,6 +11082,10 @@ a {
     box-shadow: none;
   }
 
+  .sm\:hover\:shadow-lg-blue:hover {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .sm\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -11088,6 +11108,10 @@ a {
 
   .sm\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .sm\:focus\:shadow-lg-blue:focus {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
   }
 
   .sm\:table-auto {
@@ -16864,6 +16888,10 @@ a {
     box-shadow: none;
   }
 
+  .md\:shadow-lg-blue {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .md\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -16888,6 +16916,10 @@ a {
     box-shadow: none;
   }
 
+  .md\:hover\:shadow-lg-blue:hover {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .md\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -16910,6 +16942,10 @@ a {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:focus\:shadow-lg-blue:focus {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
   }
 
   .md\:table-auto {
@@ -22686,6 +22722,10 @@ a {
     box-shadow: none;
   }
 
+  .lg\:shadow-lg-blue {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .lg\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -22710,6 +22750,10 @@ a {
     box-shadow: none;
   }
 
+  .lg\:hover\:shadow-lg-blue:hover {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .lg\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -22732,6 +22776,10 @@ a {
 
   .lg\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .lg\:focus\:shadow-lg-blue:focus {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
   }
 
   .lg\:table-auto {
@@ -28508,6 +28556,10 @@ a {
     box-shadow: none;
   }
 
+  .xl\:shadow-lg-blue {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .xl\:hover\:shadow:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -28532,6 +28584,10 @@ a {
     box-shadow: none;
   }
 
+  .xl\:hover\:shadow-lg-blue:hover {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
+  }
+
   .xl\:focus\:shadow:focus {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
   }
@@ -28554,6 +28610,10 @@ a {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:focus\:shadow-lg-blue:focus {
+    box-shadow: 0 5px 15px 0 rgba(104, 89, 234, .1);
   }
 
   .xl\:table-auto {

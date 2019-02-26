@@ -16,9 +16,10 @@
                 <h3 class="text-white text-sm md:text-lg pb-10 md:pb-16">
                     Main Conference - October 24 & 25, 2019
                 </h3>
-                <a class="btn-tickets" href="{{ $page->ticketUrl }}">
-                    tickets
-                </a>
+
+                <tito-button class="btn-tickets" event="on3/fullstack19">
+                    Tickets
+                </tito-button>
             </div>
         </div>
     </div>

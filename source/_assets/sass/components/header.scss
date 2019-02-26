@@ -5,13 +5,15 @@
 
     color: config('colors.light');
 
-    a {
+    a,
+    button {
         color: config('colors.light');
     }
-    a.btn-tickets {
+    a:hover,
+    button:hover {
         color: white;
     }
-    a:hover {
+    .btn-tickets button {
         color: white;
     }
 }

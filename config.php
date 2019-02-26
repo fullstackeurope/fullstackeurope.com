@@ -5,5 +5,4 @@ return [
     'baseUrl' => '',
     'collections' => [],
     'venue' => 'Hilton Antwerp Old Town',
-    'ticketUrl' => 'https://tickets.fullstackeurope.com',
 ];

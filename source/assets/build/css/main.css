@@ -584,6 +584,12 @@ table {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
+  cursor: pointer;
+}
+
+.btn-tickets button {
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .btn-tickets:hover {
@@ -661,11 +667,13 @@ h6 {
   line-height: 1.5;
 }
 
-#footer a {
+#footer a,
+#footer button {
   color: #e5e3fe;
 }
 
-#footer a:hover {
+#footer a:hover,
+#footer button:hover {
   color: white;
 }
 
@@ -691,15 +699,17 @@ body {
   color: #e5e3fe;
 }
 
-#header a {
+#header a,
+#header button {
   color: #e5e3fe;
 }
 
-#header a.btn-tickets {
+#header a:hover,
+#header button:hover {
   color: white;
 }
 
-#header a:hover {
+#header .btn-tickets button {
   color: white;
 }
 

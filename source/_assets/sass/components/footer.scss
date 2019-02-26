@@ -1,8 +1,10 @@
 #footer {
-    a {
+    a,
+    button {
         color: config('colors.light');
     }
-    a:hover {
+    a:hover,
+    button:hover {
         color: white;
     }
 }

@@ -11,10 +11,12 @@
                 <a data-scroll href="#newsletter">newsletter</a>
             </li>
             <li class="md:mr-4 md:inline-block">
-                <a class="hidden md:inline" href="{{ $page->ticketUrl }}">tickets</a>
-                <a class="btn-tickets md:hidden" href="{{ $page->ticketUrl }}">
+                <tito-button class="hidden md:inline" event="on3/fullstack19">
                     tickets
-                </a>
+                </tito-button>
+                <tito-button class="btn-tickets md:hidden" event="on3/fullstack19">
+                    tickets
+                </tito-button>
             </li>
         </ul>
     </nav>

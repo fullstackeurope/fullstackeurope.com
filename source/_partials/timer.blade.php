@@ -12,19 +12,19 @@
 
             <div class="flex text-center">
                 <div class="w-1/4 border-r border-secondary">
-                    <span class="days text-2xl md:text-5xl font-noway-medium ">{{ $timeRemaining->format('%a') }}</span><br>
+                    <span class="days text-2xl md:text-5xl font-noway-medium ">0</span><br>
                     <span class="text-grey uppercase">Days</span>
                 </div>
                 <div class="w-1/4 border-r border-secondary">
-                    <span class="hours text-2xl md:text-5xl font-noway-medium ">{{ $timeRemaining->h }}</span><br>
+                    <span class="hours text-2xl md:text-5xl font-noway-medium ">0</span><br>
                     <span class="text-grey uppercase">Hours</span>
                 </div>
                 <div class="w-1/4 border-r border-secondary">
-                    <span class="minutes text-2xl md:text-5xl font-noway-medium ">{{ $timeRemaining->i }}</span><br>
+                    <span class="minutes text-2xl md:text-5xl font-noway-medium ">0</span><br>
                     <span class="text-grey uppercase">Minutes</span>
                 </div>
                 <div class="w-1/4">
-                    <span class="seconds text-2xl md:text-5xl font-noway-medium ">{{ $timeRemaining->s }}</span><br>
+                    <span class="seconds text-2xl md:text-5xl font-noway-medium ">0</span><br>
                     <span class="text-grey uppercase">Seconds</span>
                 </div>
             </div>

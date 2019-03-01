@@ -57,26 +57,28 @@ function startCounter()
     let runningCounter = setInterval(() => {
         let timeDistance = countDownDate - new Date().getTime();
 
-        let days = element.getElementsByClassName('days')[0];
-        days.innerHTML = format(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
-
-        let hours = element.getElementsByClassName('hours')[0];
-        hours.innerHTML = format(Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
-
-        let minutes = element.getElementsByClassName('minutes')[0];
-        minutes.innerHTML = format(Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60)));
-
-        let seconds = element.getElementsByClassName('seconds')[0];
-        seconds.innerHTML = format(Math.floor((timeDistance % (1000 * 60)) / 1000));
-
         if (timeDistance < 0) {
             clearInterval(runningCounter);
-        }
-    }, 1000);
 
-    function format(number) {
-        return number.toString().padStart(2, '0');
-    }
+            return;
+        }
+
+        let days = element.getElementsByClassName('days')[0];
+        days.innerHTML = formatCounter(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
+
+        let hours = element.getElementsByClassName('hours')[0];
+        hours.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+
+        let minutes = element.getElementsByClassName('minutes')[0];
+        minutes.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60)));
+
+        let seconds = element.getElementsByClassName('seconds')[0];
+        seconds.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60)) / 1000));
+    }, 1000);
+}
+
+function formatCounter(number) {
+    return number.toString().padStart(2, '0');
 }
 
 startCounter();

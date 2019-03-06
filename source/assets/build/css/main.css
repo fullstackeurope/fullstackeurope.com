@@ -765,6 +765,20 @@ body {
   color: #6acbe0;
 }
 
+#venue a {
+  color: #6859ea;
+}
+
+#venue a:hover {
+  color: #6acbe0;
+}
+
+@media (min-width: 768px) {
+  .image-background-gradient {
+    background: linear-gradient(225deg, #6acbe0 0%, #6859ea 100%);
+  }
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
@@ -3485,6 +3499,10 @@ body {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-looser {
+  line-height: 1.7;
 }
 
 .leading-loose {
@@ -9367,6 +9385,10 @@ a {
     line-height: 1.5;
   }
 
+  .sm\:leading-looser {
+    line-height: 1.7;
+  }
+
   .sm\:leading-loose {
     line-height: 2;
   }
@@ -15199,6 +15221,10 @@ a {
 
   .md\:leading-normal {
     line-height: 1.5;
+  }
+
+  .md\:leading-looser {
+    line-height: 1.7;
   }
 
   .md\:leading-loose {
@@ -21035,6 +21061,10 @@ a {
     line-height: 1.5;
   }
 
+  .lg\:leading-looser {
+    line-height: 1.7;
+  }
+
   .lg\:leading-loose {
     line-height: 2;
   }
@@ -26867,6 +26897,10 @@ a {
 
   .xl\:leading-normal {
     line-height: 1.5;
+  }
+
+  .xl\:leading-looser {
+    line-height: 1.7;
   }
 
   .xl\:leading-loose {

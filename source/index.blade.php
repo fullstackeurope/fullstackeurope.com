@@ -26,6 +26,7 @@
 
     @include('_partials.speakers')
     @include('_partials.timer')
+    @include('_partials.venue')
     @include('_partials.sponsors')
     @include('_partials.organisers')
 @endsection

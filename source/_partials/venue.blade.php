@@ -1,4 +1,4 @@
-<div id="venue" class="container text-grey-dark py-12 md:py-24">
+<div id="venue" class="container text-grey-darker py-12 md:py-24">
     <div class="md:hidden">
         <h3 class="pre-title md:text-left">Discover our venue</h3>
         <h2 class="title md:text-left">

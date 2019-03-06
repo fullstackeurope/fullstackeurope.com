@@ -1,4 +1,4 @@
-<div id="sponsors" class="bg-grey-lighter text-grey-dark py-12 md:py-16">
+<div id="sponsors" class="bg-grey-lighter text-grey-darker py-12 md:py-16">
     <div class="container">
         <div class="md:flex text-center pb-10 md:pb-0">
             <div class="md:w-1/2">

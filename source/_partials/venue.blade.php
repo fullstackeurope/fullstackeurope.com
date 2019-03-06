@@ -10,7 +10,11 @@
     <div class="md:flex md:flex-row-reverse">
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient md:pb-3">
-                <img src="/assets/images/venue.jpg" class="inline-block md:-mt-3 md:-ml-3">
+                <div id="venue-gallery">
+                    <a class="chocolat-image" href="/assets/images/venue.jpg">
+                        <img src="/assets/images/venue.jpg" class="inline-block md:-mt-3 md:-ml-3">
+                    </a>
+                </div>
             </div>
         </div>
         <div class="md:w-1/2 md:px-8">

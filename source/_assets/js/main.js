@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Chocolat from 'chocolat';
 import SmoothScroll from 'smooth-scroll';
 
 // Navigation scroll
@@ -82,3 +83,12 @@ function formatCounter(number) {
 }
 
 startCounter();
+
+// Photo Enlarger
+$.fn.Chocolat = Chocolat;
+
+$(document).ready(function(){
+    $('#venue-gallery').Chocolat({
+        enableZoom: false
+    });
+});

@@ -41,8 +41,10 @@ function toggleHeaderBackground()
         ! navigation.classList.contains("hidden")
     ) {
         header.style.background = "rgba(39, 29, 119, .88)";
+        header.style.padding = "16px 0";
     } else if (navigation.classList.contains("hidden")) {
         header.style.background = "none";
+        header.style.padding = "32px 0";
     }
 }
 

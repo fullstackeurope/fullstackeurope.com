@@ -2,6 +2,8 @@
     border-width: 8px 0 0 0;
     border-style: solid;
     border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
+    
+    transition: all .25s ease-in;
 
     color: config('colors.light');
 
@@ -20,10 +22,4 @@
 
 .content-page #header {
     background: rgba(39, 29, 119, .88);
-}
-
-@screen md {
-    #header {
-        transition: all .35s ease-in;
-    }
 }

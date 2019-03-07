@@ -12,7 +12,7 @@
             <div class="image-background-gradient md:pb-3">
                 <div id="venue-gallery">
                     <a class="chocolat-image" href="/assets/images/venue.jpg">
-                        <img src="/assets/images/venue.jpg" class="inline-block md:-mt-3 md:-ml-3">
+                        <img src="/assets/images/venue.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
                     </a>
                 </div>
             </div>

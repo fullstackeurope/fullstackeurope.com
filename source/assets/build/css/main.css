@@ -909,6 +909,7 @@ body {
   border-style: solid;
   -o-border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
      border-image: linear-gradient(225deg, #6acbe0, #6859ea) 100;
+  transition: all .25s ease-in;
   color: #e5e3fe;
 }
 
@@ -928,12 +929,6 @@ body {
 
 .content-page #header {
   background: rgba(39, 29, 119, .88);
-}
-
-@media (min-width: 768px) {
-  #header {
-    transition: all .35s ease-in;
-  }
 }
 
 #newsletter {

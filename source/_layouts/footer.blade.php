@@ -29,7 +29,7 @@
     </div>
     <div class="footer-bottom bg-background leading-loose text-center">
         <div class="container py-8">
-            <div class="md:flex md:mb-4">
+            <div class="md:flex">
                 <div class="md:w-3/4 md:text-left">
                     &copy; Full Stack Europe
                     <span class="hidden md:inline-block">|</span>

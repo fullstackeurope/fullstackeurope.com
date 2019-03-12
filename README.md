@@ -6,7 +6,7 @@ This repo contains the source code of the [fullstackeurope.com](https://fullstac
 
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Jigsaw](https://jigsaw.tighten.co)
-- [Github Pages](https://pages.github.com)
+- [Netlify](https://www.netlify.com)
 
 ## Installation
 

@@ -24,7 +24,7 @@
             </div>
 
             <p class="leading-looser mb-8">
-                Located in the heart of historic Belgium, the Hilton Antwerp Old Town hotel offers a central location in Antwerp, an ideal base to discover the beautiful and historic city. Combining old-world charm and stylish sophistication, the venue overlooks the city’s historic town square and Belgium’s finest architecture.
+                Located in the heart of historic Antwerp, the Hilton Antwerp Old Town hotel offers a central location in Antwerp, an ideal base to discover the beautiful and historic city. Combining old-world charm and stylish sophistication, the venue overlooks the city’s historic town square and Belgium’s finest architecture.
             </p>
 
             <div class="flex mb-8">

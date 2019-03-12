@@ -21,6 +21,5 @@ You can run `npm run watch` to start watching for changes and use Browsersync to
 
 ## Deployment
 
-1. Make sure you update the production version by running `jigsaw build production`
+1. Make sure you update the production version by running `npm run production`
 2. Commit and push any changes to master
-3. Run `composer deploy` to deploy the production version to the `gh-pages` branch

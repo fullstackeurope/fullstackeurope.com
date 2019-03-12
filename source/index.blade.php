@@ -2,7 +2,8 @@
 
 @section('body')
     <div class="intro text-center text-white background-photo">
-        <div class="overlay pt-32 md:pt-48 pb-20 md:pb-64">
+        {{--<div class="overlay pt-32 md:pt-48 pb-20 md:pb-64">--}}
+        <div class="overlay pt-32 md:pt-48 pb-0 md:pb-32">
             <div class="container mx-auto py-12 md:py-20">
                 <h1 class="font-noway-medium text-white md:text-5xl pb-10 md:pb-16">
                     A conference for every kind of developer
@@ -17,16 +18,21 @@
                     Main Conference - October 24 & 25, 2019
                 </h3>
 
-                <tito-button class="btn-tickets" event="on3/fullstack19">
+                <tito-button class="btn-tickets mb-8" event="on3/fullstack19">
                     Tickets
                 </tito-button>
+
+                <p class="font-noway-medium italic text-sm leading-normal">
+                    Blind birds available until March 31st.<br>
+                    First speaker announcements in April.
+                </p>
             </div>
         </div>
     </div>
 
-    @include('_partials.speakers')
-    @include('_partials.timer')
+    {{--@include('_partials.speakers')--}}
     @include('_partials.venue')
+    @include('_partials.timer')
     @include('_partials.sponsors')
     @include('_partials.organisers')
 @endsection

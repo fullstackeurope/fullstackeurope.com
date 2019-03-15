@@ -22,8 +22,16 @@
                     Tickets
                 </tito-button>
 
-                <p class="font-noway-medium italic text-sm leading-normal">
-                    Blind birds available until March 31st.<br>
+                @php($timeZone = new DateTimeZone('CET'))
+                @php($date = new DateTimeImmutable('2019-04-01', $timeZone))
+                @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
+
+                <p class="timer font-noway-medium italic text-sm leading-normal" data-expires="{{ $date->getTimestamp() }}">
+                    Blind birds still available for
+                    <span class="days">0</span>d,
+                    <span class="hours">0</span>h,
+                    <span class="minutes">0</span>m,
+                    <span class="seconds">0</span>s.<br>
                     First speaker announcements in April.
                 </p>
             </div>

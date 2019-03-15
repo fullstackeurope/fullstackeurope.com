@@ -51,11 +51,17 @@ function toggleHeaderBackground()
 window.addEventListener("scroll", toggleHeaderBackground);
 
 // Countdown timer
-let element = document.getElementById("timer");
-let timestamp = element.getAttribute('data-expires');
-let countDownDate = new Date(timestamp * 1000).getTime();
+let timers = document.getElementsByClassName("timer");
 
-function startCounter()
+for (let i = 0; i < timers.length; i++) {
+    let timer = timers[i];
+    let timestamp = timer.getAttribute('data-expires');
+    let countDownDate = new Date(timestamp * 1000).getTime();
+
+    startCounter(timer, countDownDate);
+}
+
+function startCounter(timer, countDownDate)
 {
     let runningCounter = setInterval(() => {
         let timeDistance = countDownDate - new Date().getTime();
@@ -66,16 +72,16 @@ function startCounter()
             return;
         }
 
-        let days = element.getElementsByClassName('days')[0];
+        let days = timer.getElementsByClassName('days')[0];
         days.innerHTML = formatCounter(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
 
-        let hours = element.getElementsByClassName('hours')[0];
+        let hours = timer.getElementsByClassName('hours')[0];
         hours.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
 
-        let minutes = element.getElementsByClassName('minutes')[0];
+        let minutes = timer.getElementsByClassName('minutes')[0];
         minutes.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60 * 60)) / (1000 * 60)));
 
-        let seconds = element.getElementsByClassName('seconds')[0];
+        let seconds = timer.getElementsByClassName('seconds')[0];
         seconds.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60)) / 1000));
     }, 1000);
 }
@@ -83,8 +89,6 @@ function startCounter()
 function formatCounter(number) {
     return number.toString().padStart(2, '0');
 }
-
-startCounter();
 
 // Photo Enlarger
 $.fn.Chocolat = Chocolat;

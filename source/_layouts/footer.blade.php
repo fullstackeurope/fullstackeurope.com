@@ -48,7 +48,7 @@
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a href="https://www.linkedin.com/company/fullstackeu" class="mr-3">
-                        <i class="fab fa-linked"></i>
+                        <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="https://github.com/fullstackeurope" class="mr-3">
                         <i class="fab fa-github"></i>

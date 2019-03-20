@@ -2,7 +2,7 @@
     <div class="footer-top leading-normal bg-background-secondary">
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">
-                <div class="md:w-1/2 mb-12 md:mb-0">
+                <div class="md:w-1/2 mb-10 md:mb-0">
                     <img src="/assets/images/logo.png" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
                     23, 24 & 25 October 2019 - {{ $page->venue }}
                 </div>
@@ -11,7 +11,7 @@
                         <li data-scroll class="md:inline-block mb-4"><a href="#venue">venue</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#sponsors">sponsors</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
-                        <li class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
+                        <li class="md:ml-6 md:inline-block"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
                     </ul>
                     <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">
                         Need more help?<br>

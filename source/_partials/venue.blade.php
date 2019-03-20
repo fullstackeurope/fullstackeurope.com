@@ -1,4 +1,4 @@
-<div id="venue" class="container text-grey-darker py-12 md:py-24">
+<div class="py-6 md:py-12">
     <div class="md:hidden">
         <h3 class="pre-title md:text-left">Discover our venue</h3>
         <h2 class="title md:text-left">
@@ -10,7 +10,7 @@
     <div class="md:flex md:flex-row-reverse">
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient md:pb-3">
-                <div id="venue-gallery">
+                <div class="venue-gallery">
                     <a class="chocolat-image" href="/assets/images/hilton.jpg">
                         <img src="/assets/images/hilton.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
                     </a>

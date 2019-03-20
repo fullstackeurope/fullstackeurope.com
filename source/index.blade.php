@@ -39,7 +39,12 @@
     </div>
 
     {{--@include('_partials.speakers')--}}
-    @include('_partials.venue')
+
+    <div id="venue" class="container text-grey-darker py-6 md:py-12">
+        @include('_partials.venue')
+        @include('_partials.antwerp')
+    </div>
+
     @include('_partials.timer')
     @include('_partials.sponsors')
     @include('_partials.organisers')

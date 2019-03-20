@@ -106,7 +106,7 @@ function formatCounter(number) {
 $.fn.Chocolat = Chocolat;
 
 $(document).ready(function(){
-    $('#venue-gallery').Chocolat({
+    $('.venue-gallery').Chocolat({
         enableZoom: false,
         loop: true
     });

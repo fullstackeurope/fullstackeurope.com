@@ -107,6 +107,7 @@ $.fn.Chocolat = Chocolat;
 
 $(document).ready(function(){
     $('#venue-gallery').Chocolat({
-        enableZoom: false
+        enableZoom: false,
+        loop: true
     });
 });

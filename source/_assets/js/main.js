@@ -8,6 +8,8 @@ new SmoothScroll('a[href*="#"]', {
     offset: 25,
 });
 
+document.addEventListener('scrollStart', closeNav, false);
+
 // Mobile navigation toggle
 let header = document.getElementById("header");
 let navigation = document.getElementById("navigation");
@@ -17,16 +19,26 @@ let hideNav = document.getElementById("hide-nav");
 function toggleNav()
 {
     if (navigation.classList.contains("hidden")) {
-        navigation.classList.remove("hidden");
-        showNav.classList.add("hidden");
-        hideNav.classList.remove("hidden");
+        openNav();
     } else {
-        navigation.classList.add("hidden");
-        showNav.classList.remove("hidden");
-        hideNav.classList.add("hidden");
+        closeNav();
     }
 
     toggleHeaderBackground();
+}
+
+function openNav()
+{
+    navigation.classList.remove("hidden");
+    showNav.classList.add("hidden");
+    hideNav.classList.remove("hidden");
+}
+
+function closeNav()
+{
+    navigation.classList.add("hidden");
+    showNav.classList.remove("hidden");
+    hideNav.classList.add("hidden");
 }
 
 $('#show-nav').on('click touchdown', toggleNav);

@@ -18,9 +18,9 @@
                     Main Conference - October 24 & 25, 2019
                 </h3>
 
-                <tito-button class="btn-tickets mb-8" event="on3/fullstack19">
+                <a class="btn-tickets mb-8" href="{{ $page->ticketsUrl }}" target="_blank">
                     Tickets
-                </tito-button>
+                </a>
 
                 @php($timeZone = new DateTimeZone('CET'))
                 @php($date = new DateTimeImmutable('2019-04-01', $timeZone))

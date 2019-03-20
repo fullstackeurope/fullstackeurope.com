@@ -24,12 +24,6 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-
-    @unless ($page->production)
-        <script>TitoDevelopmentMode = true</script>
-    @endunless
-
-    <script src="https://js.tito.io/v1" async></script>
 </head>
 <body class="font-noway h-full bg-background {{ $bodyClass ?? '' }}">
     <div class="bg-white">

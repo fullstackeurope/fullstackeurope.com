@@ -8,16 +8,10 @@
                 </div>
                 <div class="relative md:w-1/2 md:text-right">
                     <ul class="list-reset">
-                        {{--<li data-scroll class="md:inline-block mb-4"><a href="#speakers">speakers</a></li>--}}
-                        {{--<li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#venue">venue</a></li>--}}
                         <li data-scroll class="md:inline-block mb-4"><a href="#venue">venue</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#sponsors">sponsors</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
-                        <li class="md:ml-6 md:inline-block mb-4">
-                            <tito-button event="on3/fullstack19">
-                                tickets
-                            </tito-button>
-                        </li>
+                        <li class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
                     </ul>
                     <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">
                         Need more help?<br>

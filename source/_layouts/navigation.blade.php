@@ -10,6 +10,9 @@
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll href="#newsletter">newsletter</a>
             </li>
+            <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
+                <a data-scroll href="/faq">faq</a>
+            </li>
             <li class="mb-8 md:mb-0 md:mr-6 md:inline-block">
                 <a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
             </li>

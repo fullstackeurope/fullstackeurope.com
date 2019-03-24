@@ -11,6 +11,7 @@
                         <li data-scroll class="md:inline-block mb-4"><a href="#venue">venue</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#sponsors">sponsors</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/faq">faq</a></li>
                         <li class="md:ml-6 md:inline-block"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
                     </ul>
                     <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">

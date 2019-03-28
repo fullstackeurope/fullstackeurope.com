@@ -8,9 +8,10 @@
                 </div>
                 <div class="relative md:w-1/2 md:text-right">
                     <ul class="list-reset">
-                        <li data-scroll class="md:inline-block mb-4"><a href="#venue">venue</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#sponsors">sponsors</a></li>
+                        <li data-scroll class="md:inline-block mb-4"><a href="/#venue">venue</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#sponsors">sponsors</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/code-of-conduct">code of conduct</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/faq">faq</a></li>
                         <li class="md:ml-6 md:inline-block"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
                     </ul>
@@ -18,9 +19,6 @@
                         Need more help?<br>
                         +32 468 109891 |
                         <a href="mailto:hello@fullstackeurope.com">hello@fullstackeurope.com</a>
-                        <span class="hidden md:inline-block">|</span>
-                        <span class="md:hidden"><br></span>
-                        <a href="/code-of-conduct">Code of Conduct</a>
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Full Stack Europe</title>
+    <title>{{ isset($pageTitle) ? "$pageTitle - " : '' }} Full Stack Europe</title>
 
     @include('_layouts._meta')
     @include('_layouts._favicons')

@@ -1,7 +1,7 @@
-@extends('_layouts.page')
+@extends('_layouts.page', ['pageTitle' => 'FAQ'])
 
 @section('content')
-        <h1 class="mb-4">FAQ - Full Stack Europe</h1>
+        <h1 class="mb-4">FAQ</h1>
 
         <h2 class="mb-3">About the conference</h2>
 

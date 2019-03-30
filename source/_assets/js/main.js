@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import Chocolat from 'chocolat';
 import SmoothScroll from 'smooth-scroll';
+import AnchorJS from 'anchor-js';
 
 // Navigation scroll
 new SmoothScroll('a[href*="#"]', {
@@ -111,3 +112,11 @@ $(document).ready(function(){
         loop: true
     });
 });
+
+// Anchor Links
+let anchors = new AnchorJS({
+    placement: "left",
+});
+
+anchors.add('#page h2');
+anchors.add('#page h3');

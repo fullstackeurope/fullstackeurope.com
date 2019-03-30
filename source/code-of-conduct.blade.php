@@ -1,7 +1,7 @@
 @extends('_layouts.page')
 
 @section('content')
-    <h1>Code of Conduct</h1>
+    <h1>Code of Conduct - Full Stack Europe</h1>
 
     <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
 

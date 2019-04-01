@@ -27,7 +27,7 @@
                 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
                 <p class="timer font-noway-medium italic text-sm leading-normal" data-expires="{{ $date->getTimestamp() }}">
-                    Blind birds still available for
+                    Early birds still available for
                     <span class="days">0</span>d,
                     <span class="hours">0</span>h,
                     <span class="minutes">0</span>m,

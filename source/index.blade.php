@@ -23,7 +23,7 @@
                 </a>
 
                 @php($timeZone = new DateTimeZone('CET'))
-                @php($date = new DateTimeImmutable('2019-04-01 16:00', $timeZone))
+                @php($date = new DateTimeImmutable('2019-07-01 16:00', $timeZone))
                 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
                 <p class="timer font-noway-medium italic text-sm leading-normal" data-expires="{{ $date->getTimestamp() }}">

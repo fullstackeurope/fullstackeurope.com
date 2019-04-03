@@ -17,6 +17,10 @@
 
         <p>All sessions are in English. We also encourage all participants to speak English, even with your friends, to make it easy for others to join.</p>
 
+        <h3>How long are the talks?</h3>
+
+        <p>Regular talks are 30 minutes and our two keynotes are 45 minutes.</p>
+
         {{--<h3>Which pre-conference workshop should I choose?</h3>--}}
 
         {{--<p>They're all great! Drop us an email, we'll help you decide.</p>--}}

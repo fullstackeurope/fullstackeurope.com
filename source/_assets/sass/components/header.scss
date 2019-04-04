@@ -2,6 +2,7 @@
     border-width: 8px 0 0 0;
     border-style: solid;
     border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
+    position: fixed;
     
     transition: all .25s ease-in;
 
@@ -18,6 +19,10 @@
     .btn-tickets button {
         color: white;
     }
+}
+
+.content-page #header {
+    position: static;
 }
 
 .content-page #header {

@@ -48,9 +48,12 @@ $('#hide-nav').on('click touchdown', toggleNav);
 // Toggle header background
 function toggleHeaderBackground()
 {
+    if (document.body.classList.contains('content-page')) {
+        return;
+    }
+
     if (
         window.pageYOffset >= 50 ||
-        document.body.classList.contains('content-page') ||
         ! navigation.classList.contains("hidden")
     ) {
         header.style.background = "rgba(39, 29, 119, .88)";

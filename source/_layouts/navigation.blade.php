@@ -2,6 +2,9 @@
     <nav>
         <ul class="list-reset">
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
+                <a data-scroll href="/#speakers">speakers</a>
+            </li>
+            <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll href="/#venue">venue</a>
             </li>
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">

@@ -9,19 +9,19 @@
 
     <div class="md:flex md:flex-row-reverse">
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
-            <div class="image-background-gradient md:pb-3">
+            <div class="image-background-gradient">
                 <div class="venue-gallery">
                     <a class="chocolat-image" href="/assets/images/hilton.jpg">
-                        <img src="/assets/images/hilton.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
+                        <img src="/assets/images/hilton.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/assets/images/hilton-ballroom.jpg">
-                        <img src="/assets/images/hilton-ballroom.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
+                        <img src="/assets/images/hilton-ballroom.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/assets/images/hilton-lobby.jpg">
-                        <img src="/assets/images/hilton-lobby.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
+                        <img src="/assets/images/hilton-lobby.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/assets/images/hilton-restaurant.jpg">
-                        <img src="/assets/images/hilton-restaurant.jpg" class="inline-block md:-mt-3 md:-ml-3 enlarge">
+                        <img src="/assets/images/hilton-restaurant.jpg" class="enlarge">
                     </a>
                 </div>
             </div>

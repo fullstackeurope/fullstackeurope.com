@@ -6,10 +6,3 @@
         color: config('colors.secondary');
     }
 }
-
-
-@screen md {
-    .image-background-gradient {
-        background: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 100%);
-    }
-}

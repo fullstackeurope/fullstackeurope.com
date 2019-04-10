@@ -3,9 +3,8 @@
 @section('content')
     <div class="md:flex md:px-12">
         <div class="md:w-1/3 mt-4 mb-6">
-            <div class="image-background-gradient md:pb-3 md:w-5/6">
-                <img src="/assets/images/speakers/{{ $speaker['image'] }}" alt="{{ $speaker['name'] }}"
-                     class="inline-block md:-mt-3 md:-ml-3">
+            <div class="image-background-gradient md:w-5/6">
+                <img src="/assets/images/speakers/{{ $speaker['image'] }}" alt="{{ $speaker['name'] }}">
             </div>
 
             <p class="mt-6">

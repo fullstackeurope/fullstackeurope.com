@@ -1,0 +1,15 @@
+<a class="btn-tickets mb-8" href="{{ $page->ticketsUrl }}" target="_blank">
+    Register now
+</a>
+
+@php($timeZone = new DateTimeZone('CET'))
+@php($date = new DateTimeImmutable('2019-07-01 16:00', $timeZone))
+@php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
+
+<p class="timer font-noway-medium italic text-sm leading-normal" data-expires="{{ $date->getTimestamp() }}" data-threshold-days="30">
+    Early birds still available for
+    <span class="days">0</span>d,
+    <span class="hours">0</span>h,
+    <span class="minutes">0</span>m,
+    <span class="seconds">0</span>s.<br>
+</p>

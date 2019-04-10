@@ -81,6 +81,7 @@ function startCounter(timer, countDownDate)
 {
     let runningCounter = setInterval(() => {
         let timeDistance = countDownDate - new Date().getTime();
+        let timerThresholdDays = parseInt(timer.getAttribute('data-threshold-days'));
 
         if (timeDistance < 0) {
             clearInterval(runningCounter);
@@ -88,8 +89,16 @@ function startCounter(timer, countDownDate)
             return;
         }
 
+        let daysLeft = timerCalculateDays(timeDistance);
+
+        if (daysLeft > timerThresholdDays) {
+            $(timer).hide();
+
+            return;
+        }
+
         let days = timer.getElementsByClassName('days')[0];
-        days.innerHTML = formatCounter(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
+        days.innerHTML = daysLeft;
 
         let hours = timer.getElementsByClassName('hours')[0];
         hours.innerHTML = formatCounter(Math.floor((timeDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
@@ -104,6 +113,11 @@ function startCounter(timer, countDownDate)
 
 function formatCounter(number) {
     return number.toString().padStart(2, '0');
+}
+
+function timerCalculateDays(timeDistance)
+{
+    return formatCounter(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
 }
 
 // Photo Enlarger

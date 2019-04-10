@@ -17,22 +17,7 @@
                     Main Conference - October 24 & 25, 2019
                 </h3>
 
-                <a class="btn-tickets mb-8" href="{{ $page->ticketsUrl }}" target="_blank">
-                    Register now
-                </a>
-
-                @php($timeZone = new DateTimeZone('CET'))
-                @php($date = new DateTimeImmutable('2019-07-01 16:00', $timeZone))
-                @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
-
-                <p class="timer font-noway-medium italic text-sm leading-normal" data-expires="{{ $date->getTimestamp() }}">
-                    Early birds still available for
-                    <span class="days">0</span>d,
-                    <span class="hours">0</span>h,
-                    <span class="minutes">0</span>m,
-                    <span class="seconds">0</span>s.<br>
-                    First speaker announcements in April.
-                </p>
+                @include('_partials._cta')
             </div>
         </div>
     </div>
@@ -40,9 +25,15 @@
     @include('_partials.speakers')
     @include('_partials.timer')
 
-    <div id="venue" class="container text-grey-darker py-6 md:py-12">
-        @include('_partials.venue')
-        @include('_partials.antwerp')
+    <div class="container text-grey-darker py-6 md:py-12">
+        <div id="venue">
+            @include('_partials.venue')
+            @include('_partials.antwerp')
+        </div>
+
+        <div class="text-center mt-8">
+            @include('_partials._cta')
+        </div>
     </div>
 
     @include('_partials.sponsors')

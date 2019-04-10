@@ -28,3 +28,16 @@
 .content-page #header {
     background: rgba(39, 29, 119, .88);
 }
+
+@screen md {
+    #header li.ticket-link a {
+        @apply text-grey-darkest;
+    }
+    #header li.ticket-link:hover {
+        a {
+            @apply text-grey-lighter;
+        }
+
+        @apply shadow-lg;
+    }
+}

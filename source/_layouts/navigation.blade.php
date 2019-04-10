@@ -19,7 +19,7 @@
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll href="/faq">faq</a>
             </li>
-            <li class="mb-8 md:mb-0 md:mr-6 md:inline-block">
+            <li class="ticket-link mb-8 md:mb-0 md:mr-6 md:inline-block md:border md:px-2 md:py-1 rounded border-grey-lighter md:bg-grey-lighter md:hover:bg-transparent">
                 <a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
             </li>
         </ul>

@@ -92,10 +92,10 @@ function startCounter(timer, countDownDate)
         let daysLeft = timerCalculateDays(timeDistance);
 
         if (daysLeft > timerThresholdDays) {
-            $(timer).hide();
-
             return;
         }
+
+        $(timer).removeClass('hidden');
 
         let days = timer.getElementsByClassName('days')[0];
         days.innerHTML = daysLeft;

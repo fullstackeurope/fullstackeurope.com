@@ -27,11 +27,12 @@
 
     <div class="container text-grey-darker py-6 md:py-12">
         <div id="venue">
+{{--            @include('_partials.conference')--}}
             @include('_partials.venue')
             @include('_partials.antwerp')
         </div>
 
-        <div class="text-center mt-8">
+        <div class="text-center text-grey-dark mt-8">
             @include('_partials._cta')
         </div>
     </div>

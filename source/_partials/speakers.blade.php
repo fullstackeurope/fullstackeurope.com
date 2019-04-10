@@ -5,28 +5,13 @@
             <h2 class="title">Featuring talks from</h2>
             <div class="md:flex mb-12 md:px-4 lg:px-8 xl:px-10">
                 <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-0">
-                    @include('_partials._speaker', [
-                        'name' => 'Konstantin Kudryashov',
-                        'image' => 'everzet.png',
-                        'twitter' => 'everzet',
-                        'bio' => 'eXtreme Programmer',
-                    ])
+                    @include('_partials._speaker', ['speaker' => $page->speakers['konstantin-kudryashov']])
                 </div>
                 <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-0">
-                    @include('_partials._speaker', [
-                        'name' => 'Sara Soueidan',
-                        'image' => 'sara.jpg',
-                        'twitter' => 'sarasoueidan',
-                        'bio' => 'Front-End UI/UX Developer',
-                    ])
+                    @include('_partials._speaker', ['speaker' => $page->speakers['sara-soueidan']])
                 </div>
                 <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10">
-                    @include('_partials._speaker', [
-                        'name' => 'Mattias Geniar',
-                        'image' => 'mattias.jpg',
-                        'twitter' => 'mattiasgeniar',
-                        'bio' => 'Problem Solver at Nucleus',
-                    ])
+                    @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
                 </div>
             </div>
             <div class="title-sm">More coming soon...</div>

@@ -21,6 +21,10 @@
 
         <p>Regular talks are 30 minutes and our two keynotes are 45 minutes.</p>
 
+        <h3>Can I sponsor Full Stack Europe?</h3>
+
+        <p>Yes! Full Stack Europe is the perfect place to get your brand out there. Whether you're looking for full stack developers to grow your team, or have a great product that can help developers, we can help. We've got packages suited for all budgets. <a href="mailto:hello@fullstackeurope.com?subject=We%20want%20to%20sponsor!">Get in touch</a></p>
+
         {{--<h3>Which pre-conference workshop should I choose?</h3>--}}
 
         {{--<p>They're all great! Drop us an email, we'll help you decide.</p>--}}

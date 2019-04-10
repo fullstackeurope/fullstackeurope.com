@@ -18,7 +18,7 @@
                 </h3>
 
                 <a class="btn-tickets mb-8" href="{{ $page->ticketsUrl }}" target="_blank">
-                    Tickets
+                    Register now
                 </a>
 
                 @php($timeZone = new DateTimeZone('CET'))

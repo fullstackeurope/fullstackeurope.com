@@ -10,7 +10,7 @@
                     <ul class="list-reset">
                         <li data-scroll class="md:inline-block mb-4"><a href="/#speakers">speakers</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#venue">venue</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#sponsors">sponsors</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/faq/#can-i-sponsor-full-stack-europe">sponsor us</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/code-of-conduct">code of conduct</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/faq">faq</a></li>

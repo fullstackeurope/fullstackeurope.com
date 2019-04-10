@@ -8,7 +8,7 @@
                 <a data-scroll href="/#venue">venue</a>
             </li>
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
-                <a data-scroll href="/#sponsors">sponsors</a>
+                <a data-scroll href="/faq/#can-i-sponsor-full-stack-europe">sponsor us</a>
             </li>
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll href="#newsletter">newsletter</a>

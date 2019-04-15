@@ -6,7 +6,7 @@ import AnchorJS from 'anchor-js';
 // Navigation scroll
 new SmoothScroll('a[href*="#"]', {
     header: '[data-scroll-header]',
-    offset: 25,
+    // offset: 25,
 });
 
 document.addEventListener('scrollStart', closeNav, false);

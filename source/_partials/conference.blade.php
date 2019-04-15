@@ -13,6 +13,6 @@
     </p>
 
     <p class="leading-looser mb-8">
-        Full Stack Europe is organised by Dries Vints & Freek Van der Herten. They’re both well known speakers in the full stack community, and organize the Full Stack Belgium meetups in Antwerp, Ghent, and Brussels.
+        Full Stack Europe is organised by <a href="https://twitter.com/driesvints">Dries Vints</a> & <a href="https://twitter.com/freekmurze">Freek Van der Herten</a>. They’re both well known speakers in the full stack community, and organize the <a href="https://fullstackbelgium.be">Full Stack Belgium</a> meetups in Antwerp, Ghent, and Brussels.
     </p>
 </div>

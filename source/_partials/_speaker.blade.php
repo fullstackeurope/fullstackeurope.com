@@ -1,8 +1,8 @@
-<a href="{{ isset($speaker['page']) ? '/speakers/'.$speaker['page'] : 'https://twitter.com/'.$speaker['twitter'] }}">
+<a href="{{ isset($speaker['url']) ? '/speakers/'.$speaker['url'] : 'https://twitter.com/'.$speaker['twitter'] }}">
     <div class="speaker enlarge flex md:block shadow-lg-blue rounded text-left md:text-center">
         <div class="w-1/3 md:w-full overflow-hidden xl:h-64">
             <div style="height: inherit; transform: translateY(50%);">
-                <img src="/assets/images/speakers/{{ $speaker['image'] }}" alt="{{ $speaker['name'] }}"
+                <img src="/assets/images/speakers/{{ $speaker['url'] }}.jpg" alt="{{ $speaker['name'] }}"
                      class="block w-full" style="transform: translateY(-50%);">
             </div>
         </div>

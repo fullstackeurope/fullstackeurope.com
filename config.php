@@ -8,26 +8,39 @@ return [
     'venue' => 'Hilton Antwerp Old Town',
     'speakers' => [
         'konstantin-kudryashov' => [
+            'url' => 'konstantin-kudryashov',
             'name' => 'Konstantin Kudryashov',
-            'image' => 'everzet.png',
             'twitter' => 'everzet',
             'website' => 'stakeholderwhisperer.com',
             'bio' => 'eXtreme Programmer',
         ],
         'sara-soueidan' => [
-            // 'page' => 'sara-soueidan',
+            'url' => 'sara-soueidan',
             'name' => 'Sara Soueidan',
-            'image' => 'sara.jpg',
             'twitter' => 'sarasoueidan',
             'website' => 'sarasoueidan.com',
             'bio' => 'Front-End UI/UX Developer',
         ],
         'mattias-geniar' => [
+            'url' => 'mattias-geniar',
             'name' => 'Mattias Geniar',
-            'image' => 'mattias.jpg',
             'twitter' => 'mattiasgeniar',
             'website' => 'ma.ttias.be',
             'bio' => 'Problem Solver at Nucleus',
+        ],
+        'matthias-noback' => [
+            'url' => 'matthias-noback',
+            'name' => 'Matthias Noback',
+            'twitter' => 'matthiasnoback',
+            'website' => 'matthiasnoback.nl',
+            'bio' => 'Developer at Noback\'s Office',
+        ],
+        'nataliya-remez' => [
+            'url' => 'nataliya-remez',
+            'name' => 'Nataliya Remez',
+            'twitter' => 'nat_remez',
+            'website' => 'www.izettle.com',
+            'bio' => 'Agile Coach at iZettle',
         ],
     ],
 ];

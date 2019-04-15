@@ -4,7 +4,7 @@
     <div class="md:flex md:px-12">
         <div class="md:w-1/3 mt-4 mb-6">
             <div class="image-background-gradient md:w-5/6">
-                <img src="/assets/images/speakers/{{ $speaker['image'] }}" alt="{{ $speaker['name'] }}">
+                <img src="/assets/images/speakers/{{ $speaker['url'] }}.jpg" alt="{{ $speaker['name'] }}">
             </div>
 
             <p class="mt-6">
@@ -12,7 +12,7 @@
                     <i class="fab fa-twitter pr-1"></i>
                     {{ '@'.$speaker['twitter'] }}
                 </a><br>
-                <a href="{{ $speaker['website'] }}">
+                <a href="https://{{ $speaker['website'] }}">
                     <i class="fas fa-globe-europe pr-1"></i>
                     {{ $speaker['website'] }}
                 </a>

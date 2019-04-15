@@ -27,7 +27,7 @@
 
     <div class="container text-grey-darker py-6 md:py-12">
         <div id="venue">
-{{--            @include('_partials.conference')--}}
+            @include('_partials.conference')
             @include('_partials.venue')
             @include('_partials.antwerp')
         </div>

@@ -26,7 +26,7 @@ return [
             'name' => 'Mattias Geniar',
             'twitter' => 'mattiasgeniar',
             'website' => 'ma.ttias.be',
-            'bio' => 'Problem Solver at Nucleus',
+            'bio' => 'Problem Solver at Combell',
         ],
         'matthias-noback' => [
             'url' => 'matthias-noback',
@@ -39,7 +39,7 @@ return [
             'url' => 'nataliya-remez',
             'name' => 'Nataliya Remez',
             'twitter' => 'nat_remez',
-            'website' => 'www.izettle.com',
+            'website' => 'izettle.com',
             'bio' => 'Agile Coach at iZettle',
         ],
     ],

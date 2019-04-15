@@ -1,7 +1,7 @@
 <div class="py-6 md:py-12">
     <div class="md:hidden">
-        <h3 class="pre-title md:text-left">Discover our location</h3>
-        <h2 class="title md:text-left">
+        <h3 class="pre-title">Discover our location</h3>
+        <h2 class="title">
             Located in
             <span class="whitespace-no-wrap">the City of Antwerp</span>
         </h2>
@@ -58,8 +58,8 @@
         </div>
         <div class="md:w-1/2 md:px-8">
             <div class="hidden md:block">
-                <h3 class="pre-title md:text-left">Discover our location</h3>
-                <h2 class="title md:text-left md:mb-8">Located in the City of Antwerp</h2>
+                <h3 class="pre-title text-left">Discover our location</h3>
+                <h2 class="title text-left mb-8">Located in the City of Antwerp</h2>
             </div>
 
             <p class="leading-looser mb-8">

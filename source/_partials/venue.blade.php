@@ -1,7 +1,7 @@
 <div class="py-6 md:py-12">
     <div class="md:hidden">
-        <h3 class="pre-title md:text-left">Discover our venue</h3>
-        <h2 class="title md:text-left">
+        <h3 class="pre-title">Discover our venue</h3>
+        <h2 class="title">
             Hosted at
             <span class="whitespace-no-wrap">the Hilton Hotel</span>
         </h2>
@@ -11,10 +11,7 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div class="venue-gallery">
-                    <a class="chocolat-image" href="/assets/images/hilton.jpg">
-                        <img src="/assets/images/hilton.jpg" class="enlarge">
-                    </a>
-                    <a class="chocolat-image hidden" href="/assets/images/hilton-ballroom.jpg">
+                    <a class="chocolat-image" href="/assets/images/hilton-ballroom.jpg">
                         <img src="/assets/images/hilton-ballroom.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/assets/images/hilton-lobby.jpg">
@@ -23,13 +20,16 @@
                     <a class="chocolat-image hidden" href="/assets/images/hilton-restaurant.jpg">
                         <img src="/assets/images/hilton-restaurant.jpg" class="enlarge">
                     </a>
+                    <a class="chocolat-image hidden" href="/assets/images/hilton.jpg">
+                        <img src="/assets/images/hilton.jpg" class="enlarge">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="md:w-1/2 md:px-8">
             <div class="hidden md:block">
-                <h3 class="pre-title md:text-left">Discover our venue</h3>
-                <h2 class="title md:text-left md:mb-8">Hosted at the Hilton Hotel</h2>
+                <h3 class="pre-title text-left">Discover our venue</h3>
+                <h2 class="title text-left mb-8">Hosted at the Hilton Hotel</h2>
             </div>
 
             <p class="leading-looser mb-8">

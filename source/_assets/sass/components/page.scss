@@ -2,11 +2,4 @@
     p {
         @apply mb-4;
     }
-
-    a {
-        color: config('colors.primary');
-    }
-    a:hover {
-        color: config('colors.secondary');
-    }
 }

@@ -3,11 +3,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.background-photo {
-    background: url("/assets/images/antwerp.jpg") center no-repeat;
-    background-size: cover;
-
-    .overlay {
-        background: rgba(39, 29, 119, .88);
-    }
+a {
+    color: config('colors.primary');
+}
+a:hover {
+    color: config('colors.secondary');
 }

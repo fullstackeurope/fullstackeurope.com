@@ -11,6 +11,7 @@
 }
 .btn-tickets:hover {
     background-position: right top;
+    @apply text-white;
 }
 
 @screen md {

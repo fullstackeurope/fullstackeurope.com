@@ -22,6 +22,14 @@
             <h1>{{ $speaker['name'] }}</h1>
 
             @yield('bio')
+
+            <a class="apply font-noway-medium block" href="/#speakers">
+                See all speakers <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+            </a>
+
+            <div class="text-center mt-16">
+                @include('_partials._cta')
+            </div>
         </div>
     </div>
 @endsection

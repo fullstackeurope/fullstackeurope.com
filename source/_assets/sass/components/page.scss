@@ -6,21 +6,4 @@
 
 .content-page #page {
     @apply pt-48;
-
-    //:target:before {
-    //    content: "";
-    //    display: block;
-    //    margin-top: -110px;
-    //    height: 110px;
-    //    width: 1px;
-    //}
 }
-
-//@screen md {
-//    .content-page #page {
-//        :target:before {
-//            margin-top: -110px;
-//            height: 110px;
-//        }
-//    }
-//}

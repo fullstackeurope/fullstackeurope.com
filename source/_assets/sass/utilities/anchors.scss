@@ -1,7 +1,7 @@
 a.anchor {
     display: block;
     position: relative;
-    top: -145px;
+    top: -125px;
     visibility: hidden;
 }
 a.anchor-page {
@@ -9,10 +9,19 @@ a.anchor-page {
      position: relative;
      top: -110px;
      visibility: hidden;
- }
+}
 a.anchor-speakers {
     display: block;
     position: relative;
-    top: -260px;
+    top: -180px;
     visibility: hidden;
+}
+
+@screen md {
+    a.anchor {
+        top: -145px;
+    }
+    a.anchor-speakers {
+        top: -260px;
+    }
 }

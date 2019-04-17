@@ -1,9 +1,9 @@
 .image-background-gradient {
     background: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 100%);
-    @apply ml-3 pb-3;
+    @apply ml-3 pb-3 leading-none;
 
     img {
-        @apply inline-block -mt-3 -ml-3;
+        @apply inline-block -mt-3 -ml-3 w-full;
     }
 }
 

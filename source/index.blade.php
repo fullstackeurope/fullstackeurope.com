@@ -26,7 +26,8 @@
     @include('_partials.timer')
 
     <div class="container text-grey-darker py-6 md:py-12">
-        <div id="venue">
+        <a id="venue" class="anchor"></a>
+        <div id="venue-outer">
             @include('_partials.conference')
             @include('_partials.venue')
             @include('_partials.antwerp')

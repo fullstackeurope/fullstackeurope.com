@@ -1,4 +1,5 @@
-<div id="sponsors" class="bg-grey-lighter text-grey-darker py-12 md:py-16">
+<a id="sponsors" class="anchor"></a>
+<div id="sponsors-outer" class="bg-grey-lighter text-grey-darker py-12 md:py-16">
     <div class="container">
         <div class="md:flex text-center">
             <div class="md:w-1/2">

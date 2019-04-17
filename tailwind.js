@@ -695,7 +695,6 @@ module.exports = {
     '20': '5rem',
     '24': '6rem',
     '32': '8rem',
-    'theme-36': '10rem',
     '48': '12rem',
     '64': '16rem',
   },

@@ -1,5 +1,5 @@
-
-<div id="speakers" class="bg-white mb-12 md:mb-0">
+<a id="speakers" class="anchor-speakers"></a>
+<div id="speakers-outer" class="bg-white mb-12 md:mb-0">
     <div class="container mx-auto bg-white md:px-0">
         <div id="speakers-inner" class="bg-white pt-10 md:pt-20 -mt-20">
             <h3 class="pre-title">Meet our speakers</h3>

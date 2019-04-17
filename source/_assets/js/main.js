@@ -5,7 +5,7 @@ import AnchorJS from 'anchor-js';
 
 // Navigation scroll
 new SmoothScroll('a[href*="#"]', {
-    header: '[data-scroll-header]',
+    // header: '[data-scroll-header]',
     // offset: 25,
 });
 
@@ -48,19 +48,20 @@ $('#hide-nav').on('click touchdown', toggleNav);
 // Toggle header background
 function toggleHeaderBackground()
 {
-    if (document.body.classList.contains('content-page')) {
-        return;
+    if (window.pageYOffset >= 50) {
+        header.style.padding = "16px 0";
+    } else {
+        header.style.padding = "32px 0";
     }
 
     if (
         window.pageYOffset >= 50 ||
-        ! navigation.classList.contains("hidden")
+        ! navigation.classList.contains("hidden") ||
+        document.body.classList.contains('content-page')
     ) {
         header.style.background = "rgba(39, 29, 119, .88)";
-        header.style.padding = "16px 0";
     } else if (navigation.classList.contains("hidden")) {
         header.style.background = "none";
-        header.style.padding = "32px 0";
     }
 }
 

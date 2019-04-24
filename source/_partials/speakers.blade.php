@@ -12,7 +12,7 @@
                     @include('_partials._speaker', ['speaker' => $page->speakers['sara-soueidan']])
                 </div>
                 <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10">
-                    @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
+                    @include('_partials._speaker', ['speaker' => $page->speakers['jeremy-keith']])
                 </div>
             </div>
             <div class="md:flex mb-12 md:px-4 lg:px-8 xl:px-10">
@@ -21,6 +21,9 @@
                 </div>
                 <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-0">
                     @include('_partials._speaker', ['speaker' => $page->speakers['matthias-noback']])
+                </div>
+                <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10">
+                    @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
                 </div>
             </div>
             <div class="title-sm">More coming soon...</div>

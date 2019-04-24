@@ -7,6 +7,13 @@ return [
     'collections' => [],
     'venue' => 'Hilton Antwerp Old Town',
     'speakers' => [
+        'jeremy-keith' => [
+            'url' => 'jeremy-keith',
+            'name' => 'Jeremy Keith',
+            'twitter' => 'adactio',
+            'website' => 'adactio.com',
+            'bio' => 'Web stuff do-er at Clearleft',
+        ],
         'konstantin-kudryashov' => [
             'url' => 'konstantin-kudryashov',
             'name' => 'Konstantin Kudryashov',

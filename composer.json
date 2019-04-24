@@ -3,6 +3,6 @@
         "tightenco/jigsaw": "^1.3"
     },
     "scripts": {
-        "deploy": "git subtree push --prefix build_production origin gh-pages"
+        "jigsaw": "vendor/bin/jigsaw build"
     }
 }

@@ -29,7 +29,7 @@
         <a id="can-i-sponsor-full-stack-europe" class="anchor-page"></a>
         <h3 data-anchor-id="can-i-sponsor-full-stack-europe">Can I sponsor Full Stack Europe?</h3>
 
-        <p>Yes! Full Stack Europe is the perfect place to get your brand out there. Whether you're looking for full stack developers to grow your team, or have a great product that can help developers, we can help. We've got packages suited for all budgets. <a href="mailto:hello@fullstackeurope.com?subject=We%20want%20to%20sponsor!">Get in touch</a></p>
+        <p>Yes! Full Stack Europe is the perfect place to get your brand out there. Whether you're looking for full stack developers to grow your team, or have a great product that can help developers, we can help. We've got packages suited for all budgets. <a href="mailto:hello@fullstackeurope.com?subject=We%20want%20to%20sponsor!">Get in touch.</a></p>
 
         {{--<a id="which-pre-conference-workshop-should-i-choose" class="anchor-page"></a>--}}
         {{--<h3 data-anchor-id="which-pre-conference-workshop-should-i-choose">Which pre-conference workshop should I choose?</h3>--}}

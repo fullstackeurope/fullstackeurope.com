@@ -49,5 +49,12 @@ return [
             'website' => 'izettle.com',
             'bio' => 'Agile Coach at iZettle',
         ],
+        'gabi-davila' => [
+            'url' => 'gabi-davila',
+            'name' => 'Gabi D\'Ávila Ferrara',
+            'twitter' => 'gabidavila',
+            'website' => 'gabi.dev',
+            'bio' => 'Developer Advocate @ Google Cloud',
+        ],
     ],
 ];

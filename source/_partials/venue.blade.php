@@ -49,11 +49,11 @@
                 </div>
             </div>
 
-{{--            <p>--}}
-{{--                <a class="apply font-noway-medium block" href="https://www.youtube.com/watch?v=qsW8wZaLFwE&feature=youtu.be">--}}
-{{--                    Watch the experience movie <span class="float-right md:float-none md:ml-4">&rsaquo;</span>--}}
-{{--                </a>--}}
-{{--            </p>--}}
+            <p>
+                <a class="apply font-noway-medium block" href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">
+                    Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                </a>
+            </p>
         </div>
     </div>
 </div>

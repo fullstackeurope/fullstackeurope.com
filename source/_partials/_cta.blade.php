@@ -7,7 +7,7 @@
 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
 <p class="font-noway-medium italic text-sm leading-normal">
-    Early bird tickets now at <span class="line-through">€529</span> €399<br>
+    Early bird tickets now with a €130 discount<br>
     <span class="timer hidden" data-expires="{{ $date->getTimestamp() }}" data-threshold-days="30">
         Still available for
         <span class="days">0</span>d,

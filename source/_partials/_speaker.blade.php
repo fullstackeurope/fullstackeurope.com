@@ -7,8 +7,12 @@
             </div>
         </div>
         <div class="w-2/3 md:w-full pt-4 pb-6 px-6 flex flex-col justify-center">
-            <h3 class="font-noway-medium md:leading-normal text-primary text-xl">{{ $speaker['name'] }}</h3>
-            <span class="twitter leading-normal title-sm text-left md:text-center normal-case">{{ $speaker['bio'] }}</span>
+            <h3 class="font-noway-medium md:leading-normal text-primary text-xl">
+                {{ $speaker['name'] }}
+            </h3>
+            <span class="leading-normal text-grey-darker text-left md:text-center" style="font-size: .95rem;">
+                {{ $speaker['bio'] }}
+            </span>
         </div>
     </div>
 </a>

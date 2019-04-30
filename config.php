@@ -54,7 +54,14 @@ return [
             'name' => 'Gabi D\'Ávila Ferrara',
             'twitter' => 'gabidavila',
             'website' => 'gabi.dev',
-            'bio' => 'Developer Advocate @ Google Cloud',
+            'bio' => 'Developer Advocate at Google Cloud',
+        ],
+        'rik-van-bruggen' => [
+            'url' => 'rik-van-bruggen',
+            'name' => 'Rik Van Bruggen',
+            'twitter' => 'rvanbruggen',
+            'website' => 'blog.bruggen.com',
+            'bio' => 'Vice-president at Neo4j',
         ],
     ],
 ];

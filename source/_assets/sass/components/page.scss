@@ -1,5 +1,8 @@
 #page {
-    p {
+    p, ul {
+        @apply mb-4;
+    }
+    h2 {
         @apply mb-4;
     }
 }

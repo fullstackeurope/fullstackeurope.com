@@ -1,5 +1,5 @@
 .btn-tickets {
-    @apply inline-block w-full font-noway-medium text-center text-white text-2xl uppercase rounded-lg px-12 py-6;
+    @apply inline-block w-full font-noway-medium text-center text-white text-xl uppercase rounded-lg px-12 py-6;
     background-image: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 50%, config('colors.secondary') 100%);
     background-size: 200% auto;
     cursor: pointer;

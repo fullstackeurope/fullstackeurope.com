@@ -79,6 +79,14 @@
 
         <p>We do not have any scholarships at this time.</p>
 
+        <a id="venue" class="anchor-page"></a>
+        <h2 class="mb-3" data-anchor-id="venue">Venue</h2>
+
+        <a id="accessibility" class="anchor-page"></a>
+        <h3 data-anchor-id="accessibility">Accessibility</h3>
+
+        <p>The venue is wheelchair accessible and has wheelchair accessible restrooms. The underground parking next to the venue (Parking Indigo Groenplaats) is also wheelchair accessible.</p>
+
         <a id="getting-to-antwerp" class="anchor-page"></a>
         <h2 class="mb-3" data-anchor-id="getting-to-antwerp">Getting to Antwerp</h2>
 

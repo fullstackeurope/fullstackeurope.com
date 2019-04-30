@@ -1,4 +1,4 @@
-<div id="navigation" class="md:w-3/4 mt-10 md:mt-4 hidden md:block md:text-right">
+<div id="navigation" class="md:w-4/5 mt-10 md:mt-0 md:flex md:flex-col md:justify-center hidden md:block md:text-right">
     <nav>
         <ul class="list-reset">
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
@@ -19,8 +19,9 @@
             <li class="mb-6 md:mb-0 md:mr-6 md:inline-block">
                 <a data-scroll href="/faq">faq</a>
             </li>
-            <li class="ticket-link mb-8 md:mb-0 md:mr-6 md:inline-block md:border md:px-2 md:py-1 rounded border-grey-lighter md:bg-grey-lighter md:hover:bg-transparent">
-                <a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
+            <li class="mb-8 md:mb-0 md:mr-6 md:inline-block">
+                <a class="md:hidden" href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
+                <a class="hidden md:inline-block btn-tickets" href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
             </li>
         </ul>
     </nav>

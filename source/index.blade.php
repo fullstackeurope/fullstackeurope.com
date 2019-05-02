@@ -23,6 +23,7 @@
     </div>
 
     @include('_partials.speakers')
+    @include('_partials.workshops')
     @include('_partials.timer')
 
     <div class="container text-grey-darker py-6 md:py-12">

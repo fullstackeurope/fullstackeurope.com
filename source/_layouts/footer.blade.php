@@ -2,13 +2,14 @@
     <div class="footer-top leading-normal bg-background-secondary">
         <div class="container pt-16 pb-8">
             <div class="md:flex md:mb-4">
-                <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="/assets/images/logo.svg" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
                     23, 24 & 25 October 2019 - {{ $page->venue }}
                 </div>
-                <div class="relative md:w-1/2 md:text-right">
+                <div class="relative md:w-2/3 md:text-right">
                     <ul class="list-reset">
                         <li data-scroll class="md:inline-block mb-4"><a href="/#speakers">speakers</a></li>
+                        <li data-scroll class="md:inline-block mb-4"><a href="/#workshops">workshops</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#venue">venue</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/faq/#can-i-sponsor-full-stack-europe">sponsor us</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>

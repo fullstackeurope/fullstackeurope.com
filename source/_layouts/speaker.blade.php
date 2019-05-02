@@ -12,7 +12,7 @@
                     <i class="fab fa-twitter pr-1"></i>
                     {{ '@'.$speaker['twitter'] }}
                 </a><br>
-                <a href="https://{{ $speaker['website'] }}">
+                <a href="{{ isset($speaker['httpWebsite']) ? 'http://' : 'https://' }}{{ $speaker['website'] }}">
                     <i class="fas fa-globe-europe pr-1"></i>
                     {{ $speaker['website'] }}
                 </a>

@@ -41,6 +41,7 @@ return [
             'twitter' => 'matthiasnoback',
             'website' => 'matthiasnoback.nl',
             'bio' => 'Developer at Noback\'s Office',
+            'workshop' => 'Building Autonomous Services',
         ],
         'nataliya-remez' => [
             'url' => 'nataliya-remez',
@@ -62,6 +63,22 @@ return [
             'twitter' => 'rvanbruggen',
             'website' => 'blog.bruggen.com',
             'bio' => 'Vice-president at Neo4j',
+        ],
+        'mathias-verraes' => [
+            'url' => 'mathias-verraes',
+            'name' => 'Mathias Verraes',
+            'twitter' => 'mathiasverraes',
+            'website' => 'verraes.net',
+            'httpWebsite' => true,
+            'bio' => 'Student of Systems',
+            'workshop' => 'DDD Modelling vs Implementation',
+        ],
+        'indu-alagarsamy' => [
+            'url' => 'indu-alagarsamy',
+            'name' => 'Indu Alagarsamy',
+            'twitter' => 'indu_alagarsamy',
+            'website' => 'indu.dev',
+            'bio' => 'Distributed Systems Engineer',
         ],
     ],
 ];

@@ -31,10 +31,10 @@
 
         <p>Yes! Full Stack Europe is the perfect place to get your brand out there. Whether you're looking for full stack developers to grow your team, or have a great product that can help developers, we can help. We've got packages suited for all budgets. <a href="mailto:hello@fullstackeurope.com?subject=We%20want%20to%20sponsor!">Get in touch.</a></p>
 
-        {{--<a id="which-pre-conference-workshop-should-i-choose" class="anchor-page"></a>--}}
-        {{--<h3 data-anchor-id="which-pre-conference-workshop-should-i-choose">Which pre-conference workshop should I choose?</h3>--}}
+        <a id="which-pre-conference-workshop-should-i-choose" class="anchor-page"></a>
+        <h3 data-anchor-id="which-pre-conference-workshop-should-i-choose">Which pre-conference workshop should I choose?</h3>
 
-        {{--<p>They're all great! Drop us an email, we'll help you decide.</p>--}}
+        <p>They're all great! <a href="mailto:hello@fullstackeurope.com">Drop us an email</a>, we'll help you decide.</p>
 
         <a id="tickets" class="anchor-page"></a>
         <h2 class="mb-3" data-anchor-id="tickets">Tickets</h2>

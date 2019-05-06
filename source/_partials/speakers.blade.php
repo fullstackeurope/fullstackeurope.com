@@ -37,6 +37,11 @@
                     @include('_partials._speaker', ['speaker' => $page->speakers['indu-alagarsamy']])
                 </div>
             </div>
+            <div class="md:flex md:px-4 lg:px-8 xl:px-10">
+                <div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-12">
+                    @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
+                </div>
+            </div>
             <div class="title-sm mt-12 italic">More coming soon...</div>
         </div>
     </div>

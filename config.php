@@ -80,5 +80,12 @@ return [
             'website' => 'indu.dev',
             'bio' => 'Distributed Systems Engineer',
         ],
+        'caleb-porzio' => [
+            'url' => 'caleb-porzio',
+            'name' => 'Caleb Porzio',
+            'twitter' => 'calebporzio',
+            'website' => 'calebporzio.com',
+            'bio' => 'Full Stack Developer',
+        ],
     ],
 ];

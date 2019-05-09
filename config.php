@@ -87,5 +87,12 @@ return [
             'website' => 'calebporzio.com',
             'bio' => 'Full Stack Developer',
         ],
+        'thijs-feryn' => [
+            'url' => 'thijs-feryn',
+            'name' => 'Thijs Feryn',
+            'twitter' => 'ThijsFeryn',
+            'website' => 'feryn.eu',
+            'bio' => 'Evangelist at Varnish Software',
+        ],
     ],
 ];

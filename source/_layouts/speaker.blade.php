@@ -12,10 +12,13 @@
                     <i class="fab fa-twitter pr-1"></i>
                     {{ '@'.$speaker['twitter'] }}
                 </a><br>
-                <a href="{{ isset($speaker['httpWebsite']) ? 'http://' : 'https://' }}{{ $speaker['website'] }}">
-                    <i class="fas fa-globe-europe pr-1"></i>
-                    {{ $speaker['website'] }}
-                </a>
+
+                @isset($speaker['website'])
+                    <a href="{{ $speaker['website'] }}">
+                        <i class="fas fa-globe-europe pr-1"></i>
+                        {{ $page['stripProtocol']($speaker['website']) }}
+                    </a>
+                @endisset
             </p>
         </div>
         <div class="md:w-2/3">

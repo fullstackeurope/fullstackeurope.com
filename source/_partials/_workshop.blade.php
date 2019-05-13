@@ -9,7 +9,7 @@
             </div>
         </a>
     </div>
-    <div class="w-2/3 md:w-2/3 px-4 flex flex-col justify-center">
+    <div class="w-2/3 md:w-2/3 px-8 flex flex-col justify-center">
         <h3 class="font-noway-medium text-xl md:text-2xl mb-2">{{ $instructor['workshop'] }}</h3>
         <p class="mb-2">By {{ $instructor['name'] }}</p>
         <p class="hidden md:block">

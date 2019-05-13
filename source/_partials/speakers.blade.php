@@ -22,6 +22,7 @@
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
                 @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['thijs-feryn']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['kadi-kraman']])
             </div>
             <div class="title-sm mt-12 italic">More coming soon...</div>
         </div>

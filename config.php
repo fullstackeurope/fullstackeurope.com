@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Str;
+
 return [
     'production' => false,
     'baseUrl' => '',
@@ -11,35 +13,35 @@ return [
             'url' => 'jeremy-keith',
             'name' => 'Jeremy Keith',
             'twitter' => 'adactio',
-            'website' => 'adactio.com',
+            'website' => 'https://adactio.com',
             'bio' => 'Web stuff do-er at Clearleft',
         ],
         'konstantin-kudryashov' => [
             'url' => 'konstantin-kudryashov',
             'name' => 'Konstantin Kudryashov',
             'twitter' => 'everzet',
-            'website' => 'stakeholderwhisperer.com',
+            'website' => 'https://stakeholderwhisperer.com',
             'bio' => 'eXtreme Programmer',
         ],
         'sara-soueidan' => [
             'url' => 'sara-soueidan',
             'name' => 'Sara Soueidan',
             'twitter' => 'sarasoueidan',
-            'website' => 'sarasoueidan.com',
+            'website' => 'https://sarasoueidan.com',
             'bio' => 'Front-End UI/UX Developer',
         ],
         'mattias-geniar' => [
             'url' => 'mattias-geniar',
             'name' => 'Mattias Geniar',
             'twitter' => 'mattiasgeniar',
-            'website' => 'ma.ttias.be',
+            'website' => 'https://ma.ttias.be',
             'bio' => 'Problem Solver at Combell',
         ],
         'matthias-noback' => [
             'url' => 'matthias-noback',
             'name' => 'Matthias Noback',
             'twitter' => 'matthiasnoback',
-            'website' => 'matthiasnoback.nl',
+            'website' => 'https://matthiasnoback.nl',
             'bio' => 'Developer at Noback\'s Office',
             'workshop' => 'Building Autonomous Services',
         ],
@@ -47,29 +49,28 @@ return [
             'url' => 'nataliya-remez',
             'name' => 'Nataliya Remez',
             'twitter' => 'nat_remez',
-            'website' => 'izettle.com',
+            'website' => 'https://izettle.com',
             'bio' => 'Agile Coach at iZettle',
         ],
         'gabi-davila' => [
             'url' => 'gabi-davila',
             'name' => 'Gabi D\'Ávila Ferrara',
             'twitter' => 'gabidavila',
-            'website' => 'gabi.dev',
+            'website' => 'https://gabi.dev',
             'bio' => 'Developer Advocate at Google Cloud',
         ],
         'rik-van-bruggen' => [
             'url' => 'rik-van-bruggen',
             'name' => 'Rik Van Bruggen',
             'twitter' => 'rvanbruggen',
-            'website' => 'blog.bruggen.com',
+            'website' => 'https://blog.bruggen.com',
             'bio' => 'Vice-president at Neo4j',
         ],
         'mathias-verraes' => [
             'url' => 'mathias-verraes',
             'name' => 'Mathias Verraes',
             'twitter' => 'mathiasverraes',
-            'website' => 'verraes.net',
-            'httpWebsite' => true,
+            'website' => 'http://verraes.net',
             'bio' => 'Student of Systems',
             'workshop' => 'DDD Modelling vs Implementation',
         ],
@@ -77,22 +78,33 @@ return [
             'url' => 'indu-alagarsamy',
             'name' => 'Indu Alagarsamy',
             'twitter' => 'indu_alagarsamy',
-            'website' => 'indu.dev',
+            'website' => 'https://indu.dev',
             'bio' => 'Distributed Systems Engineer',
         ],
         'caleb-porzio' => [
             'url' => 'caleb-porzio',
             'name' => 'Caleb Porzio',
             'twitter' => 'calebporzio',
-            'website' => 'calebporzio.com',
+            'website' => 'https://calebporzio.com',
             'bio' => 'Full Stack Developer',
         ],
         'thijs-feryn' => [
             'url' => 'thijs-feryn',
             'name' => 'Thijs Feryn',
             'twitter' => 'ThijsFeryn',
-            'website' => 'feryn.eu',
+            'website' => 'https://feryn.eu',
             'bio' => 'Evangelist at Varnish Software',
         ],
+        'kadi-kraman' => [
+            'url' => 'kadi-kraman',
+            'name' => 'Kadi Kraman',
+            'twitter' => 'kadikraman',
+            'bio' => 'Senior Software Engineer at Formidable',
+        ],
     ],
+    'stripProtocol' => function (string $website): string {
+        $website = Str::replaceFirst('http://', '', $website);
+
+        return Str::replaceFirst('https://', '', $website);
+    },
 ];

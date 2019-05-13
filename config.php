@@ -101,6 +101,7 @@ return [
             'twitter' => 'kadikraman',
             'website' => 'https://formidable.com',
             'bio' => 'Senior Software Engineer at Formidable',
+            'talk' => 'All Aboard the Type Train',
         ],
     ],
     'stripProtocol' => function (string $website): string {

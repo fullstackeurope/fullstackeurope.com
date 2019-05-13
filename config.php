@@ -99,6 +99,7 @@ return [
             'url' => 'kadi-kraman',
             'name' => 'Kadi Kraman',
             'twitter' => 'kadikraman',
+            'website' => 'https://formidable.com',
             'bio' => 'Senior Software Engineer at Formidable',
         ],
     ],

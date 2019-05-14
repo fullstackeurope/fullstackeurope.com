@@ -103,6 +103,14 @@ return [
             'bio' => 'Senior Software Engineer at Formidable',
             'talk' => 'All Aboard the Type Train',
         ],
+        'bram-van-damme' => [
+            'url' => 'bram-van-damme',
+            'name' => 'Bram Van Damme',
+            'twitter' => 'bramus',
+            'website' => 'https://bram.us',
+            'bio' => 'Freelance Creative Coder',
+            'workshop' => 'React for Beginners',
+        ],
     ],
     'stripProtocol' => function (string $website): string {
         $website = Str::replaceFirst('http://', '', $website);

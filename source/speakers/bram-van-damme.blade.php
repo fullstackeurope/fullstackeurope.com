@@ -4,7 +4,7 @@
     <a id="workshop" class="anchor-page"></a>
     <h2 data-anchor-id="workshop">Workshop - {{ $page->speakers['bram-van-damme']['workshop'] }}</h2>
 
-    <p>This workshop will get you started with React. Starting from React zero knowledge it will walk you through React's features. At the end of this workshop you'll be familiar with JSX, components, props, state, refs, hooks, etc. and will be able to deploy your freshly created app.</p>
+    <p>This workshop will get you started with React. Starting from zero React knowledge it will walk you through React's features. At the end of this workshop you'll be familiar with JSX, components, props, state, refs, hooks, etc. and will be able to deploy your freshly created app.</p>
 
     <p>Prerequisites:</p>
 

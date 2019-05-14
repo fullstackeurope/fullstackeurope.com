@@ -111,6 +111,14 @@ return [
             'bio' => 'Freelance Creative Coder',
             'workshop' => 'React for Beginners',
         ],
+        'ivan-jovanovic' => [
+            'url' => 'ivan-jovanovic',
+            'name' => 'Ivan Jovanovic',
+            'twitter' => 'ivanjov96',
+            'website' => 'https://ivanjov.com',
+            'bio' => 'Senior Engineer at NearForm',
+            'workshop' => 'Testing JavaScript Applications',
+        ],
     ],
     'stripProtocol' => function (string $website): string {
         $website = Str::replaceFirst('http://', '', $website);

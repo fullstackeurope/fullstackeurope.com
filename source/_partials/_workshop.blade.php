@@ -10,16 +10,16 @@
         </a>
     </div>
     <div class="w-2/3 md:w-2/3 px-8 flex flex-col justify-center">
-        <h3 class="font-noway-medium text-xl md:text-2xl mb-2">{{ $instructor['workshop'] }}</h3>
-        <p class="mb-2">By {{ $instructor['name'] }}</p>
-        <p class="hidden md:block">
+        <h3 class="font-noway-medium text-xl md:text-2xl mb-2"><a href="/speakers/{{ $instructor['url'] }}/#workshop">{{ $instructor['workshop'] }}</a></h3>
+        <p class="mb-2">By {{ $instructor['name'] }} - {{ $instructor['bio'] }}</p>
+    </div>
+    <div class="hidden md:block md:w-1/6 md:flex md:flex-col md:justify-center">
+        <a class="btn-tickets px-4 mb-3" href="{{ $page->ticketsUrl }}" target="_blank">Register now</a>
+        <p class="text-center">
             <a href="/speakers/{{ $instructor['url'] }}/#workshop">
                 More info <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
             </a>
         </p>
-    </div>
-    <div class="hidden md:block md:w-1/6 md:flex md:flex-col md:justify-center">
-        <a class="btn-tickets px-4" href="{{ $page->ticketsUrl }}" target="_blank">Register now</a>
     </div>
 </div>
 
@@ -28,7 +28,3 @@
         More info <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
     </a>
 </p>
-
-<div class="md:hidden">
-    <a class="btn-tickets py-3" href="{{ $page->ticketsUrl }}" target="_blank">Register now</a>
-</div>

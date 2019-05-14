@@ -22,7 +22,9 @@
             </p>
         </div>
         <div class="md:w-2/3">
-            <h1 class="mb-4">{{ $speaker['name'] }}</h1>
+            <h1>{{ $speaker['name'] }}</h1>
+            <h3 class="text-base mb-4 italic">{{ $speaker['bio'] }}</h3>
+
 
             @yield('bio')
 

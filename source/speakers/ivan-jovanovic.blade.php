@@ -4,7 +4,7 @@
     <a id="workshop" class="anchor-page"></a>
     <h2 data-anchor-id="workshop">Workshop - {{ $page->speakers['ivan-jovanovic']['workshop'] }}</h2>
 
-    <p>Testing JavaScript applications workshop will show you how to use modern testing tools to test JS full stack applications. It will cover frontend and backend side (React and NodeJS) and will explain what are the best practices for testing. We will go through tools like Jest, Mocha, Jasmine, Cypress, etc. Since React is the most popular framework, frontend tests will be testing React apps.</p>
+    <p>Testing JavaScript applications workshop will show you how to use modern testing tools to test JS full stack applications. It will cover frontend and backend side (<a href="https://reactjs.org">React</a> and <a href="https://nodejs.org/en/">NodeJS</a>) and will explain what are the best practices for testing. We will go through tools like <a href="https://jestjs.io">Jest</a>, <a href="https://mochajs.org">Mocha</a>, <a href="https://jasmine.github.io">Jasmine</a>, <a href="https://www.cypress.io">Cypress</a>, etc. Since React is the most popular framework, frontend tests will be testing React apps.</p>
 
     <p>This workshop will go through:</p>
 

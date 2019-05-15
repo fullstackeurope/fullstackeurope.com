@@ -116,7 +116,7 @@ return [
             'name' => 'Ivan Jovanovic',
             'twitter' => 'ivanjov96',
             'website' => 'https://ivanjov.com',
-            'bio' => 'Senior Engineer at NearForm',
+            'bio' => 'Founder at IJ Consulting & Senior Engineer at NearForm',
             'workshop' => 'Testing JavaScript Applications',
         ],
     ],

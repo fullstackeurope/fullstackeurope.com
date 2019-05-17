@@ -10,6 +10,8 @@
     @include('_partials._workshop', ['instructor' => $page->speakers['ivan-jovanovic']])
     <hr class="border-t border-grey-lighter my-6">
     @include('_partials._workshop', ['instructor' => $page->speakers['bram-van-damme']])
+    <hr class="border-t border-grey-lighter my-6">
+    @include('_partials._workshop', ['instructor' => $page->speakers['konstantin-kudryashov']])
 
     <div class="title-sm mt-12 italic">More coming soon...</div>
 </div>

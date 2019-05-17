@@ -22,6 +22,7 @@ return [
             'twitter' => 'everzet',
             'website' => 'https://stakeholderwhisperer.com',
             'bio' => 'eXtreme Programmer',
+            'workshop' => 'Elixir for experienced web developers',
         ],
         'sara-soueidan' => [
             'url' => 'sara-soueidan',

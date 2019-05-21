@@ -1,4 +1,4 @@
-<div class="md:flex-1 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-12">
+<div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-12">
     <a href="/speakers/{{ $speaker['url'] }}">
         <div class="speaker enlarge h-full flex md:block shadow-lg-blue rounded text-left md:text-center">
             <div class="w-1/3 md:w-full overflow-hidden xl:h-64 relative">

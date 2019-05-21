@@ -120,6 +120,13 @@ return [
             'bio' => 'Founder at IJ Consulting & Senior Engineer at NearForm',
             'workshop' => 'Testing JavaScript Applications',
         ],
+        'joost-lubach' => [
+            'url' => 'joost-lubach',
+            'name' => 'Joost Lubach',
+            'twitter' => 'joostlubach',
+            'website' => 'https://groundcontrol.app',
+            'bio' => 'Founder & developer of GroundControl',
+        ],
     ],
     'stripProtocol' => function (string $website): string {
         $website = Str::replaceFirst('http://', '', $website);

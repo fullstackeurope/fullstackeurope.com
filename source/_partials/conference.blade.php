@@ -25,7 +25,7 @@
             </p>
 
             <p class="leading-looser mb-8">
-                Full Stack Europe is organised by <a href="https://twitter.com/driesvints">Dries Vints</a> & <a href="https://twitter.com/freekmurze">Freek Van der Herten</a>. They’re both well known speakers in the full stack community, and organize the <a href="https://fullstackbelgium.be">Full Stack Belgium</a> meetups in <a href="https://meetup.com/fullstackantwerp">Antwerp</a>, <a href="https://meetup.com/fullstackghent">Ghent</a>, and <a href="https://meetup.com/fullstackbrussels">Brussels</a>.
+                Full Stack Europe is organised by <a href="https://twitter.com/driesvints">Dries Vints</a> & <a href="https://twitter.com/freekmurze">Freek Van der Herten</a>. They’re both well known speakers in the full stack community, and organize the <a href="https://fullstackbelgium.be">Full Stack Belgium</a> meetups in <a href="https://meetup.com/fullstackantwerp">Antwerp</a> and <a href="https://meetup.com/fullstackghent">Ghent</a>.
             </p>
         </div>
     </div>

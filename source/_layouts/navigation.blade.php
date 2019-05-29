@@ -11,7 +11,7 @@
                 <a data-scroll href="/#venue">venue</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/faq/#can-i-sponsor-full-stack-europe">sponsor us</a>
+                <a data-scroll href="/#sponsors">sponsors</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="#newsletter">newsletter</a>

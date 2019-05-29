@@ -133,6 +133,8 @@ let colors = {
   'light': '#e5e3fe',
   'background': '#20195B',
   'background-secondary': '#2D256F',
+
+  'theme-grey-light': '#E9EDF6',
 };
 
 module.exports = {

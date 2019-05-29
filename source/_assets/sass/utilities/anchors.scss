@@ -16,6 +16,12 @@ a.anchor-speakers {
     top: -180px;
     visibility: hidden;
 }
+a.anchor-sponsors {
+    display: block;
+    position: relative;
+    top: -90px;
+    visibility: hidden;
+}
 
 @screen md {
     a.anchor {

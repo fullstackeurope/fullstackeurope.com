@@ -1,4 +1,4 @@
-<a id="sponsors" class="anchor"></a>
+<a id="sponsors" class="anchor-sponsors"></a>
 <div id="sponsors-outer" class="bg-grey-lighter text-grey-darker py-12 md:py-16">
     <div class="container">
         <div class="md:flex text-center pb-10 md:pb-0">

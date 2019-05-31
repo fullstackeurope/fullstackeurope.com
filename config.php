@@ -127,6 +127,13 @@ return [
             'website' => 'https://groundcontrol.app',
             'bio' => 'Founder & developer of GroundControl',
         ],
+        'susanna-wong' => [
+            'url' => 'susanna-wong',
+            'name' => 'Susanna Wong',
+            'twitter' => 'studioswong',
+            'bio' => 'Senior Front-end Developer at Toyota Connected',
+            'talk' => "A Front-end dev's hobbyist approach into Machine Learning",
+        ],
     ],
     'stripProtocol' => function (string $website): string {
         $website = Str::replaceFirst('http://', '', $website);

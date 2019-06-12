@@ -1,16 +1,7 @@
-#speakers-outer {
-    background: url('/assets/images/pattern.png') repeat top left;
-
-    .speaker {
-        border-width: 5px 0 0 0;
-        border-style: solid;
-        border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
-    }
-    .speaker:hover {
-        h3 {
-            @apply text-secondary;
-        }
-    }
+#speakers-outer .speaker {
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
 }
 
 @screen md {

@@ -13,6 +13,6 @@
         <span class="days">0</span>d,
         <span class="hours">0</span>h,
         <span class="minutes">0</span>m,
-        <span class="seconds">0</span>s.
+        <span class="seconds">0</span>s
     </span>
 </p>

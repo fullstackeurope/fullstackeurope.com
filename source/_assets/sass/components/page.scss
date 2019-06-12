@@ -1,12 +1,5 @@
 #page {
-    p, ul {
+    h2, p, ul {
         @apply mb-4;
     }
-    h2 {
-        @apply mb-4;
-    }
-}
-
-.content-page #page {
-    @apply pt-48;
 }

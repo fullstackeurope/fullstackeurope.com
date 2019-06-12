@@ -1,9 +1,6 @@
 @extends('_layouts.speaker', ['speaker' => $page->speakers['konstantin-kudryashov']])
 
-@section('bio')
-    <a id="workshop" class="anchor-page"></a>
-    <h2 data-anchor-id="workshop">Workshop - {{ $page->speakers['konstantin-kudryashov']['workshop'] }}</h2>
-
+@section('workshop')
     <p>There are many commonly accepted truths in modern software development. Most of them are born from years of hitting hundreds of walls with thousands of heads. Some good examples of such axioms are:</p>
 
     <ul>
@@ -21,10 +18,9 @@
     <p>This workshop, aimed at experienced non-Erlang/Elixir engineers, is designed to give you an introductory ride across the Elixir ecosystem and provide you with tools to get started with it, coupled with the knowledge of when such a move would be appropriate.</p>
 
     <p>Bring your laptop with Linux/MacOS as a main OS or within your VM of choice.</p>
+@endsection
 
-    @include('_partials._cta_workshop')
-
-    <h2>About</h2>
+@section('bio')
     <p>Konstantin Kudryashov is a seasoned software engineer and leader with deep appreciation for business processes and constraints. Konstantin is a <a href="https://joind.in/user/everzet/talks">prominent public speaker</a> in Agile, BDD and DDD communities. He created <a href="https://github.com/behat/behat">Behat</a> (BDD toolset) and co-created <a href="https://github.com/phpspec/phpspec">PhpSpec</a> (RSpec for PHP).<p>
 
     <p>In the last 3 years, Konstantin has lead teams in rapid delivery of more than 5 software products to market, within extremely short timelines. Majority of deliveries resulted in both a significant KPI uplift and a positive business impact. Konstantin is helping organisations bridge the gap between business and development. He currently helps and mentors startup teams within <a href="https://www.kametventures.com">Kamet Ventures</a>.</p>

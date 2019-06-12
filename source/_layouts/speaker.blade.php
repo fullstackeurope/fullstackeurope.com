@@ -23,8 +23,26 @@
         </div>
         <div class="md:w-2/3">
             <h1>{{ $speaker['name'] }}</h1>
-            <h3 class="text-base mb-4 italic">{{ $speaker['bio'] }}</h3>
+            <p class="text-base mb-4 italic">{{ $speaker['title'] }}</p>
 
+            @isset($speaker['talk'])
+                <a id="talk" class="anchor-page"></a>
+                <h2 data-anchor-id="talk">Talk - {{ $speaker['talk'] }}</h2>
+
+                @yield('talk')
+            @endisset
+
+            @isset($speaker['workshop'])
+                <a id="workshop" class="anchor-page"></a>
+                <h2 data-anchor-id="workshop">Workshop - {{ $speaker['workshop'] }}</h2>
+
+                @yield('workshop')
+
+                @include('_partials._cta_workshop')
+            @endisset
+
+            <a id="about" class="anchor-page"></a>
+            <h2 data-anchor-id="about">About</h2>
 
             @yield('bio')
 

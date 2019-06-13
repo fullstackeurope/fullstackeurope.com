@@ -23,6 +23,7 @@ return [
             'twitter' => 'everzet',
             'website' => 'https://stakeholderwhisperer.com',
             'title' => 'eXtreme Programmer',
+            'talk' => 'You might not need _blank_',
             'workshop' => 'Elixir for experienced web developers',
         ],
         'sara-soueidan' => [

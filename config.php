@@ -39,6 +39,7 @@ return [
             'twitter' => 'mattiasgeniar',
             'website' => 'https://ma.ttias.be',
             'title' => 'Problem Solver at Combell',
+            'talk' => 'Debugging {php,ruby,anything} as a Linux sysadmin',
         ],
         'matthias-noback' => [
             'url' => 'matthias-noback',

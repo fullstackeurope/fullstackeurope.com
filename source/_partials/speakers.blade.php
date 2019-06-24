@@ -5,14 +5,14 @@
             <h3 class="pre-title">Meet our speakers</h3>
             <h2 class="title">Featuring talks from</h2>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['konstantin-kudryashov']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['sara-soueidan']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['tim-neutkens']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
+                @include('_partials._speaker', ['speaker' => $page->speakers['konstantin-kudryashov']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['jeremy-keith']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['kadi-kraman']])
-                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
                 @include('_partials._speaker', ['speaker' => $page->speakers['matthias-noback']])

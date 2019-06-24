@@ -12,10 +12,10 @@
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
                 @include('_partials._speaker', ['speaker' => $page->speakers['jeremy-keith']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['kadi-kraman']])
-                @include('_partials._speaker', ['speaker' => $page->speakers['matthias-noback']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['matthias-noback']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['gabi-davila']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['indu-alagarsamy']])
             </div>

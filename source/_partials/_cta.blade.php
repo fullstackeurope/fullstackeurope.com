@@ -1,4 +1,4 @@
-<a class="btn-tickets mb-4" href="{{ $page->ticketsUrl }}" target="_blank">
+<a class="btn-tickets mb-10" href="{{ $page->ticketsUrl }}" target="_blank">
     Register now
 </a>
 
@@ -8,7 +8,7 @@
 
 <p class="font-noway-medium italic text-2xl leading-normal">
     <span class="timer hidden" data-expires="{{ $date->getTimestamp() }}" data-threshold-days="30">
-        Early bird tickets, which offer a 130 EUR discount, are still available for<br>
+        Early bird tickets, which offer a €130 discount,<br>are still available for<br class="sm:hidden">
         <span class="days">0</span>d,
         <span class="hours">0</span>h,
         <span class="minutes">0</span>m,

@@ -10,17 +10,18 @@
                 @include('_partials._speaker', ['speaker' => $page->speakers['tim-neutkens']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['jeremy-keith']])
+
+                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['matthias-noback']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['rik-van-bruggen']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['jeremy-keith']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['gabi-davila']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['indu-alagarsamy']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['caleb-porzio']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['rik-van-bruggen']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['thijs-feryn']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['kadi-kraman']])
             </div>

@@ -3,7 +3,7 @@
 </a>
 
 @php($timeZone = new DateTimeZone('CET'))
-@php($date = new DateTimeImmutable('2019-06-28 16:00', $timeZone))
+@php($date = new DateTimeImmutable('2019-07-01 16:00', $timeZone))
 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
 <p class="font-noway-medium italic text-2xl leading-normal">

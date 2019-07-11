@@ -8,20 +8,10 @@
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            gtag('js', new Date());
-
             ga('create', 'UA-123645073-1', 'auto', {'allowLinker': true});
             ga('require', 'linker');
             ga('linker:autoLink', ['fullstackeurope.com', 'ti.to']);
             ga('send', 'pageview');
-        </script>
-
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-123645073-1');
         </script>
     @endif
 

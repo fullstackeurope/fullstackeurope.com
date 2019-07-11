@@ -64,6 +64,7 @@ return [
             'twitter' => 'gabidavila',
             'website' => 'https://gabi.dev',
             'title' => 'Developer Advocate at Google Cloud',
+            'talk' => 'Serverless and you, where do I run my stateless code?',
         ],
         'rik-van-bruggen' => [
             'url' => 'rik-van-bruggen',

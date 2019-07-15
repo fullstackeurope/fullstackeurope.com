@@ -1,4 +1,4 @@
-@php($title = 'Full Stack Europe 2019 - The Full Stack Conference')
+@php($title = 'Full Stack Europe 2019 - The International Full Stack Conference')
 @php($description = 'The international conference for every kind of developer. Come learn about Serverless, React, Machine Learning, Chatbots, JavaScript, Application Architecture, Microservices, Graph Databases, Varnish and much more!')
 
 <meta name="description" content="{{ $description }}">

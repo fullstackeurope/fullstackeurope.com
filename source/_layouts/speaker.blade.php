@@ -1,4 +1,4 @@
-@extends('_layouts.page', ['pageTitle' => $speaker['name'], 'maxWidth' => 'max-w-auto'])
+@extends('_layouts.page', ['pageTitle' => $speaker['name'], 'maxWidth' => 'container'])
 
 @section('content')
     <div class="md:flex md:px-12">

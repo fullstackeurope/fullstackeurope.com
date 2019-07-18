@@ -1,7 +1,7 @@
 <div id="header" data-scroll-header class="z-10 w-full text-white font-noway-medium py-8 text-xl lg:text-base">
     <div class="container mx-auto">
         <div class="lg:flex">
-            <div class="lg:w-1/5">
+            <div class="lg:flex-initial">
                 <a href="/"><img src="/assets/images/logo.svg" width="150" alt="Full Stack Europe"></a>
                 <span class="lg:hidden">
                     <a id="show-nav" class="show-nav text-white text-2xl float-right mt-2" href="javascript:;">

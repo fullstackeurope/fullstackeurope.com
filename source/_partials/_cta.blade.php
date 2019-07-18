@@ -1,6 +1,9 @@
-<a class="btn-tickets mb-10" href="{{ $page->ticketsUrl }}" target="_blank">
-    Register now
+<a class="btn-tickets mb-4 sm:mb-10 mr-4" href="{{ $page->ticketsUrl }}" target="_blank">
+    Get Your Ticket
 </a>
+{{--<a class="btn-cfp mb-10" href="/cfp" target="_blank">--}}
+{{--    Submit ⚡️ Talk--}}
+{{--</a>--}}
 
 @php($timeZone = new DateTimeZone('CET'))
 @php($date = new DateTimeImmutable('2019-07-01 16:00', $timeZone))

@@ -14,6 +14,7 @@ document.addEventListener('scrollStart', closeNav, false);
 // Mobile navigation toggle
 let header = document.getElementById("header");
 let navigation = document.getElementById("navigation");
+let navigationButton = document.getElementById("navigationButton");
 let showNav = document.getElementById("show-nav");
 let hideNav = document.getElementById("hide-nav");
 
@@ -31,6 +32,7 @@ function toggleNav()
 function openNav()
 {
     navigation.classList.remove("hidden");
+    navigationButton.classList.remove("hidden");
     showNav.classList.add("hidden");
     hideNav.classList.remove("hidden");
 }
@@ -38,6 +40,7 @@ function openNav()
 function closeNav()
 {
     navigation.classList.add("hidden");
+    navigationButton.classList.add("hidden");
     showNav.classList.remove("hidden");
     hideNav.classList.add("hidden");
 }

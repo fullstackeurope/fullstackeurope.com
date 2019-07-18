@@ -1,4 +1,5 @@
-.btn-tickets {
+.btn-tickets,
+.btn-cfp {
     @apply inline-block w-full font-noway-medium text-center text-white text-xl uppercase rounded-lg px-12 py-6;
     background-image: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 50%, config('colors.secondary') 100%);
     background-size: 200% auto;
@@ -14,8 +15,18 @@
     @apply text-white;
 }
 
+.btn-cfp {
+    background-image: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.white') 50%, config('colors.secondary') 100%);
+    @apply text-primary;
+}
+.btn-cfp:hover{
+    background-position: right top;
+    @apply text-primary;
+}
+
 @screen md {
-    .btn-tickets {
+    .btn-tickets,
+    .btn-cfp {
         @apply w-auto text-lg py-4;
     }
 }

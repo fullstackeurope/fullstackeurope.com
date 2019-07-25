@@ -54,9 +54,9 @@
             <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">
                 @include('_partials._sponsor', ['name' => 'Think Tomorrow', 'image' => 'think-tomorrow', 'link' => 'https://thinktomorrow.be'])
             </div>
-{{--            <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">--}}
-{{--                @include('_partials._sponsor')--}}
-{{--            </div>--}}
+            <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">
+                @include('_partials._sponsor', ['name' => 'PHPro', 'image' => 'phpro', 'link' => 'https://www.phpro.be'])
+            </div>
 {{--            <div class="md:w-1/4 md:pl-8">--}}
 {{--                @include('_partials._sponsor')--}}
 {{--            </div>--}}

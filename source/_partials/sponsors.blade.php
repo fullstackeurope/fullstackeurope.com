@@ -62,11 +62,10 @@
 {{--            </div>--}}
         </div>
 
-        <!--
         <h4 class="font-noway-medium uppercase border-b pb-3">Bronze</h4>
         <div class="md:flex py-4 md:py-8">
             <div class="md:w-1/4 md:pr-8 mb-4 md:mb-0">
-                @include('_partials._sponsor')
+                @include('_partials._sponsor', ['name' => 'Manning', 'image' => 'manning', 'link' => 'https://www.manning.com'])
             </div>
 {{--            <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">--}}
 {{--                @include('_partials._sponsor')--}}
@@ -78,7 +77,5 @@
 {{--                @include('_partials._sponsor')--}}
 {{--            </div>--}}
         </div>
-        -->
-
     </div>
 </div>

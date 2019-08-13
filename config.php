@@ -32,6 +32,7 @@ return [
             'twitter' => 'sarasoueidan',
             'website' => 'https://sarasoueidan.com',
             'title' => 'Front-End UI/UX Developer',
+            'talk' => 'Applied Accessibility: Practical Tips for Building More Accessible Front-Ends',
         ],
         'mattias-geniar' => [
             'url' => 'mattias-geniar',

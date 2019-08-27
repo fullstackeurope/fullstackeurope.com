@@ -13,11 +13,10 @@
             </div>
         </div>
 
-        <!--
         <h4 class="font-noway-medium uppercase border-b pb-3">Platinum</h4>
         <div class="md:flex py-4 md:py-8 mb-4">
             <div class="md:w-1/3 md:pr-8 mb-4 md:mb-0">
-                @include('_partials._sponsor', ['large' => true])
+                @include('_partials._sponsor', ['large' => true, 'name' => 'Spilberg', 'image' => 'spilberg', 'link' => 'https://spilberg.be'])
             </div>
 {{--            <div class="md:w-1/3 md:px-4 mb-4 md:mb-0">--}}
 {{--                @include('_partials._sponsor', ['large' => true])--}}
@@ -26,7 +25,6 @@
 {{--                @include('_partials._sponsor', ['large' => true])--}}
 {{--            </div>--}}
         </div>
-        -->
 
         <!--
         <h4 class="font-noway-medium uppercase border-b pb-3">Gold</h4>

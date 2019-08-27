@@ -1,9 +1,15 @@
 @extends('_layouts.page', ['pageTitle' => 'Claim your Spilberg ticket here!'])
 
 @section('content')
+    <div class="max-w-xs mx-auto mb-6">
+        <a href="https://www.spilberg.be" target="_blank">
+            <img src="/assets/images/sponsors/spilberg.png" alt="Spilberg Logo">
+        </a>
+    </div>
+
     <h1 class="mb-4">Claim your Spilberg ticket here!</h1>
 
-    <p>Spilberg is the official Platinum sponsor of Full Stack Europe. And they're offering you a unique discount to the conference.</p>
+    <p><a href="https://www.spilberg.be" target="_blank">Spilberg</a> is the official Platinum sponsor of Full Stack Europe. And they're offering you a unique discount to the conference.</p>
 
     <p>Full Stack Europe is the international conference for developers who want to learn across the stack. Step out of your comfort zone and improve not only your existing skills, but learn new ones as well. Do you identify as full stack or are you interested in front end, back end, devops, design or anything in between? This is the conference for you!</p>
 

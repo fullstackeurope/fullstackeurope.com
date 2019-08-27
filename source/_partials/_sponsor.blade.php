@@ -1,4 +1,4 @@
-<a href="{{ $link ?? 'mailto:hello@fullstackeurope.com?subject=We want to sponsor!' }}" class="text-grey-darker">
+<a href="{{ $link ?? 'mailto:hello@fullstackeurope.com?subject=We want to sponsor!' }}" class="text-grey-darker" target="_blank">
     <div class="bg-theme-grey-light p-4 {{ isset($large) ? '' : 'md:h-24'}} enlarge rounded text-2xl font-noway-medium text-center flex flex-col justify-center">
         @if (! isset($name))
             Your Company

@@ -39,7 +39,7 @@ return [
             'name' => 'Mattias Geniar',
             'twitter' => 'mattiasgeniar',
             'website' => 'https://ma.ttias.be',
-            'title' => 'Problem Solver at Combell',
+            'title' => 'Problem Solver',
             'talk' => 'Debugging {php,ruby,anything} as a Linux sysadmin',
         ],
         'matthias-noback' => [

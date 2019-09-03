@@ -1,6 +1,14 @@
-<a class="btn-tickets mb-4 sm:mb-10 mr-4" href="{{ $page->ticketsUrl }}" target="_blank">
-    Get Your Ticket
-</a>
+<p class="mb-4">
+    <a class="btn-tickets" href="{{ $page->ticketsUrl }}" target="_blank">
+        Get Your Ticket
+    </a>
+</p>
+
+<p class="mb-4 sm:mb-10">
+    <a class="text-white border-b border-dotted" href="https://ti.to/on3/fullstack19/discount/Team">
+        Get a discount for teams of 4 or more
+    </a>
+</p>
 
 @php($timeZone = new DateTimeZone('CET'))
 @php($date = new DateTimeImmutable('2019-09-15 16:00', $timeZone))

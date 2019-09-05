@@ -8,7 +8,7 @@
 <meta itemprop="description" content="{{ $description }}">
 <meta itemprop="image" content="/assets/images/preview.png">
 
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:site" content="@fullstackeu">

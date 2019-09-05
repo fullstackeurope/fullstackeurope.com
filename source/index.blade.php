@@ -4,9 +4,14 @@
     <div class="intro text-center text-white background-photo">
         <div class="overlay pt-32 md:pt-48 pb-20 md:pb-64">
             <div class="container mx-auto py-12 md:py-20">
-                <h1 class="font-noway-medium text-white md:text-5xl pb-10 md:pb-16">
-                    A conference for every kind of developer
+                <h1 class="font-noway-medium text-white md:text-5xl pb-4">
+                    The conference for the whole team
                 </h1>
+
+                <p class="text-xl italic mx-auto max-w-md pb-10 md:pb-20">
+                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we designed this conference for everybody.&rdquo;
+                </p>
+
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
                     {{ $page->venue }}
                 </h2>

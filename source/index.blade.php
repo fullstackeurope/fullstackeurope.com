@@ -8,7 +8,7 @@
                     The conference for the whole team
                 </h1>
 
-                <p class="text-xl italic mx-auto max-w-md pb-10 md:pb-20">
+                <p class="text-xl leading-normal italic mx-auto max-w-md pb-10 md:pb-20">
                     &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we designed this conference for everybody.&rdquo;
                 </p>
 

@@ -5,8 +5,8 @@
 </p>
 
 <p class="mb-4 sm:mb-10">
-    <a class="text-white border-b border-dotted" href="https://ti.to/on3/fullstack19/discount/Team">
-        Get a discount for teams of 4 or more
+    <a class="text-white border-b border-dotted" href="https://ti.to/on3/fullstack19">
+        Get a discount for teams of 4 or more with Full Team Tickets!
     </a>
 </p>
 

@@ -1,7 +1,7 @@
 <div id="organisers" class="container text-grey-darker py-12 md:py-16">
     <h2 class="mb-16 title">Organised by</h2>
 
-    <div class="flex">
+    <div class="flex mb-12">
         <div class="w-1/2 md:w-1/3 lg:w-1/5 ml-auto text-center mb-8 md:mb-0">
             <p class="mb-3">
                 <a href="https://twitter.com/freekmurze">
@@ -28,5 +28,17 @@
                 <a href="https://driesvints.com"><i class="fas fa-globe-africa"></i></a>
             </p>
         </div>
+    </div>
+    <div class="text-center">
+        <p class="mb-3">
+            <a href="https://on3.events">
+                <img src="/assets/images/on3.png"
+                     width="100" class="enlarge inline-block" alt="On 3 Events Logo">
+            </a>
+        </p>
+        <p class="mb-3">On 3 Events</p>
+        <p class="tracking-xl-wide">
+            <a href="ttps://on3.events"><i class="fas fa-globe-africa"></i></a>
+        </p>
     </div>
 </div>

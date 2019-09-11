@@ -18,15 +18,19 @@
                 <h3 class="text-white text-sm md:text-lg pb-2">
                     Workshops - October 23, 2019
                 </h3>
-                <h3 class="text-white text-sm md:text-lg pb-10 md:pb-16">
+                <h3 class="text-white text-sm md:text-lg pb-6">
                     Main Conference - October 24 & 25, 2019
                 </h3>
+                <div class="text-2xl pb-10 md:pb-16">
+                    @include('_layouts._social')
+                </div>
 
                 @include('_partials._cta')
             </div>
         </div>
     </div>
 
+    @include('_partials.newsletter')
     @include('_partials.speakers')
     @include('_partials.workshops')
     @include('_partials.timer')

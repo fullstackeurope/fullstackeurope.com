@@ -3,9 +3,3 @@
     border-style: solid;
     border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 100;
 }
-
-@screen md {
-    #speakers-inner {
-        transform: translateY(-5rem);
-    }
-}

@@ -12,7 +12,7 @@
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:site" content="@fullstackeu">
-<meta name="twitter:image" content="https://fullstackeurope.com/assets/images/preview.png">
+<meta name="twitter:image" content="/assets/images/preview.png">
 
 <meta name="og:title" content="{{ $title }}">
 <meta name="og:description" content="{{ $description }}">

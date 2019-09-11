@@ -25,6 +25,7 @@ return [
             'title' => 'eXtreme Programmer',
             'talk' => 'You might not need _blank_',
             'workshop' => 'Elixir for experienced web developers',
+            'soldOut' => true,
         ],
         'sara-soueidan' => [
             'url' => 'sara-soueidan',

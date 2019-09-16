@@ -55,8 +55,22 @@
             <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">
                 @include('_partials._sponsor', ['name' => 'PHPro', 'image' => 'phpro', 'link' => 'https://www.phpro.be'])
             </div>
+            <div class="md:w-1/4 md:pl-8">
+                @include('_partials._sponsor', ['name' => 'Combell', 'image' => 'combell', 'link' => 'https://www.combell.com'])
+            </div>
+        </div>
+        <div class="md:flex py-4 md:py-8 mb-4">
+            <div class="md:w-1/4 md:pr-8 mb-4 md:mb-0">
+                @include('_partials._sponsor', ['name' => 'Clarabridge', 'image' => 'clarabridge', 'link' => 'https://www.clarabridge.com'])
+            </div>
+{{--            <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">--}}
+{{--                @include('_partials._sponsor', ['name' => 'Think Tomorrow', 'image' => 'think-tomorrow', 'link' => 'https://thinktomorrow.be'])--}}
+{{--            </div>--}}
+{{--            <div class="md:w-1/4 md:px-4 mb-4 md:mb-0">--}}
+{{--                @include('_partials._sponsor', ['name' => 'PHPro', 'image' => 'phpro', 'link' => 'https://www.phpro.be'])--}}
+{{--            </div>--}}
 {{--            <div class="md:w-1/4 md:pl-8">--}}
-{{--                @include('_partials._sponsor')--}}
+{{--                @include('_partials._sponsor', ['name' => 'Combell', 'image' => 'combell', 'link' => 'https://www.combell.com', 'bg' => 'bg-white'])--}}
 {{--            </div>--}}
         </div>
 

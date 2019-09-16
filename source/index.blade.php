@@ -25,7 +25,7 @@
                     @include('_layouts._social')
                 </div>
 
-                @include('_partials._cta')
+                @include('_partials._cta', ['linkColor' => 'white'])
             </div>
         </div>
     </div>

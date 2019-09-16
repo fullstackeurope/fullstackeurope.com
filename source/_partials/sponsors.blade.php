@@ -45,7 +45,7 @@
         -->
 
         <h4 class="font-noway-medium uppercase border-b pb-3">Silver</h4>
-        <div class="md:flex py-4 md:py-8 mb-4">
+        <div class="md:flex py-4 md:py-8">
             <div class="md:w-1/4 md:pr-8 mb-4 md:mb-0">
                 @include('_partials._sponsor', ['name' => 'Take The Lead', 'image' => 'take-the-lead', 'link' => 'https://takethelead.be'])
             </div>

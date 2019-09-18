@@ -122,7 +122,7 @@ return [
             'twitter' => 'bramus',
             'website' => 'https://bram.us',
             'title' => 'Freelance Creative Coder',
-            'workshop' => 'React for Beginners',
+            'workshop' => 'React from Scratch',
         ],
         'ivan-jovanovic' => [
             'url' => 'ivan-jovanovic',

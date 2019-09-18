@@ -82,6 +82,11 @@
         <a id="venue" class="anchor-page"></a>
         <h2 class="mb-3" data-anchor-id="venue">Venue</h2>
 
+        <a id="book-a-room" class="anchor-page"></a>
+        <h3 data-anchor-id="book-a-room">Book a room</h3>
+
+        <p>Want to stay at the venue or somewhere nearby during the conference? <a href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">Have a look at our reduced prices for hotel rooms.</a></p>
+
         <a id="accessibility" class="anchor-page"></a>
         <h3 data-anchor-id="accessibility">Accessibility</h3>
 

@@ -5,7 +5,7 @@
 </p>
 
 <p class="mb-4 sm:mb-10">
-    <a class="text-white border-b border-dotted leading-normal" href="https://ti.to/on3/fullstack19">
+    <a class="{{ $linkColor ?? '' }} border-b border-dotted leading-normal" href="https://ti.to/on3/fullstack19">
         Get a discount for teams of 4<br>
         or more with Full Team Tickets!
     </a>

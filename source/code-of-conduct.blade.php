@@ -39,4 +39,6 @@
     <p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
 
     <p class="text-sm italic">Original code of conduct by <a href="https://confcodeofconduct.com">the Conference Code of Conduct</a>.</p>
+
+    @include('_partials.diversity')
 @endsection

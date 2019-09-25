@@ -82,6 +82,7 @@ return [
             'twitter' => 'mathiasverraes',
             'website' => 'http://verraes.net',
             'title' => 'Student of Systems',
+            'talk' => 'Temporal Analysis Patterns',
             'workshop' => 'DDD Modelling vs Implementation',
         ],
         'indu-alagarsamy' => [

@@ -21,15 +21,19 @@
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
                 @include('_partials._speaker', ['speaker' => $page->speakers['nataliya-remez']])
-                @include('_partials._speaker', ['speaker' => $page->speakers['rik-van-bruggen']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['mathias-verraes']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['thijs-feryn']])
             </div>
             <div class="md:flex md:px-4 lg:px-8 xl:px-10">
-                @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['rik-van-bruggen']])
                 @include('_partials._speaker', ['speaker' => $page->speakers['susanna-wong']])
-                @include('_partials._speaker', ['speaker' => $page->speakers['joost-lubach']])
+                @include('_partials._speaker', ['speaker' => $page->speakers['mattias-geniar']])
             </div>
-            <div class="title-sm mt-12 italic">More coming soon...</div>
+            <div class="md:flex md:px-4 lg:px-8 xl:px-10">
+                <div class="md:w-1/3"></div>
+                @include('_partials._speaker', ['speaker' => $page->speakers['joost-lubach']])
+                <div class="md:w-1/3"></div>
+            </div>
         </div>
     </div>
 </div>

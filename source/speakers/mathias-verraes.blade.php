@@ -1,5 +1,9 @@
 @extends('_layouts.speaker', ['speaker' => $page->speakers['mathias-verraes']])
 
+@section('talk')
+    <p>Talk details coming soon...</p>
+@endsection
+
 @section('workshop')
     <p>The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...</p>
 

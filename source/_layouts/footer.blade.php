@@ -8,7 +8,8 @@
                 </div>
                 <div class="relative md:w-2/3 md:text-right">
                     <ul class="list-reset">
-                        <li data-scroll class="md:inline-block mb-4"><a href="/#speakers">speakers</a></li>
+                        <li data-scroll class="md:inline-block mb-4"><a href="/#schedule">schedule</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#speakers">speakers</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#workshops">workshops</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#venue">venue</a></li>
                         <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#sponsors">sponsors</a></li>

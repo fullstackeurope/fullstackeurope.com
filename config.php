@@ -16,6 +16,7 @@ return [
             'website' => 'https://adactio.com',
             'title' => 'Web stuff do-er at Clearleft',
             'talk' => 'Building',
+            'time' => '16:50',
         ],
         'konstantin-kudryashov' => [
             'url' => 'konstantin-kudryashov',
@@ -26,6 +27,7 @@ return [
             'talk' => 'You might not need _blank_',
             'workshop' => 'Elixir for experienced web developers',
             'soldOut' => true,
+            'time' => '16:50',
         ],
         'sara-soueidan' => [
             'url' => 'sara-soueidan',
@@ -34,6 +36,7 @@ return [
             'website' => 'https://sarasoueidan.com',
             'title' => 'Front-End UI/UX Developer',
             'talk' => 'Applied Accessibility: Practical Tips for Building More Accessible Front-Ends',
+            'time' => '09:35',
         ],
         'mattias-geniar' => [
             'url' => 'mattias-geniar',
@@ -42,6 +45,7 @@ return [
             'website' => 'https://ma.ttias.be',
             'title' => 'Problem Solver',
             'talk' => 'Debugging {php,ruby,anything} as a Linux sysadmin',
+            'time' => '11:15',
         ],
         'matthias-noback' => [
             'url' => 'matthias-noback',
@@ -50,6 +54,7 @@ return [
             'website' => 'https://matthiasnoback.nl',
             'title' => 'Developer at Noback\'s Office',
             'talk' => 'Advanced Web Application Architecture',
+            'time' => '11:50',
             'workshop' => 'Building Autonomous Services',
         ],
         'nataliya-remez' => [
@@ -59,6 +64,7 @@ return [
             'website' => 'https://izettle.com',
             'title' => 'Tech manager at iZettle',
             'talk' => 'Revealing the secrets of high availability & happy Ops',
+            'time' => '14:50',
         ],
         'gabi-davila' => [
             'url' => 'gabi-davila',
@@ -67,6 +73,7 @@ return [
             'website' => 'https://gabi.dev',
             'title' => 'Developer Advocate at Google Cloud',
             'talk' => 'Serverless and you, where do I run my stateless code?',
+            'time' => '11:15',
         ],
         'rik-van-bruggen' => [
             'url' => 'rik-van-bruggen',
@@ -75,6 +82,7 @@ return [
             'website' => 'https://blog.bruggen.com',
             'title' => 'Vice-president at Neo4j',
             'talk' => 'Graphs are Everywhere',
+            'time' => '14:15',
         ],
         'mathias-verraes' => [
             'url' => 'mathias-verraes',
@@ -83,6 +91,7 @@ return [
             'website' => 'http://verraes.net',
             'title' => 'Student of Systems',
             'talk' => 'Temporal Analysis Patterns',
+            'time' => '10:10',
             'workshop' => 'DDD Modelling vs Implementation',
         ],
         'indu-alagarsamy' => [
@@ -92,6 +101,7 @@ return [
             'website' => 'https://indu.dev',
             'title' => 'Distributed Systems Engineer',
             'talk' => 'Microservices-Ready Front-End',
+            'time' => '16:15',
         ],
         'caleb-porzio' => [
             'url' => 'caleb-porzio',
@@ -100,6 +110,7 @@ return [
             'website' => 'https://calebporzio.com',
             'title' => 'Full Stack Developer',
             'talk' => 'Write Less JS',
+            'time' => '09:35',
         ],
         'thijs-feryn' => [
             'url' => 'thijs-feryn',
@@ -108,6 +119,7 @@ return [
             'website' => 'https://feryn.eu',
             'title' => 'Evangelist at Varnish Software',
             'talk' => 'Caching the uncacheable in Varnish',
+            'time' => '14:15',
         ],
         'kadi-kraman' => [
             'url' => 'kadi-kraman',
@@ -116,6 +128,7 @@ return [
             'website' => 'https://formidable.com',
             'title' => 'Senior Software Engineer at Formidable',
             'talk' => 'All Aboard the Type Train',
+            'time' => '16:15',
         ],
         'bram-van-damme' => [
             'url' => 'bram-van-damme',
@@ -139,6 +152,7 @@ return [
             'twitter' => 'joostlubach',
             'website' => 'https://groundcontrol.app',
             'title' => 'Founder & developer of GroundControl',
+            'time' => '11:50',
             'talk' => 'Making a suspendable DSL for chatbots',
         ],
         'susanna-wong' => [
@@ -147,6 +161,7 @@ return [
             'twitter' => 'studioswong',
             'title' => 'Senior Front-end Developer at Toyota Connected',
             'talk' => "A Front-end dev's hobbyist approach into Machine Learning",
+            'time' => '10:10',
         ],
         'tim-neutkens' => [
             'url' => 'tim-neutkens',
@@ -154,6 +169,7 @@ return [
             'twitter' => 'timneutkens',
             'title' => 'Next.js Lead',
             'talk' => 'Next.js: The React Framework',
+            'time' => '14:50',
         ],
     ],
     'stripProtocol' => function (string $website): string {

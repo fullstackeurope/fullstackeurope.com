@@ -30,9 +30,13 @@
         </div>
     </div>
 
-    @include('_partials.newsletter')
-    @include('_partials.speakers')
-    @include('_partials.workshops')
+    <div style="background: url('/assets/images/pattern.png') repeat top left">
+        @include('_partials.newsletter')
+        @include('_partials.schedule')
+        @include('_partials.speakers')
+        @include('_partials.workshops')
+    </div>
+
     @include('_partials.timer')
 
     <div class="container text-grey-darker py-6 md:py-12">

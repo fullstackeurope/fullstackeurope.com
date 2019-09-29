@@ -141,3 +141,40 @@ let anchors = new AnchorJS({
 
 anchors.add('#page h2');
 anchors.add('#page h3');
+
+// Schedule Navigation
+$(document).ready(function(){
+    const day = new Date();
+
+    if (day.getMonth() > 8 && day.getDate() > 24) {
+        showDayTwo();
+    }
+});
+$('#schedule-nav-day-1').on('click', function (e) {
+    e.preventDefault();
+
+    showDayOne();
+});
+$('#schedule-nav-day-2').on('click', function (e) {
+    e.preventDefault();
+
+    showDayTwo();
+});
+
+function showDayOne()
+{
+    $('#schedule-nav-day-1').addClass('primary-gradient');
+    $('#schedule-nav-day-2').removeClass('primary-gradient');
+
+    $('#schedule-day-2').hide();
+    $('#schedule-day-1').show();
+}
+
+function showDayTwo()
+{
+    $('#schedule-nav-day-1').removeClass('primary-gradient');
+    $('#schedule-nav-day-2').addClass('primary-gradient');
+
+    $('#schedule-day-1').hide();
+    $('#schedule-day-2').show();
+}

@@ -11,7 +11,7 @@
     </div>
     <div class="md:w-2/3 md:px-8 py-4 md:flex md:flex-col md:justify-center text-center md:text-left">
         <h3 class="font-noway-medium text-xl md:text-2xl mb-2"><a href="/speakers/{{ $instructor['url'] }}/#workshop">{{ $instructor['workshop'] }}</a></h3>
-        <p class="mb-2">By {{ $instructor['name'] }} - {{ $instructor['title'] }}</p>
+        <p class="mb-2 text-xl">By {{ $instructor['name'] }} - {{ $instructor['title'] }}</p>
     </div>
     <div class="md:w-1/6 md:flex md:flex-col md:justify-center">
         @isset($instructor['soldOut'])

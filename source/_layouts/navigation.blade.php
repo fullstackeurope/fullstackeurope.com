@@ -20,7 +20,10 @@
                 <a data-scroll href="#newsletter">newsletter</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/code-of-conduct">code of conduct</a>
+                <a data-scroll href="/diversity">diversity</a>
+            </li>
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a data-scroll href="/code-of-conduct">coc</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="/faq">faq</a>

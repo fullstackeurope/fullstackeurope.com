@@ -41,15 +41,11 @@
 
     <h3>Wheelchair accessibility</h3>
 
-    <p>The venue provides this, as it is required by Dutch law. There are wheelchair-accessible bathrooms downstairs. the hotel offers guestrooms for invalid guests. Please contact the hotel to assure you have such a room.
+    <p>There are wheelchair-accessible bathrooms downstairs. The hotel offers guestrooms for invalid guests. Please contact the hotel to assure you have such a room.
 
     <h3>Reserved accessible seating</h3>
 
     <p><a href="mailto:hello@fullstackeurope.com">Contact us</a> for info.</p>
-
-    <h3>Assistance animals</h3>
-
-    <p>Animals are not allowed but we make an exception for assistance animals.</p>
 
     <h3>Dietary requirements</h3>
 

@@ -1,6 +1,6 @@
 <div id="schedule" class="container bg-white pt-10 md:pt-20 pb-12 sm:px-20">
     <h3 class="pre-title">Timetable</h3>
-    <h2 class="title">Conference Schedule</h2>
+    <h2 class="title">Conference Schedule<span class="hidden sm:inline"> -</span> Spilberg Stage</h2>
 
     <div id="schedule-navigation" class="m-auto flex text-center text-xl font-semibold max-w-xs mb-12">
         <a id="schedule-nav-day-1" class="inline-block border border-grey-light rounded-l-lg primary-gradient flex-1 p-6 text-primary" href="javascript:;">OCT 24</a>

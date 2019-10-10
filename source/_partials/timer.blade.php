@@ -7,7 +7,7 @@
         <div class="container">
             <h2 class="title text-white">
                 Join us at
-                <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23FSEU19">#FSEU19</a>
+                <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23FSEU19">#fseu19</a>
             </h2>
 
             <div class="flex text-center">

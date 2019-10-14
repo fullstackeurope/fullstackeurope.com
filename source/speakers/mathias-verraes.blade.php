@@ -1,7 +1,11 @@
 @extends('_layouts.speaker', ['speaker' => $page->speakers['mathias-verraes']])
 
 @section('talk')
-    <p>Talk details coming soon...</p>
+    <p>When we design software for a complex domain, it helps to have a deep understanding of that domain, and reflect it in the system's model. That's the central premise of DDD. Many interesting business domains are temporal; they involve many interconnected processes and behaviours happening over time.</p>
+
+    <p>This is where traditional ways of understanding our domains fall short: they look at the artifacts of those processes, but not enough at the processes themselves.</p>
+
+    <p>Temporal analysis patterns help us see recurring patterns in how the processes in our domains work and are organised. The insights well get from applying the patterns, show us how to choose objects, components, and services. This leads to better decoupled systems, both internally and at the level of integrations.</p>
 @endsection
 
 @section('workshop')
@@ -18,7 +22,7 @@
         <li>The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li>
         <li>How mutable software designs have distorted our perception of mutability in the domain</li>
         <li>Better heuristics for understanding a complex domain, and using them to drive a more focused design</li>
-        <li>Reducing our dependance on service classes</li>
+        <li>Reducing our dependence on service classes</li>
         <li>Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li>
         <li>...</li>
     </ul>

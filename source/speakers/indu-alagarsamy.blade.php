@@ -1,9 +1,9 @@
 @extends('_layouts.speaker', ['speaker' => $page->speakers['indu-alagarsamy']])
 
 @section('talk')
-    <p>Good microservices have clearly defined boundaries, each responsible for their own data and models. This leads to autonomy, which leads to better deployable and scalable systems. While all this makes sense from a back-end perspective, for an end user looking at your UI, it doesn’t matter which microservice owns the data. Information needs to be cohesive.</p>
+    <p>How does your system react when a key resource fails? Say, the database becomes unavailable, or the message broker fails. What if you get a current surge of load, that you have to keep up? What if a badly worded error message results in a billion dollar fire.</p>
 
-    <p>Even with an architecture that consists of multiple autonomous event-driven microservices, you can achieve this. Learn how to build a UI that knows how to get the data from these services in a clean fashion, giving your users a seamless experience. Let’s explore how composite UI can make this feasible.</p>
+    <p>Real life engineering disciplines can teach us a thing or two on designing for resilience. Learn the techniques and patterns that you can borrow from other areas of engineering, and apply them in your systems.</p>
 @endsection
 
 @section('bio')

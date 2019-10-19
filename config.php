@@ -100,7 +100,7 @@ return [
             'twitter' => 'indu_alagarsamy',
             'website' => 'https://indu.dev',
             'title' => 'Distributed Systems Engineer',
-            'talk' => 'Microservices-Ready Front-End',
+            'talk' => 'Resilience Design Patterns',
             'time' => '16:15',
         ],
         'caleb-porzio' => [

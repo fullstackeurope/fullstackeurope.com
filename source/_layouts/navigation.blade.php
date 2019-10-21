@@ -2,31 +2,31 @@
     <nav>
         <ul class="list-reset">
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/#schedule">schedule</a>
+                <a data-scroll href="{{ $page->baseUrl }}#schedule">schedule</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/#speakers">speakers</a>
+                <a data-scroll href="{{ $page->baseUrl }}#speakers">speakers</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/#workshops">workshops</a>
+                <a data-scroll href="{{ $page->baseUrl }}#workshops">workshops</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/#venue">venue</a>
+                <a data-scroll href="{{ $page->baseUrl }}#venue">venue</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/#sponsors">sponsors</a>
+                <a data-scroll href="{{ $page->baseUrl }}#sponsors">sponsors</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="#newsletter">newsletter</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/diversity">diversity</a>
+                <a data-scroll href="{{ $page->baseUrl }}diversity">diversity</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/code-of-conduct">coc</a>
+                <a data-scroll href="{{ $page->baseUrl }}code-of-conduct">coc</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="/faq">faq</a>
+                <a data-scroll href="{{ $page->baseUrl }}faq">faq</a>
             </li>
         </ul>
     </nav>

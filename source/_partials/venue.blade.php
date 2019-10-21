@@ -11,17 +11,17 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div class="venue-gallery">
-                    <a class="chocolat-image" href="/assets/images/hilton-ballroom.jpg">
-                        <img src="/assets/images/hilton-ballroom.jpg" class="enlarge">
+                    <a class="chocolat-image" href="{{ $page->baseUrl }}assets/images/hilton-ballroom.jpg">
+                        <img src="{{ $page->baseUrl }}assets/images/hilton-ballroom.jpg" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="/assets/images/hilton-lobby.jpg">
-                        <img src="/assets/images/hilton-lobby.jpg" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ $page->baseUrl }}assets/images/hilton-lobby.jpg">
+                        <img src="{{ $page->baseUrl }}assets/images/hilton-lobby.jpg" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="/assets/images/hilton-restaurant.jpg">
-                        <img src="/assets/images/hilton-restaurant.jpg" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ $page->baseUrl }}assets/images/hilton-restaurant.jpg">
+                        <img src="{{ $page->baseUrl }}assets/images/hilton-restaurant.jpg" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="/assets/images/hilton.jpg">
-                        <img src="/assets/images/hilton.jpg" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ $page->baseUrl }}assets/images/hilton.jpg">
+                        <img src="{{ $page->baseUrl }}assets/images/hilton.jpg" class="enlarge">
                     </a>
                 </div>
             </div>

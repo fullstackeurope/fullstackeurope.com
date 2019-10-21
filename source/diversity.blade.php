@@ -13,11 +13,11 @@
 
     <h3>Code of Conduct (CoC)</h3>
 
-    <p>We ask all participants, speakers, and staff, to adhere to <a href="/code-of-conduct">our Code of Conduct</a>, and mention it in the opening speech of the conference. Our goal is to create a safe and welcoming environment for all participants. We fully intend to enforce it, and have scenarios in place for dealing with violations.</p>
+    <p>We ask all participants, speakers, and staff, to adhere to <a href="{{ $page->baseUrl }}code-of-conduct">our Code of Conduct</a>, and mention it in the opening speech of the conference. Our goal is to create a safe and welcoming environment for all participants. We fully intend to enforce it, and have scenarios in place for dealing with violations.</p>
 
     <h3>Contact person</h3>
 
-    <p>We have a <a href="/code-of-conduct">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
+    <p>We have a <a href="{{ $page->baseUrl }}code-of-conduct">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
 
     <h3>Speaker reimbursements</h3>
 

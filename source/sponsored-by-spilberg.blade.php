@@ -3,7 +3,7 @@
 @section('content')
     <div class="max-w-xs mx-auto mb-6">
         <a href="https://www.spilberg.be" target="_blank">
-            <img src="/assets/images/sponsors/spilberg.png" alt="Spilberg Logo">
+            <img src="{{ $page->baseUrl }}assets/images/sponsors/spilberg.png" alt="Spilberg Logo">
         </a>
     </div>
 

@@ -32,7 +32,7 @@
     <div class="text-center">
         <p class="mb-3">
             <a href="https://on3.events">
-                <img src="/assets/images/on3.png"
+                <img src="{{ $page->baseUrl }}assets/images/on3.png"
                      width="100" class="enlarge inline-block" alt="On 3 Events Logo">
             </a>
         </p>

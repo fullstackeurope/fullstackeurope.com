@@ -4,7 +4,7 @@
     <div class="md:flex md:px-12">
         <div class="md:w-1/3 mt-4 mb-6">
             <div class="image-background-gradient md:w-5/6">
-                <img src="/assets/images/speakers/{{ $speaker['url'] }}.jpg" alt="{{ $speaker['name'] }}">
+                <img src="{{ $page->baseUrl }}assets/images/speakers/{{ $speaker['url'] }}.jpg" alt="{{ $speaker['name'] }}">
             </div>
 
             <p class="mt-6">
@@ -46,7 +46,7 @@
 
             @yield('bio')
 
-            <a class="apply font-noway-medium block" href="/#speakers">
+            <a class="apply font-noway-medium block" href="{{ $page->baseUrl }}#speakers">
                 See all speakers <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
             </a>
         </div>

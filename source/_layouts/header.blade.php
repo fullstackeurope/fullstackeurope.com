@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div class="lg:flex">
             <div class="lg:flex-initial">
-                <a href="/"><img src="/assets/images/logo.svg" width="150" alt="Full Stack Europe"></a>
+                <a href="{{ $page->baseUrl }}"><img src="{{ $page->baseUrl }}assets/images/logo.svg" width="150" alt="Full Stack Europe"></a>
                 <span class="lg:hidden">
                     <a id="show-nav" class="show-nav text-white text-2xl float-right mt-2" href="javascript:;">
                         <i class="fas fa-bars"></i>

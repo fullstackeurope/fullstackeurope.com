@@ -1,5 +1,9 @@
 @extends('_layouts.speaker', ['speaker' => $page->speakers['bram-van-damme']])
 
+@section('talk')
+    <p>With the yearly ECMAScript releases (ES2015..ES2018) of a lot of things have changed in JavaScript-land. This talk takes a look at a few of the upcoming ECMAScript features, which (hopefully) will become part of the ECMAScript Language Specification in the near future.</p>
+@endsection
+
 @section('workshop')
     <p>Ever since React was released in 2013, it has changed the way we think about web applications and user interface development.</p>
 

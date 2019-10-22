@@ -28,7 +28,7 @@
     </div>
     <div class="md:flex md:px-4 lg:px-8 xl:px-10">
         <div class="md:w-1/3"></div>
-        @include('_partials._speaker', ['speaker' => $page->speakers['joost-lubach']])
+        @include('_partials._speaker', ['speaker' => $page->speakers['bram-van-damme']])
         <div class="md:w-1/3"></div>
     </div>
 </div>

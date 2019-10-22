@@ -33,7 +33,7 @@
             @include('_partials._timeslot', ['speaker' => $page->speakers['mathias-verraes']])
             @include('_partials._timeslot', ['time' => '10:45', 'title' => 'Break', 'description' => 'Coffee & Snacks'])
             @include('_partials._timeslot', ['speaker' => $page->speakers['mattias-geniar']])
-            @include('_partials._timeslot', ['speaker' => $page->speakers['joost-lubach']])
+            @include('_partials._timeslot', ['speaker' => $page->speakers['bram-van-damme']])
             @include('_partials._timeslot', ['time' => '12:30', 'title' => 'Lunch'])
             @include('_partials._timeslot', ['time' => '14:00', 'title' => 'Lightning Talks'])
             @include('_partials._timeslot', ['speaker' => $page->speakers['rik-van-bruggen']])

@@ -136,6 +136,8 @@ return [
             'twitter' => 'bramus',
             'website' => 'https://bram.us',
             'title' => 'Freelance Creative Coder',
+            'talk' => 'ESNext: Proposals to look forward to',
+            'time' => '11:50',
             'workshop' => 'React from Scratch',
         ],
         'ivan-jovanovic' => [
@@ -152,8 +154,6 @@ return [
             'twitter' => 'joostlubach',
             'website' => 'https://groundcontrol.app',
             'title' => 'Founder & developer of GroundControl',
-            'time' => '11:50',
-            'talk' => 'Making a suspendable DSL for chatbots',
         ],
         'susanna-wong' => [
             'url' => 'susanna-wong',

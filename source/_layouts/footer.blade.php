@@ -4,20 +4,28 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ $page->baseUrl }}assets/images/logo.svg" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
-                    23, 24 & 25 October 2019 - {{ $page->venue }}
+                    7, 8 & 9 October 2020{{-- - {{ $page->venue }} --}}
                 </div>
                 <div class="relative md:w-2/3 md:text-right">
                     <ul class="list-reset">
-                        <li data-scroll class="md:inline-block mb-4"><a href="{{ $page->baseUrl }}#schedule">schedule</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}#speakers">speakers</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}#workshops">workshops</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}#venue">venue</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}#sponsors">sponsors</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="#newsletter">newsletter</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}diversity">diversity</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}code-of-conduct">coc</a></li>
-                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="{{ $page->baseUrl }}faq">faq</a></li>
-                        <li class="md:ml-6 md:inline-block"><a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a></li>
+                        <li class="md:ml-6 md:inline-block mb-4">
+                            <a data-scroll href="{{ $page->baseUrl }}#speakers">speakers</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mb-4">
+                            <a data-scroll href="{{ $page->baseUrl }}#newsletter">newsletter</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mb-4">
+                            <a href="{{ $page->baseUrl }}diversity">diversity</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mb-4">
+                            <a href="{{ $page->baseUrl }}code-of-conduct">code of conduct</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mb-4">
+                            <a href="{{ $page->baseUrl }}2019">2019</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block">
+                            <a href="{{ $page->ticketsUrl }}" target="_blank">tickets</a>
+                        </li>
                     </ul>
                     <div class="md:absolute text-center md:text-right pin-b pin-r mt-10">
                         Need help?<br>

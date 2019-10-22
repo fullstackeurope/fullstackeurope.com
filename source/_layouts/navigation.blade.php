@@ -2,31 +2,16 @@
     <nav>
         <ul class="list-reset">
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}#schedule">schedule</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="{{ $page->baseUrl }}#speakers">speakers</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}#workshops">workshops</a>
+                <a data-scroll href="{{ $page->baseUrl }}#newsletter">newsletter</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}#venue">venue</a>
+                <a href="{{ $page->baseUrl }}diversity">diversity</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}#sponsors">sponsors</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="#newsletter">newsletter</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}diversity">diversity</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}code-of-conduct">coc</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ $page->baseUrl }}faq">faq</a>
+                <a href="{{ $page->baseUrl }}code-of-conduct">code of conduct</a>
             </li>
         </ul>
     </nav>

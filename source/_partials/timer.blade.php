@@ -1,5 +1,5 @@
 @php($timeZone = new DateTimeZone('CET'))
-@php($date = new DateTimeImmutable('2019-10-24 08:30', $timeZone))
+@php($date = new DateTimeImmutable('2020-10-07 08:30', $timeZone))
 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
 <div id="timer" class="timer text-white background-photo" data-expires="{{ $date->getTimestamp() }}">
@@ -7,7 +7,7 @@
         <div class="container">
             <h2 class="title text-white">
                 Join us at
-                <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23FSEU19">#fseu19</a>
+                <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23fseu20">#fseu20</a>
             </h2>
 
             <div class="flex text-center">

@@ -10,24 +10,9 @@ a.anchor-page {
      top: -110px;
      visibility: hidden;
 }
-a.anchor-speakers {
-    display: block;
-    position: relative;
-    top: -180px;
-    visibility: hidden;
-}
-a.anchor-sponsors {
-    display: block;
-    position: relative;
-    top: -90px;
-    visibility: hidden;
-}
 
 @screen md {
     a.anchor {
         top: -145px;
-    }
-    a.anchor-speakers {
-        top: -260px;
     }
 }

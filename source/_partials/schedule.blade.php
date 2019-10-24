@@ -9,7 +9,7 @@
 
     <div>
         <div id="schedule-day-1">
-            @include('_partials._timeslot', ['time' => '08:30', 'title' => 'Registrations', 'description' => 'Coffee & Snacks'])
+            @include('_partials._timeslot', ['time' => '08:30', 'title' => 'Registrations', 'description' => 'Coffee'])
             @include('_partials._timeslot', ['time' => '09:30', 'title' => 'Opening'])
             @include('_partials._timeslot', ['speaker' => $page->speakers['caleb-porzio']])
             @include('_partials._timeslot', ['speaker' => $page->speakers['susanna-wong']])
@@ -27,7 +27,7 @@
             @include('_partials._timeslot', ['time' => '17:45', 'title' => 'Closing'])
         </div>
         <div id="schedule-day-2" class="hidden">
-            @include('_partials._timeslot', ['time' => '08:30', 'title' => 'Registrations', 'description' => 'Coffee & Snacks'])
+            @include('_partials._timeslot', ['time' => '08:30', 'title' => 'Registrations', 'description' => 'Coffee'])
             @include('_partials._timeslot', ['time' => '09:30', 'title' => 'Opening'])
             @include('_partials._timeslot', ['speaker' => $page->speakers['sara-soueidan']])
             @include('_partials._timeslot', ['speaker' => $page->speakers['mathias-verraes']])

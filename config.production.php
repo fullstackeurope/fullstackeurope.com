@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://fullstackeurope.com/2019/',
+    'baseUrl' => 'https://fullstackeurope.com/',
 ];

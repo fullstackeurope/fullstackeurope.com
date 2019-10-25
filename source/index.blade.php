@@ -16,11 +16,14 @@
 {{--                    {{ $page->venue }}--}}
                     Full Stack Europe 2020
                 </h2>
-                <h3 class="text-white text-sm md:text-lg pb-2">
-                    Workshops - October 7, 2020
-                </h3>
+{{--                <h3 class="text-white text-sm md:text-lg pb-2">--}}
+{{--                    Workshops - October 7, 2020--}}
+{{--                </h3>--}}
+{{--                <h3 class="text-white text-sm md:text-lg pb-6">--}}
+{{--                    Main Conference - October 8 & 9, 2020--}}
+{{--                </h3>--}}
                 <h3 class="text-white text-sm md:text-lg pb-6">
-                    Main Conference - October 8 & 9, 2020
+                    October 2020 - {{ $page->venue }}
                 </h3>
 
                 <div class="text-2xl pb-10 md:pb-16">
@@ -31,6 +34,8 @@
             </div>
         </div>
     </div>
+
+    @include('_partials.newsletter')
 
     <div style="background: url('/assets/images/pattern.png') repeat top left">
         @include('_partials.speakers')

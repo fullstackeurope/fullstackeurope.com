@@ -5,9 +5,9 @@ use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => '/',
-    'ticketsUrl' => 'https://ti.to/on3/full-stack-europe-2020',
+    'ticketsUrl' => 'https://ti.to/on3/fullstack20',
     'collections' => [],
-    'venue' => 'Hilton Antwerp Old Town',
+    'venue' => 'Antwerp, Belgium',
     'speakers' => [
         'kevlin-henney' => [
             'url' => 'kevlin-henney',

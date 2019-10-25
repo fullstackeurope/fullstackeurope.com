@@ -4,7 +4,7 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ $page->baseUrl }}assets/images/logo.svg" class="mb-4 md:mb-6" width="150" alt="Full Stack Europe"><br>
-                    7, 8 & 9 October 2020{{-- - {{ $page->venue }} --}}
+                    October 2020 - {{ $page->venue }}
                 </div>
                 <div class="relative md:w-2/3 md:text-right">
                     <ul class="list-reset">

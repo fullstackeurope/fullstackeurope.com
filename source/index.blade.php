@@ -31,6 +31,10 @@
                 </div>
 
                 @include('_partials._cta', ['linkColor' => 'text-white'])
+
+                <p class="text-center">
+                    <a class="text-white hover:underline" href="{{ $page->baseUrl }}2019">Check out the 2019 edition</a>
+                </p>
             </div>
         </div>
     </div>

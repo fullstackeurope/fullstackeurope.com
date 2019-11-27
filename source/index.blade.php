@@ -13,17 +13,13 @@
                 </p>
 
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
-{{--                    {{ $page->venue }}--}}
-                    Full Stack Europe 2020
+                    {{ $page->venue }}
                 </h2>
-{{--                <h3 class="text-white text-sm md:text-lg pb-2">--}}
-{{--                    Workshops - October 7, 2020--}}
-{{--                </h3>--}}
-{{--                <h3 class="text-white text-sm md:text-lg pb-6">--}}
-{{--                    Main Conference - October 8 & 9, 2020--}}
-{{--                </h3>--}}
+                <h3 class="text-white text-sm md:text-lg pb-2">
+                    Workshops - October 7, 2020
+                </h3>
                 <h3 class="text-white text-sm md:text-lg pb-6">
-                    October 2020 - {{ $page->venue }}
+                    Main Conference - October 8 & 9, 2020
                 </h3>
 
                 <div class="text-2xl pb-10 md:pb-16">

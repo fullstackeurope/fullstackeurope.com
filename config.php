@@ -7,7 +7,7 @@ return [
     'baseUrl' => '/',
     'ticketsUrl' => 'https://ti.to/on3/fullstack20',
     'collections' => [],
-    'venue' => 'Antwerp, Belgium',
+    'venue' => 'Hilton Antwerp Old Town',
     'speakers' => [
         'kevlin-henney' => [
             'url' => 'kevlin-henney',

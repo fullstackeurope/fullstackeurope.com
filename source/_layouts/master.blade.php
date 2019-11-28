@@ -18,7 +18,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>{{ isset($pageTitle) ? "$pageTitle - " : '' }} Full Stack Europe 2019{{ ! isset($pageTitle) ? ' - The International Full Stack Conference' : '' }}</title>
+    <title>{{ isset($pageTitle) ? "$pageTitle - " : '' }} Full Stack Europe 2020{{ ! isset($pageTitle) ? ' - The International Full Stack Conference' : '' }}</title>
 
     @include('_layouts._meta')
     @include('_layouts._favicons')

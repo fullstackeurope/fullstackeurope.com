@@ -5,6 +5,12 @@
                 <a data-scroll href="{{ $page->baseUrl }}#speakers">speakers</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a data-scroll href="/#venue">venue</a>
+            </li>
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a data-scroll href="/#sponsors">sponsors</a>
+            </li>
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="{{ $page->baseUrl }}#newsletter">newsletter</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">

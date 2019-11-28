@@ -11,6 +11,8 @@
                         <li class="md:ml-6 md:inline-block mb-4">
                             <a data-scroll href="{{ $page->baseUrl }}#speakers">speakers</a>
                         </li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#venue">venue</a></li>
+                        <li data-scroll class="md:ml-6 md:inline-block mb-4"><a href="/#sponsors">sponsors</a></li>
                         <li class="md:ml-6 md:inline-block mb-4">
                             <a data-scroll href="{{ $page->baseUrl }}#newsletter">newsletter</a>
                         </li>

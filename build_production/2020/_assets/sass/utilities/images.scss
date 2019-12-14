@@ -1,0 +1,29 @@
+.image-background-gradient {
+    background: linear-gradient(225deg, config('colors.secondary') 0%, config('colors.primary') 100%);
+    @apply ml-3 pb-3 leading-none;
+
+    img {
+        @apply inline-block -mt-3 -ml-3 w-full;
+    }
+}
+
+@screen md {
+    .image-background-gradient {
+        @apply ml-0;
+    }
+}
+
+.background-photo {
+    background: url("/2020/assets/images/antwerp.jpg") center no-repeat;
+    background-size: cover;
+
+    .overlay {
+        background: rgba(39, 29, 119, .88);
+    }
+}
+
+.image-border-gradient-left {
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    border-image: linear-gradient(225deg, config('colors.secondary'), config('colors.primary')) 1 100%;
+}

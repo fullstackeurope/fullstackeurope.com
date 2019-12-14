@@ -3,7 +3,7 @@ let build = require('./tasks/build.js');
 let tailwindcss = require('tailwindcss');
 
 mix.disableSuccessNotifications();
-mix.setPublicPath('source/assets/build');
+mix.setPublicPath('source/2020/assets/build');
 mix.webpackConfig({
     plugins: [
         build.jigsaw,
@@ -12,9 +12,9 @@ mix.webpackConfig({
     ]
 });
 
-mix.js('source/_assets/js/main.js', 'js')
-    .sass('source/_assets/sass/main.scss', 'css')
-    .copyDirectory('node_modules/chocolat/dist/images', 'source/assets/build/images')
+mix.js('source/2020/_assets/js/main.js', 'js')
+    .sass('source/2020/_assets/sass/main.scss', 'css')
+    .copyDirectory('node_modules/chocolat/dist/images', 'source/2020/assets/build/images')
     .options({
         processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.js') ],

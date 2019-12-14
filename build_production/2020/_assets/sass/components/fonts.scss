@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'noway';
+    src: url('/2020/assets/fonts/noway-regular-webfont.eot');
+    src: url('/2020/assets/fonts/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/2020/assets/fonts/noway-regular-webfont.woff2') format('woff2'),
+    url('/2020/assets/fonts/noway-regular-webfont.woff') format('woff'),
+    url('/2020/assets/fonts/noway-regular-webfont.ttf') format('truetype'),
+    url('/2020/assets/fonts/noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nowaymedium';
+    src: url('/2020/assets/fonts/noway-medium-webfont.eot');
+    src: url('/2020/assets/fonts/noway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/2020/assets/fonts/noway-medium-webfont.woff2') format('woff2'),
+    url('/2020/assets/fonts/noway-medium-webfont.woff') format('woff'),
+    url('/2020/assets/fonts/noway-medium-webfont.ttf') format('truetype'),
+    url('/2020/assets/fonts/noway-medium-webfont.svg#nowayregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4A4A4A;
+}
+
+.title {
+    @apply font-noway-medium text-3xl text-center mb-8;
+}
+.title-sm {
+    @apply text-base text-center uppercase text-grey-darker font-normal;
+}
+.pre-title {
+    @apply title-sm mb-2;
+}
+
+@screen md {
+    .title {
+        @apply mb-12;
+    }
+}
+
+.paragraph {
+    @apply text-xl mb-4 leading-normal;
+}
+

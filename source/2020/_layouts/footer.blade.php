@@ -23,7 +23,7 @@
                             <a href="{{ $page->fseu20['baseUrl'] }}code-of-conduct">code of conduct</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mb-4">
-                            <a href="{{ $page->fseu20['baseUrl'] }}2019">2019</a>
+                            <a href="/2019">2019</a>
                         </li>
                         <li class="md:ml-6 md:inline-block">
                             <a href="{{ $page->fseu20['ticketsUrl'] }}" target="_blank">tickets</a>

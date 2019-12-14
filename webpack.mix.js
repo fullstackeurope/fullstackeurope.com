@@ -8,7 +8,7 @@ mix.webpackConfig({
     plugins: [
         build.jigsaw,
         build.browserSync(),
-        build.watch(['source/**/*.md', 'source/*.php', 'source/**/*.php', 'source/*.blade.php', 'source/**/*.blade.php', 'source/**/*.scss', '!source/**/_tmp/*', './config*.php', './tailwind.js']),
+        build.watch(['source/**/*.md', 'source/*.php', 'source/**/*.php', 'source/*.blade.php', 'source/**/*.blade.php', 'source/*.html', 'source/**/*.html', 'source/**/*.scss', '!source/**/_tmp/*', './config*.php', './tailwind.js']),
     ]
 });
 

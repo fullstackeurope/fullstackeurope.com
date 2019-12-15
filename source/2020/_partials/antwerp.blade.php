@@ -68,7 +68,7 @@
 
             <p>
                 <a class="apply font-noway-medium block" href="https://www.visitantwerpen.be/en/good-to-know/about-visit-antwerpen">
-                    Visitor information <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                    <i class="fas fa-suitcase-rolling mr-1"></i> Visitor information <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
                 </a>
             </p>
         </div>

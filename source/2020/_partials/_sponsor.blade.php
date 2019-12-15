@@ -3,7 +3,7 @@
         @if (! isset($name))
             Your Company
         @else
-            <img style="object-fit: contain;" class="max-w-full h-32 md:max-h-full" src="/2020/assets/images/sponsors/{{ $image }}.png">
+            <img style="object-fit: contain;" class="max-w-full h-32 md:max-h-full" src="{{ $page->fseu20['baseUrl'] }}assets/images/sponsors/{{ $image }}.png">
         @endif
     </div>
 </a>

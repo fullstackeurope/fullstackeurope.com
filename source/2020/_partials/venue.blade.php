@@ -12,16 +12,16 @@
             <div class="image-background-gradient">
                 <div class="venue-gallery">
                     <a class="chocolat-image" href="/2020/assets/images/hilton-ballroom.jpg">
-                        <img src="/2020/assets/images/hilton-ballroom.jpg" class="enlarge">
+                        <img src="{{ $page->fseu20['baseUrl'] }}assets/images/hilton-ballroom.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/2020/assets/images/hilton-lobby.jpg">
-                        <img src="/2020/assets/images/hilton-lobby.jpg" class="enlarge">
+                        <img src="{{ $page->fseu20['baseUrl'] }}assets/images/hilton-lobby.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/2020/assets/images/hilton-restaurant.jpg">
-                        <img src="/2020/assets/images/hilton-restaurant.jpg" class="enlarge">
+                        <img src="{{ $page->fseu20['baseUrl'] }}assets/images/hilton-restaurant.jpg" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="/2020/assets/images/hilton.jpg">
-                        <img src="/2020/assets/images/hilton.jpg" class="enlarge">
+                        <img src="{{ $page->fseu20['baseUrl'] }}assets/images/hilton.jpg" class="enlarge">
                     </a>
                 </div>
             </div>
@@ -53,7 +53,7 @@
 
             <p>
                 <a class="apply font-noway-medium block" href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">
-                    Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                    <i class="fas fa-hotel mr-1"></i> Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
                 </a>
             </p>
         </div>

@@ -7,7 +7,7 @@
     <div class="md:flex">
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
-                <img src="/2020/assets/images/hilton.jpg">
+                <img src="{{ $page->fseu20['baseUrl'] }}assets/images/hilton.jpg">
             </div>
         </div>
         <div class="md:w-1/2 md:px-8">

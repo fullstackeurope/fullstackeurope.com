@@ -26,6 +26,7 @@
         "anchor-js": "^4.2.0",
         "chocolat": "^0.4.21",
         "jquery": "^3.4.1",
+        "masonry-layout": "^4.2.2",
         "smooth-scroll": "^15.0.0"
     }
 }

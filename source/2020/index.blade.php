@@ -50,6 +50,7 @@
             @include('2020._partials.venue')
             @include('2020._partials.antwerp')
             @include('2020._partials.2019')
+            @include('2020._partials.testimonials')
         </div>
 
         <div class="text-center text-grey-dark mt-8">

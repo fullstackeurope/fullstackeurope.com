@@ -1,7 +1,8 @@
 import $ from 'jquery';
-import Chocolat from 'chocolat';
-import SmoothScroll from 'smooth-scroll';
 import AnchorJS from 'anchor-js';
+import Chocolat from 'chocolat';
+import Masonry from 'masonry-layout';
+import SmoothScroll from 'smooth-scroll';
 
 // Navigation scroll
 new SmoothScroll('a[href*="#"]', {
@@ -178,3 +179,26 @@ function showDayTwo()
     $('#schedule-day-1').hide();
     $('#schedule-day-2').show();
 }
+
+// Testimonial Grid
+window.twttr = function (d, s, id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, 'script', 'twitter-wjs');
+
+// When widget is ready, run masonry
+twttr.ready(function (twttr) {
+    twttr.events.bind('loaded', function (event) {
+        var msnry = new Masonry( '.grid', {
+            // options
+            itemSelector: '.grid-item',
+            columnWidth : 300,
+            gutter: 20
+        });
+    });
+});
+
+

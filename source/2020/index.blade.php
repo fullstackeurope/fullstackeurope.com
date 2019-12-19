@@ -45,15 +45,16 @@
 
     @include('2020._partials.timer')
 
-    <div class="container text-grey-darker py-6 md:py-12">
+    <div class="text-grey-darker py-6 md:py-12">
         <a id="venue" class="anchor"></a>
-        <div id="venue-outer">
+        <div id="venue-outer" class="container">
             @include('2020._partials.conference')
             @include('2020._partials.venue')
             @include('2020._partials.antwerp')
             @include('2020._partials.2019')
-            @include('2020._partials.testimonials')
         </div>
+
+        @include('2020._partials.testimonials')
 
         <div class="text-center text-grey-dark mt-8">
             @include('2020._partials._cta')

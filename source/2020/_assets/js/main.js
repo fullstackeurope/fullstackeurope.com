@@ -195,7 +195,7 @@ twttr.ready(function (twttr) {
         var msnry = new Masonry( '.grid', {
             // options
             itemSelector: '.grid-item',
-            columnWidth : 300,
+            columnWidth : 350,
             gutter: 20
         });
     });

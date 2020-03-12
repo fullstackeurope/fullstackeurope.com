@@ -28,7 +28,7 @@
 
                 @include('2020._partials._cta', ['linkColor' => 'text-white'])
 
-                <p class="text-center">
+                <p class="text-center mt-6">
                     <a class="text-white hover:underline" href="{{ $page->fseu20['baseUrl'] }}#2019-edition">
                         Check out the 2019 edition
                     </a>

@@ -12,7 +12,7 @@
 {{--</p>--}}
 
 @php($timeZone = new DateTimeZone('CET'))
-@php($date = new DateTimeImmutable('2020-03-31 23:59', $timeZone))
+@php($date = new DateTimeImmutable('2020-04-14 23:59', $timeZone))
 @php($timeRemaining = $date->diff(new DateTimeImmutable('now', $timeZone)))
 
 <p class="font-noway-medium italic text-1xl leading-normal max-w-xs mx-auto">

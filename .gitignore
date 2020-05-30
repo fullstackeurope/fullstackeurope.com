@@ -10,3 +10,4 @@
 .env.backup
 .phpunit.result.cache
 npm-debug.log
+auth.json

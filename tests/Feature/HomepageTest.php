@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tests\Feature;
 
 use App\Models\Edition;
+use App\Models\Speaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -19,6 +20,8 @@ class HomepageTest extends TestCase
             'year' => 2020,
             'sale_ends_description' => 'Blind birds available until',
         ]);
+
+        factory(Speaker::class)->create(['edition_id' => $edition->id]);
 
         $this->get("/{$edition->year}")
             ->assertSee($edition->pageTitle())

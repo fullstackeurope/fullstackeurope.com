@@ -1,4 +1,4 @@
-@extends('layouts.base', ['bodyClass' => 'font-noway h-full bg-background'])
+@extends('layouts.base', ['bodyClass' => $bodyClass ?? 'font-noway h-full bg-background'])
 
 @section('body')
     <div class="bg-white">

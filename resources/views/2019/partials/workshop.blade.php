@@ -13,7 +13,9 @@
         <h3 class="font-noway-medium text-xl md:text-2xl mb-2">
             <a href="{{ $speaker->url() }}#workshop">{{ $speaker->workshop }}</a>
         </h3>
-        <p class="mb-2 text-xl">By {{ $speaker->name }} - {{ $speaker->title }}</p>
+        <p class="mb-2 text-xl text-gray-600">
+            By {{ $speaker->name }} - {{ $speaker->title }}
+        </p>
     </div>
     <div class="md:w-1/6 md:flex md:flex-col md:justify-center">
         @if ($speaker->workshop_sold_out)

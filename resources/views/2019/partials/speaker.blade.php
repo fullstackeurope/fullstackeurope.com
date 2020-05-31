@@ -1,7 +1,6 @@
-<div class="md:w-1/3 md:px-4 lg:px-8 xl:px-10 mb-6 md:mb-12">
-    <a href="{{ $speaker->twitterUrl() }}" target="_blank">
-{{--    <a href="{{ $speaker->url() }}">--}}
-        <div class="speaker enlarge flex h-full md:block shadow-lg-blue rounded text-left md:text-center">
+<div class="md:px-4 mb-8">
+    <a href="{{ $speaker->url() }}">
+        <div class="speaker enlarge min-h-full md:block shadow-lg-blue rounded text-left md:text-center">
             <div class="w-1/3 md:w-full overflow-hidden bg-gray-200 xl:h-64 relative">
                 <div style="height: inherit; transform: translateY(50%);">
                     <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}"
@@ -23,10 +22,10 @@
                     <p class="talk leading-normal inline-block text-gray-800 border-t border-dashed mt-4 pt-4 italic text-primary hover:text-secondary text-left md:text-center">
                         Talk: {{ $speaker->talk }}
                     </p>
-                    {{--                @else--}}
-                    {{--                    <p class="talk leading-normal inline-block text-gray-800 border-t border-dashed mt-4 pt-4 italic text-left md:text-center">--}}
-                    {{--                        Talk details coming soon...--}}
-                    {{--                    </p>--}}
+{{--                @else--}}
+{{--                    <p class="talk leading-normal inline-block text-gray-800 border-t border-dashed mt-4 pt-4 italic text-left md:text-center">--}}
+{{--                        Talk details coming soon...--}}
+{{--                    </p>--}}
                 @endif
             </div>
         </div>

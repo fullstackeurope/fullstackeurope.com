@@ -11,17 +11,17 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div id="venue-gallery">
-                    <a class="chocolat-image" href="{{ asset('images/2020/hilton-ballroom.jpg') }}">
-                        <img src="{{ asset('images/2020/hilton-ballroom.jpg') }}" class="enlarge">
+                    <a class="chocolat-image" href="{{ asset('images/2019/hilton-ballroom.jpg') }}">
+                        <img src="{{ asset('images/2019/hilton-ballroom.jpg') }}" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('images/2020/hilton-lobby.jpg') }}">
-                        <img src="{{ asset('images/2020/hilton-lobby.jpg') }}" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ asset('images/2019/hilton-lobby.jpg') }}">
+                        <img src="{{ asset('images/2019/hilton-lobby.jpg') }}" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('images/2020/hilton-restaurant.jpg') }}">
-                        <img src="{{ asset('images/2020/hilton-restaurant.jpg') }}" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ asset('images/2019/hilton-restaurant.jpg') }}">
+                        <img src="{{ asset('images/2019/hilton-restaurant.jpg') }}" class="enlarge">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('images/2020/hilton.jpg') }}">
-                        <img src="{{ asset('images/2020/hilton.jpg') }}" class="enlarge">
+                    <a class="chocolat-image hidden" href="{{ asset('images/2019/hilton.jpg') }}">
+                        <img src="{{ asset('images/2019/hilton.jpg') }}" class="enlarge">
                     </a>
                 </div>
             </div>

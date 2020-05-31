@@ -33,8 +33,9 @@
 
     @include('2019.partials.newsletter')
 
-    <div style="background: url('/images/2020/pattern.png') repeat top left">
+    <div style="background: url('/images/2019/pattern.png') repeat top left">
         @include('2019.partials.speakers')
+        @include('2019.partials.workshops')
     </div>
 
     @include('2019.partials.timer')

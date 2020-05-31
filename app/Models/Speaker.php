@@ -9,6 +9,11 @@ use Illuminate\Support\Str;
 
 final class Speaker extends Model
 {
+    public function url(): string
+    {
+        return route('speaker', [$this->edition, $this]);
+    }
+
     public function twitterUrl(): string
     {
         return $this->twitter ? "https://twitter.com/{$this->twitter}" : '';

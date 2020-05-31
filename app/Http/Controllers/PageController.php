@@ -11,7 +11,9 @@ final class PageController
 {
     public function home(Edition $edition)
     {
-        return view("{$edition->year}.home");
+        $workshops = $edition->speakers()->whereNotNull('workshop')->get();
+
+        return view("{$edition->year}.home", compact('workshops'));
     }
 
     public function speaker(Edition $edition, Speaker $speaker)

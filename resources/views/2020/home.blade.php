@@ -13,7 +13,7 @@
                 </p>
 
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
-                    {{ config('settings.2020.venue') }}
+                    {{ $edition->venue }}
                 </h2>
                 <h3 class="text-white text-sm md:text-lg pb-2">
                     Workshops - October 7, 2020

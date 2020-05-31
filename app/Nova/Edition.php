@@ -51,12 +51,24 @@ final class Edition extends Resource
 
             Number::make('Year')->required(),
 
-            DateTime::make('Starts At')->nullable(),
+            Text::make('Tickets Url')
+                ->rules('nullable', 'url')
+                ->help('Ticket buttons will be hidden if you leave this empty.')
+                ->hideFromIndex(),
+
+            Text::make('Tickets Label')
+                ->hideFromIndex(),
+
+            DateTime::make('Starts At')
+                ->help('Timer will be hidden if you leave this empty.')
+                ->nullable(),
 
             Text::make('Sale Ends Description')
                 ->hideFromIndex(),
 
-            DateTime::make('Sale Ends At')->nullable(),
+            DateTime::make('Sale Ends At')
+                ->help('Sales countdown will be hidden if you leave this empty.')
+                ->nullable(),
 
             Text::make('Page Title')
                 ->hideFromIndex(),

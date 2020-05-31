@@ -17,6 +17,11 @@ final class Edition extends Model
         'year' => 'integer',
     ];
 
+    public function ticketsLabel(): string
+    {
+        return $this->tickets_label ?? 'Get your tickets';
+    }
+
     public function pageTitle(string $pageTitle = ''): string
     {
         $conferenceName = config('app.name');

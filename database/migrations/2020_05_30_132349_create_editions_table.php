@@ -12,6 +12,9 @@ class CreateEditionsTable extends Migration
             $table->id();
             $table->string('year', 4)->unique();
             $table->timestamp('starts_at')->nullable();
+            $table->string('tickets_url')->nullable();
+            $table->string('tickets_label')->nullable();
+            $table->string('venue')->nullable();
             $table->string('sale_ends_description')->nullable();
             $table->timestamp('sale_ends_at')->nullable();
             $table->string('page_title')->nullable();

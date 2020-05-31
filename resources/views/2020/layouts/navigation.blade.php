@@ -23,12 +23,14 @@
     </nav>
 </div>
 
-<div id="navigationButton" class="hidden lg:block lg:flex-initial lg:pt-2">
-    <a class="lg:hidden" href="{{ config('settings.2020.tickets_url') }}" target="_blank">tickets</a>
-    <a
-        href="{{ config('settings.2020.tickets_url') }}" target="_blank"
-        class="hidden lg:inline-block btn-tickets leading-normal"
-    >
-        tickets
-    </a>
-</div>
+@if ($edition->tickets_url)
+    <div id="navigationButton" class="hidden lg:block lg:flex-initial lg:pt-2">
+        <a class="lg:hidden" href="{{ $edition->tickets_url }}" target="_blank">tickets</a>
+        <a
+            href="{{ $edition->tickets_url }}" target="_blank"
+            class="hidden lg:inline-block btn-tickets leading-normal"
+        >
+            tickets
+        </a>
+    </div>
+@endif

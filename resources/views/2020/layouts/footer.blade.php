@@ -1,6 +1,6 @@
 <div id="footer" class="text-sm text-white">
     <div class="footer-top leading-normal bg-background-secondary">
-        <div class="container mx-auto pt-16 pb-8">
+        <div class="container mx-auto px-4 pt-16 pb-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ asset('images/2020/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class="footer-bottom bg-background leading-loose text-center">
-        <div class="container mx-auto py-8">
+        <div class="container mx-auto px-4 py-8">
             <div class="md:flex">
                 <div class="md:w-3/4 md:text-left">
                     &copy; {{ config('app.name') }}

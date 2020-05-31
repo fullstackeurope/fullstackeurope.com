@@ -1,6 +1,6 @@
 <a id="sponsors" class="anchor-sponsors"></a>
 <div id="sponsors-outer" class="bg-gray-200 text-gray-800 py-12 md:py-16">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4">
         <div class="md:flex text-center md:pb-0">
             {{--        <div class="md:flex text-center pb-10 md:pb-0">--}}
             <div class="md:w-1/2">

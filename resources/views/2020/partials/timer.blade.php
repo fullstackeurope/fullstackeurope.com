@@ -1,7 +1,7 @@
 @if ($edition->starts_at)
     <div id="timer" class="timer text-white background-photo-antwerp" data-expires="{{ $edition->starts_at->getTimestamp() }}">
         <div class="overlay py-12 md:py-16">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-4">
                 <h2 class="title text-white">
                     Join us at
                     <a class="text-white hover:text-light" href="https://twitter.com/search?q=%23fseu20">#fseu20</a>

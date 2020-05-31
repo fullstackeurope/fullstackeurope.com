@@ -65,7 +65,7 @@ function toggleHeaderBackground()
         ! navigation.classList.contains("hidden") ||
         document.body.classList.contains('content-page')
     ) {
-        header.style.background = "rgba(39, 29, 119, .70)";
+        header.style.background = "rgba(39, 29, 119, .85)";
     } else if (navigation.classList.contains("hidden")) {
         header.style.background = "none";
     }

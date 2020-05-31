@@ -3,7 +3,7 @@
 @section('content')
     <div class="intro text-center text-white background-photo">
         <div class="overlay pt-32 md:pt-48 md:pb-20">
-            <div class="container mx-auto py-12 md:py-20">
+            <div class="container mx-auto px-4 py-12 md:py-20">
                 <h1 class="font-noway-medium text-white md:text-5xl pb-4">
                     The conference for the whole team
                 </h1>
@@ -47,14 +47,14 @@
 
     <div class="text-gray-800 py-6 md:py-12">
         <a id="venue" class="anchor"></a>
-        <div id="venue-outer" class="container mx-auto">
+        <div id="venue-outer" class="container mx-auto px-4">
             @include('2020.partials.conference')
             @include('2020.partials.venue')
             @include('2020.partials.antwerp')
             @include('2020.partials.2019')
         </div>
 
-        <div class="text-center text-gray-600 mt-8">
+        <div class="container mx-auto px-4 text-center text-gray-600 mt-8">
             @include('2020.partials.cta')
         </div>
     </div>

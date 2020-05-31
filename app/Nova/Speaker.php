@@ -1,32 +1,29 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Nova;
 
 use Illuminate\Http\Request;
-use Laravel\Nova\Fields\DateTime;
+use Illuminate\Validation\Rule;
+use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Image;
-use Laravel\Nova\Fields\Number;
+use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Http\Requests\NovaRequest;
 
-final class Edition extends Resource
+class Speaker extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = \App\Models\Edition::class;
+    public static $model = \App\Models\Speaker::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'year';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -35,7 +32,7 @@ final class Edition extends Resource
      */
     public static $search = [
         'id',
-        'year',
+        'name'
     ];
 
     /**
@@ -49,24 +46,34 @@ final class Edition extends Resource
         return [
             ID::make()->sortable(),
 
-            Number::make('Year')->required(),
+            BelongsTo::make('Edition'),
 
-            DateTime::make('Starts At')->nullable(),
+            Text::make('Name')
+                ->required(),
 
-            Text::make('Sale Ends Description')
+            Text::make('Slug')
+                ->required()
+                ->creationRules('alpha_dash', 'unique:speakers,slug')
+                ->updateRules('alpha_dash', Rule::unique('speakers')->ignore('{{resourceId}}')->where('edition_id'))
                 ->hideFromIndex(),
 
-            DateTime::make('Sale Ends At')->nullable(),
-
-            Text::make('Page Title')
+            Text::make('Title')
                 ->hideFromIndex(),
 
-            Text::make('Meta Description')
+            Text::make('Talk'),
+
+            Markdown::make('Abstract')
                 ->hideFromIndex(),
 
-            Image::make('Meta Image')
-                ->disk('public')
-                ->help('Preferred resolution: 500 x 300')
+            Markdown::make('Bio')
+                ->hideFromIndex(),
+
+            Text::make('Twitter')
+                ->help('Without the "@".')
+                ->hideFromIndex(),
+
+            Text::make('Website')
+                ->rules('nullable', 'url')
                 ->hideFromIndex(),
 
             Text::make('', function () {
@@ -74,7 +81,7 @@ final class Edition extends Resource
                     return '';
                 }
 
-                return '<div class="text-right"><a href="' . route('home', $this->year) . '" class="cursor-pointer text-70 hover:text-primary" target="_blank"><svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a></div>';
+                return '<div class="text-right"><a href="' . route('speaker', [$this->edition, $this]) . '" class="cursor-pointer text-70 hover:text-primary" target="_blank"><svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a></div>';
             })->asHtml(),
         ];
     }

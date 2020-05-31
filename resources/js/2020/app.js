@@ -3,7 +3,7 @@ require('./bootstrap');
 import $ from 'jquery';
 import AnchorJS from 'anchor-js';
 import Chocolat from 'chocolat';
-import Masonry from 'masonry-layout';
+// import Masonry from 'masonry-layout';
 import SmoothScroll from 'smooth-scroll';
 
 // Navigation scroll
@@ -131,10 +131,14 @@ function timerCalculateDays(timeDistance)
 $.fn.Chocolat = Chocolat;
 
 $(document).ready(function(){
-    $('.venue-gallery').Chocolat({
+    const options = {
         enableZoom: false,
         loop: true
-    });
+    };
+
+    Chocolat(document.querySelectorAll('#venue-gallery .chocolat-image'), options);
+    Chocolat(document.querySelectorAll('#antwerp-gallery .chocolat-image'), options);
+    Chocolat(document.querySelectorAll('#previous-edition-gallery .chocolat-image'), options);
 });
 
 // Anchor Links
@@ -182,25 +186,25 @@ function showDayTwo()
     $('#schedule-day-2').show();
 }
 
-// Testimonial Grid
-window.twttr = function (d, s, id) {
-    var t, js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
-    js.src = "https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
-    return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-}(document, 'script', 'twitter-wjs');
-
-// When widget is ready, run masonry
-twttr.ready(function (twttr) {
-    twttr.events.bind('loaded', function (event) {
-        var msnry = new Masonry( '.grid', {
-            // options
-            itemSelector: '.grid-item',
-            columnWidth : 350,
-            gutter: 20
-        });
-    });
-});
+// // Testimonial Grid
+// window.twttr = function (d, s, id) {
+//     var t, js, fjs = d.getElementsByTagName(s)[0];
+//     if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+//     js.src = "https://platform.twitter.com/widgets.js";
+//     fjs.parentNode.insertBefore(js, fjs);
+//     return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+// }(document, 'script', 'twitter-wjs');
+//
+// // When widget is ready, run masonry
+// twttr.ready(function (twttr) {
+//     twttr.events.bind('loaded', function (event) {
+//         var msnry = new Masonry( '.grid', {
+//             // options
+//             itemSelector: '.grid-item',
+//             columnWidth : 350,
+//             gutter: 20
+//         });
+//     });
+// });
 
 

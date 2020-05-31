@@ -6,11 +6,11 @@
 
     transition: all .25s ease-in;
 
-    color: config('colors.light');
+    @apply text-light;
 }
 #header a,
 #header button {
-    color: config('colors.light');
+    @apply text-light;
 }
 #header a:hover,
 #header button:hover{

@@ -10,6 +10,7 @@ final class Edition extends Model
 {
     protected $dates = [
         'sale_ends_at',
+        'starts_at',
     ];
 
     protected $casts = [
@@ -27,5 +28,15 @@ final class Edition extends Model
         ]);
 
         return implode(' - ', $parts);
+    }
+
+    public function metaImage(): string
+    {
+        return $this->meta_image ? asset("/storage/{$this->meta_image}") : '';
+    }
+
+    public function speakers()
+    {
+        return $this->belongsTo(Speaker::class);
     }
 }

@@ -19,3 +19,11 @@
 @import "utilities/animations.css";
 @import "utilities/gradients.css";
 @import "utilities/images.css";
+
+
+a {
+    @apply text-primary;
+}
+a:hover {
+    @apply text-secondary;
+}

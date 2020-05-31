@@ -39,29 +39,27 @@
 
     @include('2020.partials.newsletter')
 
-{{--    <div style="background: url('/2020/assets/images/pattern.png') repeat top left">--}}
-{{--        @include('2020._partials.speakers')--}}
-{{--    </div>--}}
+    <div style="background: url('/images/2020/pattern.png') repeat top left">
+        @include('2020.partials.speakers')
+    </div>
 
-{{--    @include('2020._partials.timer')--}}
+    @include('2020.partials.timer')
 
-{{--    <div class="text-grey-darker py-6 md:py-12">--}}
-{{--        <a id="venue" class="anchor"></a>--}}
-{{--        <div id="venue-outer" class="container">--}}
-{{--            @include('2020._partials.conference')--}}
-{{--            @include('2020._partials.venue')--}}
-{{--            @include('2020._partials.antwerp')--}}
-{{--            @include('2020._partials.2019')--}}
-{{--        </div>--}}
+    <div class="text-gray-800 py-6 md:py-12">
+        <a id="venue" class="anchor"></a>
+        <div id="venue-outer" class="container mx-auto">
+            @include('2020.partials.conference')
+            @include('2020.partials.venue')
+            @include('2020.partials.antwerp')
+            @include('2020.partials.2019')
+        </div>
 
-{{--        @include('2020._partials.testimonials')--}}
+        <div class="text-center text-gray-600 mt-8">
+            @include('2020.partials.cta')
+        </div>
+    </div>
 
-{{--        <div class="text-center text-grey-dark mt-8">--}}
-{{--            @include('2020._partials._cta')--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-{{--    @include('2020._partials.sponsors')--}}
-{{--    @include('2020._partials.organisers')--}}
-{{--    @include('2020._partials.diversity')--}}
+    @include('2020.partials.sponsors')
+    @include('2020.partials.organisers')
+    @include('2020.partials.diversity')
 @endsection

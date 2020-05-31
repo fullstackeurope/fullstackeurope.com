@@ -1,6 +1,6 @@
 #footer a,
 .social a {
-    color: config('colors.light');
+    @apply text-light;
 }
 #footer a:hover,
 .social a:hover {

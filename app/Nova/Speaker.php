@@ -7,6 +7,7 @@ use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Avatar;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Boolean;
+use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Text;
@@ -49,6 +50,9 @@ class Speaker extends Resource
             ID::make()->sortable(),
 
             BelongsTo::make('Edition'),
+
+            BelongsTo::make('Timeslot')
+                ->nullable(),
 
             Avatar::make('Photo')
                 ->disk('public')

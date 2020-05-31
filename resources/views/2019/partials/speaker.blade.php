@@ -7,7 +7,7 @@
                          class="block w-full" style="transform: translateY(-50%);">
                 </div>
             </div>
-            <div class="w-2/3 md:w-full pt-4 pb-6 px-6 flex flex-col justify-center">
+            <div class="w-2/3 md:w-full pt-4 pb-6 md:px-6 flex flex-col justify-center">
                 <h3 class="font-noway-medium leading-normal text-primary hover:text-secondary text-lg xl:text-xl">
                     {{ $speaker->name }}
                 </h3>

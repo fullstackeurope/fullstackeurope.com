@@ -11,6 +11,7 @@ class CreateSpeakersTable extends Migration
         Schema::create('speakers', function (Blueprint $table) {
             $table->id();
             $table->foreignId('edition_id')->constrained();
+            $table->foreignId('timeslot_id')->nullable()->constrained();
             $table->string('slug');
             $table->string('name');
             $table->string('title')->nullable();

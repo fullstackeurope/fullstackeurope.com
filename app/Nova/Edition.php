@@ -6,12 +6,13 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\DateTime;
+use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Http\Requests\NovaRequest;
 
 final class Edition extends Resource
 {
@@ -50,16 +51,29 @@ final class Edition extends Resource
         return [
             ID::make()->sortable(),
 
-            Number::make('Year')
+            HasMany::make('Timeslots'),
+
+            HasMany::make('Speakers'),
+
+            Text::make('Year')
                 ->creationRules(Rule::unique('editions'))
-                ->updateRules(Rule::unique('editions')->ignore($this->id))
+                // ->updateRules(Rule::unique('editions')->ignore($this->id))
                 ->required(),
 
             Text::make('Hashtag')
                 ->creationRules(Rule::unique('editions'))
-                ->updateRules(Rule::unique('editions')->ignore($this->id))
+                // ->updateRules(Rule::unique('editions')->ignore($this->id))
                 ->help('Without the "#".')
                 ->required(),
+
+            DateTime::make('Starts At')
+                ->required(),
+
+            DateTime::make('Ends At')
+                ->required(),
+
+            Boolean::make('Publish Schedule')
+                ->hideFromIndex(),
 
             Text::make('Tickets Url')
                 ->rules('nullable', 'url')
@@ -68,10 +82,6 @@ final class Edition extends Resource
 
             Text::make('Tickets Label')
                 ->hideFromIndex(),
-
-            DateTime::make('Starts At')
-                ->help('Timer will be hidden if you leave this empty.')
-                ->nullable(),
 
             Text::make('Sale Ends Description')
                 ->hideFromIndex(),

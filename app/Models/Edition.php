@@ -4,13 +4,19 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * @property Carbon $starts_at
+ * @property Carbon $ends_at
+ */
 final class Edition extends Model
 {
     protected $dates = [
         'sale_ends_at',
         'starts_at',
+        'ends_at',
     ];
 
     protected $casts = [
@@ -38,6 +44,11 @@ final class Edition extends Model
     public function metaImage(): string
     {
         return $this->meta_image ? asset("/storage/{$this->meta_image}") : '';
+    }
+
+    public function timeslots()
+    {
+        return $this->hasMany(Timeslot::class);
     }
 
     public function speakers()

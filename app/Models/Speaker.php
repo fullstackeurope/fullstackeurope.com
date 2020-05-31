@@ -35,4 +35,9 @@ final class Speaker extends Model
     {
         return $this->belongsTo(Edition::class);
     }
+
+    public function timeslot()
+    {
+        return $this->belongsTo(Timeslot::class);
+    }
 }

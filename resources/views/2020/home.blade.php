@@ -37,9 +37,8 @@
         </div>
     </div>
 
-    @include('2020.partials.newsletter')
-
     <div style="background: url('/images/2020/pattern.png') repeat top left">
+        @include('2020.partials.newsletter')
         @include('2020.partials.speakers')
     </div>
 

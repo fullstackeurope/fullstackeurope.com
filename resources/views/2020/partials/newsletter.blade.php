@@ -6,7 +6,7 @@
                 <div class="md:flex">
                     <div class="md:w-1/3 lg:w-1/4 mb-6 md:mb-0 md:pt-1 xl:pt-0 md:pl-4 md:pr-4">
                         <h3 class="text-xl xl:text-2xl font-noway-medium">Don't miss a thing</h3>
-                        <p class="xl:text-lg text-gray-800">We won't spam you, promised</p>
+                        <p class="xl:text-lg text-gray-600">We won't spam you, promised</p>
                     </div>
                     <div class="md:w-1/2 mb-4 md:mb-0 md:pl-4">
                         <input type="email" name="EMAIL" value="" class="inline-block outline-none text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required style="background-color: #F5F6FB; color: #989898;">

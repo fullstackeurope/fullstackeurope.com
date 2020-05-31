@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "~chocolat/dist/css/chocolat.css";
+
+@import "components/buttons.css";
+@import "components/fonts.css";
+@import "components/footer.css";
+@import "components/general.css";
+@import "components/header.css";
+@import "components/newsletter.css";
+@import "components/page.css";
+@import "components/speakers.css";
+
+@import "tailwindcss/utilities";
+
+@import "utilities/anchors.css";
+@import "utilities/animations.css";
+@import "utilities/gradients.css";
+@import "utilities/images.css";

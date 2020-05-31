@@ -10,19 +10,13 @@
     @include('layouts.favicons')
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix("css/{$edition->year}/app.css") }}">
 </head>
-<body class="font-noway h-full bg-background {{ $bodyClass ?? '' }}">
-<div class="bg-white">
-{{--    @include('2020._layouts.header')--}}
+<body class="{{ $bodyClass ?? '' }}">
 
-    @yield('body')
+@yield('body')
 
-{{--    @include('2020._partials.newsletter')--}}
-{{--    @include('2020._layouts.footer')--}}
-</div>
-
-<script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ mix("js/{$edition->year}/app.js") }}"></script>
 
 @production
     <script>

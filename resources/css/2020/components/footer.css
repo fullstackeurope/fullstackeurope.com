@@ -1,0 +1,8 @@
+#footer a,
+.social a {
+    color: config('colors.light');
+}
+#footer a:hover,
+.social a:hover {
+    color: white;
+}

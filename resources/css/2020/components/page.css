@@ -1,0 +1,5 @@
+#page h2,
+#page p,
+#page ul {
+    @apply mb-4;
+}

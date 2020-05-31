@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'noway';
+    src: url('/fonts/noway-regular-webfont.eot');
+    src: url('/fonts/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/noway-regular-webfont.woff2') format('woff2'),
+    url('/fonts/noway-regular-webfont.woff') format('woff'),
+    url('/fonts/noway-regular-webfont.ttf') format('truetype'),
+    url('/fonts/noway-regular-webfont.svg#nowayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nowaymedium';
+    src: url('/fonts/noway-medium-webfont.eot');
+    src: url('/fonts/noway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/noway-medium-webfont.woff2') format('woff2'),
+    url('/fonts/noway-medium-webfont.woff') format('woff'),
+    url('/fonts/noway-medium-webfont.ttf') format('truetype'),
+    url('/fonts/noway-medium-webfont.svg#nowayregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4A4A4A;
+}
+
+.title {
+    @apply font-noway-medium text-3xl text-center mb-8;
+}
+.title-sm {
+    @apply text-base text-center uppercase text-gray-700 font-normal;
+}
+.pre-title {
+    @apply title-sm mb-2;
+}
+
+@screen md {
+    .title {
+        @apply mb-12;
+    }
+}
+
+.paragraph {
+    @apply text-xl mb-4 leading-normal;
+}
+

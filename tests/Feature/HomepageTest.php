@@ -15,10 +15,14 @@ class HomepageTest extends TestCase
     /** @test */
     public function it_can_display_the_homepage()
     {
-        $edition = factory(Edition::class)->create(['year' => 2020]);
+        $edition = factory(Edition::class)->create([
+            'year' => 2020,
+            'sale_ends_description' => 'Blind birds available until',
+        ]);
 
         $this->get("/{$edition->year}")
             ->assertSee($edition->pageTitle())
-            ->assertSee($edition->meta_description);
+            ->assertSee($edition->meta_description)
+            ->assertSee($edition->sale_ends_description);
     }
 }

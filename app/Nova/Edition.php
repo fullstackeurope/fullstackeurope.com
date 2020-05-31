@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Nova;
 
 use Illuminate\Http\Request;
+use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Fields\Number;
@@ -50,13 +51,21 @@ final class Edition extends Resource
 
             Number::make('Year')->required(),
 
-            Text::make('Page Title'),
+            Text::make('Sale Ends Description')
+                ->hideFromIndex(),
 
-            Text::make('Meta Description'),
+            DateTime::make('Sale Ends At')->nullable(),
+
+            Text::make('Page Title')
+                ->hideFromIndex(),
+
+            Text::make('Meta Description')
+                ->hideFromIndex(),
 
             Image::make('Meta Image')
                 ->disk('public')
-                ->help('Preferred resolution: 500 x 300'),
+                ->help('Preferred resolution: 500 x 300')
+                ->hideFromIndex(),
         ];
     }
 

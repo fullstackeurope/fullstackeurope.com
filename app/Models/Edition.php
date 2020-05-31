@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 
 final class Edition extends Model
 {
+    protected $dates = [
+        'sale_ends_at',
+    ];
+
     protected $casts = [
         'year' => 'integer',
     ];

@@ -1,7 +1,10 @@
 const mix = require('laravel-mix');
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
+// 2020
+mix.js('resources/js/2020/app.js', 'public/js/2020')
+    .postCss('resources/css/2020/app.css', 'public/css/2020', [
         require('tailwindcss'),
     ])
-    .version();
+    .copyDirectory('node_modules/chocolat/dist/images', 'public/images/2020/chocolat');
+
+mix.version();

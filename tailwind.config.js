@@ -4,8 +4,38 @@ module.exports = {
         './resources/**/*.js',
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'primary': '#6859ea',
+                'secondary': '#6acbe0',
+                'light': '#e5e3fe',
+                'background': '#20195B',
+                'background-secondary': '#2D256F',
+
+                'theme-grey-light': '#E9EDF6',
+            },
+            fontFamily: {
+                'noway': [
+                    'noway',
+                    'Helvetica',
+                    'Arial',
+                    'sans-serif',
+                ],
+                'noway-medium': [
+                    'nowaymedium',
+                    'Helvetica',
+                    'Arial',
+                    'sans-serif',
+                ],
+            }
+        },
+        linearGradientColors: {
+            'primary': ['#6acbe0 0%', '#6859ea 50%', '#6acbe0 100%'],
+            'secondary': ['#6acbe0 0%', '#6859ea 100%'],
+        },
     },
     variants: {},
-    plugins: [],
+    plugins: [
+        require('tailwindcss-gradients'),
+    ],
 }

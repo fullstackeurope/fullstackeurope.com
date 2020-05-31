@@ -19,5 +19,5 @@
 <meta name="og:description" content="{{ $description }}">
 <meta name="og:image" content="{{ $image }}">
 <meta name="og:url" content="{{ route('home', $edition) }}">
-<meta name="og:site_name" content="Full Stack Europe">
+<meta name="og:site_name" content="{{ config('app.name') }}">
 <meta name="og:type" content="website">

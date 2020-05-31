@@ -54,7 +54,7 @@
                 </a>
             </p>
             <p>
-                <a class="apply font-noway-medium block" href="/2019">
+                <a class="apply font-noway-medium block" href="{{ route('home', 2019) }}">
                     <i class="fas fa-globe-europe mr-1"></i> 2019 Website <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
                 </a>
             </p>

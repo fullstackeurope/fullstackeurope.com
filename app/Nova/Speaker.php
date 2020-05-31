@@ -4,7 +4,9 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Laravel\Nova\Fields\Avatar;
 use Laravel\Nova\Fields\BelongsTo;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Text;
@@ -48,21 +50,20 @@ class Speaker extends Resource
 
             BelongsTo::make('Edition'),
 
+            Avatar::make('Photo')
+                ->disk('public')
+                ->help('Preferred resolution: 500 x 500'),
+
             Text::make('Name')
                 ->required(),
 
             Text::make('Slug')
                 ->required()
-                ->creationRules('alpha_dash', 'unique:speakers,slug')
-                ->updateRules('alpha_dash', Rule::unique('speakers')->ignore('{{resourceId}}')->where('edition_id'))
+                ->creationRules('alpha_dash', Rule::unique('speakers'))
+                ->updateRules('alpha_dash', Rule::unique('speakers')->ignore($this->id))
                 ->hideFromIndex(),
 
             Text::make('Title')
-                ->hideFromIndex(),
-
-            Text::make('Talk'),
-
-            Markdown::make('Abstract')
                 ->hideFromIndex(),
 
             Markdown::make('Bio')
@@ -74,6 +75,19 @@ class Speaker extends Resource
 
             Text::make('Website')
                 ->rules('nullable', 'url')
+                ->hideFromIndex(),
+
+            Text::make('Talk'),
+
+            Markdown::make('Abstract')
+                ->hideFromIndex(),
+
+            Text::make('Workshop'),
+
+            Markdown::make('Workshop Description')
+                ->hideFromIndex(),
+
+            Boolean::make('Workshop Sold Out')
                 ->hideFromIndex(),
 
             Text::make('', function () {

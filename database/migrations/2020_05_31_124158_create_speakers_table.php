@@ -16,6 +16,9 @@ class CreateSpeakersTable extends Migration
             $table->string('title')->nullable();
             $table->string('talk')->nullable();
             $table->text('abstract')->nullable();
+            $table->string('workshop')->nullable();
+            $table->text('workshop_description')->nullable();
+            $table->boolean('workshop_sold_out')->default(false);
             $table->text('bio')->nullable();
             $table->string('twitter')->nullable();
             $table->string('website')->nullable();

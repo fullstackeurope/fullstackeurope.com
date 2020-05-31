@@ -42,6 +42,11 @@ final class Edition extends Model
 
     public function speakers()
     {
-        return $this->belongsTo(Speaker::class);
+        return $this->hasMany(Speaker::class);
+    }
+
+    public function sponsors()
+    {
+        return $this->hasMany(Sponsor::class);
     }
 }

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Nova;
 
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Image;
@@ -49,7 +50,16 @@ final class Edition extends Resource
         return [
             ID::make()->sortable(),
 
-            Number::make('Year')->required(),
+            Number::make('Year')
+                ->creationRules(Rule::unique('editions'))
+                ->updateRules(Rule::unique('editions')->ignore($this->id))
+                ->required(),
+
+            Text::make('Hashtag')
+                ->creationRules(Rule::unique('editions'))
+                ->updateRules(Rule::unique('editions')->ignore($this->id))
+                ->help('Without the "#".')
+                ->required(),
 
             Text::make('Tickets Url')
                 ->rules('nullable', 'url')

@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 
 final class UserSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         factory(User::class)->create(['email' => 'dries@vints.io', 'name' => 'Dries Vints']);
         factory(User::class)->create(['email' => 'freek@vints.io', 'name' => 'Freek Van der Herten']);

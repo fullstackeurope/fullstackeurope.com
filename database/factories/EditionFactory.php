@@ -7,6 +7,7 @@ use Faker\Generator as Faker;
 $factory->define(Edition::class, function (Faker $faker): array {
     return [
         'year' => 2020,
+        'hashtag' => 'fseu20',
         'starts_at' => $faker->dateTimeBetween('now', '+5 months'),
         'tickets_url' => $faker->url,
         'venue' => $faker->company,

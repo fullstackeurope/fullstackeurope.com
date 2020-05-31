@@ -11,6 +11,7 @@ class CreateEditionsTable extends Migration
         Schema::create('editions', function (Blueprint $table) {
             $table->id();
             $table->string('year', 4)->unique();
+            $table->string('hashtag')->unique();
             $table->timestamp('starts_at')->nullable();
             $table->string('tickets_url')->nullable();
             $table->string('tickets_label')->nullable();

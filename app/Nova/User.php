@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Nova;
 
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Password;
@@ -55,8 +56,8 @@ final class User extends Resource
             Text::make('Email')
                 ->sortable()
                 ->rules('required', 'email', 'max:254')
-                ->creationRules('unique:users,email')
-                ->updateRules('unique:users,email,{{resourceId}}'),
+                ->creationRules(Rule::unique('users'))
+                ->updateRules(Rule::unique('users')->ignore($this->id)),
 
             Password::make('Password')
                 ->onlyOnForms()

@@ -46,6 +46,9 @@ class Speaker extends Resource
      */
     public function fields(Request $request)
     {
+        $slugRule = Rule::unique('speakers')
+            ->where('edition_id', $request->get('edition'));
+
         return [
             ID::make()->sortable(),
 
@@ -63,8 +66,8 @@ class Speaker extends Resource
 
             Text::make('Slug')
                 ->required()
-                ->creationRules('alpha_dash', Rule::unique('speakers'))
-                ->updateRules('alpha_dash', Rule::unique('speakers')->ignore($this->id))
+                ->creationRules('alpha_dash', $slugRule)
+                ->updateRules('alpha_dash', $slugRule->ignoreModel($this->resource))
                 ->hideFromIndex(),
 
             Text::make('Title')

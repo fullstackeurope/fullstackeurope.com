@@ -42,7 +42,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                     </a>
                 </div>
-                <div class="w-5/6 font-noway-medium text-gray-800">
+                <div class="w-5/6 font-noway-medium text-gray-600">
                     <p class="leading-looser">
                         Groenplaats 32<br>
                         2000 Antwerp<br>

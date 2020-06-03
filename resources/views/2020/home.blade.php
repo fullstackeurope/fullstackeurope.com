@@ -44,7 +44,7 @@
 
     @include('2020.partials.timer')
 
-    <div class="text-gray-800 py-6 md:py-12">
+    <div class="text-gray-600 py-6 md:py-12">
         <a id="venue" class="anchor"></a>
         <div id="venue-outer" class="container mx-auto px-4">
             @include('2020.partials.conference')

@@ -6,10 +6,13 @@ use Faker\Generator as Faker;
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Speaker::class, function (Faker $faker) {
+    static $sortOrder = 0;
+
     return [
         'edition_id' => function () {
             return factory(Edition::class)->create()->id;
         },
+        'sort_order' => ++$sortOrder,
         'slug' => $faker->unique()->slug,
         'name' => $faker->name,
         'title' => $faker->jobTitle,

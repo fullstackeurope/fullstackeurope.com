@@ -7,13 +7,15 @@ use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Avatar;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Boolean;
-use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Text;
+use OptimistDigital\NovaSortable\Traits\HasSortableRows;
 
 class Speaker extends Resource
 {
+    use HasSortableRows;
+
     /**
      * The model the resource corresponds to.
      *
@@ -37,6 +39,13 @@ class Speaker extends Resource
         'id',
         'name'
     ];
+
+    /**
+     * The number of resources to show per page via relationships.
+     *
+     * @var int
+     */
+    public static $perPageViaRelationship = 100;
 
     /**
      * Get the fields displayed by the resource.

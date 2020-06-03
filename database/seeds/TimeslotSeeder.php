@@ -28,7 +28,7 @@ final class TimeslotSeeder extends Seeder
             $hour = 7;
             $start = $edition->starts_at->addDay();
 
-            for ($i = 1; $i < 11; $i++) {
+            for ($i = 11; $i < 21; $i++) {
                 factory(Timeslot::class)->create([
                     'edition_id' => $edition->id,
                     'starts_at' => $start = $start->hour($hour)->startOfHour(),

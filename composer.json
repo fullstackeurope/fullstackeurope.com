@@ -16,6 +16,7 @@
         "laravel/nova": "^3.6",
         "laravel/tinker": "^2.0",
         "league/commonmark": "^1.4",
+        "optimistdigital/nova-sortable": "^1.4",
         "spatie/laravel-backup": "^6.10"
     },
     "require-dev": {

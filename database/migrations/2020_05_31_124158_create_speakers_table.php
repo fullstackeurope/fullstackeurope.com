@@ -12,6 +12,7 @@ class CreateSpeakersTable extends Migration
             $table->id();
             $table->foreignId('edition_id')->constrained();
             $table->foreignId('timeslot_id')->nullable()->constrained();
+            $table->integer('sort_order');
             $table->string('slug');
             $table->string('name');
             $table->string('title')->nullable();

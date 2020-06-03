@@ -6,9 +6,19 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use Spatie\EloquentSortable\Sortable;
+use Spatie\EloquentSortable\SortableTrait;
 
-final class Speaker extends Model
+final class Speaker extends Model implements Sortable
 {
+    use SortableTrait;
+
+    public $sortable = [
+        'order_column_name' => 'sort_order',
+        'sort_when_creating' => true,
+        'sort_on_has_many' => true,
+    ];
+
     public function url(): string
     {
         return route('speaker', [$this->edition, $this]);

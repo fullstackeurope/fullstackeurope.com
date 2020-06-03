@@ -72,8 +72,7 @@ final class Edition extends Resource
             DateTime::make('Ends At')
                 ->required(),
 
-            Boolean::make('Publish Schedule')
-                ->hideFromIndex(),
+            Boolean::make('Publish Schedule'),
 
             Text::make('Tickets Url')
                 ->rules('nullable', 'url')

@@ -29,14 +29,14 @@
                 <a id="talk" class="anchor-page"></a>
                 <h2 data-anchor-id="talk">Talk - {{ $speaker['talk'] }}</h2>
 
-                {{ $speaker->abstract }}
+                @markdown($speaker->abstract)
             @endif
 
             @if ($speaker->workshop)
                 <a id="workshop" class="anchor-page"></a>
                 <h2 data-anchor-id="workshop">Workshop - {{ $speaker->workshop }}</h2>
 
-                {{ $speaker->workshop_description }}
+                @markdown($speaker->workshop_description)
 
                 @include('2019.partials.cta_workshop')
             @endif
@@ -45,7 +45,7 @@
                 <a id="about" class="anchor-page"></a>
                 <h2 data-anchor-id="about">About</h2>
 
-                {{ $speaker->bio }}
+                @markdown($speaker->bio)
             @endif
 
             <a class="apply font-noway-medium block" href="{{ route('home', $edition) }}/#speakers">

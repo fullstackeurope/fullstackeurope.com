@@ -13,6 +13,11 @@ final class Timeslot extends Model
         'ends_at',
     ];
 
+    public function time(): string
+    {
+        return $this->starts_at->timezone('europe/brussels')->format('H:i');
+    }
+
     public function edition()
     {
         return $this->belongsTo(Edition::class);

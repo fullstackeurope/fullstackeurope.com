@@ -11,7 +11,7 @@ final class TimeslotSeeder extends Seeder
     public function run(): void
     {
         Edition::all()->each(function (Edition $edition) {
-            $hour = 9;
+            $hour = 7;
             $start = $edition->starts_at;
 
             for ($i = 1; $i < 11; $i++) {
@@ -25,7 +25,7 @@ final class TimeslotSeeder extends Seeder
                 $hour++;
             }
 
-            $hour = 9;
+            $hour = 7;
             $start = $edition->starts_at->addDay();
 
             for ($i = 1; $i < 11; $i++) {

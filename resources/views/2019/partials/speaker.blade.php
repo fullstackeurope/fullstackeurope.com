@@ -1,13 +1,10 @@
 <div class="md:px-4 mb-8">
     <a href="{{ $speaker->url() }}">
-        <div class="speaker enlarge min-h-full md:block shadow-lg-blue rounded text-left md:text-center">
-            <div class="w-1/3 md:w-full overflow-hidden bg-gray-200 xl:h-64 relative">
-                <div style="height: inherit; transform: translateY(50%);">
-                    <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}"
-                         class="block w-full" style="transform: translateY(-50%);">
-                </div>
+        <div class="grid grid-cols-3 gap-0 speaker enlarge min-h-full md:block shadow-lg-blue rounded text-left md:text-center">
+            <div class="col-span-1 overflow-hidden xl:h-64 relative">
+                <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}" class="block w-full bg-gray-200 ">
             </div>
-            <div class="w-2/3 md:w-full pt-4 pb-6 md:px-6 flex flex-col justify-center">
+            <div class="col-span-2 pt-4 px-6 pb-6 flex flex-col justify-center">
                 <h3 class="font-noway-medium leading-normal text-primary hover:text-secondary text-lg xl:text-xl">
                     {{ $speaker->name }}
                 </h3>

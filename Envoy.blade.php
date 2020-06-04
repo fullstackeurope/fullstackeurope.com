@@ -58,7 +58,7 @@ git clone --depth 1 git@github.com:{{ $repository }}.git {{ $newReleaseName }}
 
 cd {{ $newReleaseDir }}
 git fetch origin
-git checkout -b laravel origin/laravel
+git checkout -b laravel --track origin/laravel
 
 # Configure sparse checkout
 cd {{ $newReleaseDir }}

@@ -55,10 +55,10 @@ mkdir {{ $newReleaseDir }};
 
 # Clone the repo
 git clone --depth 1 git@github.com:{{ $repository }}.git {{ $newReleaseName }}
-git checkout laravel
 
 # Configure sparse checkout
 cd {{ $newReleaseDir }}
+git checkout laravel
 git config core.sparsecheckout true
 echo "*" > .git/info/sparse-checkout
 echo "!storage" >> .git/info/sparse-checkout

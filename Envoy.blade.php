@@ -38,8 +38,8 @@ deployOnlyCode
 
 @task('startDeployment', ['on' => 'local'])
 {{ logMessage("🏃  Starting deployment…") }}
-git checkout master
-git pull origin master
+git checkout laravel
+git pull origin laravel
 @endtask
 
 @task('cloneRepository', ['on' => 'remote'])
@@ -55,6 +55,7 @@ mkdir {{ $newReleaseDir }};
 
 # Clone the repo
 git clone --depth 1 git@github-fseu:{{ $repository }} {{ $newReleaseName }}
+git checkout laravel
 
 # Configure sparse checkout
 cd {{ $newReleaseDir }}
@@ -107,7 +108,7 @@ ln -nfs {{ $baseDir }}/.env .env;
 
 # Symlink the persistent fonts to the public directory
 cd {{ $baseDir }}/persistent/fonts
-git pull origin master
+git pull origin laravel
 ln -nfs {{ $baseDir }}/persistent/fonts {{ $newReleaseDir }}/public/fonts;
 
 @endtask
@@ -160,7 +161,7 @@ ls -dt {{ $releasesDir }}/* | tail -n +6 | xargs -d "\n" rm -rf;
 @task('deployOnlyCode',['on' => 'remote'])
 {{ logMessage("💻  Deploying code changes…") }}
 cd {{ $currentDir }}
-git pull origin master
+git pull origin laravel
 php artisan config:clear
 php artisan view:clear
 php artisan cache:clear

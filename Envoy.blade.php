@@ -80,7 +80,7 @@ php artisan nova:publish
 @task('runNPM', ['on' => 'remote'])
 {{ logMessage("📦  Running NPM…") }}
 cd {{ $newReleaseDir }};
-npm ci
+npm i
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])

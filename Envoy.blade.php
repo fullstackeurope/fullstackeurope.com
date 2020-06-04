@@ -1,6 +1,6 @@
 @setup
 $server = "165.227.150.93";
-$userAndServer = 'forge@'. $server;
+$userAndServer = 'forge@'.$server;
 $repository = "fullstackeurope/fullstackeurope.com";
 $baseDir = "/home/forge/fullstackeurope.com";
 $releasesDir = "{$baseDir}/releases";
@@ -58,7 +58,8 @@ git clone --depth 1 git@github.com:{{ $repository }}.git {{ $newReleaseName }}
 
 # Configure sparse checkout
 cd {{ $newReleaseDir }}
-git checkout laravel
+git fetch origin
+git checkout -b laravel origin/laravel
 git config core.sparsecheckout true
 echo "*" > .git/info/sparse-checkout
 echo "!storage" >> .git/info/sparse-checkout

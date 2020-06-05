@@ -71,6 +71,8 @@ final class Edition extends Resource
             DateTime::make('Ends At')
                 ->required(),
 
+            Text::make('Venue'),
+
             Boolean::make('Publish Schedule'),
 
             Text::make('Tickets Url')

@@ -28,7 +28,7 @@
             <a href="{{ $timeslot->speaker->url() }}">
                 <div class="speaker enlarge image-border-gradient-left inline-block shadow-lg-blue rounded max-h-32 w-32 h-24 overflow-hidden">
                     <div style="height: inherit; transform: translateY(50%);">
-                        <img src="{{ $timeslot->speaker->photo() }}" alt="{{ $timeslot->speaker->name }}"
+                        <img src="{{ $timeslot->speaker->photoUrl() }}" alt="{{ $timeslot->speaker->name }}"
                              class="block w-full" style="transform: translateY(-50%);">
                     </div>
                 </div>

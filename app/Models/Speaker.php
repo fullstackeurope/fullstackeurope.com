@@ -29,7 +29,7 @@ final class Speaker extends Model implements Sortable
         return $this->twitter ? "https://twitter.com/{$this->twitter}" : '';
     }
 
-    public function photo(): string
+    public function photoUrl(): string
     {
         return $this->photo ? asset("/storage/{$this->photo}") : asset('/images/speaker-placeholder.png');
     }

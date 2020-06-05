@@ -2,7 +2,7 @@
     <a href="{{ $speaker->url() }}">
         <div class="grid grid-cols-3 gap-0 speaker enlarge min-h-full md:block shadow-lg-blue rounded text-left md:text-center">
             <div class="col-span-1 overflow-hidden xl:h-64 relative">
-                <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}" class="block w-full bg-gray-200 ">
+                <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}" class="block w-full bg-gray-200 ">
             </div>
             <div class="col-span-2 pt-4 px-6 pb-6 flex flex-col justify-center">
                 <h3 class="font-noway-medium leading-normal text-primary hover:text-secondary text-lg xl:text-xl">

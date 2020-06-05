@@ -3,7 +3,7 @@
         <a href="{{ $speaker->url() }}">
             <div class="speaker enlarge image-border-gradient-left w-1/2 inline-block shadow-lg-blue rounded max-h-32 md:w-32 overflow-hidden">
                 <div style="height: inherit; transform: translateY(50%);">
-                    <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}"
+                    <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}"
                          class="block w-full" style="transform: translateY(-50%);">
                 </div>
             </div>

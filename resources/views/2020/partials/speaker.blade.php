@@ -4,7 +4,7 @@
         <div class="speaker enlarge flex h-full md:block shadow-lg-blue rounded text-left md:text-center">
             <div class="w-1/3 md:w-full overflow-hidden bg-gray-200 xl:h-64 relative">
                 <div style="height: inherit; transform: translateY(50%);">
-                    <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}"
+                    <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}"
                          class="block w-full" style="transform: translateY(-50%);">
                 </div>
             </div>

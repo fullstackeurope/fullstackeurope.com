@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 final class Sponsor extends Model
 {
-    public function logo(): string
+    public function logoUrl(): string
     {
         return $this->logo ? asset("/storage/{$this->logo}") : '';
     }

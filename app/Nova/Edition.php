@@ -55,13 +55,13 @@ final class Edition extends Resource
             HasMany::make('Speakers'),
 
             Text::make('Year')
-                ->creationRules(Rule::unique('editions'))
-                // ->updateRules(Rule::unique('editions')->ignore($this->id))
+                // ->creationRules(Rule::unique('editions'))
+                // ->updateRules(Rule::unique('editions')->ignoreModel($this->resource))
                 ->required(),
 
             Text::make('Hashtag')
-                ->creationRules(Rule::unique('editions'))
-                // ->updateRules(Rule::unique('editions')->ignore($this->id))
+                // ->creationRules(Rule::unique('editions'))
+                // ->updateRules(Rule::unique('editions')->ignoreModel($this->resource))
                 ->help('Without the "#".')
                 ->required(),
 

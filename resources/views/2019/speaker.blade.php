@@ -4,7 +4,7 @@
     <div class="md:flex md:px-12">
         <div class="md:w-1/3 mt-4 mb-6">
             <div class="image-background-gradient md:w-5/6">
-                <img src="{{ $speaker->photo() }}" alt="{{ $speaker->name }}" class="bg-gray-200">
+                <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}" class="bg-gray-200">
             </div>
 
             <p class="mt-6">

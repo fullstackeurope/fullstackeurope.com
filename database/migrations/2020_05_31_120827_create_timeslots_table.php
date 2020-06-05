@@ -11,8 +11,8 @@ class CreateTimeslotsTable extends Migration
         Schema::create('timeslots', function (Blueprint $table) {
             $table->id();
             $table->foreignId('edition_id')->constrained();
-            $table->timestamp('starts_at');
-            $table->timestamp('ends_at');
+            $table->timestamp('starts_at')->nullable();
+            $table->timestamp('ends_at')->nullable();
             $table->string('name');
             $table->string('description')->nullable();
             $table->timestamps();

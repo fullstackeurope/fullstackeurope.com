@@ -12,8 +12,8 @@ class CreateEditionsTable extends Migration
             $table->id();
             $table->string('year', 4)->unique();
             $table->string('hashtag')->unique();
-            $table->timestamp('starts_at');
-            $table->timestamp('ends_at');
+            $table->timestamp('starts_at')->nullable();
+            $table->timestamp('ends_at')->nullable();
             $table->boolean('publish_schedule');
             $table->string('tickets_url')->nullable();
             $table->string('tickets_label')->nullable();

@@ -105,6 +105,10 @@ ln -nfs {{ $baseDir }}/persistent/uploads public/uploads;
 cd {{ $newReleaseDir }};
 ln -nfs {{ $baseDir }}/.env .env;
 
+# Link the public storage directory
+cd {{ $newReleaseDir }};
+php artisan storage:link
+
 @endtask
 
 @task('optimizeInstallation', ['on' => 'remote'])

@@ -94,6 +94,7 @@ final class Edition extends Resource
 
             Text::make('Meta Description')
                 ->rules('max:160')
+                ->help('Maximum of 160 characters allowed.')
                 ->hideFromIndex(),
 
             Image::make('Meta Image')

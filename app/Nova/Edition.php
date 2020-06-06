@@ -65,6 +65,7 @@ final class Edition extends Resource
                 ->required(),
 
             DateTime::make('Starts At')
+                ->help('The countdown to the start of the conference is based on this.')
                 ->required(),
 
             DateTime::make('Ends At')

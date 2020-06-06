@@ -1,12 +1,8 @@
 <a id="2019-edition" class="anchor"></a>
 <div class="py-6 md:py-12">
     <div class="md:hidden">
-        <h3 class="pre-title">
-            Check out our previous edition
-        </h3>
-        <h2 class="title">
-            2019 Edition
-        </h2>
+        <h3 class="pre-title">Check out our previous edition</h3>
+        <h2 class="title">2019 Edition</h2>
     </div>
 
     <div class="md:flex md:flex-row-reverse">

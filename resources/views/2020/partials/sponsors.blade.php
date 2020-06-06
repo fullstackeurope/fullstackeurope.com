@@ -20,7 +20,7 @@
                 @if ($sponsors = $levels->get($level))
                     <h4 class="font-noway-medium uppercase border-b my-8 pb-3">{{ ucfirst($level) }}</h4>
 
-                    <div class="md:grid md:grid-cols-{{ $level === 'platinum' ? 3 : 4 }} md:gap-12">
+                    <div class="md:grid {{ $level === 'platinum' ? 'md:grid-cols-3' : 'md:grid-cols-4' }} md:gap-12">
                         @foreach ($sponsors as $sponsor)
                             <div class="mb-4 md:mb-0">
                                 @include('2020.partials.sponsor', ['large' => $level === 'platinum', 'sponsor' => $sponsor])

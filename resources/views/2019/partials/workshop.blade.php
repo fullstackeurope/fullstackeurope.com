@@ -26,6 +26,10 @@
             <a class="btn-tickets px-4 mb-4 py-4" href="{{ $edition->tickets_url }}" target="_blank">
                 Register now
             </a>
+        @else
+            <span class="btn-tickets px-4 mb-4 py-4">
+                Tickets Closed
+            </span>
         @endif
 
         <p class="md:text-center">

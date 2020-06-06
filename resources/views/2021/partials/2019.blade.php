@@ -9,8 +9,11 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div id="previous-edition-gallery">
-                    <a class="chocolat-image" href="{{ asset('/images/2021/2019/fseu19-1.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-1.jpg') }}" class="enlarge">
+{{--                    <a class="chocolat-image" href="{{ asset('/images/2021/2019/fseu19-1.jpg') }}">--}}
+{{--                        <img src="{{ asset('/images/2021/2019/fseu19-1.jpg') }}" class="enlarge">--}}
+{{--                    </a>--}}
+                    <a class="chocolat-image " href="{{ asset('/images/2021/2019/fseu19-5.jpg') }}">
+                        <img src="{{ asset('/images/2021/2019/fseu19-5.jpg') }}" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-2.jpg') }}">
                         <img src="{{ asset('/images/2021/2019/fseu19-2.jpg') }}" class="enlarge">
@@ -20,9 +23,6 @@
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-4.jpg') }}">
                         <img src="{{ asset('/images/2021/2019/fseu19-4.jpg') }}" class="enlarge">
-                    </a>
-                    <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-5.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-5.jpg') }}" class="enlarge">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-6.jpg') }}">
                         <img src="{{ asset('/images/2021/2019/fseu19-6.jpg') }}" class="enlarge">

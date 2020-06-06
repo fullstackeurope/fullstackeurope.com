@@ -7,7 +7,7 @@
     <div class="md:flex">
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
-                <img src="{{ asset('/images/2021/hilton.jpg') }}" alt="{{ $edition->venue }}">
+                <img src="{{ asset('/images/2021/2019/fseu19-1.jpg') }}" alt="{{ $edition->venue }}">
             </div>
         </div>
         <div class="md:w-1/2 md:px-8">

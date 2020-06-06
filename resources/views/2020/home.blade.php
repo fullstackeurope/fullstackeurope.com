@@ -13,9 +13,9 @@
 
                     <p class="mb-2">We’re sad to inform you that, due to the current Corona pandemic, we’ve decided to postpone Full Stack Europe 2020 until next year.</p>
 
-                    <p class="mb-2">It was not an easy decision for us to make. We feel this is the better option than making it an online conference.<br>We’re working on finding a new date in Q4 2021.</p>
+                    <p class="mb-2">It was not an easy decision for us to make. We feel this is the better option than making it an online conference.<br>If you already purchased a ticket, we will contact you.</p>
 
-                    <p class="mb-2">We’ll make sure that the 2021-edition will be as much fun as our first edition.</p>
+                    <p class="mb-2">We’re working on finding a new date in Q4 2021. We’ll make sure that the 2021-edition will be as much fun as our first edition.</p>
 
                     <p class="mb-2">We hope to see you there.</p>
 

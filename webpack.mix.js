@@ -12,4 +12,10 @@ mix.js('resources/js/2020/app.js', 'public/js/2020')
         require('tailwindcss'),
     ]);
 
+// 2021
+mix.js('resources/js/2021/app.js', 'public/js/2021')
+    .postCss('resources/css/2021/app.css', 'public/css/2021', [
+        require('tailwindcss'),
+    ]);
+
 mix.version();

@@ -15,7 +15,7 @@ final class PageController
         $schedule = $edition->timeslots()->orderBy('starts_at')->get()->groupBy(function (Timeslot $timeslot) {
             return $timeslot->starts_at->format('Y-m-d');
         });
-        $speakers = $edition->speakers()->whereNotNull('talk')->get();
+        $speakers = $edition->speakers()->orderBy('sort_order')->whereNotNull('talk')->get();
         $workshops = $edition->speakers()->whereNotNull('workshop')->get();
 
         return view("{$edition->year}.home", compact('schedule', 'speakers', 'workshops'));

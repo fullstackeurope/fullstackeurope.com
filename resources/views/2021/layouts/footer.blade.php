@@ -8,14 +8,24 @@
                 </div>
                 <div class="md:w-2/3 md:text-right">
                     <ul class="list-reset">
-                        <li class="md:ml-6 md:inline-block">
+                        @if ($edition->publish_schedule)
+                            <li class="md:ml-6 md:inline-block mt-4">
+                                <a data-scroll href="{{ route('home', $edition) }}#schedule">schedule</a>
+                            </li>
+                        @endif
+
+                        <li class="md:ml-6 md:inline-block mt-4">
                             <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
                         </li>
-                        <li data-scroll class="md:ml-6 md:inline-block mt-4">
-                            <a href="{{ route('home', $edition) }}#venue">venue</a>
-                        </li>
-                        <li data-scroll class="md:ml-6 md:inline-block mt-4">
-                            <a href="{{ route('home', $edition) }}#sponsors">sponsors</a>
+
+                        @if ($edition->venue)
+                            <li class="md:ml-6 md:inline-block mt-4">
+                                <a data-scroll href="{{ route('home', $edition) }}#venue">venue</a>
+                            </li>
+                        @endif
+
+                        <li class="md:ml-6 md:inline-block mt-4">
+                            <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">
                             <a data-scroll href="{{ route('home', $edition) }}#newsletter">newsletter</a>

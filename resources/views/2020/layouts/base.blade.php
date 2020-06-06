@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="bg-white">
-        @include('2020.layouts.header')
+{{--        @include('2020.layouts.header')--}}
 
         @yield('content')
 

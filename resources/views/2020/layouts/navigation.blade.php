@@ -7,19 +7,19 @@
                 </li>
             @endif
 
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
-            </li>
+{{--            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">--}}
+{{--                <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>--}}
+{{--            </li>--}}
 
-            @if ($edition->venue)
-                <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                    <a data-scroll href="{{ route('home', $edition) }}#venue">venue</a>
-                </li>
-            @endif
+{{--            @if ($edition->venue)--}}
+{{--                <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">--}}
+{{--                    <a data-scroll href="{{ route('home', $edition) }}#venue">venue</a>--}}
+{{--                </li>--}}
+{{--            @endif--}}
 
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>
-            </li>
+{{--            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">--}}
+{{--                <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>--}}
+{{--            </li>--}}
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="{{ route('home', $edition) }}#newsletter">newsletter</a>
             </li>

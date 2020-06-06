@@ -17,7 +17,7 @@
     background-size: cover;
 }
 .background-photo .overlay {
-    background: rgba(39, 29, 119, .70);
+    background: rgba(39, 29, 119, .90);
 }
 .background-photo-antwerp {
     background: url("/images/2020/antwerp.jpg") center no-repeat;

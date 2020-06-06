@@ -93,6 +93,7 @@ final class Edition extends Resource
                 ->hideFromIndex(),
 
             Text::make('Meta Description')
+                ->rules('max:160')
                 ->hideFromIndex(),
 
             Image::make('Meta Image')

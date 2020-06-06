@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Nova;
 
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Gravatar;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Password;
@@ -25,7 +24,7 @@ final class User extends Resource
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.

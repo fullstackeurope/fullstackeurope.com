@@ -66,6 +66,8 @@ final class Speaker extends Resource
             BelongsTo::make('Edition'),
 
             BelongsTo::make('Timeslot')
+                ->searchable()
+                ->withSubtitles()
                 ->nullable(),
 
             Avatar::make('Photo')

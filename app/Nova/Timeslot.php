@@ -57,13 +57,15 @@ final class Timeslot extends Resource
                 ->required(),
 
             DateTime::make('Ends At')
-                ->required(),
+                ->required()
+                ->hideFromIndex(),
 
             Text::make('Name')
                 ->required(),
 
             Text::make('Description')
-                ->nullable(),
+                ->nullable()
+                ->hideFromIndex(),
         ];
     }
 
@@ -109,5 +111,15 @@ final class Timeslot extends Resource
     public function actions(Request $request)
     {
         return [];
+    }
+
+    /**
+     * Get the search result subtitle for the resource.
+     *
+     * @return string
+     */
+    public function subtitle()
+    {
+        return $this->edition->year . ' - ' . $this->resource->time();
     }
 }

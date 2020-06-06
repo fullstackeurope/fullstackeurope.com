@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="intro text-center text-white background-photo">
-        <div class="overlay pt-10 md:pt-48 md:pb-20">
+        <div class="overlay pt-10 md:pt-32 md:pb-20">
             <div class="container mx-auto px-4 py-12 md:py-20">
                 <div class="max-w-2xl mx-auto text-xl leading-8 mb-8">
                     <p class="mb-8 px-4">

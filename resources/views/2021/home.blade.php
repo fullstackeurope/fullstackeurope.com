@@ -22,6 +22,11 @@
 {{--                    Main Conference - October 8 & 9, 2021--}}
 {{--                </h3>--}}
 
+
+                <h2 class="font-noway-medium text-white md:text-2xl pb-4">
+                    Antwerp, Belgium &bull; Autumn, 2021
+                </h2>
+
                 <div class="text-2xl pb-10 md:pb-16">
                     @include('2021.layouts.social')
                 </div>

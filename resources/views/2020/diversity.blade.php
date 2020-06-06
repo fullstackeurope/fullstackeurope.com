@@ -17,7 +17,7 @@
 
     <h3>Contact person</h3>
 
-    <p>We have a <a href="{{ route('code-of-conduct', $edition) }}code-of-conduct">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
+    <p>We have a <a href="{{ route('code-of-conduct', $edition) }}">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
 
     <h3>Speaker reimbursements</h3>
 

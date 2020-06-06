@@ -14,11 +14,11 @@
 
     <h3>Code of Conduct (CoC)</h3>
 
-    <p>We ask all participants, speakers, and staff, to adhere to <a href="https://fullstackeurope.com/2019/code-of-conduct">our Code of Conduct</a>, and mention it in the opening speech of the conference. Our goal is to create a safe and welcoming environment for all participants. We fully intend to enforce it, and have scenarios in place for dealing with violations.</p>
+    <p>We ask all participants, speakers, and staff, to adhere to <a href="{{ route('code-of-conduct', 2019) }}">our Code of Conduct</a>, and mention it in the opening speech of the conference. Our goal is to create a safe and welcoming environment for all participants. We fully intend to enforce it, and have scenarios in place for dealing with violations.</p>
 
     <h3>Contact person</h3>
 
-    <p>We have a <a href="https://fullstackeurope.com/2019/code-of-conduct">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
+    <p>We have a <a href="{{ route('code-of-conduct', 2019) }}">contact person</a> for reporting Code of Conduct violations and related concerns.</p>
 
     <h3>Speaker reimbursements</h3>
 

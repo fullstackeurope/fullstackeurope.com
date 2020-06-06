@@ -32,7 +32,7 @@
 </p>
 
 <p class="mb-4 sm:mb-10">
-    <a class="{{ $linkColor ?? '' }} border-b border-dotted leading-normal" href="https://www.youtube.com/watch?v=TbDWdVJECt4&list=PLeWf1pVncHmZMNIxp1XLWTYPMs2B25jEx" target="_blank">
+    <a class="{{ $linkColor ?? '' }} border-b border-dotted leading-normal" href="https://www.youtube.com/playlist?list=PLeWf1pVncHmZMNIxp1XLWTYPMs2B25jEx" target="_blank">
         Watch the videos
     </a>
 </p>

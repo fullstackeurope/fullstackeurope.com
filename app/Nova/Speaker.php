@@ -81,6 +81,7 @@ final class Speaker extends Resource
                 ->required()
                 ->creationRules('alpha_dash', $slugRule)
                 ->updateRules('alpha_dash', $slugRule->ignoreModel($this->resource))
+                ->help('If you adjust this, previous links to this speaker page will not work anymore.')
                 ->hideFromIndex(),
 
             Text::make('Title')

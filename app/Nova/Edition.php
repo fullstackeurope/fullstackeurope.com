@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace App\Nova;
 
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\HasMany;

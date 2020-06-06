@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Nova;
 
 use Illuminate\Http\Request;
@@ -9,7 +11,7 @@ use Laravel\Nova\Fields\HasOne;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 
-class Timeslot extends Resource
+final class Timeslot extends Resource
 {
     /**
      * The model the resource corresponds to.

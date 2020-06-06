@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Nova;
 
 use Illuminate\Http\Request;
@@ -12,7 +14,7 @@ use Laravel\Nova\Fields\Markdown;
 use Laravel\Nova\Fields\Text;
 use OptimistDigital\NovaSortable\Traits\HasSortableRows;
 
-class Speaker extends Resource
+final class Speaker extends Resource
 {
     use HasSortableRows;
 

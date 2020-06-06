@@ -25,7 +25,7 @@ final class User extends Resource
      *
      * @var string
      */
-    public static $title = 'name';
+    public static $title = 'id';
 
     /**
      * The columns that should be searched.
@@ -55,9 +55,9 @@ final class User extends Resource
 
             Text::make('Email')
                 ->sortable()
-                ->rules('required', 'email', 'max:254')
-                ->creationRules(Rule::unique('users'))
-                ->updateRules(Rule::unique('users')->ignore($this->id)),
+                ->rules('required', 'email', 'max:254'),
+                // ->creationRules(Rule::unique('users'))
+                // ->updateRules(Rule::unique('users')->ignoreModel($this->resource)),
 
             Password::make('Password')
                 ->onlyOnForms()

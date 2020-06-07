@@ -10,22 +10,22 @@
             <div class="image-background-gradient">
                 <div id="previous-edition-gallery">
 {{--                    <a class="chocolat-image" href="{{ asset('/images/2021/2019/fseu19-1.jpg') }}">--}}
-{{--                        <img src="{{ asset('/images/2021/2019/fseu19-1.jpg') }}" class="enlarge">--}}
+{{--                        <img src="{{ asset('/images/2021/2019/fseu19-1.jpg') }}" class="enlarge" alt="Conference impression">--}}
 {{--                    </a>--}}
-                    <a class="chocolat-image " href="{{ asset('/images/2021/2019/fseu19-5.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-5.jpg') }}" class="enlarge">
+                    <a class="chocolat-image" href="{{ asset('/images/2021/2019/fseu19-5.jpg') }}">
+                        <img src="{{ asset('/images/2021/2019/fseu19-5.jpg') }}" class="enlarge" alt="Thijs Feryn">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-2.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-2.jpg') }}" class="enlarge">
+                        <img src="{{ asset('/images/2021/2019/fseu19-2.jpg') }}" class="enlarge" alt="Audience">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-3.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-3.jpg') }}" class="enlarge">
+                        <img src="{{ asset('/images/2021/2019/fseu19-3.jpg') }}" class="enlarge" alt="Lunch">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-4.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-4.jpg') }}" class="enlarge">
+                        <img src="{{ asset('/images/2021/2019/fseu19-4.jpg') }}" class="enlarge" alt="Lunch">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/images/2021/2019/fseu19-6.jpg') }}">
-                        <img src="{{ asset('/images/2021/2019/fseu19-6.jpg') }}" class="enlarge">
+                        <img src="{{ asset('/images/2021/2019/fseu19-6.jpg') }}" class="enlarge" alt="Sara Soueidan">
                     </a>
                 </div>
             </div>

@@ -6,7 +6,7 @@
             <p class="mb-3">
                 <a href="https://twitter.com/freekmurze">
                     <img src="https://www.gravatar.com/avatar/a1b4b398630bbd32b77a82cbc37fae9a?s=200"
-                         width="100" class="rounded-full enlarge inline-block">
+                         width="100" class="rounded-full enlarge inline-block" alt="Freek Van der Herten">
                 </a>
             </p>
             <p class="mb-3">Freek Van der Herten</p>
@@ -19,7 +19,7 @@
             <p class="mb-3">
                 <a href="https://twitter.com/driesvints">
                     <img src="https://www.gravatar.com/avatar/e8321183acdf47a9ce838afd13a964b5?s=200"
-                         width="100" class="rounded-full enlarge inline-block">
+                         width="100" class="rounded-full enlarge inline-block" alt="Dries Vints">
                 </a>
             </p>
             <p class="mb-3">Dries Vints</p>

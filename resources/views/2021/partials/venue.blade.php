@@ -12,16 +12,16 @@
             <div class="image-background-gradient">
                 <div id="venue-gallery">
                     <a class="chocolat-image" href="{{ asset('images/2021/hilton-ballroom.jpg') }}">
-                        <img src="{{ asset('images/2021/hilton-ballroom.jpg') }}" class="enlarge">
+                        <img src="{{ asset('images/2021/hilton-ballroom.jpg') }}" class="enlarge" alt="Hilton Ballroom">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('images/2021/hilton-lobby.jpg') }}">
-                        <img src="{{ asset('images/2021/hilton-lobby.jpg') }}" class="enlarge">
+                        <img src="{{ asset('images/2021/hilton-lobby.jpg') }}" class="enlarge" alt="Hilton Lobby">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('images/2021/hilton-restaurant.jpg') }}">
-                        <img src="{{ asset('images/2021/hilton-restaurant.jpg') }}" class="enlarge">
+                        <img src="{{ asset('images/2021/hilton-restaurant.jpg') }}" class="enlarge" alt="Hilton Restaurant">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('images/2021/hilton.jpg') }}">
-                        <img src="{{ asset('images/2021/hilton.jpg') }}" class="enlarge">
+                        <img src="{{ asset('images/2021/hilton.jpg') }}" class="enlarge" alt="Hilton Hotel">
                     </a>
                 </div>
             </div>

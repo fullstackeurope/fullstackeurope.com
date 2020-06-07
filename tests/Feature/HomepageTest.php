@@ -17,7 +17,7 @@ class HomepageTest extends TestCase
     public function it_can_display_the_homepage()
     {
         $edition = factory(Edition::class)->create([
-            'year' => 2020,
+            'year' => 2021,
             'sale_ends_description' => 'Blind birds available until',
         ]);
 

@@ -12,46 +12,46 @@
             <div class="image-background-gradient">
                 <div id="antwerp-gallery">
                     <a class="chocolat-image" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113251/FSEU/Centraal_Station_06.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113251/FSEU/Centraal_Station_06.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113251/FSEU/Centraal_Station_06.jpg" class="enlarge" alt="Central Station">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113239/FSEU/De_Keyserlei.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113239/FSEU/De_Keyserlei.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113239/FSEU/De_Keyserlei.jpg" class="enlarge" alt="De Keyserlei">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Grote_Markt_04.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Grote_Markt_04.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Grote_Markt_04.jpg" class="enlarge" alt="Grote Markt">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Groenplaats_06.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Groenplaats_06.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113232/FSEU/Groenplaats_06.jpg" class="enlarge" alt="Groenplaats">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113231/FSEU/Grote_Markt_02.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113231/FSEU/Grote_Markt_02.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113231/FSEU/Grote_Markt_02.jpg" class="enlarge" alt="Grote Markt">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113217/FSEU/Grote_Markt_05.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113217/FSEU/Grote_Markt_05.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113217/FSEU/Grote_Markt_05.jpg" class="enlarge" alt="Grote Markt">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113213/FSEU/Havenhuis_8229.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113213/FSEU/Havenhuis_8229.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113213/FSEU/Havenhuis_8229.jpg" class="enlarge" alt="Havenhuis">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113193/FSEU/KMSKA_Museum_voor_Schone_Kunsten_4.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113193/FSEU/KMSKA_Museum_voor_Schone_Kunsten_4.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113193/FSEU/KMSKA_Museum_voor_Schone_Kunsten_4.jpg" class="enlarge" alt="Museum voor Schone Kunsten">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113172/FSEU/Sint_Carolus_Borromeuskerk_15.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113172/FSEU/Sint_Carolus_Borromeuskerk_15.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113172/FSEU/Sint_Carolus_Borromeuskerk_15.jpg" class="enlarge" alt="Sint Carolus Borromeuskerk">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113170/FSEU/Museum_Plantin_Moretus_11.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113170/FSEU/Museum_Plantin_Moretus_11.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113170/FSEU/Museum_Plantin_Moretus_11.jpg" class="enlarge" alt="Museum Plantin Moretus">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113161/FSEU/Stadsfeestzaal_21.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113161/FSEU/Stadsfeestzaal_21.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113161/FSEU/Stadsfeestzaal_21.jpg" class="enlarge" alt="Stadsfeestzaak">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113150/FSEU/Onze_Lieve_Vrouwe_Kathedraal_11.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113150/FSEU/Onze_Lieve_Vrouwe_Kathedraal_11.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113150/FSEU/Onze_Lieve_Vrouwe_Kathedraal_11.jpg" class="enlarge" alt="Onze Lieve Vrouwe Kathedraal">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg" class="enlarge" alt="Onze Lieve Vrouwe Kathedraal">
                     </a>
                     <a class="chocolat-image hidden" href="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg">
-                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg" class="enlarge">
+                        <img src="https://res.cloudinary.com/driesvints/image/upload/c_limit,w_1200/v1553113144/FSEU/Onze_Lieve_Vrouwe_Kathedraal_31.jpg" class="enlarge" alt="Onze Lieve Vrouwe Kathedraal">
                     </a>
                 </div>
             </div>

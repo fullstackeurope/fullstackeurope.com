@@ -6,6 +6,7 @@ namespace App\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\ResponseCache\Facades\ResponseCache;
 
 /**
  * @property Carbon $starts_at
@@ -22,6 +23,21 @@ final class Edition extends Model
     protected $casts = [
         'year' => 'integer',
     ];
+
+    public static function booted()
+    {
+        self::created(function () {
+            ResponseCache::clear();
+        });
+
+        self::updated(function () {
+            ResponseCache::clear();
+        });
+
+        self::deleted(function () {
+            ResponseCache::clear();
+        });
+    }
 
     public function ticketsLabel(): string
     {

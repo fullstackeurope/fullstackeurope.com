@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
+use Spatie\ResponseCache\Facades\ResponseCache;
 
 final class Speaker extends Model implements Sortable
 {
@@ -18,6 +19,21 @@ final class Speaker extends Model implements Sortable
         'sort_when_creating' => true,
         'sort_on_has_many' => true,
     ];
+
+    public static function booted()
+    {
+        self::created(function () {
+            ResponseCache::clear();
+        });
+
+        self::updated(function () {
+            ResponseCache::clear();
+        });
+
+        self::deleted(function () {
+            ResponseCache::clear();
+        });
+    }
 
     public function url(): string
     {

@@ -6,6 +6,7 @@ namespace App\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Spatie\ResponseCache\Facades\ResponseCache;
 
 final class User extends Authenticatable
 {
@@ -37,4 +38,19 @@ final class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function booted()
+    {
+        self::created(function () {
+            ResponseCache::clear();
+        });
+
+        self::updated(function () {
+            ResponseCache::clear();
+        });
+
+        self::deleted(function () {
+            ResponseCache::clear();
+        });
+    }
 }

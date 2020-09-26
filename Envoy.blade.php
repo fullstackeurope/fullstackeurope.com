@@ -115,6 +115,7 @@ php artisan storage:link
 {{ logMessage("✨  Optimizing installation…") }}
 cd {{ $newReleaseDir }};
 php artisan clear-compiled;
+php artisan schedule-monitor:sync
 @endtask
 
 @task('backupDatabase', ['on' => 'remote'])

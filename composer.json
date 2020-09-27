@@ -14,6 +14,7 @@
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.5",
         "laravel/framework": "^7.0",
+        "laravel/horizon": "^4.0",
         "laravel/nova": "^3.6",
         "laravel/tinker": "^2.0",
         "league/commonmark": "^1.4",

@@ -3,7 +3,7 @@
 use App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/2020');
+Route::redirect('/', '/2021');
 
 Route::group(['prefix' => '{edition:year}', 'where' => ['edition' => '2019|2020|2021']], function () {
     Route::get('/', [Controllers\PageController::class, 'home'])->name('home');

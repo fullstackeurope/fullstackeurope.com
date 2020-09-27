@@ -115,7 +115,6 @@ php artisan storage:link
 {{ logMessage("✨  Optimizing installation…") }}
 cd {{ $newReleaseDir }};
 php artisan clear-compiled;
-{{--php artisan schedule-monitor:sync--}}
 @endtask
 
 @task('backupDatabase', ['on' => 'remote'])
@@ -140,6 +139,7 @@ php artisan view:clear
 php artisan cache:clear
 php artisan config:cache
 php artisan responsecache:clear
+php artisan schedule-monitor:sync
 
 sudo service php7.4-fpm restart
 sudo supervisorctl restart all

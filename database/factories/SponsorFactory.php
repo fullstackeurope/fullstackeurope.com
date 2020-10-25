@@ -1,13 +1,30 @@
 <?php
 
-use App\Models\Sponsor;
-use Faker\Generator as Faker;
+namespace Database\Factories;
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(Sponsor::class, function (Faker $faker) {
-    return [
-        'name' => $faker->company,
-        'level' => $faker->randomElement(['platinum', 'gold', 'silver', 'bronze']),
-        'website' => $faker->url,
-    ];
-});
+use App\Models\Sponsor;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class SponsorFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Sponsor::class;
+
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [
+            'name' => $this->faker->company,
+            'level' => $this->faker->randomElement(['platinum', 'gold', 'silver', 'bronze']),
+            'website' => $this->faker->url,
+        ];
+    }
+}

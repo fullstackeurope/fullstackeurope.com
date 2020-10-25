@@ -1,28 +1,45 @@
 <?php
 
+namespace Database\Factories;
+
 use App\Models\Edition;
 use App\Models\Speaker;
-use Faker\Generator as Faker;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(Speaker::class, function (Faker $faker) {
-    static $sortOrder = 0;
+class SpeakerFactory extends Factory
+{
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = Speaker::class;
 
-    return [
-        'edition_id' => function () {
-            return factory(Edition::class)->create()->id;
-        },
-        'sort_order' => ++$sortOrder,
-        'slug' => $faker->unique()->slug,
-        'name' => $faker->name,
-        'title' => $faker->jobTitle,
-        'talk' => $faker->sentence(3),
-        'abstract' => $faker->text,
-        'workshop' => $faker->sentence(3),
-        'workshop_description' => $faker->text,
-        'workshop_sold_out' => $faker->boolean,
-        'bio' => $faker->text,
-        'twitter' => $faker->userName,
-        'website' => $faker->url,
-    ];
-});
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        static $sortOrder = 0;
+
+        return [
+            'edition_id' => function () {
+                return Edition::factory()->create()->id;
+            },
+            'sort_order' => ++$sortOrder,
+            'slug' => $this->faker->unique()->slug,
+            'name' => $this->faker->name,
+            'title' => $this->faker->jobTitle,
+            'talk' => $this->faker->sentence(3),
+            'abstract' => $this->faker->text,
+            'workshop' => $this->faker->sentence(3),
+            'workshop_description' => $this->faker->text,
+            'workshop_sold_out' => $this->faker->boolean,
+            'bio' => $this->faker->text,
+            'twitter' => $this->faker->userName,
+            'website' => $this->faker->url,
+        ];
+    }
+}

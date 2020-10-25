@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Database\Seeders;
+
 use App\Models\Edition;
 use App\Models\Timeslot;
 use Illuminate\Database\Seeder;
@@ -15,7 +17,7 @@ final class TimeslotSeeder extends Seeder
             $start = $edition->starts_at;
 
             for ($i = 1; $i < 11; $i++) {
-                factory(Timeslot::class)->create([
+                Timeslot::factory()->create([
                     'edition_id' => $edition->id,
                     'starts_at' => $start = $start->hour($hour)->startOfHour(),
                     'ends_at' => $start->addMinutes(30),
@@ -29,7 +31,7 @@ final class TimeslotSeeder extends Seeder
             $start = $edition->starts_at->addDay();
 
             for ($i = 11; $i < 21; $i++) {
-                factory(Timeslot::class)->create([
+                Timeslot::factory()->create([
                     'edition_id' => $edition->id,
                     'starts_at' => $start = $start->hour($hour)->startOfHour(),
                     'ends_at' => $start->addMinutes(30),

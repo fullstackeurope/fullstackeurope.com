@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Spatie\EloquentSortable\Sortable;
@@ -12,6 +13,7 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 
 final class Speaker extends Model implements Sortable
 {
+    use HasFactory;
     use SortableTrait;
 
     public $sortable = [

@@ -34,7 +34,7 @@ final class Timeslot extends Resource
      */
     public static $search = [
         'id',
-        'name'
+        'name',
     ];
 
     /**
@@ -120,6 +120,6 @@ final class Timeslot extends Resource
      */
     public function subtitle()
     {
-        return $this->edition->year . ' - ' . $this->resource->time();
+        return $this->edition->year.' - '.$this->resource->time();
     }
 }

@@ -14,7 +14,6 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 final class Speaker extends Model implements Sortable
 {
     use HasFactory;
-
     use SortableTrait;
 
     public $sortable = [

@@ -12,7 +12,6 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 final class User extends Authenticatable
 {
     use HasFactory;
-
     use Notifiable;
 
     /**

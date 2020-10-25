@@ -2,9 +2,9 @@
 
 namespace Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use App\Models\Edition;
 use App\Models\Timeslot;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 /* @var \Illuminate\Database\Eloquent\Factory $factory */
 

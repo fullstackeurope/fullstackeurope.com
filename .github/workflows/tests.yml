@@ -19,12 +19,12 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 7.3
+          php-version: 7.4
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite
           coverage: none
 
       - name: Install Composer dependencies
-        run: composer install --prefer-dist --no-interaction --no-suggest
+        run: composer install --prefer-dist --no-interaction
 
       - name: Install NPM dependencies
         run: npm ci

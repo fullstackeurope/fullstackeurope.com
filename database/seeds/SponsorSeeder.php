@@ -7,7 +7,7 @@ class SponsorSeeder extends Seeder
 {
     public function run(): void
     {
-        factory(Sponsor::class)->times(16)->create(['edition_id' => 1]);
-        factory(Sponsor::class)->times(16)->create(['edition_id' => 2]);
+        Sponsor::factory()->times(16)->create(['edition_id' => 1]);
+        Sponsor::factory()->times(16)->create(['edition_id' => 2]);
     }
 }

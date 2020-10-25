@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\ResponseCache\Facades\ResponseCache;
@@ -14,6 +15,8 @@ use Spatie\ResponseCache\Facades\ResponseCache;
  */
 final class Edition extends Model
 {
+    use HasFactory;
+
     protected $dates = [
         'sale_ends_at',
         'starts_at',

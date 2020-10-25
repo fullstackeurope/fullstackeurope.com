@@ -11,7 +11,7 @@ final class SpeakerSeeder extends Seeder
     public function run(): void
     {
         Timeslot::all()->each(function (Timeslot $timeslot) {
-            factory(Speaker::class)->create([
+            Speaker::factory()->create([
                 'edition_id' => $timeslot->edition_id,
                 'timeslot_id' => $timeslot->id,
             ]);

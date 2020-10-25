@@ -4,11 +4,14 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\ResponseCache\Facades\ResponseCache;
 
 final class Timeslot extends Model
 {
+    use HasFactory;
+
     protected $dates = [
         'starts_at',
         'ends_at',

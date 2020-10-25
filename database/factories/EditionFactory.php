@@ -6,8 +6,6 @@ use App\Models\Edition;
 use Carbon\CarbonImmutable;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/* @var \Illuminate\Database\Eloquent\Factory $factory */
-
 class EditionFactory extends Factory
 {
     /**

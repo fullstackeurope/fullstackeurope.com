@@ -6,8 +6,6 @@ use App\Models\Edition;
 use App\Models\Timeslot;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/* @var \Illuminate\Database\Eloquent\Factory $factory */
-
 class TimeslotFactory extends Factory
 {
     /**

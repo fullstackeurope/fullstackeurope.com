@@ -6,8 +6,6 @@ use App\Models\Edition;
 use App\Models\Speaker;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/* @var \Illuminate\Database\Eloquent\Factory $factory */
-
 class SpeakerFactory extends Factory
 {
     /**

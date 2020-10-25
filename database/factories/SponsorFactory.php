@@ -5,8 +5,6 @@ namespace Database\Factories;
 use App\Models\Sponsor;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/* @var \Illuminate\Database\Eloquent\Factory $factory */
-
 class SponsorFactory extends Factory
 {
     /**

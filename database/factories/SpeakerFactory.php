@@ -4,7 +4,7 @@ use App\Models\Edition;
 use App\Models\Speaker;
 use Faker\Generator as Faker;
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/* @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Speaker::class, function (Faker $faker) {
     static $sortOrder = 0;
 

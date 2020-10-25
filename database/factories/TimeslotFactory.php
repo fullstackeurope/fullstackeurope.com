@@ -4,7 +4,7 @@ use App\Models\Edition;
 use App\Models\Timeslot;
 use Faker\Generator as Faker;
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/* @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Timeslot::class, function (Faker $faker) {
     return [
         'edition_id' => function () {

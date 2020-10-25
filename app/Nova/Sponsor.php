@@ -33,7 +33,7 @@ final class Sponsor extends Resource
      */
     public static $search = [
         'id',
-        'name'
+        'name',
     ];
 
     /**

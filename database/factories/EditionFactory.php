@@ -4,7 +4,7 @@ use App\Models\Edition;
 use Carbon\CarbonImmutable;
 use Faker\Generator as Faker;
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/* @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(Edition::class, function (Faker $faker): array {
     return [
         'year' => 2020,

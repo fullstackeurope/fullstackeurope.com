@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Database\Seeders;
+
 use App\Models\Edition;
 use App\Models\Timeslot;
 use Illuminate\Database\Seeder;

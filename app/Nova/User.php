@@ -55,8 +55,8 @@ final class User extends Resource
             Text::make('Email')
                 ->sortable()
                 ->rules('required', 'email', 'max:254'),
-                // ->creationRules(Rule::unique('users'))
-                // ->updateRules(Rule::unique('users')->ignoreModel($this->resource)),
+            // ->creationRules(Rule::unique('users'))
+            // ->updateRules(Rule::unique('users')->ignoreModel($this->resource)),
 
             Password::make('Password')
                 ->onlyOnForms()

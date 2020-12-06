@@ -15,15 +15,14 @@ new SmoothScroll('a[href*="#"]', {
 document.addEventListener('scrollStart', closeNav, false);
 
 // Mobile navigation toggle
-let header = document.getElementById("header");
-let navigation = document.getElementById("navigation");
-let navigationButton = document.getElementById("navigationButton");
-let showNav = document.getElementById("show-nav");
-let hideNav = document.getElementById("hide-nav");
+let header = document.getElementById('header');
+let navigation = document.getElementById('navigation');
+let navigationButton = document.getElementById('navigationButton');
+let showNav = document.getElementById('show-nav');
+let hideNav = document.getElementById('hide-nav');
 
-function toggleNav()
-{
-    if (navigation.classList.contains("hidden")) {
+function toggleNav() {
+    if (navigation.classList.contains('hidden')) {
         openNav();
     } else {
         closeNav();
@@ -32,49 +31,46 @@ function toggleNav()
     toggleHeaderBackground();
 }
 
-function openNav()
-{
-    navigation.classList.remove("hidden");
-    navigationButton.classList.remove("hidden");
-    showNav.classList.add("hidden");
-    hideNav.classList.remove("hidden");
+function openNav() {
+    navigation.classList.remove('hidden');
+    navigationButton.classList.remove('hidden');
+    showNav.classList.add('hidden');
+    hideNav.classList.remove('hidden');
 }
 
-function closeNav()
-{
-    navigation.classList.add("hidden");
-    navigationButton.classList.add("hidden");
-    showNav.classList.remove("hidden");
-    hideNav.classList.add("hidden");
+function closeNav() {
+    navigation.classList.add('hidden');
+    navigationButton.classList.add('hidden');
+    showNav.classList.remove('hidden');
+    hideNav.classList.add('hidden');
 }
 
 $('#show-nav').on('click touchdown', toggleNav);
 $('#hide-nav').on('click touchdown', toggleNav);
 
 // Toggle header background
-function toggleHeaderBackground()
-{
+function toggleHeaderBackground() {
     if (window.pageYOffset >= 50) {
-        header.style.padding = "16px 0";
+        header.style.padding = '16px 0';
     } else {
-        header.style.padding = "32px 0";
+        header.style.padding = '32px 0';
     }
 
     if (
         window.pageYOffset >= 50 ||
-        ! navigation.classList.contains("hidden") ||
+        !navigation.classList.contains('hidden') ||
         document.body.classList.contains('content-page')
     ) {
-        header.style.background = "rgba(39, 29, 119, .85)";
-    } else if (navigation.classList.contains("hidden")) {
-        header.style.background = "none";
+        header.style.background = 'rgba(39, 29, 119, .85)';
+    } else if (navigation.classList.contains('hidden')) {
+        header.style.background = 'none';
     }
 }
 
-window.addEventListener("scroll", toggleHeaderBackground);
+window.addEventListener('scroll', toggleHeaderBackground);
 
 // Countdown timer
-let timers = document.getElementsByClassName("timer");
+let timers = document.getElementsByClassName('timer');
 
 for (let i = 0; i < timers.length; i++) {
     let timer = timers[i];
@@ -84,8 +80,7 @@ for (let i = 0; i < timers.length; i++) {
     startCounter(timer, countDownDate);
 }
 
-function startCounter(timer, countDownDate)
-{
+function startCounter(timer, countDownDate) {
     let runningCounter = setInterval(() => {
         let timeDistance = countDownDate - new Date().getTime();
         let timerThresholdDays = parseInt(timer.getAttribute('data-threshold-days'));
@@ -122,18 +117,17 @@ function formatCounter(number) {
     return number.toString().padStart(2, '0');
 }
 
-function timerCalculateDays(timeDistance)
-{
+function timerCalculateDays(timeDistance) {
     return formatCounter(Math.floor(timeDistance / (1000 * 60 * 60 * 24)));
 }
 
 // Photo Enlarger
 $.fn.Chocolat = Chocolat;
 
-$(document).ready(function(){
+$(document).ready(function () {
     const options = {
         enableZoom: false,
-        loop: true
+        loop: true,
     };
 
     Chocolat(document.querySelectorAll('#venue-gallery .chocolat-image'), options);
@@ -143,14 +137,14 @@ $(document).ready(function(){
 
 // Anchor Links
 let anchors = new AnchorJS({
-    placement: "left",
+    placement: 'left',
 });
 
 anchors.add('#page h2');
 anchors.add('#page h3');
 
 // Schedule Navigation
-$(document).ready(function(){
+$(document).ready(function () {
     const day = new Date();
 
     if (day.getMonth() > 8 && day.getDate() > 24) {
@@ -168,8 +162,7 @@ $('#schedule-nav-day-2').on('click', function (e) {
     showDayTwo();
 });
 
-function showDayOne()
-{
+function showDayOne() {
     $('#schedule-nav-day-1').addClass('primary-gradient');
     $('#schedule-nav-day-2').removeClass('primary-gradient');
 
@@ -177,8 +170,7 @@ function showDayOne()
     $('#schedule-day-1').show();
 }
 
-function showDayTwo()
-{
+function showDayTwo() {
     $('#schedule-nav-day-1').removeClass('primary-gradient');
     $('#schedule-nav-day-2').addClass('primary-gradient');
 
@@ -206,5 +198,3 @@ function showDayTwo()
 //         });
 //     });
 // });
-
-

@@ -4,7 +4,7 @@
     /*border-style: solid;*/
     position: fixed;
 
-    transition: all .25s ease-in;
+    transition: all 0.25s ease-in;
 
     @apply text-light;
 }
@@ -13,7 +13,7 @@
     @apply text-light;
 }
 #header a:hover,
-#header button:hover{
+#header button:hover {
     @apply text-white;
 }
 #header a.btn-tickets {
@@ -21,5 +21,5 @@
 }
 
 .content-page #header {
-    background: rgba(39, 29, 119, .85);
+    background: rgba(39, 29, 119, 0.85);
 }

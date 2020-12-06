@@ -13,18 +13,18 @@
 }
 
 .background-photo {
-    background: url("/images/2020/fseu19.jpeg") center no-repeat;
+    background: url('/images/2020/fseu19.jpeg') center no-repeat;
     background-size: cover;
 }
 .background-photo .overlay {
-    background: rgba(39, 29, 119, .70);
+    background: rgba(39, 29, 119, 0.7);
 }
 .background-photo-antwerp {
-    background: url("/images/2020/antwerp.jpg") center no-repeat;
+    background: url('/images/2020/antwerp.jpg') center no-repeat;
     background-size: cover;
 }
 .background-photo-antwerp .overlay {
-    background: rgba(39, 29, 119, .88);
+    background: rgba(39, 29, 119, 0.88);
 }
 
 .image-border-gradient-left {

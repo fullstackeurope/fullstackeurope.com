@@ -2,7 +2,7 @@
     @apply inline-block w-full font-noway-medium text-center text-white text-xl uppercase bg-gradient-tr-primary rounded-lg px-12 py-6;
     background-size: 200% auto;
     cursor: pointer;
-    transition: .5s cubic-bezier(.2, .8, .2, 1);
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .btn-tickets button {
     @apply text-white uppercase;

@@ -15,7 +15,8 @@
         "laravel-mix": "^5.0.9",
         "lodash": "^4.17.20",
         "resolve-url-loader": "^3.1.2",
-        "tailwindcss-gradients": "^3.0.0"
+        "tailwindcss-gradients": "^3.0.0",
+        "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
         "anchor-js": "^4.3.0",

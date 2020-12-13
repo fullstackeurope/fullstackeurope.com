@@ -21,8 +21,8 @@ return "echo '\033[32m" .$message. "\033[0m';\n";
 startDeployment
 cloneRepository
 runComposer
-runNPM
-generateAssets
+{{--runNPM--}}
+{{--generateAssets--}}
 updateSymlinks
 optimizeInstallation
 backupDatabase
@@ -77,17 +77,17 @@ composer install --prefer-dist --no-scripts --no-dev -q -o;
 php artisan nova:publish
 @endtask
 
-@task('runNPM', ['on' => 'remote'])
-{{ logMessage("📦  Running NPM…") }}
-cd {{ $newReleaseDir }};
-npm i
-@endtask
+{{--@task('runNPM', ['on' => 'remote'])--}}
+{{--{{ logMessage("📦  Running NPM…") }}--}}
+{{--cd {{ $newReleaseDir }};--}}
+{{--npm i--}}
+{{--@endtask--}}
 
-@task('generateAssets', ['on' => 'remote'])
-{{ logMessage("🌅  Generating assets…") }}
-cd {{ $newReleaseDir }};
-npm run production -- --progress false
-@endtask
+{{--@task('generateAssets', ['on' => 'remote'])--}}
+{{--{{ logMessage("🌅  Generating assets…") }}--}}
+{{--cd {{ $newReleaseDir }};--}}
+{{--npm run production -- --progress false--}}
+{{--@endtask--}}
 
 @task('updateSymlinks', ['on' => 'remote'])
 {{ logMessage("🔗  Updating symlinks to persistent data…") }}
@@ -108,7 +108,6 @@ ln -nfs {{ $baseDir }}/.env .env;
 # Link the public storage directory
 cd {{ $newReleaseDir }};
 php artisan storage:link
-
 @endtask
 
 @task('optimizeInstallation', ['on' => 'remote'])

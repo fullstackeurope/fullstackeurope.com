@@ -26,7 +26,7 @@
 {{--@endif--}}
 
 <p class="mb-4">
-    <a class="btn-tickets" href="{{ route('home', 2020) }}" target="_blank">
+    <a class="btn-tickets" href="{{ route('home', 2021) }}" target="_blank">
         Check out the next edition
     </a>
 </p>

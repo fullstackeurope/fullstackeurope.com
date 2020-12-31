@@ -1,8 +1,0 @@
-#footer a,
-.social a {
-    @apply text-light;
-}
-#footer a:hover,
-.social a:hover {
-    color: white;
-}

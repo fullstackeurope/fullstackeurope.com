@@ -23,8 +23,8 @@ class EditionFactory extends Factory
     public function definition()
     {
         return [
-            'year' => 2020,
-            'hashtag' => 'fseu20',
+            'year' => 2021,
+            'hashtag' => 'fseu21',
             'starts_at' => $startsAt = CarbonImmutable::instance($this->faker->dateTimeBetween('now', '+5 months')),
             'ends_at' => $startsAt->addDays(2),
             'publish_schedule' => true,

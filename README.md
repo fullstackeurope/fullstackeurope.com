@@ -3,8 +3,8 @@
 <a href="https://github.com/fullstackeurope/fullstackeurope.com/actions?query=workflow%3ATests">
     <img src="https://github.com/fullstackeurope/fullstackeurope.com/workflows/Tests/badge.svg" alt="Tests" />
 </a>
-<a href="https://github.com/fullstackeurope/fullstackeurope.com">
-    <img src="https://shield.with.social/cc/github/fullstackeurope/fullstackeurope.com/main.svg" alt="Laravel Version" />
+<a href="https://github.styleci.io/repos/144056142">
+    <img src="https://github.styleci.io/repos/144056142/shield?style=flat" alt="Code Style">
 </a>
 
 This repository contains the source code for the [https://fullstackeurope.com](https://fullstackeurope.com) website.

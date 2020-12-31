@@ -55,8 +55,7 @@ Command | Description
 **`php artisan test`** | Run the tests
 `php artisan migrate:fresh --seed` | Reset the database
 `npm run watch` | Watch for changes in CSS and JS files
-`vendor/bin/envoy run deploy` (1)(2) | Run a full deployment
-`vendor/bin/envoy run deploy-code` (1) | Fast deploy source code only
+`vendor/bin/envoy run deploy` (*) | Run a full deployment
+`vendor/bin/envoy run deploy-code` (*) | Fast deploy source code only
 
-(1) Note that you'll need SSH access to the production server in order to run these commands.  
-(2) A special note on deploying is that assets are committed into the source code. So make sure you compile them as production before deploying.
+(*) Note that you'll need SSH access to the production server in order to run these commands.

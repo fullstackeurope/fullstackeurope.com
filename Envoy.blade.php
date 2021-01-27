@@ -86,7 +86,7 @@ npm i
 @task('generateAssets', ['on' => 'remote'])
 {{ logMessage("🌅  Generating assets…") }}
 cd {{ $newReleaseDir }};
-npm run production -- --progress false
+2021_01_27_172100_add_schedule_monitor_timezone_column run production
 @endtask
 
 @task('updateSymlinks', ['on' => 'remote'])
@@ -141,7 +141,7 @@ php artisan config:cache
 php artisan responsecache:clear
 php artisan schedule-monitor:sync
 
-sudo service php7.4-fpm restart
+sudo service php8.0-fpm restart
 sudo supervisorctl restart all
 @endtask
 
@@ -167,5 +167,5 @@ php artisan cache:clear
 php artisan config:cache
 php artisan responsecache:clear
 sudo supervisorctl restart all
-sudo service php7.4-fpm restart
+sudo service php8.0-fpm restart
 @endtask

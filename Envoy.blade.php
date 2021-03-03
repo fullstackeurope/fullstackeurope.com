@@ -86,7 +86,7 @@ npm i
 @task('generateAssets', ['on' => 'remote'])
 {{ logMessage("🌅  Generating assets…") }}
 cd {{ $newReleaseDir }};
-2021_01_27_172100_add_schedule_monitor_timezone_column run production
+npm run production
 @endtask
 
 @task('updateSymlinks', ['on' => 'remote'])

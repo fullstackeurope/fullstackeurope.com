@@ -166,6 +166,8 @@ php artisan view:clear
 php artisan cache:clear
 php artisan config:cache
 php artisan responsecache:clear
-sudo supervisorctl restart all
+php artisan schedule-monitor:sync
+
 sudo service php8.0-fpm restart
+sudo supervisorctl restart all
 @endtask

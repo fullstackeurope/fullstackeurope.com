@@ -1,0 +1,25 @@
+#header {
+    /*@apply bg-gradient-tr-secondary;*/
+    /*border-width: 8px 0 0 0;*/
+    /*border-style: solid;*/
+    position: fixed;
+
+    transition: all 0.25s ease-in;
+
+    @apply text-light;
+}
+#header a,
+#header button {
+    @apply text-light;
+}
+#header a:hover,
+#header button:hover {
+    @apply text-white;
+}
+#header a.btn-tickets {
+    @apply text-base text-white px-5 py-2;
+}
+
+.content-page #header {
+    background: rgba(39, 29, 119, 0.85);
+}

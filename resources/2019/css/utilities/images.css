@@ -13,7 +13,7 @@
 }
 
 .background-photo-antwerp {
-    background: url('/2019/images/antwerp.jpg') center no-repeat;
+    background: url("/2019/images/antwerp.jpg") center no-repeat;
     background-size: cover;
 }
 .background-photo-antwerp .overlay {

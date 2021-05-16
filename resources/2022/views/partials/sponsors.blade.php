@@ -23,7 +23,7 @@
                     <div class="md:grid {{ $level === 'platinum' ? 'md:grid-cols-3' : 'md:grid-cols-4' }} md:gap-12">
                         @foreach ($sponsors as $sponsor)
                             <div class="mb-4 md:mb-0">
-                                @include('2021::partials.sponsor', ['large' => $level === 'platinum', 'sponsor' => $sponsor])
+                                @include('2022::partials.sponsor', ['large' => $level === 'platinum', 'sponsor' => $sponsor])
                             </div>
                         @endforeach
                     </div>

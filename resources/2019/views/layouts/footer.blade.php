@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 pt-16 pb-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
-                    <img src="{{ asset('images/2019/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
+                    <img src="{{ asset('2019/images/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
                     23, 24 & 25 October 2019 - {{ $edition->venue }}
                 </div>
                 <div class="md:w-2/3 md:text-right">

@@ -1,4 +1,4 @@
-@extends('2021::layouts.page', ['pageTitle' => 'Code of Conduct'])
+@extends('2022::layouts.page', ['pageTitle' => 'Code of Conduct'])
 
 @section('page')
     <h1>Code of Conduct</h1>
@@ -40,5 +40,5 @@
 
     <p class="text-sm italic">Original code of conduct by <a href="https://confcodeofconduct.com">the Conference Code of Conduct</a>.</p>
 
-    @include('2021::partials.diversity')
+    @include('2022::partials.diversity')
 @endsection

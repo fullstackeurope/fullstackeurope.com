@@ -2,11 +2,11 @@
 
 @section('body')
     <div class="bg-white">
-        @include('2021::layouts.header')
+        @include('2022::layouts.header')
 
         @yield('content')
 
-        @include('2021::partials.newsletter')
-        @include('2021::layouts.footer')
+        @include('2022::partials.newsletter')
+        @include('2022::layouts.footer')
     </div>
 @endsection

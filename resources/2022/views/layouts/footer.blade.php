@@ -3,8 +3,8 @@
         <div class="container mx-auto px-4 pt-16 pb-8">
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
-                    <img src="{{ asset('images/2021/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
-{{--                    7, 8 & 9 October 2021 - {{ $edition->venue }}--}}
+                    <img src="{{ asset('2022/images/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
+{{--                    7, 8 & 9 October 2022 - {{ $edition->venue }}--}}
                 </div>
                 <div class="md:w-2/3 md:text-right">
                     <ul class="list-reset">
@@ -68,7 +68,7 @@
                     Event management by <a href="https://on3.events">On 3 Events</a>
                 </div>
                 <div class="md:w-1/4 md:text-right text-lg">
-                    @include('2021::layouts.social')
+                    @include('2022::layouts.social')
                 </div>
             </div>
         </div>

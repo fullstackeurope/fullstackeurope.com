@@ -1,4 +1,4 @@
-@extends('2021::layouts.page', ['pageTitle' => 'Diversity and Accessibility'])
+@extends('2022::layouts.page', ['pageTitle' => 'Diversity and Accessibility'])
 
 @section('page')
     <h1>Diversity and Accessibility</h1>
@@ -59,5 +59,5 @@
 
     <p>We have scholarships for underrepresented groups, students, and anyone who needs it. <a href="mailto:hello@fullstackeurope.com">Please get in touch with us.</a></p>
 
-    @include('2021::partials.diversity')
+    @include('2022::partials.diversity')
 @endsection

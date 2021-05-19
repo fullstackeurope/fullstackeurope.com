@@ -13,14 +13,14 @@
 }
 
 .background-photo {
-    background: url("/2022/images/fseu19.jpeg") center no-repeat;
+    background: url('/2022/images/fseu19.jpeg') center no-repeat;
     background-size: cover;
 }
 .background-photo .overlay {
     background: rgba(39, 29, 119, 0.7);
 }
 .background-photo-antwerp {
-    background: url("/2022/images/antwerp.jpg") center no-repeat;
+    background: url('/2022/images/antwerp.jpg') center no-repeat;
     background-size: cover;
 }
 .background-photo-antwerp .overlay {

@@ -5,12 +5,12 @@ $finder = PhpCsFixer\Finder::create()
     ->exclude([
         'vendor',
         'bootstrap',
-        'storage'
+        'storage',
     ])
     ->in([
-        __DIR__ . '/app',
-        __DIR__ . '/tests',
-        __DIR__ . '/database',
+        __DIR__.'/app',
+        __DIR__.'/tests',
+        __DIR__.'/database',
     ])
     ->name('*.php')
     ->notName('*.blade.php')
@@ -18,6 +18,7 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCS(true);
 
 $config = new PhpCsFixer\Config();
+
 return $config->setRules([
     '@PSR2' => true,
     'array_syntax' => ['syntax' => 'short'],

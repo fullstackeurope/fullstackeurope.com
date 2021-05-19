@@ -22,6 +22,8 @@ editions.forEach((edition) => {
     ] = `cd resources/${edition} && npm run production`;
 });
 
+scripts["setup"] = npsUtils.concurrent.nps("setup:2019", "setup:2021", "setup:2022");
+
 scripts["dev"] = npsUtils.concurrent.nps("dev:2019", "dev:2021", "dev:2022");
 scripts["development"] = npsUtils.concurrent.nps(
     "dev:2019",

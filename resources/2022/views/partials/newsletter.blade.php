@@ -1,5 +1,5 @@
 <a id="newsletter" class="anchor"></a>
-<div id="newsletter-outer" class="text-center text-sm leading-normal mt-8 pb-12 md:py-12 md:pb-24" style="color: #818181; max-height: 400px;">
+<div id="newsletter-outer" class="text-center text-sm leading-normal pt-8 pb-12 md:py-16 md:pb-24" style="color: #818181; max-height: 400px;">
     <div class="container mx-auto px-4">
         <div class="bg-white rounded shadow-lg px-4 py-6 md:py-12">
             <form action="https://fullstackeurope.us20.list-manage.com/subscribe/post?u=b69f3dd27d30636034ba1ebb5&amp;id=97c92fa3f3" method="POST" name="mc-embedded-subscribe-form" target="_blank" novalidate>

@@ -4,7 +4,7 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ asset('2022/images/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
-{{--                    7, 8 & 9 October 2022 - {{ $edition->venue }}--}}
+                    5, 6 & 7 October 2022 - {{ $edition->venue }}
                 </div>
                 <div class="md:w-2/3 md:text-right">
                     <ul class="list-reset">
@@ -14,9 +14,9 @@
                             </li>
                         @endif
 
-                        <li class="md:ml-6 md:inline-block mt-4">
-                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
-                        </li>
+{{--                        <li class="md:ml-6 md:inline-block mt-4">--}}
+{{--                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>--}}
+{{--                        </li>--}}
 
                         @if ($edition->venue)
                             <li class="md:ml-6 md:inline-block mt-4">
@@ -37,7 +37,7 @@
                             <a href="{{ route('code-of-conduct', $edition) }}">code of conduct</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">
-                            <a href="{{ route('home', $edition) }}#2019-edition">2019</a>
+                            <a href="{{ route('home', 2021) }}">2021</a>
                         </li>
 
                         @if ($edition->tickets_url)

@@ -22,9 +22,8 @@
 {{--                    Main Conference - October 8 & 9, 2021--}}
 {{--                </h3>--}}
 
-
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
-                    Online Workshops &bull; October 19 - 22, 2021
+                    Online Workshops &bull; 19 - 22 October 2021
                 </h2>
 
                 <div class="text-2xl pb-10 md:pb-16">
@@ -47,8 +46,6 @@
 {{--        @include('2021::partials.speakers')--}}
     </div>
 
-{{--    @include('2021::partials.timer')--}}
-
     <div class="text-gray-600 py-6 md:py-12">
         <a id="venue" class="anchor"></a>
         <div id="venue-outer" class="container mx-auto px-4">
@@ -62,6 +59,8 @@
             @include('2021::partials.cta')
         </div>
     </div>
+
+    @include('2021::partials.timer')
 
 {{--    @include('2021::partials.sponsors')--}}
     @include('2021::partials.organisers')

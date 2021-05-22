@@ -51,11 +51,11 @@
                 </div>
             </div>
 
-            <p>
-                <a class="apply font-noway-medium block" href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">
-                    <i class="fas fa-hotel mr-1"></i> Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
-                </a>
-            </p>
+{{--            <p>--}}
+{{--                <a class="apply font-noway-medium block" href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">--}}
+{{--                    <i class="fas fa-hotel mr-1"></i> Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>--}}
+{{--                </a>--}}
+{{--            </p>--}}
         </div>
     </div>
 </div>

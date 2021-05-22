@@ -4,7 +4,7 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ asset('2021/images/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
-{{--                    7, 8 & 9 October 2021 - {{ $edition->venue }}--}}
+                    19 - 22 October 2021 &bull; Online Workshops
                 </div>
                 <div class="md:w-2/3 md:text-right">
                     <ul class="list-reset">
@@ -18,11 +18,11 @@
 {{--                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>--}}
 {{--                        </li>--}}
 
-                        @if ($edition->venue)
-                            <li class="md:ml-6 md:inline-block mt-4">
-                                <a data-scroll href="{{ route('home', $edition) }}#venue">venue</a>
-                            </li>
-                        @endif
+{{--                        @if ($edition->venue)--}}
+{{--                            <li class="md:ml-6 md:inline-block mt-4">--}}
+{{--                                <a data-scroll href="{{ route('home', $edition) }}#venue">venue</a>--}}
+{{--                            </li>--}}
+{{--                        @endif--}}
 
                         <li class="md:ml-6 md:inline-block mt-4">
                             <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>

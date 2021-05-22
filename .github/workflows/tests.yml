@@ -31,17 +31,23 @@ jobs:
       - name: Install Yarn dependencies
         run: yarn
 
-      - name: Install 2019 Yarn dependencies
+      - name: Install 2019 dependencies
         run: ./node_modules/.bin/nps setup:2019
 
-      - name: Install 2021 Yarn dependencies
+      - name: Install 2021 dependencies
         run: ./node_modules/.bin/nps setup:2021
 
-      - name: Install 2022 Yarn dependencies
+      - name: Install 2022 dependencies
         run: ./node_modules/.bin/nps setup:2022
 
-      - name: Compile assets
-        run: yarn production
+      - name: Compile 2019 dependencies
+        run: ./node_modules/.bin/nps production:2019
+
+      - name: Compile 2021 dependencies
+        run: ./node_modules/.bin/nps production:2021
+
+      - name: Compile 2022 dependencies
+        run: ./node_modules/.bin/nps production:2022
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose

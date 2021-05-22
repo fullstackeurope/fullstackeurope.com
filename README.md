@@ -15,7 +15,7 @@ The following tools are required in order to start the installation.
 
 - PHP >=8.0
 - [Composer](https://getcomposer.org/download/)
-- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Yarn](https://yarnpkg.com/getting-started/install)
 - [A valid Laravel Nova license](https://nova.laravel.com)
 
 ## Installation
@@ -28,7 +28,7 @@ The following tools are required in order to start the installation.
 6. Generate a new app key with `php artisan key:generate`
 7. Prepare the database by running `php artisan migrate --seed` 
 8. Link the public storage directory with `php artisan storage:link`
-9. Install and compile the front-end dependencies with `npm install && npm run dev`
+9. Install and compile the front-end dependencies with `yarn && yarn setup && yarn dev`
 10. Serve the website locally by running `php artisan serve`
 
 You can now visit the app in your browser by visiting [http://127.0.0.1:8000](http://127.0.0.1:8000). You can login into the back-end at [http://127.0.0.1:8000/nova](http://127.0.0.1:8000/nova) with **`john@example.com`** & **`password`**.
@@ -54,7 +54,9 @@ Command | Description
 --- | ---
 **`php artisan test`** | Run the tests
 `php artisan migrate:fresh --seed` | Reset the database
-`npm run watch` | Watch for changes in CSS and JS files
+`yarn setup` | Install the dependencies for each edition
+`yarn dev` | Compile front-end dependencies
+`yarn watch` | Watch for changes in CSS and JS files
 `vendor/bin/envoy run deploy` (*) | Run a full deployment
 `vendor/bin/envoy run deploy-code` (*) | Fast deploy source code only
 

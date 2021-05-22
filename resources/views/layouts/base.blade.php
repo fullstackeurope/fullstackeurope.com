@@ -10,7 +10,7 @@
     @include('layouts.favicons')
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ mix("css/{$edition->year}/app.css") }}">
+    <link rel="stylesheet" href="{{ mix("app.css", "{$edition->year}") }}">
 
     @production
         <!-- Fathom - beautiful, simple website analytics -->
@@ -22,7 +22,6 @@
 
 @yield('body')
 
-<script src="{{ mix("js/{$edition->year}/app.js") }}"></script>
-
+<script src="{{ mix("app.js", "{$edition->year}") }}"></script>
 </body>
 </html>

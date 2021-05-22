@@ -28,11 +28,32 @@ jobs:
           composer config "http-basic.nova.laravel.com" "${{ secrets.NOVA_USERNAME }}" "${{ secrets.NOVA_PASSWORD }}"
           composer install --prefer-dist --no-interaction
 
-      - name: Install NPM dependencies
-        run: npm ci
+      - name: Install Yarn dependencies
+        run: yarn
 
-      - name: Compile assets
-        run: npm run production
+      - name: Install 2019 dependencies
+        run: ./node_modules/.bin/nps setup:2019
+
+      - name: Install 2021 dependencies
+        run: ./node_modules/.bin/nps setup:2021
+
+      - name: Install 2022 dependencies
+        run: ./node_modules/.bin/nps setup:2022
+
+      - name: Compile 2019 dependencies
+        run: |
+          cd ./resources/2019
+          yarn production
+
+      - name: Compile 2021 dependencies
+        run: |
+          cd ./resources/2021
+          yarn production
+
+      - name: Compile 2022 dependencies
+        run: |
+          cd ./resources/2022
+          yarn production
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose

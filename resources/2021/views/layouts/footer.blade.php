@@ -14,9 +14,9 @@
                             </li>
                         @endif
 
-                        <li class="md:ml-6 md:inline-block mt-4">
-                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
-                        </li>
+{{--                        <li class="md:ml-6 md:inline-block mt-4">--}}
+{{--                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>--}}
+{{--                        </li>--}}
 
                         @if ($edition->venue)
                             <li class="md:ml-6 md:inline-block mt-4">
@@ -37,7 +37,7 @@
                             <a href="{{ route('code-of-conduct', $edition) }}">code of conduct</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">
-                            <a href="{{ route('home', $edition) }}#2019-edition">2019</a>
+                            <a href="{{ route('home', 2022) }}">2022</a>
                         </li>
 
                         @if ($edition->tickets_url)

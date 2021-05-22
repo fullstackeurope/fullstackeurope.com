@@ -9,6 +9,7 @@
             </div>
         </a>
     </div>
+
     <div class="md:w-2/3 md:px-8 py-4 md:flex md:flex-col md:justify-center text-center md:text-left">
         <h3 class="font-noway-medium text-xl md:text-2xl mb-2">
             <a href="{{ $speaker->url() }}#workshop">{{ $speaker->workshop }}</a>
@@ -17,6 +18,7 @@
             By {{ $speaker->name }} - {{ $speaker->title }}
         </p>
     </div>
+
     <div class="md:w-1/6 md:flex md:flex-col md:justify-center">
         @if ($speaker->workshop_sold_out)
             <span class="btn-tickets px-4 mb-4 py-4">

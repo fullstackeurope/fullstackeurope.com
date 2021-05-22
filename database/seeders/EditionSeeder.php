@@ -21,5 +21,11 @@ final class EditionSeeder extends Seeder
             'page_title' => 'The International Full Stack Conference',
             'meta_description' => 'The international conference for the entire team. Come learn about Serverless, React, Machine Learning, Chatbots, JavaScript, Application Architecture, Graph Databases, Varnish and much more!',
         ]);
+        Edition::factory()->create([
+            'year' => 2022,
+            'hashtag' => 'fseu22',
+            'page_title' => 'The International Full Stack Conference',
+            'meta_description' => 'The international conference for the entire team. Come learn about Serverless, React, Machine Learning, Chatbots, JavaScript, Application Architecture, Graph Databases, Varnish and much more!',
+        ]);
     }
 }

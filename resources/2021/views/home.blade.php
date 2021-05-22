@@ -5,11 +5,11 @@
         <div class="overlay pt-32 md:pt-48 md:pb-20">
             <div class="container mx-auto px-4 py-12 md:py-20">
                 <h1 class="font-noway-medium text-white md:text-5xl pb-4">
-                    The conference for the whole team
+                    Online workshops for the whole team
                 </h1>
 
                 <p class="text-xl leading-normal italic mx-auto max-w-md pb-10 md:pb-20">
-                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we designed this conference for everybody.&rdquo;
+                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we'll provide workshops for everybody.&rdquo;
                 </p>
 
 {{--                <h2 class="font-noway-medium text-white md:text-2xl pb-4">--}}
@@ -24,7 +24,7 @@
 
 
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
-                    Antwerp, Belgium &bull; Autumn, 2021
+                    Online Workshops &bull; October 19 - 22, 2021
                 </h2>
 
                 <div class="text-2xl pb-10 md:pb-16">
@@ -34,8 +34,8 @@
                 @include('2021::partials.cta', ['linkColor' => 'text-white'])
 
                 <p class="text-center mt-6">
-                    <a class="text-white hover:underline" href="{{ route('home', $edition) }}#2019-edition">
-                        Check out the 2019 edition
+                    <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
+                        Join us in-person at #fseu22
                     </a>
                 </p>
             </div>
@@ -44,7 +44,7 @@
 
     <div style="background: url('/2021/images/pattern.png') repeat top left">
         @include('2021::partials.newsletter')
-        @include('2021::partials.speakers')
+{{--        @include('2021::partials.speakers')--}}
     </div>
 
 {{--    @include('2021::partials.timer')--}}
@@ -55,7 +55,7 @@
             @include('2021::partials.conference')
 {{--            @include('2021::partials.venue')--}}
 {{--            @include('2021::partials.antwerp')--}}
-            @include('2021::partials.2019')
+{{--            @include('2021::partials.2019')--}}
         </div>
 
         <div class="container mx-auto px-4 text-center text-gray-600 mt-8">
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    @include('2021::partials.sponsors')
+{{--    @include('2021::partials.sponsors')--}}
     @include('2021::partials.organisers')
     @include('2021::partials.diversity')
 @endsection

@@ -8,7 +8,7 @@
     <a href="https://github.com/fullstackeurope" class="mr-3">
         <i class="fab fa-github"></i>
     </a>
-    <a href="https://www.youtube.com/channel/UCUusSdBRcgftKaa9qp3KxZw" class="mr-3">
+    <a href="https://www.youtube.com/c/FullStackEurope" class="mr-3">
         <i class="fab fa-youtube"></i>
     </a>
     <a href="https://www.instagram.com/fullstackeu">

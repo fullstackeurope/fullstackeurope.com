@@ -32,13 +32,13 @@ jobs:
         run: yarn
 
       - name: Install 2019 Yarn dependencies
-        run: nps setup:2019
+        run: ./node_modules/.bin/nps setup:2019
 
       - name: Install 2021 Yarn dependencies
-        run: nps setup:2021
+        run: ./node_modules/.bin/nps setup:2021
 
       - name: Install 2022 Yarn dependencies
-        run: nps setup:2022
+        run: ./node_modules/.bin/nps setup:2022
 
       - name: Compile assets
         run: yarn production

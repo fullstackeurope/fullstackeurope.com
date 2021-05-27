@@ -67,10 +67,10 @@ final class Speaker extends Model implements Sortable
 
             $parts = explode('/', $this->photo);
             $uploadIndex = array_search('upload', $parts);
-            $suffix = array_slice($parts, $uploadIndex+1);
-            $prefix = array_slice($parts, 0, $uploadIndex+1);
+            $suffix = array_slice($parts, $uploadIndex + 1);
+            $prefix = array_slice($parts, 0, $uploadIndex + 1);
 
-            return join('/', $prefix) . "/c_scale,w_{$width}/" . join('/', $suffix);
+            return join('/', $prefix)."/c_scale,w_{$width}/".join('/', $suffix);
         }
 
         return asset("/storage/{$this->photo}");

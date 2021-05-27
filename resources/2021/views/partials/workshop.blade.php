@@ -2,8 +2,9 @@
     <div class="md:w-1/6 text-center">
         <a class="mt-2 block h-full" href="{{ $speaker->workshopUrl() }}">
             <div class="speaker enlarge image-border-gradient-left inline-block shadow-lg-blue rounded h-24 w-24 lg:h-32 lg:w-32 overflow-hidden">
+
                 <div style="height: inherit; transform: translateY(50%);">
-                    <img src="{{ $speaker->photo }}" alt="{{ $speaker->name }}"
+                    <img src="{{ $speaker->photoUrl(280) }}" alt="{{ $speaker->name }}"
                          class="block w-full h-full object-cover" style="transform: translateY(-50%);">
                 </div>
             </div>

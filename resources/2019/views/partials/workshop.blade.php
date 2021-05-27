@@ -3,7 +3,7 @@
         <a href="{{ $speaker->url() }}">
             <div class="speaker enlarge image-border-gradient-left w-1/2 inline-block shadow-lg-blue rounded h-32 md:w-32 overflow-hidden">
                 <div style="height: inherit; transform: translateY(50%);">
-                    <img src="{{ str_contains($speaker->photo, 'cloudinary') ? $speaker->photo : $speaker->photoUrl() }}" alt="{{ $speaker->name }}"
+                    <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}"
                          class="block w-full h-full object-cover" style="transform: translateY(-50%);">
                 </div>
             </div>

@@ -54,9 +54,26 @@ final class Speaker extends Model implements Sortable
         return $this->twitter ? "https://twitter.com/{$this->twitter}" : '';
     }
 
-    public function photoUrl(): string
+    public function photoUrl(int $width = null): string
     {
-        return $this->photo ? asset("/storage/{$this->photo}") : asset('/images/speaker-placeholder.png');
+        if (! $this->photo) {
+            return asset('/images/speaker-placeholder.png');
+        }
+
+        if (str_contains($this->photo, 'cloudinary')) {
+            if (! $width) {
+                return $this->photo;
+            }
+
+            $parts = explode('/', $this->photo);
+            $uploadIndex = array_search('upload', $parts);
+            $suffix = array_slice($parts, $uploadIndex+1);
+            $prefix = array_slice($parts, 0, $uploadIndex+1);
+
+            return join('/', $prefix) . "/c_scale,w_{$width}/" . join('/', $suffix);
+        }
+
+        return asset("/storage/{$this->photo}");
     }
 
     public function websiteHost(): string

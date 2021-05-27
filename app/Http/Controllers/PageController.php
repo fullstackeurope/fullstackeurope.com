@@ -26,6 +26,11 @@ final class PageController
         return view("{$edition->year}::speaker", compact('speaker'));
     }
 
+    public function workshop(Edition $edition, Speaker $speaker)
+    {
+        return view("{$edition->year}::workshop", compact('speaker'));
+    }
+
     public function diversity(Edition $edition)
     {
         return view("{$edition->year}::diversity");

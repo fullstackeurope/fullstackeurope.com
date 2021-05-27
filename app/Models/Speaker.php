@@ -16,6 +16,8 @@ final class Speaker extends Model implements Sortable
     use HasFactory;
     use SortableTrait;
 
+    protected $guarded = [];
+
     public $sortable = [
         'order_column_name' => 'sort_order',
         'sort_when_creating' => true,
@@ -40,6 +42,11 @@ final class Speaker extends Model implements Sortable
     public function url(): string
     {
         return route('speaker', [$this->edition, $this]);
+    }
+
+    public function workshopUrl(): string
+    {
+        return route('workshop', [$this->edition, $this]);
     }
 
     public function twitterUrl(): string

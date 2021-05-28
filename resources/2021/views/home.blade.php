@@ -43,7 +43,7 @@
 
     <div style="background: url('/2021/images/pattern.png') repeat top left">
         @include('2021::partials.newsletter')
-{{--        @include('2021::partials.speakers')--}}
+        @include('2021::partials.workshops')
     </div>
 
     <div class="text-gray-600 py-6 md:py-12">

@@ -81,7 +81,9 @@ php artisan nova:publish
 {{ logMessage("📦  Running Yarn…") }}
 cd {{ $newReleaseDir }};
 yarn
-yarn setup
+./node_modules/.bin/nps setup:2019
+./node_modules/.bin/nps setup:2021
+./node_modules/.bin/nps setup:2022
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])

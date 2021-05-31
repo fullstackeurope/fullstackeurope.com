@@ -40,20 +40,8 @@ jobs:
       - name: Install 2022 dependencies
         run: ./node_modules/.bin/nps setup:2022
 
-      - name: Compile 2019 dependencies
-        run: |
-          cd ./resources/2019
-          yarn production
-
-      - name: Compile 2021 dependencies
-        run: |
-          cd ./resources/2021
-          yarn production
-
-      - name: Compile 2022 dependencies
-        run: |
-          cd ./resources/2022
-          yarn production
+      - name: Compile dependencies
+        run: yarn production
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose

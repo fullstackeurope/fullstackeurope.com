@@ -45,7 +45,7 @@
     <div class="text-center">
         <p class="mb-3">
             <a href="https://on3.events">
-                <img src="{{ asset('/2021/images/on3.png') }}"
+                <img src="{{ asset('/assets/2021/images/on3.png') }}"
                      width="100" class="enlarge inline-block" alt="On 3 Events Logo">
             </a>
         </p>

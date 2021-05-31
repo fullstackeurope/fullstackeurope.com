@@ -1,10 +1,10 @@
 /node_modules
-/public/*/app.css
-/public/*/app.js
-/public/*/app.js.LICENSE.txt
-/public/*/images/vendor
-/public/*/mix-manifest.json
-/public/*/hot
+/public/assets/*/app.css
+/public/assets/*/app.js
+/public/assets/*/app.js.LICENSE.txt
+/public/assets/*/images/vendor
+/public/assets/*/mix-manifest.json
+/public/assets/*/hot
 /public/storage
 /storage/*.key
 /vendor

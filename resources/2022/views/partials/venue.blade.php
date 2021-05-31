@@ -11,17 +11,17 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div id="venue-gallery">
-                    <a class="chocolat-image" href="{{ asset('2022/images/hilton-ballroom.jpg') }}">
-                        <img src="{{ asset('2022/images/hilton-ballroom.jpg') }}" class="enlarge" alt="Hilton Ballroom">
+                    <a class="chocolat-image" href="{{ asset('/assets/2022/images/hilton-ballroom.jpg') }}">
+                        <img src="{{ asset('/assets/2022/images/hilton-ballroom.jpg') }}" class="enlarge" alt="Hilton Ballroom">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('2022/images/hilton-lobby.jpg') }}">
-                        <img src="{{ asset('2022/images/hilton-lobby.jpg') }}" class="enlarge" alt="Hilton Lobby">
+                    <a class="chocolat-image hidden" href="{{ asset('/assets/2022/images/hilton-lobby.jpg') }}">
+                        <img src="{{ asset('/assets/2022/images/hilton-lobby.jpg') }}" class="enlarge" alt="Hilton Lobby">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('2022/images/hilton-restaurant.jpg') }}">
-                        <img src="{{ asset('2022/images/hilton-restaurant.jpg') }}" class="enlarge" alt="Hilton Restaurant">
+                    <a class="chocolat-image hidden" href="{{ asset('/assets/2022/images/hilton-restaurant.jpg') }}">
+                        <img src="{{ asset('/assets/2022/images/hilton-restaurant.jpg') }}" class="enlarge" alt="Hilton Restaurant">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('2022/images/hilton.jpg') }}">
-                        <img src="{{ asset('2022/images/hilton.jpg') }}" class="enlarge" alt="Hilton Hotel">
+                    <a class="chocolat-image hidden" href="{{ asset('/assets/2022/images/hilton.jpg') }}">
+                        <img src="{{ asset('/assets/2022/images/hilton.jpg') }}" class="enlarge" alt="Hilton Hotel">
                     </a>
                 </div>
             </div>

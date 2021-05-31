@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div style="background: url('/2021/images/pattern.png') repeat top left">
+    <div style="background: url('/assets/2021/images/pattern.png') repeat top left">
         @include('2021::partials.newsletter')
         @include('2021::partials.workshops')
     </div>

@@ -3,7 +3,7 @@
         <div class="lg:flex">
             <div class="lg:flex-initial">
                 <a href="{{ route('home', $edition) }}">
-                    <img src="{{ asset('2021/images/logo.svg') }}" width="150" alt="{{ config('app.name') }}">
+                    <img src="{{ asset('/assets/2021/images/logo.svg') }}" width="150" alt="{{ config('app.name') }}">
                 </a>
                 <span class="lg:hidden">
                     <a id="show-nav" class="show-nav text-white text-2xl absolute top-0 right-0 mt-10 mr-6" href="javascript:;">

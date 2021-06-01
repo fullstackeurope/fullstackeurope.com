@@ -26,6 +26,9 @@
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a href="{{ route('code-of-conduct', $edition) }}">code of conduct</a>
             </li>
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a href="{{ route('home', 2022) }}">2022</a>
+            </li>
         </ul>
     </nav>
 </div>

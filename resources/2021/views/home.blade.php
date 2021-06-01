@@ -37,6 +37,12 @@
                         Join us in-person at #fseu22
                     </a>
                 </p>
+
+                <p class="text-center mt-2">
+                    <a class="text-white hover:underline" href="{{ route('home', 2019) }}">
+                        Check out the 2019 edition
+                    </a>
+                </p>
             </div>
         </div>
     </div>

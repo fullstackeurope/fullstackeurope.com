@@ -9,11 +9,19 @@
     <h2 class="mb-2" data-anchor-id="need-help">Need Help?</h2>
 
     <ul class="mb-4">
-        <li>CONTACT: ANNEKE SCHOONJANS</li>
-        <li><a href="mailto:anneke@value-object.com">anneke@value-object.com</a></li>
+        <li>CONTACT: ANNEKE SCHOONJANS (she/her)</li>
+        <li><a href="mailto:anneke@value-object.com">anneke@aardling.eu</a></li>
         <li><a href="https://twitter.com/AnnekeSchoonjns">@AnnekeSchoonjns</a></li>
         <li>+32 468 109 891</li>
         <li>Dutch ★★★, English ★★, French ★★</li>
+    </ul>
+
+    <ul class="mb-4">
+        <li>CONTACT: FREEK VAN DER HERTEN (he/him)</li>
+        <li><a href="mailto:freek@spatie.be">freek@spatie.be</a></li>
+        <li><a href="https://twitter.com/freekmurze">@freekmurze</a></li>
+        <li>+32 495 84 27 91</li>
+        <li>Dutch ★★★, English ★★, French ★</li>
     </ul>
 
     <a id="the-quick-version" class="anchor-page"></a>

@@ -37,6 +37,9 @@
                             <a href="{{ route('code-of-conduct', $edition) }}">code of conduct</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">
+                            <a href="{{ route('home', 2019) }}">2019</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mt-4">
                             <a href="{{ route('home', 2022) }}">2022</a>
                         </li>
 

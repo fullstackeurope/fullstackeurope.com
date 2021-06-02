@@ -16,7 +16,7 @@ class AddSlugToWorkshopsTable extends Migration
     public function up()
     {
         Schema::table('workshops', function (Blueprint $table) {
-            $table->string('slug')->after('title');
+            $table->string('slug')->nullable()->after('title');
         });
 
         Workshop::each(function (Workshop $workshop) {

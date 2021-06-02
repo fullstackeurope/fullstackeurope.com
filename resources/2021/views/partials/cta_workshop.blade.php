@@ -1,5 +1,5 @@
 <p class="text-center mt-8">
-    @if ($speaker->workshop_sold_out)
+    @if ($workshop->sold_out)
         <span class="btn-tickets mb-4 py-2 px-10">
             Sold out
         </span>

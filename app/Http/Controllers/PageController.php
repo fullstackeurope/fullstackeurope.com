@@ -6,19 +6,31 @@ namespace App\Http\Controllers;
 
 use App\Models\Edition;
 use App\Models\Speaker;
+use App\Models\Talk;
 use App\Models\Timeslot;
+use App\Models\Workshop;
 
 final class PageController
 {
     public function home(Edition $edition)
     {
-        $schedule = $edition->timeslots()->orderBy('starts_at')->get()->groupBy(function (Timeslot $timeslot) {
+        $schedule = $edition->timeslots()->with('talk.speaker')->orderBy('starts_at')->get()->groupBy(function (Timeslot $timeslot) {
             return $timeslot->starts_at->format('Y-m-d');
         });
-        $speakers = $edition->speakers()->whereNotNull('talk')->orderBy('sort_order')->get();
-        $workshops = $edition->speakers()->whereNotNull('workshop')->get();
 
-        return view("{$edition->year}::home", compact('schedule', 'speakers', 'workshops'));
+        $speakers = $edition->speakers()->with('talks', 'workshops')->orderBy('sort_order')->get();
+
+        $talks = $speakers
+            ->flatMap(function (Speaker $speaker) {
+                return $speaker->talks->map(fn (Talk $talk) => $talk->setRelation('speaker', $speaker));
+            })->filter();
+
+        $workshops = $speakers
+            ->flatMap(function (Speaker $speaker) {
+                return $speaker->workshops->map(fn (Workshop $workshop) => $workshop->setRelation('speaker', $speaker));
+            })->filter();
+
+        return view("{$edition->year}::home", compact('schedule', 'talks', 'workshops'));
     }
 
     public function speaker(Edition $edition, Speaker $speaker)

@@ -9,13 +9,14 @@ use Illuminate\Validation\Rule;
 use Laravel\Nova\Fields\Avatar;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Boolean;
-use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Markdown;
+use Laravel\Nova\Fields\Number;
+use Laravel\Nova\Fields\Trix;
 use Laravel\Nova\Fields\Text;
 use OptimistDigital\NovaSortable\Traits\HasSortableRows;
 
-final class Speaker extends Resource
+final class Workshop extends Resource
 {
     use HasSortableRows;
 
@@ -24,14 +25,14 @@ final class Speaker extends Resource
      *
      * @var string
      */
-    public static $model = \App\Models\Speaker::class;
+    public static $model = \App\Models\Workshop::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'name';
+    public static $title = 'title';
 
     /**
      * The columns that should be searched.
@@ -40,7 +41,8 @@ final class Speaker extends Resource
      */
     public static $search = [
         'id',
-        'name',
+        'title',
+        'subtitle',
     ];
 
     /**
@@ -58,51 +60,32 @@ final class Speaker extends Resource
      */
     public function fields(Request $request)
     {
-        $slugRule = Rule::unique('speakers')
-            ->where('edition_id', $request->get('edition'));
+        $speakers = \App\Models\Speaker::query()
+            ->where('edition_id', $request->get('edition'))
+            ->pluck('id');
+
+        $slugRule = Rule::unique('workshops')->whereIn('speaker_id', $speakers->toArray());
 
         return [
             ID::make()->sortable(),
 
-            BelongsTo::make('Edition'),
+            BelongsTo::make('Speaker'),
 
-            HasMany::make('Talks'),
-
-            Avatar::make('Photo')
-                ->disk('public')
-                ->help('Preferred resolution: 500 x 500'),
-
-            Text::make('Name')
-                ->required(),
+            Text::make('Title'),
 
             Text::make('Slug')
                 ->required()
                 ->creationRules('alpha_dash', $slugRule)
                 ->updateRules('alpha_dash', $slugRule->ignoreModel($this->resource))
-                ->help('If you adjust this, previous links to this speaker page will not work anymore.')
+                ->help('If you adjust this, previous links to this workshop page will not work anymore.')
                 ->hideFromIndex(),
 
-            Text::make('Title')
-                ->hideFromIndex(),
-
-            Markdown::make('Bio')
-                ->hideFromIndex(),
-
-            Text::make('Twitter')
-                ->help('Without the "@".')
-                ->hideFromIndex(),
-
-            Text::make('Website')
-                ->rules('nullable', 'url')
-                ->hideFromIndex(),
-
-            Text::make('', function () {
-                if (! $this->exists) {
-                    return '';
-                }
-
-                return '<div class="text-right"><a href="'.route('speaker', [$this->edition, $this]).'" class="cursor-pointer text-70 hover:text-primary" target="_blank"><svg class="h-6 w-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></a></div>';
-            })->asHtml(),
+            Text::make('Subtitle'),
+            Trix::make('Snippet')->hideFromIndex(),
+            Number::make('Duration'),
+            Trix::make('Schedule')->hideFromIndex(),
+            Trix::make('Description')->hideFromIndex(),
+            Boolean::make('sold_out'),
         ];
     }
 

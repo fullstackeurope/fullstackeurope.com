@@ -6,6 +6,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
 use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
@@ -88,8 +89,13 @@ final class Speaker extends Model implements Sortable
         return $this->belongsTo(Edition::class);
     }
 
-    public function timeslot()
+    public function talks(): HasMany
     {
-        return $this->belongsTo(Timeslot::class);
+        return $this->hasMany(Talk::class);
+    }
+
+    public function workshops(): HasMany
+    {
+        return $this->hasMany(Workshop::class);
     }
 }

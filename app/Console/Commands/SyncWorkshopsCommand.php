@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Models\Edition;
+use App\Models\Workshop;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\Http;
@@ -27,7 +28,7 @@ class SyncWorkshopsCommand extends Command
 
             foreach ($workshops as $workshop) {
                 foreach ($workshop['instructors'] as $instructor) {
-                    $edition->speakers()->updateOrCreate([
+                    $speaker = $edition->speakers()->updateOrCreate([
                         'slug' => $instructor['instructorId'],
                     ], [
                         'name' => $instructor['name'],
@@ -35,12 +36,18 @@ class SyncWorkshopsCommand extends Command
                         'twitter' => $instructor['twitter'] ?? '',
                         'photo' => $instructor['image'],
                         'country' => $instructor['country'],
-                        'workshop' => $workshop['workshop']['title'],
-                        'workshop_subtitle' => $workshop['workshop']['subtitle'],
-                        'workshop_duration' => $workshop['durationInMinutes'],
-                        'workshop_snippet' => $workshop['workshop']['blurb'],
-                        'workshop_description' => $workshop['workshop']['body'],
-                        'workshop_schedule' => $workshop['scheduleDetailed'],
+                    ]);
+
+                    Workshop::query()->updateOrCreate([
+                        'speaker_id' => $speaker->id,
+                        'slug' => $workshop['workshop']['workshopId'],
+                    ], [
+                        'title' => $workshop['workshop']['title'],
+                        'subtitle' => $workshop['workshop']['subtitle'],
+                        'duration' => $workshop['durationInMinutes'],
+                        'snippet' => $workshop['workshop']['blurb'],
+                        'description' => $workshop['workshop']['body'],
+                        'schedule' => $workshop['scheduleDetailed'],
                     ]);
                 }
             }

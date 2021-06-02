@@ -7,6 +7,7 @@ namespace App\Models;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Spatie\ResponseCache\Facades\ResponseCache;
 
 /**
@@ -73,6 +74,16 @@ final class Edition extends Model
     public function speakers()
     {
         return $this->hasMany(Speaker::class);
+    }
+
+    public function workshops(): HasManyThrough
+    {
+        return $this->hasManyThrough(Workshop::class, Speaker::class);
+    }
+
+    public function talks(): HasManyThrough
+    {
+        return $this->hasManyThrough(Talk::class, Speaker::class);
     }
 
     public function sponsors()

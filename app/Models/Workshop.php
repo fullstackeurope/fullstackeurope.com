@@ -6,16 +6,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Spatie\ResponseCache\Facades\ResponseCache;
 
-final class Timeslot extends Model
+final class Workshop extends Model
 {
     use HasFactory;
 
-    protected $dates = [
-        'starts_at',
-        'ends_at',
-    ];
+    protected $guarded = [];
 
     public static function booted()
     {
@@ -32,18 +30,13 @@ final class Timeslot extends Model
         });
     }
 
-    public function time(): string
+    public function speaker(): BelongsTo
     {
-        return $this->starts_at->timezone('europe/brussels')->format('H:i');
+        return $this->belongsTo(Speaker::class);
     }
 
-    public function edition()
+    public function url(): string
     {
-        return $this->belongsTo(Edition::class);
-    }
-
-    public function talk()
-    {
-        return $this->hasOne(Talk::class);
+        return route('workshop', [$this->speaker->edition, $this]);
     }
 }

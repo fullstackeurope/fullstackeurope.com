@@ -34,7 +34,7 @@
     <div style="background: url('/assets/2019/images/pattern.png') repeat top left">
         @include('2019::partials.newsletter')
         @include('2019::partials.schedule')
-        @include('2019::partials.speakers')
+        @include('2019::partials.talks')
         @include('2019::partials.workshops')
     </div>
 

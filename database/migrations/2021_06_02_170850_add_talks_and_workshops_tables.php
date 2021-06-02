@@ -5,6 +5,7 @@ use App\Models\Talk;
 use App\Models\Workshop;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\Facades\Schema;
 
 class AddTalksAndWorkshopsTables extends Migration
@@ -58,7 +59,10 @@ class AddTalksAndWorkshopsTables extends Migration
         });
 
         Schema::table('speakers', function (Blueprint $table) {
-            $table->dropForeign('speakers_timeslot_id_foreign');
+            if (! \Illuminate\Support\Facades\DB::connection() instanceof SQLiteConnection) {
+                $table->dropForeign('speakers_timeslot_id_foreign');
+            }
+
             $table->dropColumn([
                 'timeslot_id',
                 'talk',

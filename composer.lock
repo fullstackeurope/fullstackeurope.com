@@ -1950,8 +1950,9 @@
                     "./vendor/bin/testbench-dusk package:discover"
                 ],
                 "dusk:assets": [
-                    "yarn install",
-                    "yarn run prod",
+                    "npm install",
+                    "npm run setup",
+                    "npm run production",
                     "./vendor/bin/testbench-dusk nova:publish"
                 ],
                 "dusk:test": [

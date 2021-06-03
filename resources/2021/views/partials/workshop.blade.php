@@ -1,6 +1,6 @@
 <div class="md:flex mb-6 my-4">
     <div class="md:w-1/6 text-center">
-        <a class="mt-2 block h-full" href="{{ $workshop->speaker->workshopUrl() }}">
+        <a class="mt-2 block h-full" href="{{ $workshop->url() }}#workshop">
             <div class="speaker enlarge image-border-gradient-left inline-block shadow-lg-blue rounded h-24 w-24 lg:h-32 lg:w-32 overflow-hidden">
 
                 <div style="height: inherit; transform: translateY(50%);">

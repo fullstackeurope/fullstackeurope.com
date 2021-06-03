@@ -39,7 +39,7 @@
         @endif
 
         <p class="md:text-center">
-            <a href="{{ $workshop->speaker->workshopUrl() }}#workshop">
+            <a href="{{ $workshop->url() }}#workshop">
                 More info <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
             </a>
         </p>

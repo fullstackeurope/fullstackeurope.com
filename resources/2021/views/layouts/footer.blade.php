@@ -14,9 +14,9 @@
                             </li>
                         @endif
 
-{{--                        <li class="md:ml-6 md:inline-block mt-4">--}}
-{{--                            <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>--}}
-{{--                        </li>--}}
+                        <li class="md:ml-6 md:inline-block mt-4">
+                            <a data-scroll href="{{ route('home', $edition) }}#workshops">workshops</a>
+                        </li>
 
 {{--                        @if ($edition->venue)--}}
 {{--                            <li class="md:ml-6 md:inline-block mt-4">--}}

@@ -1,7 +1,10 @@
 @if ($edition->tickets_url)
     <p class="mb-4">
-        <a class="btn-tickets" href="{{ $edition->tickets_url }}" target="_blank">
-            {{ $edition->ticketsLabel() }}
+{{--        <a class="btn-tickets" href="{{ $edition->tickets_url }}" target="_blank">--}}
+{{--            {{ $edition->ticketsLabel() }}--}}
+{{--        </a>--}}
+        <a class="btn-tickets" href="{{ route('home', $edition) }}#workshops" target="_blank">
+            Check out workshops
         </a>
     </p>
 

@@ -2,15 +2,15 @@
 
 @section('content')
     <div class="intro text-center text-white background-photo">
-        <div class="overlay pt-32 md:pt-48 md:pb-20">
+        <div class="overlay pt-24 md:pt-36">
             <div class="container mx-auto px-4 py-12 md:py-20">
-                <h1 class="font-noway-medium text-white md:text-5xl pb-4">
-                    Online workshops for the whole team
-                </h1>
+{{--                <h1 class="font-noway-medium text-white md:text-5xl pb-4">--}}
+{{--                    Online workshops for the whole team--}}
+{{--                </h1>--}}
 
-                <p class="text-xl leading-normal italic mx-auto max-w-md pb-10 md:pb-20">
-                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we'll provide workshops for everybody.&rdquo;
-                </p>
+{{--                <p class="text-xl leading-normal italic mx-auto max-w-md pb-10 md:pb-20">--}}
+{{--                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we'll provide workshops for everybody.&rdquo;--}}
+{{--                </p>--}}
 
 {{--                <h2 class="font-noway-medium text-white md:text-2xl pb-4">--}}
 {{--                    {{ $edition->venue }}--}}
@@ -22,7 +22,7 @@
 {{--                    Main Conference - October 8 & 9, 2021--}}
 {{--                </h3>--}}
 
-                <h2 class="font-noway-medium text-white md:text-2xl pb-4">
+                <h2 class="font-noway-medium text-white md:text-3xl pb-4">
                     Online Workshops &bull; 19 - 22 October 2021
                 </h2>
 
@@ -37,18 +37,12 @@
                         Join us in-person at #fseu22
                     </a>
                 </p>
-
-                <p class="text-center mt-2">
-                    <a class="text-white hover:underline" href="{{ route('home', 2019) }}">
-                        Check out the 2019 edition
-                    </a>
-                </p>
             </div>
         </div>
     </div>
 
     <div style="background: url('/assets/2021/images/pattern.png') repeat top left">
-        @include('2021::partials.newsletter')
+{{--        @include('2021::partials.newsletter')--}}
         @include('2021::partials.workshops')
     </div>
 

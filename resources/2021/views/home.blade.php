@@ -22,7 +22,7 @@
 {{--                    Main Conference - October 8 & 9, 2021--}}
 {{--                </h3>--}}
 
-                <h2 class="font-noway-medium text-white md:text-3xl pb-4">
+                <h2 class="font-noway-medium text-white md:text-2xl pb-4">
                     Online Workshops &bull; 19 - 22 October 2021
                 </h2>
 

@@ -32,7 +32,7 @@ class WorkshopFactory extends Factory
             'subtitle' => $this->faker->sentence(),
             'snippet' => $this->faker->paragraph(),
             'duration' => 280,
-            'schedule' => $this->faker->paragraph(),
+            'schedule' => $this->faker->sentence(),
             'description' => $this->faker->paragraph(),
             'sold_out' => $this->faker->boolean(),
         ];

@@ -25,9 +25,6 @@
 {{--                        @endif--}}
 
                         <li class="md:ml-6 md:inline-block mt-4">
-                            <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>
-                        </li>
-                        <li class="md:ml-6 md:inline-block mt-4">
                             <a data-scroll href="{{ route('home', $edition) }}#newsletter">newsletter</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">

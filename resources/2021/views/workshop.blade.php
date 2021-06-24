@@ -1,4 +1,8 @@
-@extends('2021::layouts.page', ['pageTitle' => $workshop->title. ' - ' . $workshop->speaker->name, 'maxWidth' => 'container'])
+@extends('2021::layouts.page', [
+    'pageTitle' => $workshop->title. ' - ' . $workshop->speaker->name,
+    'maxWidth' => 'container',
+    'image' => route('workshop.artwork', [$edition, $workshop]),
+])
 
 @section('page')
     <div class="md:flex md:px-12">

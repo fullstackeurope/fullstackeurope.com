@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class DisableFloc
 {
@@ -18,7 +19,9 @@ class DisableFloc
     {
         $response = $next($request);
 
-        $response->header('Permissions-Policy', 'interest-cohort=()');
+        if (! $response instanceof BinaryFileResponse) {
+            $response->header('Permissions-Policy', 'interest-cohort=()');
+        }
 
         return $response;
     }

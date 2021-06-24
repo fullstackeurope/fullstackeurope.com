@@ -18,7 +18,7 @@
     <meta name="og:description" content="{{ $description }}">
 @endif
 
-@if ($image = $edition->metaImage())
+@if ($image = $image ?? $edition->metaImage())
     <meta name="image" content="{{ $image }}">
     <meta itemprop="image" content="{{ $image }}">
     <meta name="twitter:image" content="{{ $image }}">

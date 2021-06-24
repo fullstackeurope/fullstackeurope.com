@@ -21,6 +21,7 @@
         "ohdearapp/ohdear-php-sdk": "^3.0",
         "optimistdigital/nova-sortable": "^1.4",
         "predis/predis": "^1.1",
+        "spatie/browsershot": "^3.47",
         "spatie/laravel-backup": "^6.11",
         "spatie/laravel-responsecache": "^6.6",
         "spatie/laravel-schedule-monitor": "^2.2"

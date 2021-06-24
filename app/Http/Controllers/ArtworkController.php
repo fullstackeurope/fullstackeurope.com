@@ -7,12 +7,9 @@ namespace App\Http\Controllers;
 use App\Models\Edition;
 use App\Models\Talk;
 use App\Models\Workshop;
-use Carbon\CarbonInterval;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Storage;
 use Spatie\Browsershot\Browsershot;
-use Spatie\TemporaryDirectory\TemporaryDirectory;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 final class ArtworkController

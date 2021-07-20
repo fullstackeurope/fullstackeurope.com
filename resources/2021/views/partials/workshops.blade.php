@@ -12,9 +12,5 @@
                 <hr class="border-t border-gray-100 my-6">
             @endunless
         @endforeach
-
-        <p class="text-center text-xl">
-            More to be announced soon!
-        </p>
     </div>
 @endif

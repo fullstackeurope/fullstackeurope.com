@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f17199a8334c882a64f990e570e23c13",
+    "content-hash": "50f7cfc6a8e8b4d1382d5da2be76aae8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1958,17 +1958,17 @@
         },
         {
             "name": "laravel/nova",
-            "version": "3.25.0",
+            "version": "3.27.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "827bfb8ee0c206962a2f3efb2c3bf389017884b1"
+                "reference": "aa40706e45ec58f6885c443733057c03aff19f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-827bfb8ee0c206962a2f3efb2c3bf389017884b1-zip-579d9f.zip",
-                "reference": "827bfb8ee0c206962a2f3efb2c3bf389017884b1",
-                "shasum": "8688fc23898da23212a1a6c1acaf91a8b63e0a4b"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-aa40706e45ec58f6885c443733057c03aff19f99-zip-4bd4cf.zip",
+                "reference": "aa40706e45ec58f6885c443733057c03aff19f99",
+                "shasum": "9ad4572f28afb00ea0677e7d586c6f32c26e6de5"
             },
             "require": {
                 "brick/money": "^0.5.0",
@@ -1988,7 +1988,7 @@
                 "laravel/legacy-factories": "^1.0",
                 "laravel/nova-dusk-suite": "8.x-dev",
                 "mockery/mockery": "^1.3.3|^1.4.2",
-                "orchestra/testbench-dusk": "^6.17",
+                "orchestra/testbench-dusk": "^6.18",
                 "phpunit/phpunit": "^8.4",
                 "predis/predis": "^1.1"
             },
@@ -2024,9 +2024,8 @@
                     "./vendor/bin/testbench-dusk package:discover"
                 ],
                 "dusk:assets": [
-                    "npm install",
-                    "npm run setup",
-                    "npm run production",
+                    "yarn install",
+                    "yarn run prod",
                     "./vendor/bin/testbench-dusk nova:publish"
                 ],
                 "dusk:test": [
@@ -2048,9 +2047,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v3.25.0"
+                "source": "https://github.com/laravel/nova/tree/v3.27.0"
             },
-            "time": "2021-05-12T00:27:13+00:00"
+            "time": "2021-06-29T17:36:02+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -10258,5 +10257,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

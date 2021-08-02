@@ -15,7 +15,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.18",
         "laravel/horizon": "^5.2",
-        "laravel/nova": "^3.15",
+        "laravel/nova": "^3.27",
         "laravel/tinker": "^2.5",
         "league/commonmark": "^1.4",
         "ohdearapp/ohdear-php-sdk": "^3.0",
@@ -71,7 +71,8 @@
         ],
         "post-update-cmd": [
             "@php artisan horizon:publish --ansi",
-            "@php artisan nova:publish --ansi"
+            "@php artisan nova:publish --ansi",
+            "@php artisan vendor:publish --tag=nova-views --force --ansi"
         ]
     },
     "repositories": [

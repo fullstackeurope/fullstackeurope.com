@@ -5,6 +5,14 @@
 /public/assets/*/images/vendor
 /public/assets/*/mix-manifest.json
 /public/assets/*/hot
+
+# 2019 Assets
+!/public/assets/2019/app.css
+!/public/assets/2019/app.js
+!/public/assets/2019/app.js.LICENSE.txt
+!/public/assets/2019/images/vendor
+!/public/assets/2019/mix-manifest.json
+
 /public/storage
 /storage/*.key
 /vendor

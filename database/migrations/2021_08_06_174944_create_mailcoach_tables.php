@@ -77,9 +77,9 @@ class CreateMailcoachTables extends Migration
             $table->index([
                 'email_list_id',
                 'subscribed_at',
-                'unsubscribed_at'
+                'unsubscribed_at',
             ],
-                'email_list_subscribed_index');
+                'email_list_subscribed_index', );
 
             $table->index(['email_list_id', 'created_at'], 'email_list_id_created_at');
         });
@@ -240,7 +240,6 @@ class CreateMailcoachTables extends Migration
             $table->timestamp('last_modified_at')->nullable();
             $table->timestamps();
         });
-
 
         Schema::create('mailcoach_sends', function (Blueprint $table) {
             $table->id();

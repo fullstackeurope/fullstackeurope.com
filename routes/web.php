@@ -8,6 +8,8 @@ Route::group(['middleware' => 'doNotCacheResponse'], function () {
     Route::mailcoachEditor();
 });
 
+Route::redirect('/login', '/nova/login')->name('login');
+
 Route::redirect('/', '/2021');
 Route::redirect('/2020', '/2021');
 

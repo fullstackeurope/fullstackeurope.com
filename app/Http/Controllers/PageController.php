@@ -9,6 +9,7 @@ use App\Models\Speaker;
 use App\Models\Talk;
 use App\Models\Timeslot;
 use App\Models\Workshop;
+use Illuminate\Contracts\View\View;
 
 final class PageController
 {
@@ -35,26 +36,33 @@ final class PageController
 
     public function speaker(Edition $edition, Speaker $speaker)
     {
-        return view("{$edition->year}::speaker", compact('speaker'));
+        return $this->viewOrFail("{$edition->year}::speaker", compact('speaker'));
     }
 
     public function workshop(Edition $edition, Speaker $speaker)
     {
-        return view("{$edition->year}::workshop", compact('speaker'));
+        return $this->viewOrFail("{$edition->year}::workshop", compact('speaker'));
     }
 
     public function diversity(Edition $edition)
     {
-        return view("{$edition->year}::diversity");
+        return $this->viewOrFail("{$edition->year}::diversity");
     }
 
     public function codeOfConduct(Edition $edition)
     {
-        return view("{$edition->year}::code-of-conduct");
+        return $this->viewOrFail("{$edition->year}::code-of-conduct");
     }
 
     public function faq(Edition $edition)
     {
-        return view("{$edition->year}::faq");
+        return $this->viewOrFail("{$edition->year}::faq");
+    }
+
+    public function viewOrFail(string $view, array $data = []): View
+    {
+        abort_unless(view()->exists($view), 404);
+
+        return view($view, $data);
     }
 }

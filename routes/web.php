@@ -3,8 +3,10 @@
 use App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
-Route::mailcoach('mailcoach');
-Route::mailcoachEditor();
+Route::group(['middleware' => 'doNotCacheResponse'], function () {
+    Route::mailcoach('mailcoach');
+    Route::mailcoachEditor();
+});
 
 Route::redirect('/', '/2021');
 Route::redirect('/2020', '/2021');

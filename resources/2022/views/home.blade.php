@@ -34,7 +34,7 @@
 
                 <p class="text-center mt-6">
                     <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
-                        Join us online at #fseu22
+                        Join us at #fseu22
                     </a>
                 </p>
             </div>

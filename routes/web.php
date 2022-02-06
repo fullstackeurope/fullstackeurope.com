@@ -3,11 +3,6 @@
 use App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
-Route::group(['middleware' => 'doNotCacheResponse'], function () {
-    Route::mailcoach('mailcoach');
-    Route::mailcoachEditor();
-});
-
 Route::redirect('/login', '/nova/login')->name('login');
 
 Route::redirect('/', '/2022');

@@ -23,8 +23,6 @@
         "predis/predis": "^1.1",
         "spatie/browsershot": "^3.47",
         "spatie/laravel-backup": "^7.6.3",
-        "spatie/laravel-mailcoach": "^4.8",
-        "spatie/laravel-mailcoach-editor": "^0.2.0",
         "spatie/laravel-responsecache": "^7.1.0",
         "spatie/laravel-schedule-monitor": "^2.2"
     },
@@ -74,9 +72,7 @@
         "post-update-cmd": [
             "@php artisan horizon:publish --ansi",
             "@php artisan nova:publish --ansi",
-            "@php artisan vendor:publish --tag=nova-views --force --ansi",
-            "@php artisan vendor:publish --tag mailcoach-assets --force",
-            "@php artisan vendor:publish --tag mailcoach-editor-assets --force"
+            "@php artisan vendor:publish --tag=nova-views --force --ansi"
         ]
     },
     "repositories": [

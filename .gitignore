@@ -13,6 +13,13 @@
 !/public/assets/2019/images/vendor
 !/public/assets/2019/mix-manifest.json
 
+# 2021 Assets
+!/public/assets/2021/app.css
+!/public/assets/2021/app.js
+!/public/assets/2021/app.js.LICENSE.txt
+!/public/assets/2021/images/vendor
+!/public/assets/2021/mix-manifest.json
+
 /public/storage
 /storage/*.key
 /vendor

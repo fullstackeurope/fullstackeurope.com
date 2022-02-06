@@ -31,12 +31,6 @@
                 </div>
 
                 @include('2021::partials.cta', ['linkColor' => 'text-white'])
-
-                <p class="text-center mt-6">
-                    <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
-                        Join us in-person at #fseu22
-                    </a>
-                </p>
             </div>
         </div>
     </div>
@@ -60,7 +54,7 @@
         </div>
     </div>
 
-    @include('2021::partials.timer')
+    {{-- @include('2021::partials.timer') --}}
 
 {{--    @include('2021::partials.sponsors')--}}
     @include('2021::partials.organisers')

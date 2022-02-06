@@ -33,8 +33,8 @@
                 @include('2022::partials.cta', ['linkColor' => 'text-white'])
 
                 <p class="text-center mt-6">
-                    <a class="text-white hover:underline" href="{{ route('home', 2021) }}">
-                        Join us online at #fseu21
+                    <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
+                        Join us online at #fseu22
                     </a>
                 </p>
             </div>

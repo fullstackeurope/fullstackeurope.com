@@ -14,13 +14,13 @@ editions.forEach((edition) => {
     scripts['production:' + edition] = `cd resources/${edition} && npm run production`;
 });
 
-scripts['setup'] = npsUtils.concurrent.nps('setup:2021', 'setup:2022');
-scripts['dev'] = npsUtils.concurrent.nps('dev:2021', 'dev:2022');
-scripts['development'] = npsUtils.concurrent.nps('dev:2021', 'dev:2022');
-scripts['watch'] = npsUtils.concurrent.nps('watch:2021', 'watch:2022');
-scripts['hot'] = npsUtils.concurrent.nps('hot:2021', 'hot:2022');
-scripts['prod'] = npsUtils.concurrent.nps('prod:2021', 'prod:2022');
-scripts['production'] = npsUtils.concurrent.nps('prod:2021', 'prod:2022');
+scripts['setup'] = npsUtils.concurrent.nps('setup:2022');
+scripts['dev'] = npsUtils.concurrent.nps('dev:2022');
+scripts['development'] = npsUtils.concurrent.nps('dev:2022');
+scripts['watch'] = npsUtils.concurrent.nps('watch:2022');
+scripts['hot'] = npsUtils.concurrent.nps('hot:2022');
+scripts['prod'] = npsUtils.concurrent.nps('prod:2022');
+scripts['production'] = npsUtils.concurrent.nps('prod:2022');
 
 module.exports = {
     scripts: scripts,

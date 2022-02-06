@@ -24,19 +24,9 @@
     </div>
 
     <div class="md:w-1/6 md:flex md:flex-col md:justify-center">
-        @if ($workshop->sold_out)
-            <span class="btn-tickets px-4 mb-4 py-4">
-                Sold Out
-            </span>
-        @elseif ($edition->tickets_url)
-            <a class="btn-tickets px-4 mb-4 py-4" href="{{ $edition->tickets_url }}" target="_blank">
-                Register now
-            </a>
-        @else
-            <span class="btn-tickets px-4 mb-4 py-4">
-                Tickets Closed
-            </span>
-        @endif
+        <span class="btn-tickets px-4 mb-4 py-4">
+            Tickets Closed
+        </span>
 
         <p class="md:text-center">
             <a href="{{ $workshop->url() }}#workshop">

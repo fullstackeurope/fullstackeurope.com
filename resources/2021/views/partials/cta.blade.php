@@ -3,8 +3,8 @@
 {{--        <a class="btn-tickets" href="{{ $edition->tickets_url }}" target="_blank">--}}
 {{--            {{ $edition->ticketsLabel() }}--}}
 {{--        </a>--}}
-        <a class="btn-tickets" href="{{ route('home', $edition) }}#workshops" target="_blank">
-            Check out workshops
+        <a class="btn-tickets" href="{{ route('home', 2022) }}" target="_blank">
+            Check out the next edition
         </a>
     </p>
 
@@ -15,15 +15,17 @@
     {{--    </a>--}}
     {{--</p>--}}
 
-    @if ($edition->sale_ends_at)
-        <p class="font-noway italic text-1xl leading-normal max-w-xs mx-auto">
-            <span class="timer" data-expires="{{ $edition->sale_ends_at->getTimestamp() }}" data-threshold-days="30">
-                {{ $edition->sale_ends_description }}<br>
-                <span class="days">0</span>d,
-                <span class="hours">0</span>h,
-                <span class="minutes">0</span>m,
-                <span class="seconds">0</span>s
-            </span>
-        </p>
-    @endif
+    {{--
+        @if ($edition->sale_ends_at)
+            <p class="font-noway italic text-1xl leading-normal max-w-xs mx-auto">
+                <span class="timer" data-expires="{{ $edition->sale_ends_at->getTimestamp() }}" data-threshold-days="30">
+                    {{ $edition->sale_ends_description }}<br>
+                    <span class="days">0</span>d,
+                    <span class="hours">0</span>h,
+                    <span class="minutes">0</span>m,
+                    <span class="seconds">0</span>s
+                </span>
+            </p>
+        @endif
+    --}}
 @endif

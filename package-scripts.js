@@ -5,7 +5,7 @@ const editions = ['2019', '2021', '2022'];
 const scripts = {};
 
 editions.forEach((edition) => {
-    scripts['setup:' + edition] = `cd resources/${edition} && npm install`;
+    scripts['setup:' + edition] = `cd resources/${edition} && npm ci`;
     scripts['dev:' + edition] = `cd resources/${edition} && npm run development`;
     scripts['development:' + edition] = `cd resources/${edition} && npm run development`;
     scripts['watch:' + edition] = `cd resources/${edition} && npm run watch`;

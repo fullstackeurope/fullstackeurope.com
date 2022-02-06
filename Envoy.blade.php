@@ -142,7 +142,7 @@ php artisan config:cache
 php artisan responsecache:clear
 php artisan schedule-monitor:sync
 
-sudo service php8.0-fpm restart
+sudo service php8.1-fpm restart
 sudo supervisorctl restart all
 @endtask
 
@@ -169,6 +169,6 @@ php artisan config:cache
 php artisan responsecache:clear
 php artisan schedule-monitor:sync
 
-sudo service php8.0-fpm restart
+sudo service php8.1-fpm restart
 sudo supervisorctl restart all
 @endtask

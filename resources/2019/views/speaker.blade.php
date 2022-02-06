@@ -36,7 +36,7 @@
                 <a id="workshop" class="anchor-page"></a>
                 <h2 data-anchor-id="workshop">Workshop - {{ $workshop->title }}</h2>
 
-                @markdown($workshop->snippet ?? $workshop->description)
+                @markdown($workshop->description)
 
                 @include('2019::partials.cta_workshop')
             @endif

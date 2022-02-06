@@ -25,18 +25,18 @@
             <h1>{{ $speaker->name }}</h1>
             <p class="text-base mb-4 italic">{{ $speaker->title }}</p>
 
-            @if ($speaker->talk)
+            @if ($talk = $speaker->talks->first())
                 <a id="talk" class="anchor-page"></a>
-                <h2 data-anchor-id="talk">Talk - {{ $speaker['talk'] }}</h2>
+                <h2 data-anchor-id="talk">Talk - {{ $talk->title }}</h2>
 
-                @markdown($speaker->abstract)
+                @markdown($talk->abstract)
             @endif
 
-            @if ($speaker->workshop)
+            @if ($workshop = $speaker->workshops->first())
                 <a id="workshop" class="anchor-page"></a>
-                <h2 data-anchor-id="workshop">Workshop - {{ $speaker->workshop }}</h2>
+                <h2 data-anchor-id="workshop">Workshop - {{ $workshop->title }}</h2>
 
-                @markdown($speaker->workshop_description)
+                @markdown($workshop->abstract)
 
                 @include('2019::partials.cta_workshop')
             @endif

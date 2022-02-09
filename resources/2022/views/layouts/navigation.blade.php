@@ -24,10 +24,7 @@
                 <a data-scroll href="{{ route('home', $edition) }}#newsletter">newsletter</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a href="{{ route('diversity', $edition) }}">diversity</a>
-            </li>
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a href="{{ route('code-of-conduct', $edition) }}">code of conduct</a>
+                <a href="{{ route('values', $edition) }}">values</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a href="{{ route('home', 2019) }}">2019</a>

@@ -44,6 +44,16 @@ final class PageController
         return $this->viewOrFail("{$edition->year}::workshop", compact('speaker'));
     }
 
+    public function values(Edition $edition)
+    {
+        return $this->viewOrFail("{$edition->year}::values");
+    }
+
+    public function sustainability(Edition $edition)
+    {
+        return $this->viewOrFail("{$edition->year}::sustainability");
+    }
+
     public function diversity(Edition $edition)
     {
         return $this->viewOrFail("{$edition->year}::diversity");
@@ -52,6 +62,11 @@ final class PageController
     public function codeOfConduct(Edition $edition)
     {
         return $this->viewOrFail("{$edition->year}::code-of-conduct");
+    }
+
+    public function covid19Policy(Edition $edition)
+    {
+        return $this->viewOrFail("{$edition->year}::covid-19-policy");
     }
 
     public function faq(Edition $edition)

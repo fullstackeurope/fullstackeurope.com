@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
-class AddScheduleMonitorTimezoneColumn extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -15,4 +15,4 @@ class AddScheduleMonitorTimezoneColumn extends Migration
 
         DB::table('monitored_scheduled_tasks')->update(['timezone' => 'UTC']);
     }
-}
+};

@@ -8,7 +8,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\Facades\Schema;
 
-class AddTalksAndWorkshopsTables extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -77,4 +77,4 @@ class AddTalksAndWorkshopsTables extends Migration
             ]);
         });
     }
-}
+};

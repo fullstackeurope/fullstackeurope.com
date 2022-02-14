@@ -6,7 +6,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
 
-class AddSlugToWorkshopsTable extends Migration
+return new class extends Migration
 {
     /**
      * Run the migrations.
@@ -23,4 +23,4 @@ class AddSlugToWorkshopsTable extends Migration
             $workshop->update(['slug' => Str::slug($workshop->title)]);
         });
     }
-}
+};

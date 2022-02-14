@@ -18,7 +18,6 @@ final class Edition extends Model
 {
     use HasFactory;
 
-
     protected $casts = [
         'sale_ends_at' => 'datetime',
         'starts_at' => 'datetime',

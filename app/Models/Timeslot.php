@@ -11,6 +11,7 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 final class Timeslot extends Model
 {
     use HasFactory;
+
     protected $casts = [
         'starts_at' => 'datetime',
         'ends_at' => 'datetime',

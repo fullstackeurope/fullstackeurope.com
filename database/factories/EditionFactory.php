@@ -2,7 +2,6 @@
 
 namespace Database\Factories;
 
-use App\Models\Edition;
 use Carbon\CarbonImmutable;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

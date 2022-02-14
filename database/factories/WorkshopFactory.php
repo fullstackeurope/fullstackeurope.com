@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use App\Models\Speaker;
-use App\Models\Workshop;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 

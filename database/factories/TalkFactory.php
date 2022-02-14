@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use App\Models\Speaker;
-use App\Models\Talk;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TalkFactory extends Factory

@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use App\Models\Edition;
-use App\Models\Speaker;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class SpeakerFactory extends Factory

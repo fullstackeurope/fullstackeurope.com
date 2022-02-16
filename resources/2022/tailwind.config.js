@@ -21,7 +21,7 @@ module.exports = {
             spacing: {
                 96: '24rem',
                 128: '32rem',
-            }
+            },
         },
         linearGradientColors: {
             primary: ['#6acbe0 0%', '#6859ea 50%', '#6acbe0 100%'],

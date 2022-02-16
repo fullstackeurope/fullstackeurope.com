@@ -18,6 +18,10 @@ module.exports = {
             boxShadow: {
                 'lg-blue': '0 5px 15px 0 rgba(104, 89, 234, .1)',
             },
+            spacing: {
+                96: '24rem',
+                128: '32rem',
+            }
         },
         linearGradientColors: {
             primary: ['#6acbe0 0%', '#6859ea 50%', '#6acbe0 100%'],

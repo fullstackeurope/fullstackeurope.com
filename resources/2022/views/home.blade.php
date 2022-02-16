@@ -26,22 +26,24 @@
 {{--                    Antwerp, Belgium &bull; 5, 6 & 7 October 2022--}}
 {{--                </h2>--}}
 
-                <div class="text-2xl pb-10 md:pb-16">
+                <div class="text-2xl pb-4">
                     @include('2022::layouts.social')
+                    <p class="text-center text-sm mt-6">
+                        <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
+                            Join us at #fseu22
+                        </a>
+                    </p>
                 </div>
 
-                @include('2022::partials.cta', ['linkColor' => 'text-white'])
+                <div class="-mb-96">
+                    @include('2022::partials.cta', ['linkColor' => 'text-white'])
+                </div>
 
-                <p class="text-center mt-6">
-                    <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
-                        Join us at #fseu22
-                    </a>
-                </p>
             </div>
         </div>
     </div>
 
-    <div style="background: url('/assets/2022/images/pattern.png') repeat top left">
+    <div class="pt-128 -mt-24" style="background: url('/assets/2022/images/pattern.png') repeat top left">
         @include('2022::partials.newsletter')
         @include('2022::partials.talks')
         @include('2022::partials.workshops')

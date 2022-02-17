@@ -82,6 +82,7 @@ php artisan nova:publish
 cd {{ $newReleaseDir }};
 npm install
 npm run setup
+npm install puppeteer
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])

@@ -45,6 +45,11 @@
             </p>
 
             <p>
+                <a class="apply font-noway-medium block mb-2" href="https://www.youtube.com/playlist?list=PLeWf1pVncHmZMNIxp1XLWTYPMs2B25jEx">
+                    <i class="fas fa-video mr-1"></i> Videos <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                </a>
+            </p>
+            <p>
                 <a class="apply font-noway-medium block mb-2" href="https://photos.app.goo.gl/W4yVBc68Mb6GYYWT7">
                     <i class="fas fa-camera-retro mr-1"></i> Photo album <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
                 </a>

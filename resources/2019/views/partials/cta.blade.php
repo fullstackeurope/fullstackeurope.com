@@ -35,4 +35,7 @@
     <a class="{{ $linkColor ?? '' }} border-b border-dotted leading-normal" href="https://www.youtube.com/playlist?list=PLeWf1pVncHmZMNIxp1XLWTYPMs2B25jEx" target="_blank">
         Watch the videos
     </a>
+    <a class="{{ $linkColor ?? '' }} border-b border-dotted leading-normal ml-6" href="https://photos.app.goo.gl/W4yVBc68Mb6GYYWT7" target="_blank">
+        Check out the photos
+    </a>
 </p>

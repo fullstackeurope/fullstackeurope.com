@@ -34,6 +34,9 @@
                             <a href="{{ route('values', $edition) }}">values</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">
+                            <a href="{{ route('faq', $edition) }}">faq</a>
+                        </li>
+                        <li class="md:ml-6 md:inline-block mt-4">
                             <a href="{{ route('home', 2019) }}">2019</a>
                         </li>
                         <li class="md:ml-6 md:inline-block mt-4">

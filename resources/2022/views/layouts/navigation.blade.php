@@ -27,6 +27,9 @@
                 <a href="{{ route('values', $edition) }}">values</a>
             </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a href="{{ route('faq', $edition) }}">faq</a>
+            </li>
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a href="{{ route('home', 2019) }}">2019</a>
             </li>
         </ul>

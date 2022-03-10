@@ -66,6 +66,7 @@ final class Speaker extends Resource
             BelongsTo::make('Edition'),
 
             HasMany::make('Talks'),
+            HasMany::make('Workshops'),
 
             Avatar::make('Photo')
                 ->disk('public')

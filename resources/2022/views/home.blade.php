@@ -49,6 +49,8 @@
         @include('2022::partials.workshops')
     </div>
 
+    @include('2022::partials.timer')
+
     <div class="text-gray-600 py-6 md:py-12">
         <a id="venue" class="anchor"></a>
         <div id="venue-outer" class="container mx-auto px-4">

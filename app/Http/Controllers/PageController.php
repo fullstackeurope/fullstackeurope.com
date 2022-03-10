@@ -31,7 +31,7 @@ final class PageController
                 return $speaker->workshops->map(fn (Workshop $workshop) => $workshop->setRelation('speaker', $speaker));
             })->filter();
 
-        return view("{$edition->year}::home", compact('schedule', 'talks', 'workshops'));
+        return view("{$edition->year}::home", compact('schedule', 'speakers', 'talks', 'workshops'));
     }
 
     public function speaker(Edition $edition, Speaker $speaker)

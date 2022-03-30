@@ -1,5 +1,0 @@
-.primary-gradient {
-    @apply bg-gradient-tr-primary;
-    background-size: 200% auto;
-    color: white;
-}

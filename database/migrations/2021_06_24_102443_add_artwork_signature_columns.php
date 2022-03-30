@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddArtworkSignatureColumns extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -16,4 +16,4 @@ class AddArtworkSignatureColumns extends Migration
             $table->string('artwork_signature')->nullable()->after('abstract');
         });
     }
-}
+};

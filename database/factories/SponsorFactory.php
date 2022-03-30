@@ -2,18 +2,10 @@
 
 namespace Database\Factories;
 
-use App\Models\Sponsor;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class SponsorFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
-    protected $model = Sponsor::class;
-
     /**
      * Define the model's default state.
      *
@@ -22,9 +14,9 @@ class SponsorFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->company,
+            'name' => $this->faker->company(),
             'level' => $this->faker->randomElement(['platinum', 'gold', 'silver', 'bronze']),
-            'website' => $this->faker->url,
+            'website' => $this->faker->url(),
         ];
     }
 }

@@ -9,30 +9,29 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "facade/ignition": "^2.5",
-        "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.36",
-        "laravel/horizon": "^5.2",
-        "laravel/nova": "^3.27",
-        "laravel/tinker": "^2.5",
-        "league/commonmark": "^1.4",
-        "ohdearapp/ohdear-php-sdk": "^3.0",
-        "optimistdigital/nova-sortable": "^1.4",
+        "fruitcake/laravel-cors": "^2.0.5",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.0",
+        "laravel/horizon": "^5.9",
+        "laravel/nova": "^3.31",
+        "laravel/tinker": "^2.7",
+        "league/commonmark": "^2.2",
+        "ohdearapp/ohdear-php-sdk": "^3.3",
+        "optimistdigital/nova-sortable": "^2.4",
         "predis/predis": "^1.1",
-        "spatie/browsershot": "^3.47",
-        "spatie/laravel-backup": "^7.6.3",
-        "spatie/laravel-responsecache": "^7.1.0",
-        "spatie/laravel-schedule-monitor": "^2.2"
+        "spatie/browsershot": "^3.52",
+        "spatie/laravel-backup": "^8.0",
+        "spatie/laravel-responsecache": "^7.2",
+        "spatie/laravel-schedule-monitor": "^3.0",
+        "spatie/laravel-ignition": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
-        "friendsofphp/php-cs-fixer": "^3.0",
-        "laravel/envoy": "^2.3",
-        "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "friendsofphp/php-cs-fixer": "^3.6",
+        "laravel/envoy": "^2.8",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10"
     },
     "config": {
         "optimize-autoloader": true,
@@ -72,7 +71,8 @@
         "post-update-cmd": [
             "@php artisan horizon:publish --ansi",
             "@php artisan nova:publish --ansi",
-            "@php artisan vendor:publish --tag=nova-views --force --ansi"
+            "@php artisan vendor:publish --tag=nova-views --force --ansi",
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ]
     },
     "repositories": [

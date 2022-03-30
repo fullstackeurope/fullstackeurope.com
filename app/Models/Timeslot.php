@@ -12,9 +12,9 @@ final class Timeslot extends Model
 {
     use HasFactory;
 
-    protected $dates = [
-        'starts_at',
-        'ends_at',
+    protected $casts = [
+        'starts_at' => 'datetime',
+        'ends_at' => 'datetime',
     ];
 
     public static function booted()

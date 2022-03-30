@@ -71,7 +71,7 @@ final class Speaker extends Model implements Sortable
             $suffix = array_slice($parts, $uploadIndex + 1);
             $prefix = array_slice($parts, 0, $uploadIndex + 1);
 
-            return join('/', $prefix)."/c_scale,w_{$width}/".join('/', $suffix);
+            return implode('/', $prefix)."/c_scale,w_{$width}/".implode('/', $suffix);
         }
 
         return asset("/storage/{$this->photo}");

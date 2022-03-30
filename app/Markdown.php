@@ -4,19 +4,19 @@ declare(strict_types=1);
 
 namespace App;
 
-use League\CommonMark\MarkdownConverterInterface;
+use League\CommonMark\ConverterInterface;
 
 final class Markdown
 {
-    private MarkdownConverterInterface $converter;
+    private ConverterInterface $converter;
 
-    public function __construct(MarkdownConverterInterface $converter)
+    public function __construct(ConverterInterface $converter)
     {
         $this->converter = $converter;
     }
 
     public function toHtml(string $markdown): string
     {
-        return $this->converter->convertToHtml($markdown);
+        return $this->converter->convert($markdown)->getContent();
     }
 }

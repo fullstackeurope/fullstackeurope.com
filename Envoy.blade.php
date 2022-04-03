@@ -82,7 +82,6 @@ php artisan nova:publish
 cd {{ $newReleaseDir }};
 npm install
 npm run setup
-npm install puppeteer
 @endtask
 
 @task('generateAssets', ['on' => 'remote'])
@@ -145,6 +144,9 @@ php artisan schedule-monitor:sync
 
 sudo service php8.1-fpm restart
 sudo supervisorctl restart all
+
+cd {{ $currentDir }}
+npm install puppeteer
 @endtask
 
 @task('cleanOldReleases', ['on' => 'remote'])

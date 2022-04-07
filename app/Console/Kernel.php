@@ -5,6 +5,7 @@ namespace App\Console;
 use App\Console\Commands\SyncWorkshopsCommand;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Spatie\ScheduleMonitor\Models\MonitoredScheduledTaskLogItem;
 
 class Kernel extends ConsoleKernel
 {
@@ -17,7 +18,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('schedule-monitor:sync')->dailyAt('04:56');
-        $schedule->command('schedule-monitor:clean')->daily();
+        $schedule->command('model:prune', ['--model' => MonitoredScheduledTaskLogItem::class])->daily();
         $schedule->command('backup:clean')->daily()->at('01:00');
         $schedule->command('backup:run')->daily()->at('02:00');
         $schedule->command('horizon:snapshot')->everyFiveMinutes();

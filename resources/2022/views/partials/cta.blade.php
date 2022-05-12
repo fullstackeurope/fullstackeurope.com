@@ -1,6 +1,4 @@
 @if ($edition->tickets_url)
-
-    <!-- This example requires Tailwind CSS v2.0+ -->
     <div class="mt-8 bg-gray-50 sm:mt-12 lg:mt-16">
         <div class="relative text-left">
             <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,17 +77,18 @@
                 </div>
             </div>
         </div>
+
+        @if ($edition->sale_ends_at)
+            <p class="relative font-noway-medium italic text-primary text-1xl mt-8 leading-normal max-w-xs mx-auto">
+                <span class="timer" data-expires="{{ $edition->sale_ends_at->getTimestamp() }}" data-threshold-days="30">
+                    {{ $edition->sale_ends_description }}<br>
+                    <span class="days">0</span>d,
+                    <span class="hours">0</span>h,
+                    <span class="minutes">0</span>m,
+                    <span class="seconds">0</span>s
+                </span>
+            </p>
+        @endif
     </div>
 
-    @if ($edition->sale_ends_at)
-        <p class="font-noway-medium italic text-1xl leading-normal max-w-xs mx-auto">
-            <span class="timer" data-expires="{{ $edition->sale_ends_at->getTimestamp() }}" data-threshold-days="30">
-                {{ $edition->sale_ends_description }}<br>
-                <span class="days">0</span>d,
-                <span class="hours">0</span>h,
-                <span class="minutes">0</span>m,
-                <span class="seconds">0</span>s
-            </span>
-        </p>
-    @endif
 @endif

@@ -9,17 +9,17 @@
                                 <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">Out of pocket</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
-                                &euro;470
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird ticket </span>
+                                &euro;570
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / regular price </span>
                             </div>
-                            <p class="lg:-mt-4 text-xl text-gray-500 line-through">€570 regular price</p>
+                            <p class="lg:-mt-4 text-xl text-gray-500 line-through">€670 last minute price</p>
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>
                         </div>
                         <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
                             <ul role="list" class="space-y-4">
                                 @foreach ([
                                     //'Blind bird: €370 until March 15',
-                                    'Early bird: €470 until May 15',
+                                    //'Early bird: €470 until May 15',
                                     'Regular: €570 until Sept 15',
                                     'Last minute: €670 until the end',
                                 ] as $price)
@@ -45,17 +45,17 @@
                                 <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600" id="tier-standard">Company</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
-                                &euro;570
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird ticket </span>
+                                &euro;690
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / regular price </span>
                             </div>
-                            <p class="lg:-mt-4 text-xl text-gray-500 line-through">€690 regular price</p>
+                            <p class="lg:-mt-4 text-xl text-gray-500 line-through">€810 last minute price</p>
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>
                         </div>
                         <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
                             <ul role="list" class="space-y-4">
                                 @foreach ([
                                     //'Blind bird: €450 until March 15',
-                                    'Early bird: €570 until May 15',
+                                    //'Early bird: €570 until May 15',
                                     'Regular: €690 until Sept 15',
                                     'Last minute: €810 until the end',
                                 ] as $price)

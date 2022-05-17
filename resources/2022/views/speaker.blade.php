@@ -35,6 +35,9 @@
             @if ($workshop = $speaker->workshops->first())
                 <a id="workshop" class="anchor-page"></a>
                 <h2 data-anchor-id="workshop">Workshop - {{ $workshop->title }}</h2>
+                @if ($workshop->subtitle)
+                    <h4 class="-mt-4 text-lg mb-4 text-gray-600">{{ $workshop->subtitle }}</h4>
+                @endif
 
                 @markdown($workshop->description)
 

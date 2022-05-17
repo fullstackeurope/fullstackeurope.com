@@ -6,7 +6,7 @@
         <p class="text-center mb-16">Registrations: 8:30 &bull; Start: 9:30 &bull; End: 17:30</p>
 
         @foreach ($workshops as $workshop)
-            @include('2019::partials.workshop')
+            @include('2022::partials.workshop')
 
             @unless ($loop->last)
                 <hr class="border-t border-gray-100 my-6">

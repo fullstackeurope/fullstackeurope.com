@@ -14,6 +14,9 @@
         <h3 class="font-noway-medium text-xl md:text-2xl mb-2">
             <a href="{{ $workshop->speaker->url() }}#workshop">{{ $workshop->title }}</a>
         </h3>
+        @if ($workshop->subtitle)
+            <h4 class="-mt-4 text-lg mb-2 text-gray-600">{{ $workshop->subtitle }}</h4>
+        @endif
         <p class="mb-2 text-xl text-gray-600">
             By {{ $workshop->speaker->name }} - {{ $workshop->speaker->title }}
         </p>

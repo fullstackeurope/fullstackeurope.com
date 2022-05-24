@@ -7,5 +7,6 @@
                 @include('2022::partials.talk', compact('speaker'))
             @endforeach
         </div>
+        <h2 class="pre-title pb-8 mb-0">… and more to be announced soon!</h2>
     </div>
 @endisset

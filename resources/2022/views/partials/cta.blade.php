@@ -33,9 +33,13 @@
                                 </li>
                                 @endforeach
                             </ul>
-                            <div class="rounded-md shadow">
-                                <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
+                            <div>
+                                <div class="rounded-md shadow">
+                                    <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
+                                </div>
+                                <p class="mt-2 text-xs text-gray-600 text-center w-full">When you don't need a VAT invoice</p>
                             </div>
+
                         </div>
                     </div>
 
@@ -69,9 +73,13 @@
                                     </li>
                                 @endforeach
                             </ul>
-                            <div class="rounded-md shadow">
-                                <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
+                            <div>
+                                <div class="rounded-md shadow">
+                                    <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
+                                </div>
+                                <p class="mt-2 text-xs text-gray-600 text-center w-full">When you need a VAT invoice</p>
                             </div>
+
                         </div>
                     </div>
                 </div>

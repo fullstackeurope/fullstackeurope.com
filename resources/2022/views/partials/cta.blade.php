@@ -34,7 +34,7 @@
                                 @endforeach
                             </ul>
                             <div class="rounded-md shadow">
-                                <a href="{{ $edition->tickets_url }}/discount/out-of-pocket" class="btn-tickets w-full"> Buy tickets </a>
+                                <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
                             </div>
                         </div>
                     </div>

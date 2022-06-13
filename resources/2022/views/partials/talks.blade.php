@@ -4,6 +4,7 @@
         <h2 class="title">Featuring talks from</h2>
         <div class="md:grid md:grid-cols-3 md:col-gap-16 md:row-gap-12 md:px-4 lg:px-8 xl:px-16">
             @foreach ($speakers as $speaker)
+                @continue ($speaker->talks->count() === 0 && $speaker->workshops->count())
                 @include('2022::partials.talk', compact('speaker'))
             @endforeach
         </div>

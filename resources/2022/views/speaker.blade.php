@@ -5,6 +5,9 @@
         <div class="md:w-1/3 mt-4 mb-6">
             <div class="image-background-gradient md:w-5/6">
                 <img src="{{ $speaker->photoUrl() }}" alt="{{ $speaker->name }}" class="bg-gray-200">
+                @if ($speaker->name === 'Dries Depoorter')
+                    <small class="text-sm text-white mt-2 ml-2 inline-block">Photo by Blickfänger</small>
+                @endif
             </div>
 
             <p class="mt-6">

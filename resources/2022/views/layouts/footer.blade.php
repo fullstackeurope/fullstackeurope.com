@@ -68,7 +68,7 @@
                     Design by <a href="https://janvanechelpoel.be">Jan Van Echelpoel</a>
                     <span class="hidden md:inline-block">|</span>
                     <span class="md:hidden"><br></span>
-                    Event management by <a href="https://on3.events">On 3 Events</a>
+                    Event management by <a href="https://aardling.eu">Aardling</a>
                 </div>
                 <div class="md:w-1/4 md:text-right text-lg">
                     @include('2022::layouts.social')

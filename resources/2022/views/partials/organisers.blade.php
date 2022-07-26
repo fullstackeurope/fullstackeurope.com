@@ -43,16 +43,15 @@
         </div>
     </div>
     <div class="text-center">
-        <p class="mb-3">
-            <a href="https://on3.events">
-                <img src="{{ asset('/assets/2022/images/on3.png') }}"
-                     width="100" class="enlarge inline-block" alt="On 3 Events Logo">
+        <p class="mb-4">
+            <a href="https://www.aardling.eu">
+                <img src="{{ asset('/assets/2022/images/Aardling_Black.svg') }}"
+                     width="200" class="enlarge inline-block" alt="Aardling Logo">
             </a>
         </p>
-        <p class="mb-3">On 3 Events</p>
         <p class="tracking-xl-wide">
-            <a href="https://twitter.com/on3_events" class="mr-2"><i class="fab fa-twitter"></i></a>
-            <a href="https://on3.events"><i class="fas fa-globe-africa"></i></a>
+            <a href="https://twitter.com/aardling_eu" class="mr-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.aardling.eu"><i class="fas fa-globe-africa"></i></a>
         </p>
     </div>
 </div>

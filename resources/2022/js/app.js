@@ -10,6 +10,7 @@ import SmoothScroll from 'smooth-scroll';
 new SmoothScroll('a[href*="#"]', {
     // header: '[data-scroll-header]',
     // offset: 25,
+    speed: 300,
 });
 
 document.addEventListener('scrollStart', closeNav, false);
@@ -177,24 +178,3 @@ function showDayTwo() {
     $('#schedule-day-1').hide();
     $('#schedule-day-2').show();
 }
-
-// // Testimonial Grid
-// window.twttr = function (d, s, id) {
-//     var t, js, fjs = d.getElementsByTagName(s)[0];
-//     if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
-//     js.src = "https://platform.twitter.com/widgets.js";
-//     fjs.parentNode.insertBefore(js, fjs);
-//     return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-// }(document, 'script', 'twitter-wjs');
-//
-// // When widget is ready, run masonry
-// twttr.ready(function (twttr) {
-//     twttr.events.bind('loaded', function (event) {
-//         var msnry = new Masonry( '.grid', {
-//             // options
-//             itemSelector: '.grid-item',
-//             columnWidth : 350,
-//             gutter: 20
-//         });
-//     });
-// });

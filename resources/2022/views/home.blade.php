@@ -33,6 +33,11 @@
                             Join us at #fseu22
                         </a>
                     </p>
+                    <p class="text-center text-sm mt-6">
+                        <a class="text-white hover:underline" href="#testimonials">
+                            See what attendees of our 2019 edition had to say
+                        </a>
+                    </p>
                 </div>
 
                 <div class="-mb-96">
@@ -68,6 +73,7 @@
     @include('2022::partials.timer')
 
     @include('2022::partials.sponsors')
+    @include('2022::partials.testimonials')
     @include('2022::partials.organisers')
     @include('2022::partials.diversity')
 @endsection

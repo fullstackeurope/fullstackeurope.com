@@ -2,7 +2,7 @@
     <h3 class="pre-title">What did people have to say?</h3>
     <h2 class="title">2019 Testimonials</h2>
 
-    <div class="grid grid-cols-4 gap-4 container mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 container mx-auto">
         @php($tweets = [
             'https://twitter.com/SaraSoueidan/status/1188444368920875010',
             'https://twitter.com/FrontEndCoffee/status/1188393980754571264',

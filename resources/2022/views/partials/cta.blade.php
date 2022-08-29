@@ -6,7 +6,7 @@
                     <div class="bg-white flex flex-col rounded-lg shadow-lg overflow-hidden">
                         <div class="px-6 py-8 bg-white text-primary sm:p-10 sm:pb-6">
                             <div>
-                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">Out of pocket</h3>
+                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">Out of pocket discount</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
                                 &euro;570

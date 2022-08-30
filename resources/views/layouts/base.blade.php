@@ -16,6 +16,15 @@
         <!-- Fathom - beautiful, simple website analytics -->
         <script src="https://boom.laravel.io/script.js" data-site="ZTTSULOQ" defer></script>
         <!-- / Fathom -->
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L0D4LM1XP7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-L0D4LM1XP7');
+        </script>
     @endproduction
 </head>
 <body class="{{ $bodyClass ?? '' }}">

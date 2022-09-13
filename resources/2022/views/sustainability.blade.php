@@ -20,10 +20,17 @@
         <li>We look for venues that are easily reachable by public transport.</li>
     </ul>
 
+    <h2>Logistics</h2>
+
+    <ul>
+        <li>We decided not to give away totebags but use paper bags instead.</li>
+        <li>We wash and reuse materials such as staff shirts, lanyards, ...</li>
+    </ul>
+
     <h2>Catering</h2>
 
     <ul>
-        <li>We offer a minimum of 50% vegetarian food (and vegan is available upon request). We try to provide a very balanced buffet, but we prefer chicken over meat and we refrain from food like tuna etc.</li>
+        <li>Our buffet is 100% vegetarian. Vegan options are also standard available.</li>
         <li>We closely estimate our food amount through a careful headcount to minimise waste. We create awareness with our attendees to not throw away food. We are looking into the options of donating leftover food.</li>
         <li>Drinks are offered in porcelain and glassware. We provide water bottles with tap water.</li>
         <li>We provide bio straws (we can offer plastic straws for those who need it for accessibility reasons).</li>

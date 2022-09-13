@@ -39,9 +39,25 @@
 
     <p>We attempt to use gender-neutral language in all our communication. Let us know when we make mistakes.</p>
 
+    <h3>Gender-inclusive bathrooms</h3>
+
+    <p>Gender-inclusive bathrooms are clearly indicated</p>
+
     <h3>Wheelchair accessibility</h3>
 
     <p>There are wheelchair-accessible bathrooms downstairs. The hotel offers guestrooms for invalid guests. Please contact the hotel to assure you have such a room.
+
+    <h3>Bring your assistant</h3>
+
+    <p>If you need an assistant to help you attend the event, we'll give them a free ticket.</p>
+
+    <h3>Assistance animals</h3>
+
+    <p>Animals are not allowed but we make an exception for assistance animals.</p>
+
+    <h3>Sign Language interpreter</h3>
+
+    <p>If you need a sign language interpreter, please send an email to <a href="mailto:hello@fullstackeurope.com">hello@fullstackeurope.com</a> with information on what sign language you need. We will do our best to find and hire one. If you already know a person that would work for you, let us know their contact information.</p>
 
     <h3>Reserved accessible seating</h3>
 
@@ -49,7 +65,15 @@
 
     <h3>Dietary requirements</h3>
 
-    <p>We inquire about dietary requirements during the registration process.</p>
+    <p>Water, tea, coffee and snacks are served throughout the day at the conference location. We inquire about dietary requirements during the registration process.</p>
+
+    <h3>Queuing</h3>
+
+    <p>We understand queuing can be difficult, painful or impossible for some participants. We do not anticipate long queues during the conference, but will make participants aware to let people skip the line if necessary.</p>
+
+    <h3>People with photosensitive epilepsy/seizures</h3>
+
+    <p>We will ask speakers to indicate if their presentation contains strobe effects or flickering.</p>
 
     <h3>Volunteers</h3>
 

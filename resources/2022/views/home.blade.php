@@ -50,8 +50,8 @@
 
     <div class="pt-96 -mt-24" style="background: url('/assets/2022/images/pattern.png') repeat top left">
         @include('2022::partials.newsletter')
-        @include('2022::partials.talks')
         @include('2022::partials.workshops')
+        @include('2022::partials.talks')
     </div>
 
     @include('2022::partials.timer')

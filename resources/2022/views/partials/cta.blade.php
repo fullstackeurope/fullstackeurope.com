@@ -20,7 +20,7 @@
                                 @foreach ([
                                     //'Blind bird: €370 until March 15',
                                     //'Early bird: €470 until May 15',
-                                    'Regular: €570 until Sept 15',
+                                    'Regular: €570 until Sept 26',
                                     'Last minute: €670 until the end',
                                 ] as $price)
                                 <li class="flex items-start">
@@ -60,7 +60,7 @@
                                 @foreach ([
                                     //'Blind bird: €450 until March 15',
                                     //'Early bird: €570 until May 15',
-                                    'Regular: €690 until Sept 15',
+                                    'Regular: €690 until Sept 26',
                                     'Last minute: €810 until the end',
                                 ] as $price)
                                     <li class="flex items-start">

@@ -1,7 +1,7 @@
 @if ($edition->publish_schedule)
     <div id="schedule" class="container mx-auto px-4 bg-white pt-10 md:pt-20 pb-12 sm:px-20">
         <h3 class="pre-title">Timetable</h3>
-        <h2 class="title">Conference Schedule<span class="hidden sm:inline"> -</span> Spilberg Stage</h2>
+        <h2 class="title">Conference Schedule</h2>
 
         <div id="schedule-navigation" class="m-auto flex text-center text-xl font-semibold max-w-xs mb-12">
             @foreach ($schedule as $timeslots)

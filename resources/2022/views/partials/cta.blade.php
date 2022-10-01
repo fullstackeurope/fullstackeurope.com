@@ -20,7 +20,7 @@
                                     //'Blind bird: €370 until March 15',
                                     //'Early bird: €470 until May 15',
                                     //'Regular: €570 until Oct 1',
-                                    'Last minute: €670 until the end',
+                                    //'Last minute: €670 until the end',
                                 ] as $price)
                                 <li class="flex items-start">
                                     <div class="flex-shrink-0">
@@ -59,7 +59,7 @@
                                     //'Blind bird: €450 until March 15',
                                     //'Early bird: €570 until May 15',
                                     //'Regular: €690 until Oct 1',
-                                    'Last minute: €810 until the end',
+                                    //'Last minute: €810 until the end',
                                 ] as $price)
                                     <li class="flex items-start">
                                         <div class="flex-shrink-0">

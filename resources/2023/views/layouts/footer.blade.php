@@ -4,7 +4,7 @@
             <div class="md:flex md:mb-4">
                 <div class="md:w-1/3 mb-10 md:mb-0">
                     <img src="{{ asset('/assets/2023/images/logo.svg') }}" class="mb-4 md:mb-6" width="150" alt="{{ config('app.name') }}"><br>
-                    5, 6 & 7 October 2023 - {{ $edition->venue }}
+                    October 2023 - {{ $edition->venue }}
                 </div>
                 <div class="md:w-2/3 md:text-right">
                     <ul class="list-reset">

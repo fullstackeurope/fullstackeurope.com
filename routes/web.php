@@ -8,7 +8,7 @@ Route::redirect('/login', '/nova/login')->name('login');
 Route::redirect('/', '/2022');
 Route::redirect('/2020', '/2021');
 
-Route::prefix('{edition:year}')->where(['edition' => '2019|2021|2022'])->group(function () {
+Route::prefix('{edition:year}')->where(['edition' => '2019|2021|2022|2023'])->group(function () {
     Route::get('/', [Controllers\PageController::class, 'home'])->name('home');
     Route::get('/speakers/{speaker:slug}', [Controllers\PageController::class, 'speaker'])->name('speaker');
     Route::get('/speakers/{speaker:slug}/artwork.png', [Controllers\ArtworkController::class, 'talk'])->name('talk.artwork');

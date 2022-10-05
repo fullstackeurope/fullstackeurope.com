@@ -39,18 +39,18 @@
                         </a>
                     </p>
                 </div>
-
-                <div class="-mb-96">
-                    @include('2022::partials.cta', ['linkColor' => 'text-white'])
-                </div>
-
             </div>
         </div>
     </div>
 
     <div class="pt-96 -mt-24" style="background: url('/assets/2022/images/pattern.png') repeat top left">
+        <div class="-mt-96">
+            @include('2022::partials.schedule')
+        </div>
+
+        @include('2022::partials.cta', ['linkColor' => 'text-white'])
+
         @include('2022::partials.newsletter')
-        @include('2022::partials.schedule')
         @include('2022::partials.workshops')
         @include('2022::partials.talks')
     </div>

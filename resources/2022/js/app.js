@@ -148,7 +148,7 @@ anchors.add('#page h3');
 $(document).ready(function () {
     const day = new Date();
 
-    if (day.getMonth() > 8 && day.getDate() > 24) {
+    if (day.getMonth() > 8 && day.getDate() > 6) {
         showDayTwo();
     }
 });

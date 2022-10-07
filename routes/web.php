@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/login', '/nova/login')->name('login');
 
-Route::redirect('/', '/2022');
+Route::redirect('/', '/2023');
 Route::redirect('/2020', '/2021');
 
 Route::prefix('{edition:year}')->where(['edition' => '2019|2021|2022|2023'])->group(function () {

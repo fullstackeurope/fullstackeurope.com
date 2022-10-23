@@ -31,4 +31,16 @@
             </div>
         </div>
     </div>
+
+    <div class="text-gray-600 py-6 md:py-12">
+        <a id="venue" class="anchor"></a>
+        <div id="venue-outer" class="container mx-auto px-4">
+            {{--
+            @include('2023::partials.conference')
+            @include('2023::partials.venue')
+            @include('2023::partials.antwerp')
+            --}}
+            @include('2023::partials.2022')
+        </div>
+    </div>
 @endsection

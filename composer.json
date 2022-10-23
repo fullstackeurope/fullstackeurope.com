@@ -36,9 +36,6 @@
         "phpunit/phpunit": "^9.5.10"
     },
     "config": {
-        "platform": {
-            "php": "8.0.14"
-        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true

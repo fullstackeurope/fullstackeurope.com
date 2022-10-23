@@ -80,7 +80,7 @@ php artisan nova:publish
 {{ logMessage("🌅  Generating assets…") }}
 cd {{ $newReleaseDir }}/resources/2023;
 npm ci
-npm run build
+npm run production
 @endtask
 
 @task('updateSymlinks', ['on' => 'remote'])

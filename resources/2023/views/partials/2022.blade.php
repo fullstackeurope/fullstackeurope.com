@@ -9,14 +9,14 @@
         <div class="md:w-1/2 mb-8 md:mb-0 md:px-8 md:pt-4">
             <div class="image-background-gradient">
                 <div id="previous-edition-gallery">
-                    <a class="chocolat-image" href="{{ asset('/assets/2023/images/2022/fseu22-1.jpg') }}">
-                        <img src="{{ asset('/assets/2023/images/2022/fseu22-1.jpg') }}" class="enlarge" alt="Stage">
+                    <a class="chocolat-image" href="{{ asset('/assets/2023/images/2022/fseu22-3.jpg') }}">
+                        <img src="{{ asset('/assets/2023/images/2022/fseu22-3.jpg') }}" class="enlarge" alt="Stage">
                     </a>
                     <a class="chocolat-image hidden" href="{{ asset('/assets/2023/images/2022/fseu22-2.jpg') }}">
                         <img src="{{ asset('/assets/2023/images/2022/fseu22-2.jpg') }}" class="enlarge" alt="Food">
                     </a>
-                    <a class="chocolat-image hidden" href="{{ asset('/assets/2023/images/2022/fseu22-3.jpg') }}">
-                        <img src="{{ asset('/assets/2023/images/2022/fseu22-3.jpg') }}" class="enlarge" alt="Audience">
+                    <a class="chocolat-image hidden" href="{{ asset('/assets/2023/images/2022/fseu22-1.jpg') }}">
+                        <img src="{{ asset('/assets/2023/images/2022/fseu22-1.jpg') }}" class="enlarge" alt="Audience">
                     </a>
                 </div>
             </div>

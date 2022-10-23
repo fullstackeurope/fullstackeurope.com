@@ -28,14 +28,5 @@ jobs:
           composer config "http-basic.nova.laravel.com" "${{ secrets.NOVA_USERNAME }}" "${{ secrets.NOVA_PASSWORD }}"
           composer install --prefer-dist --no-interaction
 
-      - name: Install npm dependencies
-        run: npm install
-
-      - name: Install edition dependencies
-        run: npm run setup
-
-      - name: Compile dependencies
-        run: npm run production
-
       - name: Execute tests
         run: vendor/bin/phpunit --verbose

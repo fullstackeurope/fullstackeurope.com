@@ -1,14 +1,11 @@
 {
     "private": true,
     "scripts": {
-        "dev": "nps dev",
-        "production": "nps production",
-        "setup": "nps setup",
-        "format": "prettier 'resources/**/*.{css,js,json,css,ts,tsx}' '*.{js,css}' --write"
+        "dev": "cd resources/2023 && npm run dev",
+        "build": "cd resources/2023 && npm run build",
+        "format": "prettier 'resources/2023/**/*.{css,js,json,css,ts,tsx}' '*.{js,css}' --write"
     },
     "devDependencies": {
-        "nps": "^5.10.0",
-        "nps-utils": "^1.7.0",
         "prettier": "^2.3.0"
     }
 }

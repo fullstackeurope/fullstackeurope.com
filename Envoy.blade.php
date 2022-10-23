@@ -78,7 +78,7 @@ php artisan nova:publish
 
 @task('generateAssets', ['on' => 'remote'])
 {{ logMessage("🌅  Generating assets…") }}
-cd {{ $newReleaseDir }};
+cd {{ $newReleaseDir }}/resources/2023;
 npm ci
 npm run build
 @endtask

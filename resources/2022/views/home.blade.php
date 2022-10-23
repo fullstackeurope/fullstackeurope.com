@@ -28,14 +28,14 @@
 
                 <div class="text-2xl pb-4">
                     @include('2022::layouts.social')
-                    <p class="text-center text-sm mt-6">
-                        <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
-                            Join us at #fseu22
+                    <p class="mb-4 mt-6 text-base">
+                        <a class="btn-tickets" href="https://fullstackeurope.com/2023" target="_blank">
+                            Check out the next edition
                         </a>
                     </p>
-                    <p class="text-center text-sm mt-6">
-                        <a class="text-white hover:underline" href="#testimonials">
-                            See what attendees of our 2019 edition had to say
+                    <p class="mb-4 sm:mb-10 text-base">
+                        <a class="text-white border-b border-dotted leading-normal ml-6" href="https://photos.app.goo.gl/81owXCGFTuCSrRWP9" target="_blank">
+                            Check out the photos
                         </a>
                     </p>
                 </div>
@@ -47,8 +47,6 @@
         <div class="-mt-96">
             @include('2022::partials.schedule')
         </div>
-
-        @include('2022::partials.cta', ['linkColor' => 'text-white'])
 
         @include('2022::partials.newsletter')
         @include('2022::partials.workshops')
@@ -65,13 +63,7 @@
             @include('2022::partials.antwerp')
             @include('2022::partials.2019')
         </div>
-
-        <div class="container mx-auto px-4 text-center text-gray-600 mt-8">
-            @include('2022::partials.cta')
-        </div>
     </div>
-
-    @include('2022::partials.timer')
 
     @include('2022::partials.sponsors')
     @include('2022::partials.testimonials')

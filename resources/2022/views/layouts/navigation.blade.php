@@ -40,14 +40,12 @@
     </nav>
 </div>
 
-@if ($edition->tickets_url)
-    <div id="navigationButton" class="hidden lg:block lg:flex-initial lg:pt-2">
-        <a class="lg:hidden" href="{{ $edition->tickets_url }}" target="_blank">tickets</a>
-        <a
-            href="{{ $edition->tickets_url }}" target="_blank"
-            class="hidden lg:inline-block btn-tickets leading-normal"
-        >
-            tickets
-        </a>
-    </div>
-@endif
+<div id="navigationButton" class="hidden lg:block lg:flex-initial lg:pt-2">
+    <a class="lg:hidden" href="https://fullstackeurope.com/2023" target="_blank">Next edition</a>
+    <a
+        href="https://fullstackeurope.com/2023" target="_blank"
+        class="hidden lg:inline-block btn-tickets leading-normal"
+    >
+        Next edition
+    </a>
+</div>

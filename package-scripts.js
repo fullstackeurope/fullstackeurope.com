@@ -1,6 +1,6 @@
 const npsUtils = require('nps-utils');
 
-const editions = ['2019', '2021', '2022', '2023'];
+const editions = ['2022', '2023'];
 
 const scripts = {};
 

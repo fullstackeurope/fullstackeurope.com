@@ -21,12 +21,12 @@ class SpeakerFactory extends Factory
                 return Edition::factory()->create()->id;
             },
             'sort_order' => ++$sortOrder,
-            'slug'       => $this->faker->unique()->slug(),
-            'name'       => $this->faker->name(),
-            'title'      => $this->faker->jobTitle(),
-            'bio'        => $this->faker->text(),
-            'twitter'    => $this->faker->userName(),
-            'website'    => $this->faker->url(),
+            'slug' => $this->faker->unique()->slug(),
+            'name' => $this->faker->name(),
+            'title' => $this->faker->jobTitle(),
+            'bio' => $this->faker->text(),
+            'twitter' => $this->faker->userName(),
+            'website' => $this->faker->url(),
         ];
     }
 }

@@ -31,11 +31,11 @@ return [
          * Use an empty string to use the default queue.
          */
         'perform_on_queue' => [
-            'send_campaign_job'      => 'send-campaign',
-            'send_mail_job'          => 'send-mail',
-            'send_test_mail_job'     => 'mailcoach',
-            'send_welcome_mail_job'  => 'mailcoach',
-            'process_feedback_job'   => 'mailcoach-feedback',
+            'send_campaign_job' => 'send-campaign',
+            'send_mail_job' => 'send-mail',
+            'send_test_mail_job' => 'mailcoach',
+            'send_welcome_mail_job' => 'mailcoach',
+            'process_feedback_job' => 'mailcoach-feedback',
             'import_subscribers_job' => 'mailcoach',
         ],
 
@@ -44,13 +44,13 @@ return [
          * e-mail sending service. To use this feature you must have Redis installed.
          */
         'throttling' => [
-            'enabled'                            => true,
-            'redis_connection_name'              => 'default',
-            'redis_key'                          => 'laravel-mailcoach',
+            'enabled' => true,
+            'redis_connection_name' => 'default',
+            'redis_key' => 'laravel-mailcoach',
             'allowed_number_of_jobs_in_timespan' => 10,
-            'timespan_in_seconds'                => 1,
-            'release_in_seconds'                 => 5,
-            'retry_until_hours'                  => 24,
+            'timespan_in_seconds' => 1,
+            'release_in_seconds' => 5,
+            'retry_until_hours' => 24,
         ],
 
         /*
@@ -58,16 +58,16 @@ return [
          * Your custom action should always extend the one of the default ones.
          */
         'actions' => [
-            'prepare_email_html'         => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareEmailHtmlAction::class,
-            'prepare_subject'            => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareSubjectAction::class,
-            'prepare_webview_html'       => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareWebviewHtmlAction::class,
-            'convert_html_to_text'       => \Spatie\Mailcoach\Domain\Campaign\Actions\ConvertHtmlToTextAction::class,
-            'personalize_html'           => \Spatie\Mailcoach\Domain\Campaign\Actions\PersonalizeHtmlAction::class,
-            'personalize_subject'        => \Spatie\Mailcoach\Domain\Campaign\Actions\PersonalizeSubjectAction::class,
+            'prepare_email_html' => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareEmailHtmlAction::class,
+            'prepare_subject' => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareSubjectAction::class,
+            'prepare_webview_html' => \Spatie\Mailcoach\Domain\Campaign\Actions\PrepareWebviewHtmlAction::class,
+            'convert_html_to_text' => \Spatie\Mailcoach\Domain\Campaign\Actions\ConvertHtmlToTextAction::class,
+            'personalize_html' => \Spatie\Mailcoach\Domain\Campaign\Actions\PersonalizeHtmlAction::class,
+            'personalize_subject' => \Spatie\Mailcoach\Domain\Campaign\Actions\PersonalizeSubjectAction::class,
             'retry_sending_failed_sends' => \Spatie\Mailcoach\Domain\Campaign\Actions\RetrySendingFailedSendsAction::class,
-            'send_campaign'              => \Spatie\Mailcoach\Domain\Campaign\Actions\SendCampaignAction::class,
-            'send_mail'                  => \Spatie\Mailcoach\Domain\Campaign\Actions\SendMailAction::class,
-            'send_test_mail'             => \Spatie\Mailcoach\Domain\Campaign\Actions\SendCampaignTestAction::class,
+            'send_campaign' => \Spatie\Mailcoach\Domain\Campaign\Actions\SendCampaignAction::class,
+            'send_mail' => \Spatie\Mailcoach\Domain\Campaign\Actions\SendMailAction::class,
+            'send_test_mail' => \Spatie\Mailcoach\Domain\Campaign\Actions\SendCampaignTestAction::class,
         ],
     ],
 
@@ -84,16 +84,16 @@ return [
         'editor' => \Spatie\MailcoachEditor\Editor::class,
 
         'actions' => [
-            'send_mail'                          => \Spatie\Mailcoach\Domain\Automation\Actions\SendMailAction::class,
+            'send_mail' => \Spatie\Mailcoach\Domain\Automation\Actions\SendMailAction::class,
             'send_automation_mail_to_subscriber' => \Spatie\Mailcoach\Domain\Automation\Actions\SendAutomationMailToSubscriberAction::class,
-            'prepare_subject'                    => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareSubjectAction::class,
-            'prepare_webview_html'               => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareWebviewHtmlAction::class,
+            'prepare_subject' => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareSubjectAction::class,
+            'prepare_webview_html' => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareWebviewHtmlAction::class,
 
             'convert_html_to_text' => \Spatie\Mailcoach\Domain\Automation\Actions\ConvertHtmlToTextAction::class,
-            'prepare_email_html'   => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareEmailHtmlAction::class,
-            'personalize_html'     => \Spatie\Mailcoach\Domain\Automation\Actions\PersonalizeHtmlAction::class,
-            'personalize_subject'  => \Spatie\Mailcoach\Domain\Automation\Actions\PersonalizeSubjectAction::class,
-            'send_test_mail'       => \Spatie\Mailcoach\Domain\Automation\Actions\SendAutomationMailTestAction::class,
+            'prepare_email_html' => \Spatie\Mailcoach\Domain\Automation\Actions\PrepareEmailHtmlAction::class,
+            'personalize_html' => \Spatie\Mailcoach\Domain\Automation\Actions\PersonalizeHtmlAction::class,
+            'personalize_subject' => \Spatie\Mailcoach\Domain\Automation\Actions\PersonalizeSubjectAction::class,
+            'send_test_mail' => \Spatie\Mailcoach\Domain\Automation\Actions\SendAutomationMailTestAction::class,
 
             'should_run_for_subscriber' => \Spatie\Mailcoach\Domain\Automation\Actions\ShouldAutomationRunForSubscriberAction::class,
         ],
@@ -145,24 +145,24 @@ return [
         ],
 
         'perform_on_queue' => [
-            'run_automation_action_job'              => 'send-campaign',
-            'run_action_for_subscriber_job'          => 'mailcoach',
-            'run_automation_for_subscriber_job'      => 'mailcoach',
+            'run_automation_action_job' => 'send-campaign',
+            'run_action_for_subscriber_job' => 'mailcoach',
+            'run_automation_for_subscriber_job' => 'mailcoach',
             'send_automation_mail_to_subscriber_job' => 'send-automation-mail',
-            'send_automation_mail_job'               => 'send-mail',
-            'send_test_mail_job'                     => 'mailcoach',
+            'send_automation_mail_job' => 'send-mail',
+            'send_test_mail_job' => 'mailcoach',
         ],
     ],
 
     'audience' => [
         'actions' => [
-            'confirm_subscriber'           => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\ConfirmSubscriberAction::class,
-            'create_subscriber'            => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\CreateSubscriberAction::class,
-            'delete_subscriber'            => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\DeleteSubscriberAction::class,
-            'import_subscribers'           => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\ImportSubscribersAction::class,
+            'confirm_subscriber' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\ConfirmSubscriberAction::class,
+            'create_subscriber' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\CreateSubscriberAction::class,
+            'delete_subscriber' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\DeleteSubscriberAction::class,
+            'import_subscribers' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\ImportSubscribersAction::class,
             'send_confirm_subscriber_mail' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\SendConfirmSubscriberMailAction::class,
-            'send_welcome_mail'            => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\SendWelcomeMailAction::class,
-            'update_subscriber'            => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\UpdateSubscriberAction::class,
+            'send_welcome_mail' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\SendWelcomeMailAction::class,
+            'update_subscriber' => \Spatie\Mailcoach\Domain\Audience\Actions\Subscribers\UpdateSubscriberAction::class,
         ],
 
         /*
@@ -187,7 +187,7 @@ return [
         ],
 
         'actions' => [
-            'send_test'       => \Spatie\Mailcoach\Domain\TransactionalMail\Actions\SendTestForTransactionalMailTemplateAction::class,
+            'send_test' => \Spatie\Mailcoach\Domain\TransactionalMail\Actions\SendTestForTransactionalMailTemplateAction::class,
             'render_template' => \Spatie\Mailcoach\Domain\TransactionalMail\Actions\RenderTemplateAction::class,
         ],
 

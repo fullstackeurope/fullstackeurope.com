@@ -20,9 +20,9 @@ final class Speaker extends Model implements Sortable
     protected $guarded = [];
 
     public $sortable = [
-        'order_column_name'  => 'sort_order',
+        'order_column_name' => 'sort_order',
         'sort_when_creating' => true,
-        'sort_on_has_many'   => true,
+        'sort_on_has_many' => true,
     ];
 
     public static function booted()
@@ -57,12 +57,12 @@ final class Speaker extends Model implements Sortable
 
     public function photoUrl(int $width = null): string
     {
-        if (!$this->photo) {
+        if (! $this->photo) {
             return asset('/images/speaker-placeholder.png');
         }
 
         if (str_contains($this->photo, 'cloudinary')) {
-            if (!$width) {
+            if (! $width) {
                 return $this->photo;
             }
 

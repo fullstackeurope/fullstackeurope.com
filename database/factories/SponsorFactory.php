@@ -14,8 +14,8 @@ class SponsorFactory extends Factory
     public function definition()
     {
         return [
-            'name'    => $this->faker->company(),
-            'level'   => $this->faker->randomElement(['platinum', 'gold', 'silver', 'bronze']),
+            'name' => $this->faker->company(),
+            'level' => $this->faker->randomElement(['platinum', 'gold', 'silver', 'bronze']),
             'website' => $this->faker->url(),
         ];
     }

@@ -18,10 +18,10 @@ final class ArtworkController
     {
         $html = view("{$edition->year}::partials.artwork", [
             'speaker_name' => $workshop->speaker->name,
-            'title' => $workshop->title,
-            'subtitle' => $workshop->subtitle,
-            'snippet' => $workshop->snippet,
-            'avatar' => $workshop->speaker->photoUrl(300),
+            'title'        => $workshop->title,
+            'subtitle'     => $workshop->subtitle,
+            'snippet'      => $workshop->snippet,
+            'avatar'       => $workshop->speaker->photoUrl(300),
         ])->render();
 
         return $this->renderImage($workshop, $html);
@@ -31,9 +31,9 @@ final class ArtworkController
     {
         $html = view("{$edition->year}::partials.artwork", [
             'speaker_name' => $talk->speaker->name,
-            'title' => $talk->title,
-            'snippet' => $talk->abstract,
-            'avatar' => $talk->speaker->photoUrl(300),
+            'title'        => $talk->title,
+            'snippet'      => $talk->abstract,
+            'avatar'       => $talk->speaker->photoUrl(300),
         ])->render();
 
         return $this->renderImage($talk, $html);

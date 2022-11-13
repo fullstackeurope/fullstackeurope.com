@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class() extends Migration {
     public function up()
     {
         Schema::create('mailcoach_email_lists', function (Blueprint $table) {
@@ -74,12 +73,14 @@ return new class extends Migration
             $table
                 ->unique(['email_list_id', 'email']);
 
-            $table->index([
-                'email_list_id',
-                'subscribed_at',
-                'unsubscribed_at',
-            ],
-                'email_list_subscribed_index', );
+            $table->index(
+                [
+                    'email_list_id',
+                    'subscribed_at',
+                    'unsubscribed_at',
+                ],
+                'email_list_subscribed_index',
+            );
 
             $table->index(['email_list_id', 'created_at'], 'email_list_id_created_at');
         });

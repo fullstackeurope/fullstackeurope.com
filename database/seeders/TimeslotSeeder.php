@@ -19,9 +19,9 @@ final class TimeslotSeeder extends Seeder
             for ($i = 1; $i < 11; $i++) {
                 Timeslot::factory()->create([
                     'edition_id' => $edition->id,
-                    'starts_at' => $start = $start->hour($hour)->startOfHour(),
-                    'ends_at' => $start->addMinutes(30),
-                    'name' => "Speaker $i",
+                    'starts_at'  => $start = $start->hour($hour)->startOfHour(),
+                    'ends_at'    => $start->addMinutes(30),
+                    'name'       => "Speaker $i",
                 ]);
 
                 $hour++;
@@ -33,9 +33,9 @@ final class TimeslotSeeder extends Seeder
             for ($i = 11; $i < 21; $i++) {
                 Timeslot::factory()->create([
                     'edition_id' => $edition->id,
-                    'starts_at' => $start = $start->hour($hour)->startOfHour(),
-                    'ends_at' => $start->addMinutes(30),
-                    'name' => "Speaker $i",
+                    'starts_at'  => $start = $start->hour($hour)->startOfHour(),
+                    'ends_at'    => $start->addMinutes(30),
+                    'name'       => "Speaker $i",
                 ]);
 
                 $hour++;

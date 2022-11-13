@@ -19,14 +19,14 @@ class WorkshopFactory extends Factory
             'speaker_id' => function () {
                 return Speaker::factory()->create()->id;
             },
-            'title' => $this->faker->sentence(),
-            'slug' => Str::slug($this->faker->sentence()),
-            'subtitle' => $this->faker->sentence(),
-            'snippet' => $this->faker->paragraph(),
-            'duration' => 280,
-            'schedule' => $this->faker->sentence(),
+            'title'       => $this->faker->sentence(),
+            'slug'        => Str::slug($this->faker->sentence()),
+            'subtitle'    => $this->faker->sentence(),
+            'snippet'     => $this->faker->paragraph(),
+            'duration'    => 280,
+            'schedule'    => $this->faker->sentence(),
             'description' => $this->faker->paragraph(),
-            'sold_out' => $this->faker->boolean(),
+            'sold_out'    => $this->faker->boolean(),
         ];
     }
 }

@@ -31,23 +31,23 @@ class SyncWorkshopsCommand extends Command
                     $speaker = $edition->speakers()->updateOrCreate([
                         'slug' => $instructor['instructorId'],
                     ], [
-                        'name' => $instructor['name'],
-                        'bio' => $instructor['bio'],
+                        'name'    => $instructor['name'],
+                        'bio'     => $instructor['bio'],
                         'twitter' => $instructor['twitter'] ?? '',
-                        'photo' => $instructor['image'],
+                        'photo'   => $instructor['image'],
                         'country' => $instructor['country'],
                     ]);
 
                     Workshop::query()->updateOrCreate([
                         'speaker_id' => $speaker->id,
-                        'slug' => $workshop['workshop']['workshopId'],
+                        'slug'       => $workshop['workshop']['workshopId'],
                     ], [
-                        'title' => $workshop['workshop']['title'],
-                        'subtitle' => $workshop['workshop']['subtitle'],
-                        'duration' => $workshop['durationInMinutes'],
-                        'snippet' => $workshop['workshop']['blurb'],
+                        'title'       => $workshop['workshop']['title'],
+                        'subtitle'    => $workshop['workshop']['subtitle'],
+                        'duration'    => $workshop['durationInMinutes'],
+                        'snippet'     => $workshop['workshop']['blurb'],
                         'description' => $workshop['workshop']['body'],
-                        'schedule' => $workshop['scheduleDetailed'],
+                        'schedule'    => $workshop['scheduleDetailed'],
                     ]);
                 }
             }

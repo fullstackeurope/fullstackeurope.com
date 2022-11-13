@@ -11,15 +11,16 @@ class DisableFloc
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
+     * @param \Illuminate\Http\Request $request
+     * @param \Closure                 $next
+     *
      * @return mixed
      */
     public function handle(Request $request, Closure $next)
     {
         $response = $next($request);
 
-        if (! $response instanceof BinaryFileResponse) {
+        if (!$response instanceof BinaryFileResponse) {
             $response->header('Permissions-Policy', 'interest-cohort=()');
         }
 

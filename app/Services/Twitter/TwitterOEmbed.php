@@ -18,7 +18,7 @@ class TwitterOEmbed
             ['url' => $url],
         );
 
-        if (! $response->successful()) {
+        if (!$response->successful()) {
             throw new \Exception("Tweet {$url} can't be fetched.");
         }
 

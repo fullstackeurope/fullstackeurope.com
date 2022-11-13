@@ -8,8 +8,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class() extends Migration {
     public function up()
     {
         Schema::create('talks', function (Blueprint $table) {
@@ -37,29 +36,29 @@ return new class extends Migration
         Speaker::each(function (Speaker $speaker) {
             if ($speaker->talk) {
                 Talk::create([
-                    'speaker_id' => $speaker->id,
+                    'speaker_id'  => $speaker->id,
                     'timeslot_id' => $speaker->timeslot_id,
-                    'title' => $speaker->talk,
-                    'abstract' => $speaker->abstract,
+                    'title'       => $speaker->talk,
+                    'abstract'    => $speaker->abstract,
                 ]);
             }
 
             if ($speaker->workshop) {
                 Workshop::create([
-                    'speaker_id' => $speaker->id,
-                    'title' => $speaker->workshop,
-                    'subtitle' => $speaker->workshop_subtitle,
-                    'snippet' => $speaker->workshop_snippet,
-                    'duration' => $speaker->workshop_duration,
-                    'schedule' => $speaker->workshop_schedule,
+                    'speaker_id'  => $speaker->id,
+                    'title'       => $speaker->workshop,
+                    'subtitle'    => $speaker->workshop_subtitle,
+                    'snippet'     => $speaker->workshop_snippet,
+                    'duration'    => $speaker->workshop_duration,
+                    'schedule'    => $speaker->workshop_schedule,
                     'description' => $speaker->workshop_description,
-                    'sold_out' => $speaker->workshop_sold_out,
+                    'sold_out'    => $speaker->workshop_sold_out,
                 ]);
             }
         });
 
         Schema::table('speakers', function (Blueprint $table) {
-            if (! \Illuminate\Support\Facades\DB::connection() instanceof SQLiteConnection) {
+            if (!\Illuminate\Support\Facades\DB::connection() instanceof SQLiteConnection) {
                 $table->dropForeign('speakers_timeslot_id_foreign');
             }
 

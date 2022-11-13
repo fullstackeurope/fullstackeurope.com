@@ -20,7 +20,7 @@ final class SpeakerSeeder extends Seeder
             ]);
 
             Talk::factory()->create([
-                'speaker_id' => $speaker->id,
+                'speaker_id'  => $speaker->id,
                 'timeslot_id' => $timeslot->id,
             ]);
 

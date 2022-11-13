@@ -18,7 +18,7 @@ class TalkFactory extends Factory
             'speaker_id' => function () {
                 return Speaker::factory()->create()->id;
             },
-            'title' => $this->faker->sentence(3),
+            'title'    => $this->faker->sentence(3),
             'abstract' => $this->faker->text(),
         ];
     }

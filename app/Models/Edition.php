@@ -20,9 +20,9 @@ final class Edition extends Model
 
     protected $casts = [
         'sale_ends_at' => 'datetime',
-        'starts_at' => 'datetime',
-        'ends_at' => 'datetime',
-        'year' => 'integer',
+        'starts_at'    => 'datetime',
+        'ends_at'      => 'datetime',
+        'year'         => 'integer',
     ];
 
     public static function booted()

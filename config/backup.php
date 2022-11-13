@@ -119,12 +119,12 @@ return [
     'notifications' => [
 
         'notifications' => [
-            \Spatie\Backup\Notifications\Notifications\BackupHasFailedNotification::class => ['mail'],
+            \Spatie\Backup\Notifications\Notifications\BackupHasFailedNotification::class         => ['mail'],
             \Spatie\Backup\Notifications\Notifications\UnhealthyBackupWasFoundNotification::class => ['mail'],
-            \Spatie\Backup\Notifications\Notifications\CleanupHasFailedNotification::class => ['mail'],
-            \Spatie\Backup\Notifications\Notifications\BackupWasSuccessfulNotification::class => [],
-            \Spatie\Backup\Notifications\Notifications\HealthyBackupWasFoundNotification::class => [],
-            \Spatie\Backup\Notifications\Notifications\CleanupWasSuccessfulNotification::class => [],
+            \Spatie\Backup\Notifications\Notifications\CleanupHasFailedNotification::class        => ['mail'],
+            \Spatie\Backup\Notifications\Notifications\BackupWasSuccessfulNotification::class     => [],
+            \Spatie\Backup\Notifications\Notifications\HealthyBackupWasFoundNotification::class   => [],
+            \Spatie\Backup\Notifications\Notifications\CleanupWasSuccessfulNotification::class    => [],
         ],
 
         /*
@@ -138,7 +138,7 @@ return [
 
             'from' => [
                 'address' => env('MAIL_FROM_ADDRESS', 'backups@fullstackeurope.con'),
-                'name' => env('MAIL_FROM_NAME', 'FSEU Backups'),
+                'name'    => env('MAIL_FROM_NAME', 'FSEU Backups'),
             ],
         ],
 
@@ -164,10 +164,10 @@ return [
      */
     'monitor_backups' => [
         [
-            'name' => env('APP_NAME', 'laravel-backup'),
-            'disks' => ['local'],
+            'name'          => env('APP_NAME', 'laravel-backup'),
+            'disks'         => ['local'],
             'health_checks' => [
-                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class => 1,
+                \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumAgeInDays::class          => 1,
                 \Spatie\Backup\Tasks\Monitor\HealthChecks\MaximumStorageInMegabytes::class => 5000,
             ],
         ],

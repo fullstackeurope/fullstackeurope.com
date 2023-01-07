@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "setup": "cd resources/2023 && npm install",
         "dev": "cd resources/2023 && npm run dev",
         "build": "cd resources/2023 && npm run build",
         "format": "prettier 'resources/2023/**/*.{css,js,json,css,ts,tsx}' '*.{js,css}' --write"

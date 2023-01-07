@@ -19,6 +19,8 @@ module.exports = {
                 'lg-blue': '0 5px 15px 0 rgba(104, 89, 234, .1)',
             },
             spacing: {
+                72: '18rem',
+                80: '20rem',
                 96: '24rem',
                 128: '32rem',
             },

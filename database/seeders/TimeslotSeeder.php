@@ -12,7 +12,7 @@ final class TimeslotSeeder extends Seeder
 {
     public function run(): void
     {
-        Edition::all()->each(function (Edition $edition) {
+        Edition::where('year', '!=', 2023)->each(function (Edition $edition) {
             $hour = 7;
             $start = $edition->starts_at;
 

@@ -16,10 +16,13 @@
                     {{ $edition->venue }}
                 </h2>
                 <h3 class="text-white text-sm md:text-lg pb-2">
-                    October, 2023
+                    Workshops - October 18, 2023
+                </h3>
+                <h3 class="text-white text-sm md:text-lg pb-2">
+                    Main Conference - October 19 & 20, 2023
                 </h3>
 
-                <div class="text-2xl pb-4">
+                <div class="text-2xl pb-4 pt-6">
                     @include('2023::layouts.social')
 
                     <p class="text-center text-sm mt-6">
@@ -32,15 +35,28 @@
         </div>
     </div>
 
+    <div class="pt-64 -mt-20" style="background: url('/assets/2022/images/pattern.png') repeat top left">
+        <div class="-mt-64">
+            @include('2023::partials.cfp')
+            @include('2023::partials.schedule')
+        </div>
+
+        @include('2023::partials.workshops')
+        @include('2023::partials.talks')
+    </div>
+
     <div class="text-gray-600 py-6 md:py-12">
         <a id="venue" class="anchor"></a>
         <div id="venue-outer" class="container mx-auto px-4">
-            {{--
             @include('2023::partials.conference')
             @include('2023::partials.venue')
             @include('2023::partials.antwerp')
-            --}}
             @include('2023::partials.2022')
         </div>
     </div>
+
+    @include('2023::partials.sponsors')
+    @include('2023::partials.testimonials')
+    @include('2023::partials.organisers')
+    @include('2023::partials.diversity')
 @endsection

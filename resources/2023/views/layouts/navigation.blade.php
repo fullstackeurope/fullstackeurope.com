@@ -1,4 +1,4 @@
-<div id="navigation" class="lg:flex-1 mt-10 lg:mt-0 hidden lg:block lg:text-center lg:px-4 lg:pt-4 lg:leading-normal">
+<div id="navigation" class="lg:flex-1 mt-10 lg:mt-0 hidden lg:block lg:text-right lg:px-4 lg:pt-4 lg:leading-normal">
     <nav>
         <ul class="list-reset">
             @if ($edition->publish_schedule && $edition->talks->count())

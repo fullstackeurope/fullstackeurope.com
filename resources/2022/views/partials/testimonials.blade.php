@@ -28,9 +28,14 @@
             @php(
                 /** @var \App\Services\Twitter\Tweet $tweet */
                 $tweet = cache()->rememberForever('tweet-' . $tweet, function () use ($tweet) {
-                    return (new \App\Services\Twitter\TwitterOEmbed())->embed($tweet);
+                    try {
+                        return (new \App\Services\Twitter\TwitterOEmbed())->embed($tweet);
+                    } catch (Throwable $e) {
+                        return null;
+                    }
                 })
             )
+            @continue(!$tweet)
             <div class="font-sans rounded border px-6 py-4 max-w-md">
                 <div class="flex items-center">
                     <a href="{{ $tweet->url }}">

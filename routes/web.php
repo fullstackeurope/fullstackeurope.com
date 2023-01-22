@@ -14,6 +14,7 @@ Route::prefix('{edition:year}')->where(['edition' => '2022|2023'])->group(functi
     Route::get('/speakers/{speaker:slug}/artwork.png', [Controllers\ArtworkController::class, 'talk'])->name('talk.artwork');
     Route::get('/workshops/{workshop:slug}', Controllers\WorkshopController::class)->name('workshop');
     Route::get('/workshops/{workshop:slug}/artwork.png', [Controllers\ArtworkController::class, 'workshop'])->name('workshop.artwork');
+    Route::get('/cfp', [Controllers\PageController::class, 'cfp'])->name('cfp');
     Route::get('/values', [Controllers\PageController::class, 'values'])->name('values');
     Route::get('/diversity', [Controllers\PageController::class, 'diversity'])->name('diversity');
     Route::get('/code-of-conduct', [Controllers\PageController::class, 'codeOfConduct'])->name('code-of-conduct');

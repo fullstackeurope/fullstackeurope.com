@@ -22,7 +22,7 @@
 
     <h2>Reimbursements</h2>
 
-    <p>We'll pay for travel, accommodation, and professional child care, as well as access to the conference. If you have other requirements, please let us know.</p>
+    <p>We'll pay for travel and accommodation, as well as access to the conference. If you have other requirements, please let us know.</p>
 
     <p>You'll also be invited to our speakers dinner.</p>
 

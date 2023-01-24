@@ -3,8 +3,8 @@
 <a href="https://github.com/fullstackeurope/fullstackeurope.com/actions?query=workflow%3ATests">
     <img src="https://github.com/fullstackeurope/fullstackeurope.com/workflows/Tests/badge.svg" alt="Tests" />
 </a>
-<a href="https://github.styleci.io/repos/144056142">
-    <img src="https://github.styleci.io/repos/144056142/shield?style=flat" alt="Code Style">
+<a href="https://github.com/fullstackeurope/fullstackeurope.com/actions/workflows/coding-standards.yml">
+    <img src="https://github.com/fullstackeurope/fullstackeurope.com/actions/workflows/coding-standards.yml/badge.svg" alt="Coding Standards" />
 </a>
 
 This repository contains the source code for the [https://fullstackeurope.com](https://fullstackeurope.com) website.
@@ -13,7 +13,7 @@ This repository contains the source code for the [https://fullstackeurope.com](h
 
 The following tools are required in order to start the installation.
 
-- PHP >=8.0
+- PHP 8.2
 - [Composer](https://getcomposer.org/download/)
 - [NPM](https://www.npmjs.com/get-npm)
 - [A valid Laravel Nova license](https://nova.laravel.com)
@@ -31,7 +31,7 @@ The following tools are required in order to start the installation.
 9. Install and compile the front-end dependencies with `npm install && npm run setup && npm run dev`
 10. Serve the website locally by running `php artisan serve`
 
-You can now visit the app in your browser by visiting [http://127.0.0.1:8000](http://127.0.0.1:8000). You can login into the back-end at [http://127.0.0.1:8000/nova](http://127.0.0.1:8000/nova) with **`john@example.com`** & **`password`**.
+You can now visit the app in your browser by visiting [http://127.0.0.1:8000](http://127.0.0.1:8000). You can login into the back-end at [http://127.0.0.1:8000/nova](http://127.0.0.1:8000/nova) with **`test@example.com`** & **`password`**.
 
 ### Nova License
 

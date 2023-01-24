@@ -15,7 +15,7 @@
                 </span>
             </div>
 
-            {{-- @include('2023::layouts.navigation') --}}
+            @include('2023::layouts.navigation')
         </div>
     </div>
 </div>

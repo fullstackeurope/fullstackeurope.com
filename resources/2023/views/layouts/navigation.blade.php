@@ -1,19 +1,23 @@
-<div id="navigation" class="lg:flex-1 mt-10 lg:mt-0 hidden lg:block lg:text-center lg:px-4 lg:pt-4 lg:leading-normal">
+<div id="navigation" class="lg:flex-1 mt-10 lg:mt-0 hidden lg:block lg:text-right lg:px-4 lg:pt-4 lg:leading-normal">
     <nav>
         <ul class="list-reset">
-            @if ($edition->publish_schedule)
+            @if ($edition->publish_schedule && $edition->talks->count())
                 <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                     <a data-scroll href="{{ route('home', $edition) }}#schedule">schedule</a>
                 </li>
             @endif
 
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
-            </li>
+            @if ($edition->talks->count())
+                <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                    <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
+                </li>
+            @endif
 
-            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
-                <a data-scroll href="{{ route('home', $edition) }}#workshops">workshops</a>
-            </li>
+            @if ($edition->workshops->count())
+                <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                    <a data-scroll href="{{ route('home', $edition) }}#workshops">workshops</a>
+                </li>
+            @endif
 
             @if ($edition->venue)
                 <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
@@ -21,6 +25,9 @@
                 </li>
             @endif
 
+            <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
+                <a data-scroll href="{{ route('home', $edition) }}#cfp">cfp</a>
+            </li>
             <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                 <a data-scroll href="{{ route('home', $edition) }}#sponsors">sponsors</a>
             </li>

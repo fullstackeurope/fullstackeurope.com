@@ -44,6 +44,11 @@ final class PageController
         return $this->viewOrFail("{$edition->year}::workshop", compact('speaker'));
     }
 
+    public function cfp(Edition $edition)
+    {
+        return $this->viewOrFail("{$edition->year}::cfp");
+    }
+
     public function values(Edition $edition)
     {
         return $this->viewOrFail("{$edition->year}::values");

@@ -135,7 +135,7 @@ php artisan config:cache
 php artisan responsecache:clear
 php artisan schedule-monitor:sync
 
-sudo service php8.1-fpm restart
+sudo service php8.2-fpm restart
 sudo supervisorctl restart all
 
 cd {{ $currentDir }}
@@ -165,6 +165,6 @@ php artisan config:cache
 php artisan responsecache:clear
 php artisan schedule-monitor:sync
 
-sudo service php8.1-fpm restart
+sudo service php8.2-fpm restart
 sudo supervisorctl restart all
 @endtask

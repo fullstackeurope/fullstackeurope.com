@@ -37,6 +37,9 @@
 
     <div class="pt-64 -mt-20" style="background: url('/assets/2023/images/pattern.png') repeat top left">
         <div class="-mt-64">
+            @if ($edition->tickets_url)
+                @include('2023::partials.cta')
+            @endif
             @include('2023::partials.cfp')
             @include('2023::partials.schedule')
         </div>

@@ -18,10 +18,10 @@
                         <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
                             <ul role="list" class="space-y-4">
                                 @foreach ([
-                                    //'Blind bird: €370 until March 15',
-                                    //'Early bird: €470 until May 15',
-                                    //'Regular: €570 until Oct 1',
-                                    //'Last minute: €670 until the end',
+                                    'Blind bird: €380 until March 15',
+                                    'Early bird: €480 until May 15',
+                                    'Regular: €580 until Sept 26',
+                                    'Last minute: €680 until the end',
                                 ] as $price)
                                 <li class="flex items-start">
                                     <div class="flex-shrink-0">
@@ -58,10 +58,10 @@
                         <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
                             <ul role="list" class="space-y-4">
                                 @foreach ([
-                                    //'Blind bird: €450 until March 15',
-                                    //'Early bird: €570 until May 15',
-                                    //'Regular: €690 until Oct 1',
-                                    //'Last minute: €810 until the end',
+                                    'Blind bird: €490 until March 15',
+                                    'Early bird: €590 until May 15',
+                                    'Regular: €720 until Sept 26',
+                                    'Last minute: €830 until the end',
                                 ] as $price)
                                     <li class="flex items-start">
                                         <div class="flex-shrink-0">

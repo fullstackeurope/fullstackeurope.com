@@ -11,9 +11,9 @@
                     <p>We welcome submissions from people who would like to share knowledge about emerging technologies and best practices in the software industry or anyone with an interesting field experience in software development.</p>
                 </div>
                 <div class="ml-auto md:w-1/6 lg:w-1/4 md:pr-4">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdgQjf39QepP07gLE88g7-Cn7Xdfast_mHVSUp25CfpjAM2uw/viewform">
+                    <a target="_blank" href="{{ route('cfp', $edition) }}">
                         <button class="btn-tickets inline-block w-full text-white text-lg uppercase font-noway-medium rounded-lg px-0 lg:px-12 py-5 md:h-16">
-                            Apply to speak
+                            Go to CFP
                         </button>
                     </a>
                 </div>

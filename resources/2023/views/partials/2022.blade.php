@@ -35,6 +35,11 @@
                 Check the links below to visit the 2022 website and make sure to check out the photo album. We hope to welcome you at the 2023 edition!
             </p>
             <p>
+                <a class="apply font-noway-medium block mb-2" href="https://www.youtube.com/playlist?list=PLeWf1pVncHmZIZFuhzETHDD-3KKmxiBdb">
+                    <i class="fas fa-video mr-1"></i> Videos <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                </a>
+            </p>
+            <p>
                 <a class="apply font-noway-medium block mb-2" href="https://photos.app.goo.gl/81owXCGFTuCSrRWP9">
                     <i class="fas fa-camera-retro mr-1"></i> Photo album <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
                 </a>

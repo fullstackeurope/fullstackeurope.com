@@ -34,6 +34,9 @@
                         </a>
                     </p>
                     <p class="mb-4 sm:mb-10 text-base">
+                        <a class="text-white border-b border-dotted leading-normal ml-6" href="https://www.youtube.com/playlist?list=PLeWf1pVncHmZIZFuhzETHDD-3KKmxiBdb" target="_blank">
+                            Watch the videos
+                        </a>
                         <a class="text-white border-b border-dotted leading-normal ml-6" href="https://photos.app.goo.gl/81owXCGFTuCSrRWP9" target="_blank">
                             Check out the photos
                         </a>

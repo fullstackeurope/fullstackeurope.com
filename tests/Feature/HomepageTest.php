@@ -14,7 +14,7 @@ class HomepageTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function it_can_display_the_homepage()
+    public function it_can_display_the_homepage(): void
     {
         $edition = Edition::factory()->create([
             'year' => 2023,

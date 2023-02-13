@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class ViewServiceProvider extends ServiceProvider
 {
-    public function register()
+    public function register(): void
     {
         $this->loadViewsFrom(resource_path('2019/views'), '2019');
         $this->loadViewsFrom(resource_path('2021/views'), '2021');

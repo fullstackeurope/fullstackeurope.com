@@ -8,7 +8,7 @@ use Illuminate\Database\Seeder;
 
 final class DatabaseSeeder extends Seeder
 {
-    public function run()
+    public function run(): void
     {
         $this->call(UserSeeder::class);
         $this->call(EditionSeeder::class);

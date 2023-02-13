@@ -12,7 +12,7 @@ class NovaTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function nova_login_can_be_visited()
+    public function nova_login_can_be_visited(): void
     {
         $this->get('/nova')->assertRedirect('/nova/login');
     }

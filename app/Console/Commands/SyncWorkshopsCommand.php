@@ -14,7 +14,7 @@ class SyncWorkshopsCommand extends Command
 
     protected $description = 'Sync workshops from the on3 feed';
 
-    public function handle()
+    public function handle(): void
     {
         $feed = collect(Http::get('https://dddeurope.academy/api/fseu/v1/editions.json')->json());
 

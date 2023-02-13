@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    public function up()
+    public function up(): void
     {
         if (! Schema::hasTable('mailcoach_uploads')) {
             Schema::create('mailcoach_uploads', function (Blueprint $table) {

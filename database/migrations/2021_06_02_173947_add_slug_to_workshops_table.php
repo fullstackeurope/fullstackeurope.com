@@ -13,7 +13,7 @@ return new class extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::table('workshops', function (Blueprint $table) {
             $table->string('slug')->nullable()->after('title');

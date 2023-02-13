@@ -12,7 +12,7 @@ class SpeakerFactory extends Factory
      *
      * @return array
      */
-    public function definition()
+    public function definition(): array
     {
         static $sortOrder = 0;
 

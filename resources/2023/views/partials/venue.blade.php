@@ -51,13 +51,11 @@
                 </div>
             </div>
 
-            {{--
-                <p>
-                    <a class="apply font-noway-medium block" href="https://secure.cubilis.eu/group/antwerpconventionbureau/congress/search?package=2222&lang=en">
-                        <i class="fas fa-hotel mr-1"></i> Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
-                    </a>
-                </p>
-            --}}
+            <p>
+                <a class="apply font-noway-medium block" target="_blank" href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=ANRHITW&arrivalDate=2023-10-17&departureDate=2023-10-20&groupCode=GFULB&room1NumAdults=1&bm-verify=AAQAAAAG_____9UXLw19sCrEBuLiU_xG7oTu2zLvWnU89MZERiTwC2BcqNdlZ-i-r_0S3u1Lk4gzBtniImx6PoZXomXm_1s4k756M0sJ83rkVbQgl7l0h3QASVYw7MWvc23ofqPVGvA6EC9gaCXOR7ad2NVio0P5Ww3FlELDEKdoBTpxEne28u8Mkv4Vz174Mc77SMyGIYuyyaZZxTzWVoqZPbebNwYjfsyuhSFwn3QKJVRTyiLmqHmT0fxJDWzp7csEjl7U3tjGDxc2BNF8diDker5ReWlaQUbgG7TUZxxaun4rAX63kWQDfND8ZGyo8BOLcjxuA_9AjFkvX4vLmfKwv9pc3WFxm9wKmPGnGyHu3sXhEtMWDGLrgCDAhAbRs59hfp0gM8rxTQISMxjw3R4_3mhuecv_ujHBY0JFAfqhkthby46Rbu8eNSC3Hcb9MPMFKfWgJndHSMXwYXf6Y_OnqW7s7fzq">
+                    <i class="fas fa-hotel mr-1"></i> Book a room <span class="float-right md:float-none md:ml-4">&rsaquo;</span>
+                </a>
+            </p>
         </div>
     </div>
 </div>

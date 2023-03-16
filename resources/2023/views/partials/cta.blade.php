@@ -9,8 +9,8 @@
                                 <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600">Out of pocket discount</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
-                                &euro;380
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / blind bird price </span>
+                                &euro;480
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird price </span>
                             </div>
                             {{--<p class="lg:-mt-4 text-xl text-gray-500 line-through">€670 last minute price</p>--}}
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>
@@ -49,8 +49,8 @@
                                 <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600" id="tier-standard">Company</h3>
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
-                                &euro;490
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / blind bird price </span>
+                                &euro;590
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird price </span>
                             </div>
                             {{--<p class="lg:-mt-4 text-xl text-gray-500 line-through">€810 last minute price</p>--}}
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>

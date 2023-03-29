@@ -7,13 +7,13 @@
                 </li>
             @endif
 
-            @if ($edition->talks->count())
+            @if ($edition->year !== 2023 && $edition->talks->count())
                 <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                     <a data-scroll href="{{ route('home', $edition) }}#speakers">speakers</a>
                 </li>
             @endif
 
-            @if ($edition->workshops->count())
+            @if ($edition->year !== 2023 && $edition->workshops->count())
                 <li class="mb-6 lg:mb-0 lg:mr-6 lg:inline-block">
                     <a data-scroll href="{{ route('home', $edition) }}#workshops">workshops</a>
                 </li>

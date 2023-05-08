@@ -9,10 +9,12 @@
                         <p class="xl:text-lg text-gray-600">We won't spam you, promised</p>
                     </div>
                     <div class="md:w-1/2 mb-4 md:mb-0 md:pl-4">
-                        <input type="email" name="email" value="" class="inline-block outline-none text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required style="background-color: #F5F6FB; color: #989898;">
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="phone" tabindex="-1" value="">
+                        <div style="position: absolute; left: -9999px">
+                            <label for="website-url">Your website</label>
+                            <input type="text" id="website-url" name="url" tabindex="-1" autocomplete="nope" />
                         </div>
+
+                        <input type="email" name="email" value="" class="inline-block outline-none text-center md:text-left text-lg w-full rounded px-8 py-6 md:h-16" placeholder="hello@fullstackeurope.com" required style="background-color: #F5F6FB; color: #989898;">
                     </div>
                     <div class="md:w-1/6 lg:w-1/4 md:pr-4">
                         <input type="submit" value="Sign Up" name="subscribe" class="btn-tickets inline-block w-full text-white text-lg uppercase font-noway-medium rounded-lg px-0 lg:px-12 py-5 md:h-16">

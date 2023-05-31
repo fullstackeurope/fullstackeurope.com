@@ -1,4 +1,4 @@
-@extends('2022::layouts.page', ['pageTitle' => 'Sustainability'])
+@extends('2023::layouts.page', ['pageTitle' => 'Sustainability'])
 
 @section('page')
     <h1>Sustainability</h1>

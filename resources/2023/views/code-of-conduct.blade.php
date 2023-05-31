@@ -1,4 +1,4 @@
-@extends('2022::layouts.page', ['pageTitle' => 'Code of Conduct'])
+@extends('2023::layouts.page', ['pageTitle' => 'Code of Conduct'])
 
 @section('page')
     <h1>Code of Conduct</h1>

@@ -1,4 +1,4 @@
-@extends('2022::layouts.page', ['pageTitle' => 'Values'])
+@extends('2023::layouts.page', ['pageTitle' => 'Values'])
 
 @section('page')
     <h1>Values</h1>

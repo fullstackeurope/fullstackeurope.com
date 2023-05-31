@@ -1,4 +1,4 @@
-@extends('2022::layouts.page', ['pageTitle' => 'COVID-19 Policy'])
+@extends('2023::layouts.page', ['pageTitle' => 'COVID-19 Policy'])
 
 @section('page')
     <h1>COVID-19 Policy</h1>

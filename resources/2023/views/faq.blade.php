@@ -1,4 +1,4 @@
-@extends('2022::layouts.page', ['pageTitle' => 'Frequently asked questions'])
+@extends('2023::layouts.page', ['pageTitle' => 'Frequently asked questions'])
 
 @section('page')
     <h1 class="mb-4">FAQ</h1>

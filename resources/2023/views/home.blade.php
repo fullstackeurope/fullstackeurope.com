@@ -41,10 +41,8 @@
             @include('2023::partials.schedule')
         </div>
 
-        {{--
-            @include('2023::partials.workshops')
-        --}}
         @include('2023::partials.talks')
+        @include('2023::partials.workshops')
 
         @if ($edition->tickets_url)
             @include('2023::partials.cta')

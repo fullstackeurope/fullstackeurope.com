@@ -18,7 +18,7 @@
             <h4 class="-mt-4 text-lg mb-2 text-gray-600">{{ $workshop->subtitle }}</h4>
         @endif
         <p class="mb-2 text-xl text-gray-600">
-            By {{ $workshop->speaker->name }} - {{ $workshop->speaker->title }}
+            By {{ $workshop->speaker->name }} @if($workshop->speaker->title)- {{ $workshop->speaker->title }}@endif
         </p>
     </div>
 

@@ -70,7 +70,7 @@ final class Talk extends Resource
             Markdown::make('Abstract')
                 ->hideFromIndex(),
 
-            Text::make('Oneliner'),
+            Text::make('Oneliner')->hideFromIndex(),
         ];
     }
 

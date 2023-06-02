@@ -2,14 +2,18 @@
 
 @section('content')
     <div class="intro text-center text-white background-photo">
-        <div class="overlay pt-32 md:pt-48 md:pb-20">
+        <div class="overlay pt-20 md:pb-16">
             <div class="container mx-auto px-4 py-12 md:py-20">
                 <h1 class="font-noway-medium text-white md:text-5xl pb-4">
-                    The conference for the whole team
+                    It takes a village to raise an app
                 </h1>
 
-                <p class="text-xl leading-normal italic mx-auto max-w-md pb-10 md:pb-20">
-                    &ldquo;The best apps aren't built by programmers. They're built by teams. That's why we designed this conference for everybody.&rdquo;
+                <p class="text-xl leading-normal italic mx-auto max-w-md pb-6">
+                    &ldquo;Nurturing great products takes skills across the stack. Generalists and specialists, people that dare to break out of the silos.&rdquo;
+                </p>
+
+                <p class="text-2xl leading-normal mx-auto max-w-md pb-10 md:pb-16">
+                    Full Stack Europe is for full stack developers and full circle teams.
                 </p>
 
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
@@ -23,9 +27,18 @@
                 </h3>
 
                 <div class="text-2xl pb-4 pt-6">
+                    <div class="max-w-md mx-auto mb-8">
+                        <div class="inline-block rounded-md shadow">
+                            <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
+                        </div>
+                        <div class="inline-block rounded-md shadow">
+                            <a href="#workshops" class="btn-tickets w-full"> View Workshops </a>
+                        </div>
+                    </div>
+
                     @include('2023::layouts.social')
 
-                    <p class="text-center text-sm mt-6">
+                    <p class="text-center text-sm mt-2">
                         <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
                             Check out the 2022 edition
                         </a>

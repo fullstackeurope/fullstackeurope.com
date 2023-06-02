@@ -38,6 +38,7 @@ final class Talk extends Resource
         'id',
         'title',
         'abstract',
+        'oneliner',
     ];
 
     /**
@@ -68,6 +69,8 @@ final class Talk extends Resource
 
             Markdown::make('Abstract')
                 ->hideFromIndex(),
+
+            Text::make('Oneliner'),
         ];
     }
 

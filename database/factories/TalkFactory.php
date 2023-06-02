@@ -20,6 +20,7 @@ class TalkFactory extends Factory
             },
             'title' => $this->faker->sentence(3),
             'abstract' => $this->faker->text(),
+            'oneliner' => $this->faker->sentence(5),
         ];
     }
 }

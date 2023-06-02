@@ -15,10 +15,16 @@
                     </p>
                 @endif
 
-                @if ($speaker->talks->count())
-                    <p class="talk leading-normal inline-block text-gray-600 border-t border-dashed mt-4 pt-4 italic text-primary hover:text-secondary text-left md:text-center">
-                        {{ $speaker->talks->first()->title }}
+                @if ($talk = $speaker->talks->first())
+                    <p class="talk leading-normal inline-block border-t border-dashed mt-4 pt-4 italic text-primary hover:text-secondary text-left md:text-center">
+                        {{ $talk->title }}
                     </p>
+
+                    @if ($talk->oneliner)
+                        <p class="talk leading-normal inline-block text-sm text-gray-600 border-t border-dashed mt-4 pt-4 italic text-left md:text-center">
+                            &ldquo;{{ $talk->oneliner }}&rdquo;
+                        </p>
+                    @endif
                 @else
                     <p class="talk leading-normal inline-block text-gray-600 border-t border-dashed mt-4 pt-4 italic text-left md:text-center">
                         Talk details coming soon...

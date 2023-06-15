@@ -24,7 +24,7 @@
     <a id="how-long-are-the-talks" class="anchor-page"></a>
     <h3 data-anchor-id="how-long-are-the-talks">How long are the talks?</h3>
 
-    <p>Regular talks are 30 minutes and our two keynotes are 45 minutes.</p>
+    <p>Regular talks at our main track are approximately 25 minutes and our two keynotes are 45 minutes. Regular talks at our second track are approximately 50 minutes.</p>
 
     <a id="can-i-sponsor-full-stack-europe" class="anchor-page"></a>
     <h3 data-anchor-id="can-i-sponsor-full-stack-europe">Can I sponsor Full Stack Europe?</h3>

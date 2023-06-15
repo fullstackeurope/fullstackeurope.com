@@ -3,7 +3,7 @@
 @section('page')
     <h1>Call for Proposals</h1>
 
-    <p>Before submitting, please read about what we're looking for.</p>
+    <p>Before submitting, please read about what we're looking for. The deadline for submitting is the 30th of June.</p>
 
     <h2>Quick Summary</h2>
 

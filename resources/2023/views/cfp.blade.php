@@ -5,6 +5,8 @@
 
     <p>Before submitting, please read about what we're looking for. The deadline for submitting is the 30th of June. Speakers will be picked after this deadline and we'll contact everyone who got chosen or not in the weeks after the deadline.</p>
 
+    <p><strong>The CFP is now closed. Thanks for submitting, we'll contact you soon.</strong></p>
+
     <h2>Quick Summary</h2>
 
     <ul>

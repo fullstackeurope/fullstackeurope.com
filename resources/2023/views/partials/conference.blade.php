@@ -21,7 +21,7 @@
             </p>
 
             <p class="leading-looser mb-8">
-                Full Stack Europe is a two day conference with an extra day of workshops. There’s a mix of shorter 25 minute talks and longer keynotes as well as a few longer 50 minute talks, giving you insights in a wide range of topics. The breaks give you ample time to mingle with fellow full stack developers, speakers, experts, and vendors.
+                Full Stack Europe is a two day conference with an extra day of workshops. There’s a mix of short 30 minute talks and longer keynotes, giving you insights in a wide range of topics. The breaks give you ample time to mingle with fellow full stack developers, speakers, experts, and vendors.
             </p>
 
             <p class="leading-looser mb-8">

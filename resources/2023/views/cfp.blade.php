@@ -10,7 +10,7 @@
     <h2>Quick Summary</h2>
 
     <ul>
-        <li>The conference offers 25min or 50min presentations and full or half day workshops that discuss technical or non-technical topics across the stack.</li>
+        <li>The conference offers 30min presentations and full or half day workshops that discuss technical or non-technical topics across the stack.</li>
         <li>Talks are focussed on web development (mostly technical ones) but we're open to other related topics around software design in general as well.</li>
         <li>We only accept lightning talks from people who are already attending the conference.</li>
     </ul>

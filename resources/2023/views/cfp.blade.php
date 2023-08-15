@@ -1,4 +1,4 @@
-@extends('2023::layouts.page', ['pageTitle' => 'Diversity and Accessibility'])
+@extends('2023::layouts.page', ['pageTitle' => 'Call for Proposals'])
 
 @section('page')
     <h1>Call for Proposals</h1>

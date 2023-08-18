@@ -85,7 +85,7 @@
     <a id="book-a-room" class="anchor-page"></a>
     <h3 data-anchor-id="book-a-room">Book a room</h3>
 
-    <p>Want to stay at the venue or somewhere nearby during the conference? <a href="https://secure.cubilis.eu/group/antwerpbookingdesk/event/full-stack-europe-en/congress/search">Have a look at our reduced prices for hotel rooms.</a></p>
+    <p>Want to stay at the venue or somewhere nearby during the conference? <a href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=ANRHITW&arrivalDate=2023-10-17&departureDate=2023-10-20&groupCode=GFULB&room1NumAdults=1&bm-verify=AAQAAAAG_____9UXLw19sCrEBuLiU_xG7oTu2zLvWnU89MZERiTwC2BcqNdlZ-i-r_0S3u1Lk4gzBtniImx6PoZXomXm_1s4k756M0sJ83rkVbQgl7l0h3QASVYw7MWvc23ofqPVGvA6EC9gaCXOR7ad2NVio0P5Ww3FlELDEKdoBTpxEne28u8Mkv4Vz174Mc77SMyGIYuyyaZZxTzWVoqZPbebNwYjfsyuhSFwn3QKJVRTyiLmqHmT0fxJDWzp7csEjl7U3tjGDxc2BNF8diDker5ReWlaQUbgG7TUZxxaun4rAX63kWQDfND8ZGyo8BOLcjxuA_9AjFkvX4vLmfKwv9pc3WFxm9wKmPGnGyHu3sXhEtMWDGLrgCDAhAbRs59hfp0gM8rxTQISMxjw3R4_3mhuecv_ujHBY0JFAfqhkthby46Rbu8eNSC3Hcb9MPMFKfWgJndHSMXwYXf6Y_OnqW7s7fzq">Have a look at our reduced prices for hotel rooms.</a></p>
 
     <a id="accessibility" class="anchor-page"></a>
     <h3 data-anchor-id="accessibility">Accessibility</h3>

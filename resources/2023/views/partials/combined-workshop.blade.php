@@ -1,7 +1,7 @@
 <div class="md:flex mb-6">
     <div class="md:w-1/5 text-center flex">
         @foreach ($workshops as $workshop)
-            <a href="{{ $workshop->speaker->url() }}">
+            <a href="{{ $workshop->speaker->url() }}" @if($loop->first) class="mr-2" @endif >
                 <div class="speaker enlarge image-border-gradient-left w-1/2 inline-block shadow-lg-blue rounded h-32 md:w-32 overflow-hidden">
                     <div style="height: inherit; transform: translateY(50%);">
                         <img src="{{ $workshop->speaker->photoUrl() }}" alt="{{ $workshop->speaker->name }}"

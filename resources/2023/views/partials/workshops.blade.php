@@ -5,9 +5,16 @@
         <h2 class="title mb-4">Featured Workshops</h2>
         <p class="text-center mb-16">Registrations: 8:30 &bull; Start: 9:30 &bull; End: 17:30</p>
 
-        @foreach ($workshops as $workshop)
-            @include('2023::partials.workshop')
-
+        @foreach ($workshops->groupBy(function ($workshop) {
+            return $workshop->title . $workshop->abstract;
+        }) as $groupedWorkshops)
+            @if ($groupedWorkshops->count() > 1)
+                @include('2023::partials.combined-workshop', ['workshops' => $groupedWorkshops])
+            @else
+                @foreach ($groupedWorkshops as $workshop)
+                    @include('2023::partials.workshop')
+                @endforeach
+            @endif
             @unless ($loop->last)
                 <hr class="border-t border-gray-100 my-6">
             @endunless

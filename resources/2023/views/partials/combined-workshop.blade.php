@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="md:w-1/6 md:flex md:flex-col md:justify-center">
+    <div class="md:w-1/6 md:flex md:flex-col md:justify-center" style="flex-shrink: 0;">
         @if ($workshop->sold_out)
             <span class="btn-tickets px-4 mb-4 py-4">
                 Sold Out

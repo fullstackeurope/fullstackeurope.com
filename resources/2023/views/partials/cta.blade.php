@@ -10,7 +10,7 @@
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
                                 &euro;580
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird price </span>
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / regular price </span>
                             </div>
                             {{--<p class="lg:-mt-4 text-xl text-gray-500 line-through">€670 last minute price</p>--}}
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>
@@ -50,7 +50,7 @@
                             </div>
                             <div class="mt-4 flex items-baseline text-5xl lg:text-6xl font-extrabold">
                                 &euro;720
-                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / early bird price </span>
+                                <span class="ml-1 text-base lg:text-2xl font-medium text-gray-500"> / regular price </span>
                             </div>
                             {{--<p class="lg:-mt-4 text-xl text-gray-500 line-through">€810 last minute price</p>--}}
                             <p class="mt-3 text-gray-500">EX. VAT @21%</p>

@@ -11,8 +11,8 @@ use Spatie\ResponseCache\Facades\ResponseCache;
 
 final class Workshop extends Model
 {
-    use HasFactory;
     use HasArtwork;
+    use HasFactory;
 
     protected $guarded = [];
 

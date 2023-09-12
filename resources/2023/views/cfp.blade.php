@@ -7,6 +7,8 @@
 
     <p><strong>The CFP is now closed. Thanks for submitting, we'll contact you soon.</strong></p>
 
+    <p>We are still accepting lightning talks from people who are attending the conference. If you have purchased your ticket and want to give a lightning talk of 7 minutes, please email us at <a href="mailto:hello@fullstackeurope.com">hello@fullstackeurope.com</a>.</p>
+
     <h2>Quick Summary</h2>
 
     <ul>

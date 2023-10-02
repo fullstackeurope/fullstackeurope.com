@@ -87,7 +87,7 @@
         </div>
 
         @if ($edition->sale_ends_at)
-            <p class="relative font-noway-medium italic text-primary text-1xl mt-8 leading-normal max-w-xs mx-auto">
+            <p class="relative font-noway-medium italic text-primary text-xl mt-8 leading-normal max-w-xs mx-auto text-center">
                 <span class="timer" data-expires="{{ $edition->sale_ends_at->getTimestamp() }}" data-threshold-days="30">
                     {{ $edition->sale_ends_description }}<br>
                     <span class="days">0</span>d,

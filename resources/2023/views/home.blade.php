@@ -8,6 +8,7 @@
                     It takes a village to raise an app
                 </h1>
 
+                {{--
                 <p class="text-xl leading-normal italic mx-auto max-w-md pb-6">
                     &ldquo;Nurturing great products takes skills across the stack. Generalists and specialists, people that dare to break out of the silos.&rdquo;
                 </p>
@@ -15,6 +16,7 @@
                 <p class="text-2xl leading-normal mx-auto max-w-md pb-10 md:pb-16">
                     Full Stack Europe is for full stack developers and full circle teams.
                 </p>
+                --}}
 
                 <h2 class="font-noway-medium text-white md:text-2xl pb-4">
                     {{ $edition->venue }}
@@ -50,7 +52,7 @@
 
     <div class="pt-64 -mt-20 pb-12" style="background: url('/assets/2023/images/pattern.png') repeat top left">
         <div class="-mt-64">
-            {{-- @include('2023::partials.cfp') --}}
+            @include('2023::partials.alert')
             @include('2023::partials.schedule')
         </div>
 

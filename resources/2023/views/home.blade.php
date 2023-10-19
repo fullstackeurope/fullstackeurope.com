@@ -29,6 +29,7 @@
                 </h3>
 
                 <div class="text-2xl pb-4 pt-6">
+                    {{--
                     <div class="max-w-md mx-auto mb-8">
                         <div class="inline-block rounded-md shadow">
                             <a href="{{ $edition->tickets_url }}" class="btn-tickets w-full"> Buy tickets </a>
@@ -37,6 +38,7 @@
                             <a href="#workshops" class="btn-tickets w-full"> View Workshops </a>
                         </div>
                     </div>
+                    --}}
 
                     @include('2023::layouts.social')
 

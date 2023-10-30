@@ -42,9 +42,17 @@
 
                     @include('2023::layouts.social')
 
+                    {{--
                     <p class="text-center text-sm mt-2">
                         <a class="text-white hover:underline" href="{{ route('home', 2022) }}">
                             Check out the 2022 edition
+                        </a>
+                    </p>
+                    --}}
+
+                    <p class="mb-4 sm:mb-10 text-base">
+                        <a class="text-white border-b border-dotted leading-normal" href="https://photos.app.goo.gl/zGgR2Cy24L7BtfbF7" target="_blank">
+                            Check out the photos
                         </a>
                     </p>
                 </div>

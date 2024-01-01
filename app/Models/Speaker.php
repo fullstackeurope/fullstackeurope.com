@@ -55,7 +55,7 @@ final class Speaker extends Model implements Sortable
         return $this->twitter ? "https://twitter.com/{$this->twitter}" : '';
     }
 
-    public function photoUrl(int $width = null): string
+    public function photoUrl(?int $width = null): string
     {
         if (! $this->photo) {
             return asset('/images/speaker-placeholder.png');

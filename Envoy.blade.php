@@ -1,5 +1,5 @@
 @setup
-$server = "134.122.64.252";
+$server = "138.68.76.137";
 $userAndServer = 'forge@'.$server;
 $repository = "fullstackeurope/fullstackeurope.com";
 $baseDir = "/home/forge/fullstackeurope.com";
